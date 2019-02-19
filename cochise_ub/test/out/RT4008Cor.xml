@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log SYSTEM "Logging_v2.dtd">
+<log>
+	<!-- Logs converted by "converter_09.527.r" on 2010-11-22 at 00:15h -->
+	<event application="Statmedia form" action="Save form" user="4008" session="20090523114108" time="20090523114108" time_ms="0" number="1">
+	</event>
+	<event application="Statmedia form" action="New session" user="4008" session="20090523114108" time="20090523114108" time_ms="" number="2">
+	</event>
+	<event application="Statmedia form" action="Save form" user="4008" session="20090523114108" time="20090528104651" time_ms="" number="3">
+	</event>
+	<event application="Statmedia form" action="New session" user="4008" session="20090528104651" time="20090528104651" time_ms="" number="4">
+	</event>
+	<event application="Statmedia form" action="Save form" user="4008" session="20090528104651" time="20090528172913" time_ms="" number="5">
+	</event>
+	<event application="Statmedia form" action="New session" user="4008" session="20090528172913" time="20090528172913" time_ms="" number="6">
+	</event>
+	<event application="Cal" action="Main-Change to Analysis Interface" user="4008" session="20090528172913" time="20090528173454" time_ms="329" type="active" number="7">
+		<description>2009-05-28 17:34:54 - User '4008' switches to analysis panel</description>
+	</event>
+	<event application="Cal" action="Main-Change to Probabilistic Interface" user="4008" session="20090528172913" time="20090528173618" time_ms="403" type="active" number="8">
+		<description>2009-05-28 17:36:18 - User '4008' switches to probabilistic panel</description>
+	</event>
+	<event application="Cal" action="Probabilistic-Change to Select Distribution" user="4008" session="20090528172913" time="20090528173618" time_ms="403" type="active" number="9">
+		<param name="Distribution selected" value="Normal"/>
+		<description>2009-05-28 17:36:18 - User '4008' selects distribution: Normal</description>
+	</event>
+	<event application="Cal" action="Probabilistic-Change to Parameter" user="4008" session="20090528172913" time="20090528173618" time_ms="403" type="active" number="10">
+		<param name="Probabilistic-Change to Parameter" value="mu"/>
+		<param name="New_value" value="0"/>
+		<description>2009-05-28 17:36:18 - User '4008' changes parameter 'mu' to '0'</description>
+	</event>
+	<event application="Cal" action="Probabilistic-Change to Parameter" user="4008" session="20090528172913" time="20090528173618" time_ms="403" type="active" number="11">
+		<param name="Probabilistic-Change to Parameter" value="sigma"/>
+		<param name="New_value" value="1"/>
+		<description>2009-05-28 17:36:18 - User '4008' changes parameter 'sigma' to '1'</description>
+	</event>
+	<event application="Cal" action="Probabilistic-Output" user="4008" session="20090528172913" time="20090528173618" time_ms="403" type="active" number="12">
+		<param name="f(x)" value="0.39894"/>
+		<param name="F(x)" value="0.5"/>
+		<param name="x" value="1.64485"/>
+		<param name="E(X)" value="0"/>
+		<param name="Var(X)" value="1"/>
+		<param name="1-F(x)" value="0.5"/>
+		<description>2009-05-28 17:36:18 - User '4008' sees output values: f(x) = 0.39894 F(x) = 0.5 x = 1.64485 E(X) =0 Var(X)=1 1-F(x) = 0.5</description>
+	</event>
+	<event application="Cal" action="Main-Change to Analysis Interface" user="4008" session="20090528172913" time="20090528173618" time_ms="406" type="active" number="13">
+		<description>2009-05-28 17:36:18 - User '4008' switches to analysis panel</description>
+	</event>
+	<event application="Cal" action="Request analysis - Two-sample analysis" user="4008" session="20090528172913" time="20090528173618" time_ms="410" type="active" number="14">
+		<description>2009-05-28 17:36:18 - User '4008' launches the two-sample analysis frame</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable 1" user="4008" session="20090528172913" time="20090528173618" time_ms="414" type="active" number="15">
+		<param name="Select variables - Variable 1" value="Variable 1"/>
+		<description>2009-05-28 17:36:18 - User '4008' selects as the first variable from an analysis of two variables.: Variable 1</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable 2" user="4008" session="20090528172913" time="20090528173618" time_ms="414" type="active" number="16">
+		<param name="Select variables - Variable 2" value="Variable 2"/>
+		<description>2009-05-28 17:36:18 - User '4008' selects as the second variable from an analysis of two variables.: Variable 2</description>
+	</event>
+	<event application="Cal" action="Main-Change to Data Interface" user="4008" session="20090528172913" time="20090528173625" time_ms="422" type="active" number="17">
+		<description>2009-05-28 17:36:25 - User '4008' switches to data panel</description>
+	</event>
+	<event application="Statmedia form" action="Save form" user="4008" session="20090528172913" time="20090528173652" time_ms="" number="18">
+		<param name="answer_1" value="1"/>
+		<param name="answer_2" value=""/>
+		<param name="answer_3" value=""/>
+		<param name="answer_4" value=""/>
+		<param name="answer_5" value=""/>
+		<param name="answer_6" value=""/>
+		<param name="answer_7" value=""/>
+		<param name="action" value="Move_forward"/>
+		<description>2009-05-28 17:36:52 - User '4008' submitted the form with answers on 2009-05-28 17:36:52
+			User replied to question '1' with answer '1'
+			User replied to question '2' with no answer
+			User replied to question '3' with no answer
+			User replied to question '4' with no answer
+			User replied to question '5' with no answer
+			User replied to question '6' with no answer
+			User replied to question '7' with no answer
+		</description>
+	</event>
+	<event application="Cal" action="Load Variable" user="4008" session="20090528172913" time="20090528173752" time_ms="467" type="active" number="19">
+		<param name="Variable" value="Control_Basal"/>
+		<description>2009-05-28 17:37:52 - User '4008' loads variable: Control_Basal</description>
+	</event>
+	<event application="Cal" action="Load Variable" user="4008" session="20090528172913" time="20090528173752" time_ms="467" type="active" number="20">
+		<param name="Variable" value="Control_3_setmanes"/>
+		<description>2009-05-28 17:37:52 - User '4008' loads variable: Control_3_setmanes</description>
+	</event>
+	<event application="Cal" action="Main-Change to Probabilistic Interface" user="4008" session="20090528172913" time="20090528173803" time_ms="514" type="active" number="21">
+		<description>2009-05-28 17:38:03 - User '4008' switches to probabilistic panel</description>
+	</event>
+	<event application="Cal" action="Probabilistic-Change to Select Distribution" user="4008" session="20090528172913" time="20090528173803" time_ms="514" type="active" number="22">
+		<param name="Distribution selected" value="Normal"/>
+		<description>2009-05-28 17:38:03 - User '4008' selects distribution: Normal</description>
+	</event>
+	<event application="Cal" action="Probabilistic-Change to Parameter" user="4008" session="20090528172913" time="20090528173803" time_ms="514" type="active" number="23">
+		<param name="Probabilistic-Change to Parameter" value="mu"/>
+		<param name="New_value" value="0"/>
+		<description>2009-05-28 17:38:03 - User '4008' changes parameter 'mu' to '0'</description>
+	</event>
+	<event application="Cal" action="Probabilistic-Change to Parameter" user="4008" session="20090528172913" time="20090528173803" time_ms="514" type="active" number="24">
+		<param name="Probabilistic-Change to Parameter" value="sigma"/>
+		<param name="New_value" value="1"/>
+		<description>2009-05-28 17:38:03 - User '4008' changes parameter 'sigma' to '1'</description>
+	</event>
+	<event application="Cal" action="Probabilistic-Output" user="4008" session="20090528172913" time="20090528173803" time_ms="514" type="active" number="25">
+		<param name="f(x)" value="0.39894"/>
+		<param name="F(x)" value="0.5"/>
+		<param name="x" value="1.64485"/>
+		<param name="E(X)" value="0"/>
+		<param name="Var(X)" value="1"/>
+		<param name="1-F(x)" value="0.5"/>
+		<description>2009-05-28 17:38:03 - User '4008' sees output values: f(x) = 0.39894 F(x) = 0.5 x = 1.64485 E(X) =0 Var(X)=1 1-F(x) = 0.5</description>
+	</event>
+	<event application="Cal" action="Main-Change to Analysis Interface" user="4008" session="20090528172913" time="20090528173803" time_ms="515" type="active" number="26">
+		<description>2009-05-28 17:38:03 - User '4008' switches to analysis panel</description>
+	</event>
+	<event application="Cal" action="Request analysis - Two-sample analysis" user="4008" session="20090528172913" time="20090528173803" time_ms="518" type="active" number="27">
+		<description>2009-05-28 17:38:03 - User '4008' launches the two-sample analysis frame</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable 1" user="4008" session="20090528172913" time="20090528173803" time_ms="522" type="active" number="28">
+		<param name="Select variables - Variable 1" value="Control_Basal"/>
+		<description>2009-05-28 17:38:03 - User '4008' selects as the first variable from an analysis of two variables.: Control_Basal</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable 2" user="4008" session="20090528172913" time="20090528173803" time_ms="522" type="active" number="29">
+		<param name="Select variables - Variable 2" value="Control_3_setmanes"/>
+		<description>2009-05-28 17:38:03 - User '4008' selects as the second variable from an analysis of two variables.: Control_3_setmanes</description>
+	</event>
+	<event application="Tws" action="1er cop" user="4008" session="20090528172913" time="20090528173804" time_ms="522" type="active" number="30">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4008" session="20090528172913" time="20090528173804" time_ms="522" type="reactive" number="31">
+		<param name="Output Descriptive" value="Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"/>
+		<description>2009-05-28 17:38:04 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4008" session="20090528172913" time="20090528173804" time_ms="522" type="reactive" number="32">
+		<param name="Output Confidence" value=" 95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"/>
+		<description>2009-05-28 17:38:04 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4008" session="20090528172913" time="20090528173804" time_ms="522" type="reactive" number="33">
+		<param name="Output Hypothesis" value="2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086"/>
+		<description>2009-05-28 17:38:04 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086</description>
+	</event>
+	<event application="Tws" action="Change to Paired Samples" user="4008" session="20090528172913" time="20090528173911" time_ms="531" type="active" number="34">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4008" session="20090528172913" time="20090528173911" time_ms="531" type="reactive" number="35">
+		<param name="Output Descriptive" value="Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4008" session="20090528172913" time="20090528173911" time_ms="531" type="reactive" number="36">
+		<param name="Output Confidence" value=" 95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4008" session="20090528172913" time="20090528173911" time_ms="531" type="reactive" number="37">
+		<param name="Output Hypothesis" value="2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086</description>
+	</event>
+	<event application="Tws" action="Change to Confidence Interval" user="4008" session="20090528172913" time="20090528173911" time_ms="547" type="active" number="38">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4008" session="20090528172913" time="20090528173911" time_ms="547" type="reactive" number="39">
+		<param name="Output Descriptive" value="Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4008" session="20090528172913" time="20090528173911" time_ms="547" type="reactive" number="40">
+		<param name="Output Confidence" value=" 95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4008" session="20090528172913" time="20090528173911" time_ms="547" type="reactive" number="41">
+		<param name="Output Hypothesis" value="2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086</description>
+	</event>
+	<event application="Tws" action="Change to Hypot. Cont." user="4008" session="20090528172913" time="20090528173911" time_ms="551" type="active" number="42">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4008" session="20090528172913" time="20090528173911" time_ms="551" type="reactive" number="43">
+		<param name="Output Descriptive" value="Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4008" session="20090528172913" time="20090528173911" time_ms="551" type="reactive" number="44">
+		<param name="Output Confidence" value=" 95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4008" session="20090528172913" time="20090528173911" time_ms="551" type="reactive" number="45">
+		<param name="Output Hypothesis" value="2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086</description>
+	</event>
+	<event application="Tws" action="Change alt Hipot for Mean to unilat right" user="4008" session="20090528172913" time="20090528173911" time_ms="564" type="active" number="46">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4008" session="20090528172913" time="20090528173911" time_ms="564" type="reactive" number="47">
+		<param name="Output Descriptive" value="Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4008" session="20090528172913" time="20090528173911" time_ms="564" type="reactive" number="48">
+		<param name="Output Confidence" value=" 95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4008" session="20090528172913" time="20090528173911" time_ms="564" type="reactive" number="49">
+		<param name="Output Hypothesis" value="2.9766 18 0.004 0.7905 9 and 9 0.732 2.9766 17.757 0.0061 3.3425 9 0.0043"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.004 0.7905 9 and 9 0.732 2.9766 17.757 0.0061 3.3425 9 0.0043</description>
+	</event>
+	<event application="Tws" action="Change alt Hipot for Mean to unilat left" user="4008" session="20090528172913" time="20090528173911" time_ms="566" type="active" number="50">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4008" session="20090528172913" time="20090528173911" time_ms="566" type="reactive" number="51">
+		<param name="Output Descriptive" value="Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4008" session="20090528172913" time="20090528173911" time_ms="566" type="reactive" number="52">
+		<param name="Output Confidence" value=" 95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4008" session="20090528172913" time="20090528173911" time_ms="566" type="reactive" number="53">
+		<param name="Output Hypothesis" value="2.9766 18 0.996 0.7905 9 and 9 0.732 2.9766 17.757 0.9939 3.3425 9 0.9957"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.996 0.7905 9 and 9 0.732 2.9766 17.757 0.9939 3.3425 9 0.9957</description>
+	</event>
+	<event application="Tws" action="Change alt Hipot for Mean to unilat right" user="4008" session="20090528172913" time="20090528173911" time_ms="567" type="active" number="54">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4008" session="20090528172913" time="20090528173911" time_ms="567" type="reactive" number="55">
+		<param name="Output Descriptive" value="Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4008" session="20090528172913" time="20090528173911" time_ms="567" type="reactive" number="56">
+		<param name="Output Confidence" value=" 95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4008" session="20090528172913" time="20090528173911" time_ms="567" type="reactive" number="57">
+		<param name="Output Hypothesis" value="2.9766 18 0.004 0.7905 9 and 9 0.732 2.9766 17.757 0.0061 3.3425 9 0.0043"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.004 0.7905 9 and 9 0.732 2.9766 17.757 0.0061 3.3425 9 0.0043</description>
+	</event>
+	<event application="Tws" action="Change alt Hipot for Mean to bilat" user="4008" session="20090528172913" time="20090528173911" time_ms="568" type="active" number="58">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4008" session="20090528172913" time="20090528173911" time_ms="568" type="reactive" number="59">
+		<param name="Output Descriptive" value="Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4008" session="20090528172913" time="20090528173911" time_ms="568" type="reactive" number="60">
+		<param name="Output Confidence" value=" 95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4008" session="20090528172913" time="20090528173911" time_ms="568" type="reactive" number="61">
+		<param name="Output Hypothesis" value="2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086"/>
+		<description>2009-05-28 17:39:11 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086</description>
+	</event>
+	<event application="Cal" action="Request analysis - Two-sample analysis" user="4008" session="20090528172913" time="20090528173911" time_ms="585" type="active" number="62">
+		<description>2009-05-28 17:39:11 - User '4008' launches the two-sample analysis frame</description>
+	</event>
+	<event application="Statmedia form" action="Save form" user="4008" session="20090528172913" time="20090528173940" time_ms="" number="63">
+		<param name="answer_1" value="2"/>
+		<param name="answer_2" value="3.3425"/>
+		<param name="answer_3" value=""/>
+		<param name="answer_4" value=""/>
+		<param name="answer_5" value=""/>
+		<param name="answer_6" value=""/>
+		<param name="answer_7" value=""/>
+		<param name="answer_8" value=""/>
+		<param name="answer_9" value=""/>
+		<param name="action" value="Retrocedir"/>
+		<description>2009-05-28 17:39:40 - User '4008' submitted the form with answers on 2009-05-28 17:39:40
+			User replied to question '1' with answer '2'
+			User replied to question '2' with answer '3.3425'
+			User replied to question '3' with no answer
+			User replied to question '4' with no answer
+			User replied to question '5' with no answer
+			User replied to question '6' with no answer
+			User replied to question '7' with no answer
+			User replied to question '8' with no answer
+			User replied to question '9' with no answer
+		</description>
+	</event>
+	<event application="Statmedia form" action="Save form" user="4008" session="20090528172913" time="20090528174011" time_ms="" number="64">
+		<param name="answer_1" value="1"/>
+		<param name="answer_2" value=""/>
+		<param name="answer_3" value=""/>
+		<param name="answer_4" value=""/>
+		<param name="answer_5" value=""/>
+		<param name="answer_6" value=""/>
+		<param name="answer_7" value=""/>
+		<param name="action" value="Move_forward"/>
+		<description>2009-05-28 17:40:11 - User '4008' submitted the form with answers on 2009-05-28 17:40:11
+			User replied to question '1' with answer '1'
+			User replied to question '2' with no answer
+			User replied to question '3' with no answer
+			User replied to question '4' with no answer
+			User replied to question '5' with no answer
+			User replied to question '6' with no answer
+			User replied to question '7' with no answer
+		</description>
+	</event>
+	<event application="Cal" action="Request analysis - Two-sample analysis" user="4008" session="20090528172913" time="20090528174025" time_ms="659" type="active" number="65">
+		<description>2009-05-28 17:40:25 - User '4008' launches the two-sample analysis frame</description>
+	</event>
+	<event application="Cal" action="Request analysis - Two-sample analysis" user="4008" session="20090528172913" time="20090528174025" time_ms="661" type="active" number="66">
+		<description>2009-05-28 17:40:25 - User '4008' launches the two-sample analysis frame</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4008" session="20090528172913" time="20090528174025" time_ms="663" type="reactive" number="67">
+		<param name="Output Descriptive" value="Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"/>
+		<description>2009-05-28 17:40:25 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4008" session="20090528172913" time="20090528174025" time_ms="663" type="reactive" number="68">
+		<param name="Output Confidence" value=" 95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"/>
+		<description>2009-05-28 17:40:25 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4008" session="20090528172913" time="20090528174025" time_ms="663" type="reactive" number="69">
+		<param name="Output Hypothesis" value="2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086"/>
+		<description>2009-05-28 17:40:25 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable 1" user="4008" session="20090528172913" time="20090528174025" time_ms="663" type="active" number="70">
+		<param name="Select variables - Variable 1" value="Control_Basal"/>
+		<description>2009-05-28 17:40:25 - User '4008' selects as the first variable from an analysis of two variables.: Control_Basal</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable 2" user="4008" session="20090528172913" time="20090528174025" time_ms="663" type="active" number="71">
+		<param name="Select variables - Variable 2" value="Control_3_setmanes"/>
+		<description>2009-05-28 17:40:25 - User '4008' selects as the second variable from an analysis of two variables.: Control_3_setmanes</description>
+	</event>
+	<event application="Tws" action="Change alt Hipot for Mean to unilat right" user="4008" session="20090528172913" time="20090528174152" time_ms="707" type="active" number="72">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4008" session="20090528172913" time="20090528174152" time_ms="707" type="reactive" number="73">
+		<param name="Output Descriptive" value="Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"/>
+		<description>2009-05-28 17:41:52 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4008" session="20090528172913" time="20090528174152" time_ms="707" type="reactive" number="74">
+		<param name="Output Confidence" value=" 95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"/>
+		<description>2009-05-28 17:41:52 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4008" session="20090528172913" time="20090528174152" time_ms="707" type="reactive" number="75">
+		<param name="Output Hypothesis" value="2.9766 18 0.004 0.7905 9 and 9 0.732 2.9766 17.757 0.0061 3.3425 9 0.0043"/>
+		<description>2009-05-28 17:41:52 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.004 0.7905 9 and 9 0.732 2.9766 17.757 0.0061 3.3425 9 0.0043</description>
+	</event>
+	<event application="Cal" action="Main-Change to Data Interface" user="4008" session="20090528172913" time="20090528174152" time_ms="749" type="active" number="76">
+		<description>2009-05-28 17:41:52 - User '4008' switches to data panel</description>
+	</event>
+	<event application="Cal" action="Main-Change to reset vars" user="4008" session="20090528172913" time="20090528174152" time_ms="750" type="active" number="77">
+		<description>2009-05-28 17:41:52 - User '4008' clears the variables</description>
+	</event>
+	<event application="Cal" action="Load Variable" user="4008" session="20090528172913" time="20090528174233" time_ms="762" type="active" number="78">
+		<param name="Variable" value="Descens_Dopamina"/>
+		<description>2009-05-28 17:42:33 - User '4008' loads variable: Descens_Dopamina</description>
+	</event>
+	<event application="Cal" action="Load Variable" user="4008" session="20090528172913" time="20090528174233" time_ms="762" type="active" number="79">
+		<param name="Variable" value="Nicotina"/>
+		<description>2009-05-28 17:42:33 - User '4008' loads variable: Nicotina</description>
+	</event>
+	<event application="Cal" action="Main-Change to Analysis Interface" user="4008" session="20090528172913" time="20090528174233" time_ms="786" type="active" number="80">
+		<description>2009-05-28 17:42:33 - User '4008' switches to analysis panel</description>
+	</event>
+	<event application="Cal" action="Request analysis - Linear Regression" user="4008" session="20090528172913" time="20090528174233" time_ms="788" type="active" number="81">
+		<description>2009-05-28 17:42:33 - User '4008' launches the linear regression frame</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Dep." user="4008" session="20090528172913" time="20090528174233" time_ms="791" type="active" number="82">
+		<param name="Select variables - Variable Dep." value="Descens_Dopamina"/>
+		<description>2009-05-28 17:42:33 - User '4008' selects as the dependent variable: Descens_Dopamina</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Indep." user="4008" session="20090528172913" time="20090528174233" time_ms="791" type="active" number="83">
+		<param name="Select variables - Variable Indep." value="Nicotina"/>
+		<description>2009-05-28 17:42:33 - User '4008' selects as the independent variable: Nicotina</description>
+	</event>
+	<event application="Reg" action="1er cop" user="4008" session="20090528172913" time="20090528174235" time_ms="791" type="active" number="84">
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )" user="4008" session="20090528172913" time="20090528174235" time_ms="791" type="reactive" number="85">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"/>
+		<description>2009-05-28 17:42:35 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )</description>
+	</event>
+	<event application="Reg" action="Change to Reg. Line" user="4008" session="20090528172913" time="20090528174250" time_ms="799" type="active" number="86">
+		<description>2009-05-28 17:42:35 - User '4008' changes to regression line panel</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )" user="4008" session="20090528172913" time="20090528174250" time_ms="799" type="reactive" number="87">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"/>
+		<description>2009-05-28 17:42:50 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )</description>
+	</event>
+	<event application="Reg" action="Change to Forecasts" user="4008" session="20090528172913" time="20090528174250" time_ms="804" type="active" number="88">
+		<description>2009-05-28 17:42:50 - User '4008' changes to forecasts panel</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )" user="4008" session="20090528172913" time="20090528174250" time_ms="804" type="reactive" number="89">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"/>
+		<description>2009-05-28 17:42:50 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )</description>
+	</event>
+	<event application="Cal" action="Request analysis - Linear Regression" user="4008" session="20090528172913" time="20090528174427" time_ms="900" type="active" number="90">
+		<description>2009-05-28 17:44:27 - User '4008' launches the linear regression frame</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )" user="4008" session="20090528172913" time="20090528174427" time_ms="905" type="reactive" number="91">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"/>
+		<description>2009-05-28 17:44:27 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Dep." user="4008" session="20090528172913" time="20090528174427" time_ms="905" type="active" number="92">
+		<param name="Select variables - Variable Dep." value="Descens_Dopamina"/>
+		<description>2009-05-28 17:44:27 - User '4008' selects as the dependent variable: Descens_Dopamina</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Indep." user="4008" session="20090528172913" time="20090528174427" time_ms="905" type="active" number="93">
+		<param name="Select variables - Variable Indep." value="Nicotina"/>
+		<description>2009-05-28 17:44:27 - User '4008' selects as the independent variable: Nicotina</description>
+	</event>
+	<event application="Reg" action="Change to Reg. Line" user="4008" session="20090528172913" time="20090528174440" time_ms="908" type="active" number="94">
+		<description>2009-05-28 17:44:27 - User '4008' changes to regression line panel</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )" user="4008" session="20090528172913" time="20090528174440" time_ms="908" type="reactive" number="95">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"/>
+		<description>2009-05-28 17:44:40 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )</description>
+	</event>
+	<event application="Cal" action="Request analysis - Linear Regression" user="4008" session="20090528172913" time="20090528174440" time_ms="916" type="active" number="96">
+		<description>2009-05-28 17:44:40 - User '4008' launches the linear regression frame</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )" user="4008" session="20090528172913" time="20090528174440" time_ms="918" type="reactive" number="97">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"/>
+		<description>2009-05-28 17:44:40 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Dep." user="4008" session="20090528172913" time="20090528174440" time_ms="918" type="active" number="98">
+		<param name="Select variables - Variable Dep." value="Descens_Dopamina"/>
+		<description>2009-05-28 17:44:40 - User '4008' selects as the dependent variable: Descens_Dopamina</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Indep." user="4008" session="20090528172913" time="20090528174440" time_ms="918" type="active" number="99">
+		<param name="Select variables - Variable Indep." value="Nicotina"/>
+		<description>2009-05-28 17:44:40 - User '4008' selects as the independent variable: Nicotina</description>
+	</event>
+	<event application="Cal" action="Request analysis - Linear Regression" user="4008" session="20090528172913" time="20090528174454" time_ms="931" type="active" number="100">
+		<description>2009-05-28 17:44:54 - User '4008' launches the linear regression frame</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )" user="4008" session="20090528172913" time="20090528174454" time_ms="933" type="reactive" number="101">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"/>
+		<description>2009-05-28 17:44:54 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Dep." user="4008" session="20090528172913" time="20090528174454" time_ms="933" type="active" number="102">
+		<param name="Select variables - Variable Dep." value="Descens_Dopamina"/>
+		<description>2009-05-28 17:44:54 - User '4008' selects as the dependent variable: Descens_Dopamina</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Indep." user="4008" session="20090528172913" time="20090528174454" time_ms="933" type="active" number="103">
+		<param name="Select variables - Variable Indep." value="Nicotina"/>
+		<description>2009-05-28 17:44:54 - User '4008' selects as the independent variable: Nicotina</description>
+	</event>
+	<event application="Reg" action="Change to Descriptive Stat." user="4008" session="20090528172913" time="20090528174535" time_ms="940" type="active" number="104">
+		<description>2009-05-28 17:44:54 - User '4008' </description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )" user="4008" session="20090528172913" time="20090528174535" time_ms="940" type="reactive" number="105">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"/>
+		<description>2009-05-28 17:45:35 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )</description>
+	</event>
+	<event application="Reg" action="Change to Reg. Line" user="4008" session="20090528172913" time="20090528174535" time_ms="948" type="active" number="106">
+		<description>2009-05-28 17:45:35 - User '4008' changes to regression line panel</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )" user="4008" session="20090528172913" time="20090528174535" time_ms="948" type="reactive" number="107">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"/>
+		<description>2009-05-28 17:45:35 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )</description>
+	</event>
+	<event application="Reg" action="Change to Forecasts" user="4008" session="20090528172913" time="20090528174535" time_ms="951" type="active" number="108">
+		<description>2009-05-28 17:45:35 - User '4008' changes to forecasts panel</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )" user="4008" session="20090528172913" time="20090528174535" time_ms="951" type="reactive" number="109">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"/>
+		<description>2009-05-28 17:45:35 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )</description>
+	</event>
+	<event application="Cal" action="Request analysis - Linear Regression" user="4008" session="20090528172913" time="20090528174535" time_ms="973" type="active" number="110">
+		<description>2009-05-28 17:45:35 - User '4008' launches the linear regression frame</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )" user="4008" session="20090528172913" time="20090528174535" time_ms="973" type="reactive" number="111">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"/>
+		<description>2009-05-28 17:45:35 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Dep." user="4008" session="20090528172913" time="20090528174535" time_ms="974" type="active" number="112">
+		<param name="Select variables - Variable Dep." value="Descens_Dopamina"/>
+		<description>2009-05-28 17:45:35 - User '4008' selects as the dependent variable: Descens_Dopamina</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Indep." user="4008" session="20090528172913" time="20090528174535" time_ms="974" type="active" number="113">
+		<param name="Select variables - Variable Indep." value="Nicotina"/>
+		<description>2009-05-28 17:45:35 - User '4008' selects as the independent variable: Nicotina</description>
+	</event>
+	<event application="Reg" action="Change: Predic. Value" user="4008" session="20090528172913" time="20090528174615" time_ms="980" type="active" number="114">
+		<param name="Change" value=" 142.63"/>
+		<description>2009-05-28 17:45:35 - User '4008' changes the value to make the prediction to 142.63</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.0872  95.0 %  ( 0.035 , 0.1395 )  ( -0.0692 , 0.2437 )" user="4008" session="20090528172913" time="20090528174615" time_ms="980" type="reactive" number="115">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.0872  95.0 %  ( 0.035 , 0.1395 )  ( -0.0692 , 0.2437 )"/>
+		<description>2009-05-28 17:46:15 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.0872  95.0 %  ( 0.035 , 0.1395 )  ( -0.0692 , 0.2437 )</description>
+	</event>
+	<event application="Reg" action="Change: Predic. Value" user="4008" session="20090528172913" time="20090528174615" time_ms="994" type="active" number="116">
+		<param name="Change" value=" 143.2"/>
+		<description>2009-05-28 17:46:15 - User '4008' changes the value to make the prediction to 143.2</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.0936  95.0 %  ( 0.0362 , 0.151 )  ( -0.0647 , 0.2518 )" user="4008" session="20090528172913" time="20090528174615" time_ms="994" type="reactive" number="117">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.0936  95.0 %  ( 0.0362 , 0.151 )  ( -0.0647 , 0.2518 )"/>
+		<description>2009-05-28 17:46:15 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.0936  95.0 %  ( 0.0362 , 0.151 )  ( -0.0647 , 0.2518 )</description>
+	</event>
+	<event application="Cal" action="Request analysis - Linear Regression" user="4008" session="20090528172913" time="20090528174615" time_ms="1012" type="active" number="118">
+		<description>2009-05-28 17:46:15 - User '4008' launches the linear regression frame</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.0936  95.0 %  ( 0.0362 , 0.151 )  ( -0.0647 , 0.2518 )" user="4008" session="20090528172913" time="20090528174615" time_ms="1014" type="reactive" number="119">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.0936  95.0 %  ( 0.0362 , 0.151 )  ( -0.0647 , 0.2518 )"/>
+		<description>2009-05-28 17:46:15 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.0936  95.0 %  ( 0.0362 , 0.151 )  ( -0.0647 , 0.2518 )</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Dep." user="4008" session="20090528172913" time="20090528174615" time_ms="1014" type="active" number="120">
+		<param name="Select variables - Variable Dep." value="Descens_Dopamina"/>
+		<description>2009-05-28 17:46:15 - User '4008' selects as the dependent variable: Descens_Dopamina</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Indep." user="4008" session="20090528172913" time="20090528174615" time_ms="1014" type="active" number="121">
+		<param name="Select variables - Variable Indep." value="Nicotina"/>
+		<description>2009-05-28 17:46:15 - User '4008' selects as the independent variable: Nicotina</description>
+	</event>
+	<event application="Reg" action="Change: Predic. Value" user="4008" session="20090528172913" time="20090528174635" time_ms="1020" type="active" number="122">
+		<param name="Change" value=" 140"/>
+		<description>2009-05-28 17:46:15 - User '4008' changes the value to make the prediction to 140</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.058  95.0 %  ( 0.0065 , 0.1094 )  ( -0.0982 , 0.2141 )" user="4008" session="20090528172913" time="20090528174635" time_ms="1020" type="reactive" number="123">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.058  95.0 %  ( 0.0065 , 0.1094 )  ( -0.0982 , 0.2141 )"/>
+		<description>2009-05-28 17:46:35 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.058  95.0 %  ( 0.0065 , 0.1094 )  ( -0.0982 , 0.2141 )</description>
+	</event>
+	<event application="Cal" action="Request analysis - Linear Regression" user="4008" session="20090528172913" time="20090528174635" time_ms="1032" type="active" number="124">
+		<description>2009-05-28 17:46:35 - User '4008' launches the linear regression frame</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.058  95.0 %  ( 0.0065 , 0.1094 )  ( -0.0982 , 0.2141 )" user="4008" session="20090528172913" time="20090528174635" time_ms="1033" type="reactive" number="125">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.058  95.0 %  ( 0.0065 , 0.1094 )  ( -0.0982 , 0.2141 )"/>
+		<description>2009-05-28 17:46:35 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.058  95.0 %  ( 0.0065 , 0.1094 )  ( -0.0982 , 0.2141 )</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Dep." user="4008" session="20090528172913" time="20090528174635" time_ms="1033" type="active" number="126">
+		<param name="Select variables - Variable Dep." value="Descens_Dopamina"/>
+		<description>2009-05-28 17:46:35 - User '4008' selects as the dependent variable: Descens_Dopamina</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Indep." user="4008" session="20090528172913" time="20090528174635" time_ms="1033" type="active" number="127">
+		<param name="Select variables - Variable Indep." value="Nicotina"/>
+		<description>2009-05-28 17:46:35 - User '4008' selects as the independent variable: Nicotina</description>
+	</event>
+	<event application="Cal" action="Request analysis - Linear Regression" user="4008" session="20090528172913" time="20090528174640" time_ms="1036" type="active" number="128">
+		<description>2009-05-28 17:46:40 - User '4008' launches the linear regression frame</description>
+	</event>
+	<event application="Reg" action="Output Nicotina Descens_DopaminaNicotina Descens_Dopamina 141.262 0.072 2.848 0.0681 0.0813 0.4654 19.4602 139.8609 0.1752  ( -10.7103 , 49.6308 ) 2864.2957  95.0 %  ( -1357.4119 , 7086.0033 )  ( -1357.4164 , 7086.0078 )" user="4008" session="20090528172913" time="20090528174640" time_ms="1039" type="reactive" number="129">
+		<param name="Output" value="Nicotina Descens_DopaminaNicotina Descens_Dopamina 141.262 0.072 2.848 0.0681 0.0813 0.4654 19.4602 139.8609 0.1752  ( -10.7103 , 49.6308 ) 2864.2957  95.0 %  ( -1357.4119 , 7086.0033 )  ( -1357.4164 , 7086.0078 )"/>
+		<description>2009-05-28 17:46:40 - User '4008' gets this output from the regression analysis: Nicotina Descens_DopaminaNicotina Descens_Dopamina 141.262 0.072 2.848 0.0681 0.0813 0.4654 19.4602 139.8609 0.1752  ( -10.7103 , 49.6308 ) 2864.2957  95.0 %  ( -1357.4119 , 7086.0033 )  ( -1357.4164 , 7086.0078 )</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Dep." user="4008" session="20090528172913" time="20090528174640" time_ms="1039" type="active" number="130">
+		<param name="Select variables - Variable Dep." value="Nicotina"/>
+		<description>2009-05-28 17:46:40 - User '4008' selects as the dependent variable: Nicotina</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Indep." user="4008" session="20090528172913" time="20090528174640" time_ms="1039" type="active" number="131">
+		<param name="Select variables - Variable Indep." value="Descens_Dopamina"/>
+		<description>2009-05-28 17:46:40 - User '4008' selects as the independent variable: Descens_Dopamina</description>
+	</event>
+	<event application="Reg" action="Change: Predic. Value" user="4008" session="20090528172913" time="20090528174653" time_ms="1045" type="active" number="132">
+		<param name="Change" value=" 142.63"/>
+		<description>2009-05-28 17:46:40 - User '4008' changes the value to make the prediction to 142.63</description>
+	</event>
+	<event application="Reg" action="Output Nicotina Descens_DopaminaNicotina Descens_Dopamina 141.262 0.072 2.848 0.0681 0.0813 0.4654 19.4602 139.8609 0.1752  ( -10.7103 , 49.6308 ) 2915.4763  95.0 %  ( -1385.5801 , 7216.5326 )  ( -1385.5845 , 7216.537 )" user="4008" session="20090528172913" time="20090528174653" time_ms="1045" type="reactive" number="133">
+		<param name="Output" value="Nicotina Descens_DopaminaNicotina Descens_Dopamina 141.262 0.072 2.848 0.0681 0.0813 0.4654 19.4602 139.8609 0.1752  ( -10.7103 , 49.6308 ) 2915.4763  95.0 %  ( -1385.5801 , 7216.5326 )  ( -1385.5845 , 7216.537 )"/>
+		<description>2009-05-28 17:46:53 - User '4008' gets this output from the regression analysis: Nicotina Descens_DopaminaNicotina Descens_Dopamina 141.262 0.072 2.848 0.0681 0.0813 0.4654 19.4602 139.8609 0.1752  ( -10.7103 , 49.6308 ) 2915.4763  95.0 %  ( -1385.5801 , 7216.5326 )  ( -1385.5845 , 7216.537 )</description>
+	</event>
+	<event application="Statmedia form" action="Save form" user="4008" session="20090528172913" time="20090528174729" time_ms="" number="134">
+		<param name="answer_1" value="2"/>
+		<param name="answer_2" value="3.3425"/>
+		<param name="answer_3" value="0.0043"/>
+		<param name="answer_4" value="1"/>
+		<param name="answer_5" value="3"/>
+		<param name="answer_6" value=""/>
+		<param name="answer_7" value="0.0111"/>
+		<param name="answer_8" value="-1.5005"/>
+		<param name="answer_9" value="0.058"/>
+		<param name="action" value="Move_forward"/>
+		<description>2009-05-28 17:47:29 - User '4008' submitted the form with answers on 2009-05-28 17:47:29
+			User replied to question '1' with answer '2'
+			User replied to question '2' with answer '3.3425'
+			User replied to question '3' with answer '0.0043'
+			User replied to question '4' with answer '1'
+			User replied to question '5' with answer '3'
+			User replied to question '6' with no answer
+			User replied to question '7' with answer '0.0111'
+			User replied to question '8' with answer '-1.5005'
+			User replied to question '9' with answer '0.058'
+		</description>
+	</event>
+	<event application="Statmedia form" action="Save form" user="4008" session="20090528172913" time="20090531213034" time_ms="" number="135">
+	</event>
+	<event application="Statmedia form" action="New session" user="4008" session="20090531213034" time="20090531213034" time_ms="" number="136">
+	</event>
+	<event application="Statmedia form" action="Save form" user="4008" session="20090531213034" time="20090531213048" time_ms="" number="137">
+		<param name="answer_1" value="1"/>
+		<param name="answer_2" value=""/>
+		<param name="answer_3" value=""/>
+		<param name="answer_4" value=""/>
+		<param name="answer_5" value=""/>
+		<param name="answer_6" value=""/>
+		<param name="answer_7" value=""/>
+		<param name="action" value="Move_forward"/>
+		<description>2009-05-31 21:30:48 - User '4008' submitted the form with answers on 2009-05-31 21:30:48
+			User replied to question '1' with answer '1'
+			User replied to question '2' with no answer
+			User replied to question '3' with no answer
+			User replied to question '4' with no answer
+			User replied to question '5' with no answer
+			User replied to question '6' with no answer
+			User replied to question '7' with no answer
+		</description>
+	</event>
+	<event application="Statmedia form" action="Save form" user="4008" session="20090531213034" time="20090531213102" time_ms="" number="138">
+		<param name="answer_1" value="2"/>
+		<param name="answer_2" value="3.3425"/>
+		<param name="answer_3" value="0.0043"/>
+		<param name="answer_4" value="1"/>
+		<param name="answer_5" value="3"/>
+		<param name="answer_6" value=""/>
+		<param name="answer_7" value="0.0111"/>
+		<param name="answer_8" value="-1.5005"/>
+		<param name="answer_9" value="0.058"/>
+		<param name="action" value="Retrocedir"/>
+		<description>2009-05-31 21:31:02 - User '4008' submitted the form with answers on 2009-05-31 21:31:02
+			User replied to question '1' with answer '2'
+			User replied to question '2' with answer '3.3425'
+			User replied to question '3' with answer '0.0043'
+			User replied to question '4' with answer '1'
+			User replied to question '5' with answer '3'
+			User replied to question '6' with no answer
+			User replied to question '7' with answer '0.0111'
+			User replied to question '8' with answer '-1.5005'
+			User replied to question '9' with answer '0.058'
+		</description>
+	</event>
+	<event application="Statmedia form" action="Save form" user="4008" session="20090531213034" time="20090602154222" time_ms="" number="139">
+	</event>
+	<event application="Statmedia form" action="New session" user="4008" session="20090602154222" time="20090602154222" time_ms="" number="140">
+	</event>
+	<event application="Statmedia form" action="Save form" user="4008" session="20090602154222" time="20090603095602" time_ms="" number="141">
+	</event>
+	<event application="Statmedia form" action="New session" user="4008" session="20090603095602" time="20090603095602" time_ms="" number="142">
+	</event>
+	<event application="Grader" action="Grade" user="4008" session="20090603095602" time="20090603095602" time_ms="" number="143">
+		<param name="Section" value="1"/>
+		<param name="field" value="1"/>
+		<param name="final answer" value="1"/>
+		<param name="points" value="-0.0"/>
+		<description>User 4008 answered field '1' in form '1' with the value '1', obtaining '-0.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4008" session="20090603095602" time="20090603095602" time_ms="" number="144">
+		<param name="Section" value="2"/>
+		<param name="field" value="1"/>
+		<param name="final answer" value="2"/>
+		<param name="points" value="1.0"/>
+		<description>User 4008 answered field '1' in form '2' with the value '2', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4008" session="20090603095602" time="20090603095602" time_ms="" number="145">
+		<param name="Section" value="2"/>
+		<param name="field" value="2"/>
+		<param name="final answer" value="3.3425"/>
+		<param name="points" value="1.0"/>
+		<description>User 4008 answered field '2' in form '2' with the value '3.3425', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4008" session="20090603095602" time="20090603095602" time_ms="" number="146">
+		<param name="Section" value="2"/>
+		<param name="field" value="3"/>
+		<param name="final answer" value="0.0043"/>
+		<param name="points" value="1.0"/>
+		<description>User 4008 answered field '3' in form '2' with the value '0.0043', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4008" session="20090603095602" time="20090603095602" time_ms="" number="147">
+		<param name="Section" value="2"/>
+		<param name="field" value="4"/>
+		<param name="final answer" value="1"/>
+		<param name="points" value="1.0"/>
+		<description>User 4008 answered field '4' in form '2' with the value '1', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4008" session="20090603095602" time="20090603095602" time_ms="" number="148">
+		<param name="Section" value="2"/>
+		<param name="field" value="5"/>
+		<param name="final answer" value="3"/>
+		<param name="points" value="-0.0"/>
+		<description>User 4008 answered field '5' in form '2' with the value '3', obtaining '-0.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4008" session="20090603095602" time="20090603095602" time_ms="" number="149">
+		<param name="Section" value="2"/>
+		<param name="field" value="7"/>
+		<param name="final answer" value="0.0111"/>
+		<param name="points" value="1.0"/>
+		<description>User 4008 answered field '7' in form '2' with the value '0.0111', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4008" session="20090603095602" time="20090603095602" time_ms="" number="150">
+		<param name="Section" value="2"/>
+		<param name="field" value="8"/>
+		<param name="final answer" value="-1.5005"/>
+		<param name="points" value="1.0"/>
+		<description>User 4008 answered field '8' in form '2' with the value '-1.5005', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4008" session="20090603095602" time="20090603095602" time_ms="" number="151">
+		<param name="Section" value="2"/>
+		<param name="field" value="9"/>
+		<param name="final answer" value="0.058"/>
+		<param name="points" value="-0.0"/>
+		<description>User 4008 answered field '9' in form '2' with the value '0.058', obtaining '-0.0' points for this answer</description>
+	</event>
+</log>

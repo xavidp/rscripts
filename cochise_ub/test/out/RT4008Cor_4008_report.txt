@@ -1,0 +1,227 @@
+"Report from the Statmedia log files: ***RT4008Cor***, on 2010-11-22 09:59h , originally with 679 lines."
+
+"Basic report on the xml file"
+"--------------------------------"
+"Number of nodes type 'log':", 1
+"Number of nodes type 'description':", 129
+"Number of nodes type 'event':", 151
+"Number of nodes type 'param':", 190
+
+"Basic report on student activity"
+"--------------------------------"
+"Student:", 4008
+"Number of actions:", 76
+"Total time spent:", "1124 seconds (0 h, 19 min)"
+"Number of sessions in total:", 6
+"Number of sessions which lasted more than 1 min:", 1
+
+"Sessions:", 
+"Session Id", "Session Label", "Start time", "Duration"
+"1", "20090523114108", "2009-05-23 11:41:08", "0 h, 0 min"
+"2", "20090528104651", "2009-05-28 10:46:51", "0 h, 0 min"
+"3", "20090528172913", "2009-05-28 17:29:13", "0 h, 18 min"
+"4", "20090531213034", "2009-05-31 21:30:34", "0 h, 0 min"
+"5", "20090602154222", "2009-06-02 15:42:22", "0 h, 0 min"
+"6", "20090603095602", "2009-06-03 09:56:02", "0 h, 0 min"
+
+"Locations in the xml file of the milestones:"
+"with the syntax shown below (only shown records with milestone matches):"
+"--------------------------------"
+"id","Session_id","action_id","milestone_label","position in xml_r","length in xml_r"
+"1",3,"00019","08","5780","195"
+"2",3,"00020","09","6085","200"
+"3",3,"00027","11-13","8597","918"
+"4",3,"00078","17","32044","198"
+"5",3,"00079","18","32355","190"
+"6",3,"00081","20-22","32922","895"
+
+"Same as above but in a Pivot table shape"
+"--------------------------------"
+"id","action_id","milestone_label's"
+"Action_id","08","09","11-13","17","18","20-22"
+"1","00019","3","","","","",""
+"2","00020","","3","","","",""
+"3","00027","","","3","","",""
+"4","00078","","","","3","",""
+"5","00079","","","","","3",""
+"6","00081","","","","","","3"
+
+"Human readable description of student interaction"
+"-------------------------------------------------"
+"2009-05-28 17:34:54 - User '4008' switches to analysis panel"
+"2009-05-28 17:36:18 - User '4008' switches to probabilistic panel"
+"2009-05-28 17:36:18 - User '4008' selects distribution: Normal"
+"2009-05-28 17:36:18 - User '4008' changes parameter 'mu' to '0'"
+"2009-05-28 17:36:18 - User '4008' changes parameter 'sigma' to '1'"
+"2009-05-28 17:36:18 - User '4008' sees output values: f(x) = 0.39894 F(x) = 0.5 x = 1.64485 E(X) =0 Var(X)=1 1-F(x) = 0.5"
+"2009-05-28 17:36:18 - User '4008' switches to analysis panel"
+"2009-05-28 17:36:18 - User '4008' launches the two-sample analysis frame"
+"2009-05-28 17:36:18 - User '4008' selects as the first variable from an analysis of two variables.: Variable 1"
+"2009-05-28 17:36:18 - User '4008' selects as the second variable from an analysis of two variables.: Variable 2"
+"2009-05-28 17:36:25 - User '4008' switches to data panel"
+"2009-05-28 17:36:52 - User '4008' submitted the form with answers on 2009-05-28 17:36:52
+			User replied to question '1' with answer '1'
+			User replied to question '2' with no answer
+			User replied to question '3' with no answer
+			User replied to question '4' with no answer
+			User replied to question '5' with no answer
+			User replied to question '6' with no answer
+			User replied to question '7' with no answer"
+"2009-05-28 17:37:52 - User '4008' loads variable: Control_Basal"
+"2009-05-28 17:37:52 - User '4008' loads variable: Control_3_setmanes"
+"2009-05-28 17:38:03 - User '4008' switches to probabilistic panel"
+"2009-05-28 17:38:03 - User '4008' selects distribution: Normal"
+"2009-05-28 17:38:03 - User '4008' changes parameter 'mu' to '0'"
+"2009-05-28 17:38:03 - User '4008' changes parameter 'sigma' to '1'"
+"2009-05-28 17:38:03 - User '4008' sees output values: f(x) = 0.39894 F(x) = 0.5 x = 1.64485 E(X) =0 Var(X)=1 1-F(x) = 0.5"
+"2009-05-28 17:38:03 - User '4008' switches to analysis panel"
+"2009-05-28 17:38:03 - User '4008' launches the two-sample analysis frame"
+"2009-05-28 17:38:03 - User '4008' selects as the first variable from an analysis of two variables.: Control_Basal"
+"2009-05-28 17:38:03 - User '4008' selects as the second variable from an analysis of two variables.: Control_3_setmanes"
+"2009-05-28 17:38:04 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"
+"2009-05-28 17:38:04 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"
+"2009-05-28 17:38:04 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086"
+"2009-05-28 17:39:11 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"
+"2009-05-28 17:39:11 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"
+"2009-05-28 17:39:11 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086"
+"2009-05-28 17:39:11 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"
+"2009-05-28 17:39:11 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"
+"2009-05-28 17:39:11 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086"
+"2009-05-28 17:39:11 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"
+"2009-05-28 17:39:11 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"
+"2009-05-28 17:39:11 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086"
+"2009-05-28 17:39:11 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"
+"2009-05-28 17:39:11 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"
+"2009-05-28 17:39:11 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.004 0.7905 9 and 9 0.732 2.9766 17.757 0.0061 3.3425 9 0.0043"
+"2009-05-28 17:39:11 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"
+"2009-05-28 17:39:11 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"
+"2009-05-28 17:39:11 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.996 0.7905 9 and 9 0.732 2.9766 17.757 0.9939 3.3425 9 0.9957"
+"2009-05-28 17:39:11 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"
+"2009-05-28 17:39:11 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"
+"2009-05-28 17:39:11 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.004 0.7905 9 and 9 0.732 2.9766 17.757 0.0061 3.3425 9 0.0043"
+"2009-05-28 17:39:11 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"
+"2009-05-28 17:39:11 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"
+"2009-05-28 17:39:11 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086"
+"2009-05-28 17:39:11 - User '4008' launches the two-sample analysis frame"
+"2009-05-28 17:39:40 - User '4008' submitted the form with answers on 2009-05-28 17:39:40
+			User replied to question '1' with answer '2'
+			User replied to question '2' with answer '3.3425'
+			User replied to question '3' with no answer
+			User replied to question '4' with no answer
+			User replied to question '5' with no answer
+			User replied to question '6' with no answer
+			User replied to question '7' with no answer
+			User replied to question '8' with no answer
+			User replied to question '9' with no answer"
+"2009-05-28 17:40:11 - User '4008' submitted the form with answers on 2009-05-28 17:40:11
+			User replied to question '1' with answer '1'
+			User replied to question '2' with no answer
+			User replied to question '3' with no answer
+			User replied to question '4' with no answer
+			User replied to question '5' with no answer
+			User replied to question '6' with no answer
+			User replied to question '7' with no answer"
+"2009-05-28 17:40:25 - User '4008' launches the two-sample analysis frame"
+"2009-05-28 17:40:25 - User '4008' launches the two-sample analysis frame"
+"2009-05-28 17:40:25 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"
+"2009-05-28 17:40:25 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"
+"2009-05-28 17:40:25 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.0081 0.7905 9 and 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086"
+"2009-05-28 17:40:25 - User '4008' selects as the first variable from an analysis of two variables.: Control_Basal"
+"2009-05-28 17:40:25 - User '4008' selects as the second variable from an analysis of two variables.: Control_3_setmanes"
+"2009-05-28 17:41:52 - User '4008' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572"
+"2009-05-28 17:41:52 - User '4008' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827"
+"2009-05-28 17:41:52 - User '4008' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.9766 18 0.004 0.7905 9 and 9 0.732 2.9766 17.757 0.0061 3.3425 9 0.0043"
+"2009-05-28 17:41:52 - User '4008' switches to data panel"
+"2009-05-28 17:41:52 - User '4008' clears the variables"
+"2009-05-28 17:42:33 - User '4008' loads variable: Descens_Dopamina"
+"2009-05-28 17:42:33 - User '4008' loads variable: Nicotina"
+"2009-05-28 17:42:33 - User '4008' switches to analysis panel"
+"2009-05-28 17:42:33 - User '4008' launches the linear regression frame"
+"2009-05-28 17:42:33 - User '4008' selects as the dependent variable: Descens_Dopamina"
+"2009-05-28 17:42:33 - User '4008' selects as the independent variable: Nicotina"
+"2009-05-28 17:42:35 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"
+"2009-05-28 17:42:35 - User '4008' changes to regression line panel"
+"2009-05-28 17:42:50 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"
+"2009-05-28 17:42:50 - User '4008' changes to forecasts panel"
+"2009-05-28 17:42:50 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"
+"2009-05-28 17:44:27 - User '4008' launches the linear regression frame"
+"2009-05-28 17:44:27 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"
+"2009-05-28 17:44:27 - User '4008' selects as the dependent variable: Descens_Dopamina"
+"2009-05-28 17:44:27 - User '4008' selects as the independent variable: Nicotina"
+"2009-05-28 17:44:27 - User '4008' changes to regression line panel"
+"2009-05-28 17:44:40 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"
+"2009-05-28 17:44:40 - User '4008' launches the linear regression frame"
+"2009-05-28 17:44:40 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"
+"2009-05-28 17:44:40 - User '4008' selects as the dependent variable: Descens_Dopamina"
+"2009-05-28 17:44:40 - User '4008' selects as the independent variable: Nicotina"
+"2009-05-28 17:44:54 - User '4008' launches the linear regression frame"
+"2009-05-28 17:44:54 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"
+"2009-05-28 17:44:54 - User '4008' selects as the dependent variable: Descens_Dopamina"
+"2009-05-28 17:44:54 - User '4008' selects as the independent variable: Nicotina"
+"2009-05-28 17:44:54 - User '4008'"
+"2009-05-28 17:45:35 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"
+"2009-05-28 17:45:35 - User '4008' changes to regression line panel"
+"2009-05-28 17:45:35 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"
+"2009-05-28 17:45:35 - User '4008' changes to forecasts panel"
+"2009-05-28 17:45:35 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"
+"2009-05-28 17:45:35 - User '4008' launches the linear regression frame"
+"2009-05-28 17:45:35 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) -1.5005  95.0 %  ( -3.939 , 0.9379 )  ( -3.9435 , 0.9424 )"
+"2009-05-28 17:45:35 - User '4008' selects as the dependent variable: Descens_Dopamina"
+"2009-05-28 17:45:35 - User '4008' selects as the independent variable: Nicotina"
+"2009-05-28 17:45:35 - User '4008' changes the value to make the prediction to 142.63"
+"2009-05-28 17:46:15 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.0872  95.0 %  ( 0.035 , 0.1395 )  ( -0.0692 , 0.2437 )"
+"2009-05-28 17:46:15 - User '4008' changes the value to make the prediction to 143.2"
+"2009-05-28 17:46:15 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.0936  95.0 %  ( 0.0362 , 0.151 )  ( -0.0647 , 0.2518 )"
+"2009-05-28 17:46:15 - User '4008' launches the linear regression frame"
+"2009-05-28 17:46:15 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.0936  95.0 %  ( 0.0362 , 0.151 )  ( -0.0647 , 0.2518 )"
+"2009-05-28 17:46:15 - User '4008' selects as the dependent variable: Descens_Dopamina"
+"2009-05-28 17:46:15 - User '4008' selects as the independent variable: Nicotina"
+"2009-05-28 17:46:15 - User '4008' changes the value to make the prediction to 140"
+"2009-05-28 17:46:35 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.058  95.0 %  ( 0.0065 , 0.1094 )  ( -0.0982 , 0.2141 )"
+"2009-05-28 17:46:35 - User '4008' launches the linear regression frame"
+"2009-05-28 17:46:35 - User '4008' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 , 0.0284 ) 0.058  95.0 %  ( 0.0065 , 0.1094 )  ( -0.0982 , 0.2141 )"
+"2009-05-28 17:46:35 - User '4008' selects as the dependent variable: Descens_Dopamina"
+"2009-05-28 17:46:35 - User '4008' selects as the independent variable: Nicotina"
+"2009-05-28 17:46:40 - User '4008' launches the linear regression frame"
+"2009-05-28 17:46:40 - User '4008' gets this output from the regression analysis: Nicotina Descens_DopaminaNicotina Descens_Dopamina 141.262 0.072 2.848 0.0681 0.0813 0.4654 19.4602 139.8609 0.1752  ( -10.7103 , 49.6308 ) 2864.2957  95.0 %  ( -1357.4119 , 7086.0033 )  ( -1357.4164 , 7086.0078 )"
+"2009-05-28 17:46:40 - User '4008' selects as the dependent variable: Nicotina"
+"2009-05-28 17:46:40 - User '4008' selects as the independent variable: Descens_Dopamina"
+"2009-05-28 17:46:40 - User '4008' changes the value to make the prediction to 142.63"
+"2009-05-28 17:46:53 - User '4008' gets this output from the regression analysis: Nicotina Descens_DopaminaNicotina Descens_Dopamina 141.262 0.072 2.848 0.0681 0.0813 0.4654 19.4602 139.8609 0.1752  ( -10.7103 , 49.6308 ) 2915.4763  95.0 %  ( -1385.5801 , 7216.5326 )  ( -1385.5845 , 7216.537 )"
+"2009-05-28 17:47:29 - User '4008' submitted the form with answers on 2009-05-28 17:47:29
+			User replied to question '1' with answer '2'
+			User replied to question '2' with answer '3.3425'
+			User replied to question '3' with answer '0.0043'
+			User replied to question '4' with answer '1'
+			User replied to question '5' with answer '3'
+			User replied to question '6' with no answer
+			User replied to question '7' with answer '0.0111'
+			User replied to question '8' with answer '-1.5005'
+			User replied to question '9' with answer '0.058'"
+"2009-05-31 21:30:48 - User '4008' submitted the form with answers on 2009-05-31 21:30:48
+			User replied to question '1' with answer '1'
+			User replied to question '2' with no answer
+			User replied to question '3' with no answer
+			User replied to question '4' with no answer
+			User replied to question '5' with no answer
+			User replied to question '6' with no answer
+			User replied to question '7' with no answer"
+"2009-05-31 21:31:02 - User '4008' submitted the form with answers on 2009-05-31 21:31:02
+			User replied to question '1' with answer '2'
+			User replied to question '2' with answer '3.3425'
+			User replied to question '3' with answer '0.0043'
+			User replied to question '4' with answer '1'
+			User replied to question '5' with answer '3'
+			User replied to question '6' with no answer
+			User replied to question '7' with answer '0.0111'
+			User replied to question '8' with answer '-1.5005'
+			User replied to question '9' with answer '0.058'"
+"User 4008 answered field '1' in form '1' with the value '1', obtaining '-0.0' points for this answer"
+"User 4008 answered field '1' in form '2' with the value '2', obtaining '1.0' points for this answer"
+"User 4008 answered field '2' in form '2' with the value '3.3425', obtaining '1.0' points for this answer"
+"User 4008 answered field '3' in form '2' with the value '0.0043', obtaining '1.0' points for this answer"
+"User 4008 answered field '4' in form '2' with the value '1', obtaining '1.0' points for this answer"
+"User 4008 answered field '5' in form '2' with the value '3', obtaining '-0.0' points for this answer"
+"User 4008 answered field '7' in form '2' with the value '0.0111', obtaining '1.0' points for this answer"
+"User 4008 answered field '8' in form '2' with the value '-1.5005', obtaining '1.0' points for this answer"
+"User 4008 answered field '9' in form '2' with the value '0.058', obtaining '-0.0' points for this answer"

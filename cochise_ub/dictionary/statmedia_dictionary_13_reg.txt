@@ -1,0 +1,7 @@
+-= Reg # Frame d’anàlisi de regressió =-
+"Output{diversos valors}"#"gets this output from the regression analysis"
+"Change: Predic. Value ={valor}"#"changes the value to make the prediction to"
+"Change: confidence level ={valor}"#"changes the confidence level value to"
+"Change to Descriptive Stat. "#"changes to descriptive statistics panel"
+"Change to Reg. Line"#"changes to regression line panel"
+"Change to Forecasts"#"changes to forecasts panel"

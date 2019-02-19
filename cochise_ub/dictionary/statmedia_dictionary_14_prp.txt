@@ -1,0 +1,9 @@
+-= Prp # Frame d’anàlisi de proporcions =-
+"Output{diversos valors}"#"gets this output from the proportion analysis"
+"Change: values ={valors}"#"changes the analysis values to"
+"Change: confidence level ={valor}"#"changes the confidence level to"
+"Change to One population"#"changes to analysis of one population"
+"Change to Two populations"#"changes to analysis of two populations"
+"Change to Hipot bilat"#"changes to bilateral hypothesis"
+"Change to Hipot unilat right"#"changes to unilateral hypothesis of the right-hand side"
+"Change to Hipot unilat left"#"changes to unilateral hypothesis of the left-hand side"

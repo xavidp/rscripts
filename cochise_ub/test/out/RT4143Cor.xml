@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log SYSTEM "Logging_v2.dtd">
+<log>
+	<!-- Logs converted by "converter_09.527.r" on 2010-11-22 at 00:16h -->
+	<event application="Statmedia form" action="Save form" user="4143" session="20090527104440" time="20090527104440" time_ms="0" number="1">
+	</event>
+	<event application="Statmedia form" action="New session" user="4143" session="20090527104440" time="20090527104440" time_ms="" number="2">
+	</event>
+	<event application="Statmedia form" action="Save form" user="4143" session="20090527104440" time="20090527105019" time_ms="" number="3">
+		<param name="answer_1" value="1"/>
+		<param name="answer_2" value=""/>
+		<param name="answer_3" value=""/>
+		<param name="answer_4" value=""/>
+		<param name="answer_5" value=""/>
+		<param name="answer_6" value=""/>
+		<param name="answer_7" value=""/>
+		<param name="action" value="Save"/>
+		<description>2009-05-27 10:50:19 - User '4143' submitted the form with answers on 2009-05-27 10:50:19
+			User replied to question '1' with answer '1'
+			User replied to question '2' with no answer
+			User replied to question '3' with no answer
+			User replied to question '4' with no answer
+			User replied to question '5' with no answer
+			User replied to question '6' with no answer
+			User replied to question '7' with no answer
+		</description>
+	</event>
+	<event application="Statmedia form" action="Save form" user="4143" session="20090527104440" time="20090527105035" time_ms="" number="4">
+	</event>
+	<event application="Statmedia form" action="New session" user="4143" session="20090527105035" time="20090527105035" time_ms="" number="5">
+	</event>
+	<event application="Cal" action="Load Variable" user="4143" session="20090527105035" time="20090527105049" time_ms="9" type="active" number="6">
+		<param name="Variable" value="Grup_A"/>
+		<description>2009-05-27 10:50:49 - User '4143' loads variable: Grup_A</description>
+	</event>
+	<event application="Cal" action="Load Variable" user="4143" session="20090527105035" time="20090527105049" time_ms="9" type="active" number="7">
+		<param name="Variable" value="Grup_B"/>
+		<description>2009-05-27 10:50:49 - User '4143' loads variable: Grup_B</description>
+	</event>
+	<event application="Cal" action="Main-Change to Analysis Interface" user="4143" session="20090527105035" time="20090527105101" time_ms="20" type="active" number="8">
+		<description>2009-05-27 10:51:01 - User '4143' switches to analysis panel</description>
+	</event>
+	<event application="Cal" action="Main-Change to Probabilistic Interface" user="4143" session="20090527105035" time="20090527105128" time_ms="36" type="active" number="9">
+		<description>2009-05-27 10:51:28 - User '4143' switches to probabilistic panel</description>
+	</event>
+	<event application="Cal" action="Probabilistic-Change to Select Distribution" user="4143" session="20090527105035" time="20090527105128" time_ms="36" type="active" number="10">
+		<param name="Distribution selected" value="Normal"/>
+		<description>2009-05-27 10:51:28 - User '4143' selects distribution: Normal</description>
+	</event>
+	<event application="Cal" action="Probabilistic-Change to Parameter" user="4143" session="20090527105035" time="20090527105128" time_ms="36" type="active" number="11">
+		<param name="Probabilistic-Change to Parameter" value="mu"/>
+		<param name="New_value" value="0"/>
+		<description>2009-05-27 10:51:28 - User '4143' changes parameter 'mu' to '0'</description>
+	</event>
+	<event application="Cal" action="Probabilistic-Change to Parameter" user="4143" session="20090527105035" time="20090527105128" time_ms="36" type="active" number="12">
+		<param name="Probabilistic-Change to Parameter" value="sigma"/>
+		<param name="New_value" value="1"/>
+		<description>2009-05-27 10:51:28 - User '4143' changes parameter 'sigma' to '1'</description>
+	</event>
+	<event application="Cal" action="Probabilistic-Output" user="4143" session="20090527105035" time="20090527105128" time_ms="36" type="active" number="13">
+		<param name="f(x)" value="0.39894"/>
+		<param name="F(x)" value="0.5"/>
+		<param name="x" value="1.64485"/>
+		<param name="E(X)" value="0"/>
+		<param name="Var(X)" value="1"/>
+		<param name="1-F(x)" value="0.5"/>
+		<description>2009-05-27 10:51:28 - User '4143' sees output values: f(x) = 0.39894 F(x) = 0.5 x = 1.64485 E(X) =0 Var(X)=1 1-F(x) = 0.5</description>
+	</event>
+	<event application="Cal" action="Main-Change to Analysis Interface" user="4143" session="20090527105035" time="20090527105128" time_ms="40" type="active" number="14">
+		<description>2009-05-27 10:51:28 - User '4143' switches to analysis panel</description>
+	</event>
+	<event application="Cal" action="Request analysis - Two-sample analysis" user="4143" session="20090527105035" time="20090527105128" time_ms="45" type="active" number="15">
+		<description>2009-05-27 10:51:28 - User '4143' launches the two-sample analysis frame</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable 1" user="4143" session="20090527105035" time="20090527105128" time_ms="48" type="active" number="16">
+		<param name="Select variables - Variable 1" value="Grup_A"/>
+		<description>2009-05-27 10:51:28 - User '4143' selects as the first variable from an analysis of two variables.: Grup_A</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable 2" user="4143" session="20090527105035" time="20090527105128" time_ms="48" type="active" number="17">
+		<param name="Select variables - Variable 2" value="Grup_B"/>
+		<description>2009-05-27 10:51:28 - User '4143' selects as the second variable from an analysis of two variables.: Grup_B</description>
+	</event>
+	<event application="Tws" action="1er cop" user="4143" session="20090527105035" time="20090527105129" time_ms="54" type="active" number="18">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105129" time_ms="54" type="reactive" number="19">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:51:29 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105129" time_ms="54" type="reactive" number="20">
+		<param name="Output Confidence" value=" 95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049"/>
+		<description>2009-05-27 10:51:29 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105129" time_ms="54" type="reactive" number="21">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:51:29 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change to Confidence Interval" user="4143" session="20090527105035" time="20090527105413" time_ms="154" type="active" number="22">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105413" time_ms="154" type="reactive" number="23">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:54:13 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105413" time_ms="154" type="reactive" number="24">
+		<param name="Output Confidence" value=" 95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049"/>
+		<description>2009-05-27 10:54:13 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105413" time_ms="154" type="reactive" number="25">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:54:13 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change to Hypot. Cont." user="4143" session="20090527105035" time="20090527105413" time_ms="159" type="active" number="26">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105413" time_ms="159" type="reactive" number="27">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:54:13 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105413" time_ms="159" type="reactive" number="28">
+		<param name="Output Confidence" value=" 95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049"/>
+		<description>2009-05-27 10:54:13 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105413" time_ms="159" type="reactive" number="29">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:54:13 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change to Descriptive Stat." user="4143" session="20090527105035" time="20090527105413" time_ms="161" type="active" number="30">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105413" time_ms="161" type="reactive" number="31">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:54:13 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105413" time_ms="161" type="reactive" number="32">
+		<param name="Output Confidence" value=" 95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049"/>
+		<description>2009-05-27 10:54:13 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105413" time_ms="161" type="reactive" number="33">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:54:13 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Cal" action="Request analysis - Frequency tables" user="4143" session="20090527105035" time="20090527105413" time_ms="206" type="active" number="34">
+		<description>2009-05-27 10:54:13 - User '4143' launches the frequency tables frame</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable" user="4143" session="20090527105035" time="20090527105413" time_ms="212" type="active" number="35">
+		<param name="Select variables - Variable" value="Grup_A"/>
+		<description>2009-05-27 10:54:13 - User '4143' selects the variable: Grup_A</description>
+	</event>
+	<event application="Cal" action="Request analysis - Frequency tables" user="4143" session="20090527105035" time="20090527105437" time_ms="224" type="active" number="36">
+		<description>2009-05-27 10:54:37 - User '4143' launches the frequency tables frame</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable" user="4143" session="20090527105035" time="20090527105437" time_ms="225" type="active" number="37">
+		<param name="Select variables - Variable" value="Grup_A"/>
+		<description>2009-05-27 10:54:37 - User '4143' selects the variable: Grup_A</description>
+	</event>
+	<event application="Cal" action="Main-Change to Data Interface" user="4143" session="20090527105035" time="20090527105437" time_ms="238" type="active" number="38">
+		<description>2009-05-27 10:54:37 - User '4143' switches to data panel</description>
+	</event>
+	<event application="Cal" action="Main-Change to Analysis Interface" user="4143" session="20090527105035" time="20090527105437" time_ms="240" type="active" number="39">
+		<description>2009-05-27 10:54:37 - User '4143' switches to analysis panel</description>
+	</event>
+	<event application="Cal" action="Request analysis - Linear Regression" user="4143" session="20090527105035" time="20090527105437" time_ms="241" type="active" number="40">
+		<description>2009-05-27 10:54:37 - User '4143' launches the linear regression frame</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Dep." user="4143" session="20090527105035" time="20090527105437" time_ms="243" type="active" number="41">
+		<param name="Select variables - Variable Dep." value="Grup_A"/>
+		<description>2009-05-27 10:54:37 - User '4143' selects as the dependent variable: Grup_A</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Indep." user="4143" session="20090527105035" time="20090527105437" time_ms="243" type="active" number="42">
+		<param name="Select variables - Variable Indep." value="Grup_B"/>
+		<description>2009-05-27 10:54:37 - User '4143' selects as the independent variable: Grup_B</description>
+	</event>
+	<event application="Reg" action="1er cop" user="4143" session="20090527105035" time="20090527105448" time_ms="243" type="active" number="43">
+	</event>
+	<event application="Reg" action="Output Grup_A Grup_BGrup_A Grup_B 0.611 0.537 0.0662 0.0648 0.0004 0.1121 0.1145 0.5495 0.7579  ( -0.7134 , 0.9425 ) 0.5495  95.0 %  ( 0.102 , 0.997 )  ( 0.0739 , 1.0251 )" user="4143" session="20090527105035" time="20090527105448" time_ms="243" type="reactive" number="44">
+		<param name="Output" value="Grup_A Grup_BGrup_A Grup_B 0.611 0.537 0.0662 0.0648 0.0004 0.1121 0.1145 0.5495 0.7579  ( -0.7134 , 0.9425 ) 0.5495  95.0 %  ( 0.102 , 0.997 )  ( 0.0739 , 1.0251 )"/>
+		<description>2009-05-27 10:54:48 - User '4143' gets this output from the regression analysis: Grup_A Grup_BGrup_A Grup_B 0.611 0.537 0.0662 0.0648 0.0004 0.1121 0.1145 0.5495 0.7579  ( -0.7134 , 0.9425 ) 0.5495  95.0 %  ( 0.102 , 0.997 )  ( 0.0739 , 1.0251 )</description>
+	</event>
+	<event application="Cal" action="Request analysis - One-sample analysis" user="4143" session="20090527105035" time="20090527105448" time_ms="250" type="active" number="45">
+		<description>2009-05-27 10:54:48 - User '4143' launches the one-sample analysis frame</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable" user="4143" session="20090527105035" time="20090527105448" time_ms="251" type="active" number="46">
+		<param name="Select variables - Variable" value="Grup_A"/>
+		<description>2009-05-27 10:54:48 - User '4143' selects the variable: Grup_A</description>
+	</event>
+	<event application="Cal" action="Request analysis - Linear Regression" user="4143" session="20090527105035" time="20090527105458" time_ms="256" type="active" number="47">
+		<description>2009-05-27 10:54:58 - User '4143' launches the linear regression frame</description>
+	</event>
+	<event application="Cal" action="Cancel" user="4143" session="20090527105035" time="20090527105458" time_ms="259" type="active" number="48">
+		<description>2009-05-27 10:54:58 - User '4143' cancels current analysis</description>
+	</event>
+	<event application="Cal" action="Request analysis - Two-sample analysis" user="4143" session="20090527105035" time="20090527105458" time_ms="262" type="active" number="49">
+		<description>2009-05-27 10:54:58 - User '4143' launches the two-sample analysis frame</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105458" time_ms="264" type="reactive" number="50">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:54:58 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105458" time_ms="264" type="reactive" number="51">
+		<param name="Output Confidence" value=" 95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049"/>
+		<description>2009-05-27 10:54:58 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105458" time_ms="264" type="reactive" number="52">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:54:58 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable 1" user="4143" session="20090527105035" time="20090527105458" time_ms="264" type="active" number="53">
+		<param name="Select variables - Variable 1" value="Grup_A"/>
+		<description>2009-05-27 10:54:58 - User '4143' selects as the first variable from an analysis of two variables.: Grup_A</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable 2" user="4143" session="20090527105035" time="20090527105458" time_ms="264" type="active" number="54">
+		<param name="Select variables - Variable 2" value="Grup_B"/>
+		<description>2009-05-27 10:54:58 - User '4143' selects as the second variable from an analysis of two variables.: Grup_B</description>
+	</event>
+	<event application="Tws" action="Change to Sample Size" user="4143" session="20090527105035" time="20090527105535" time_ms="266" type="active" number="55">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105535" time_ms="266" type="reactive" number="56">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:55:35 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105535" time_ms="266" type="reactive" number="57">
+		<param name="Output Confidence" value=" 95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049"/>
+		<description>2009-05-27 10:55:35 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105535" time_ms="266" type="reactive" number="58">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:55:35 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change to Descriptive Stat." user="4143" session="20090527105035" time="20090527105535" time_ms="273" type="active" number="59">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105535" time_ms="273" type="reactive" number="60">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:55:35 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105535" time_ms="273" type="reactive" number="61">
+		<param name="Output Confidence" value=" 95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049"/>
+		<description>2009-05-27 10:55:35 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105535" time_ms="273" type="reactive" number="62">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:55:35 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change to Hypot. Cont." user="4143" session="20090527105035" time="20090527105535" time_ms="279" type="active" number="63">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105535" time_ms="279" type="reactive" number="64">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:55:35 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105535" time_ms="279" type="reactive" number="65">
+		<param name="Output Confidence" value=" 95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049"/>
+		<description>2009-05-27 10:55:35 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105535" time_ms="279" type="reactive" number="66">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:55:35 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change to Confidence Interval" user="4143" session="20090527105035" time="20090527105535" time_ms="281" type="active" number="67">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105535" time_ms="281" type="reactive" number="68">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:55:35 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105535" time_ms="281" type="reactive" number="69">
+		<param name="Output Confidence" value=" 95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049"/>
+		<description>2009-05-27 10:55:35 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105535" time_ms="281" type="reactive" number="70">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:55:35 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Cal" action="Request analysis - Two-sample analysis" user="4143" session="20090527105035" time="20090527105535" time_ms="300" type="active" number="71">
+		<description>2009-05-27 10:55:35 - User '4143' launches the two-sample analysis frame</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105535" time_ms="301" type="reactive" number="72">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:55:35 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105535" time_ms="301" type="reactive" number="73">
+		<param name="Output Confidence" value=" 95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049"/>
+		<description>2009-05-27 10:55:35 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  95.0 % 0.0115 0.1365 0.0036 0.0254 0.0625 0.0124 0.1356 0.0616 0.0125 0.1355 0.0615 0.2594 4.2049</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105535" time_ms="301" type="reactive" number="74">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:55:35 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable 1" user="4143" session="20090527105035" time="20090527105535" time_ms="301" type="active" number="75">
+		<param name="Select variables - Variable 1" value="Grup_A"/>
+		<description>2009-05-27 10:55:35 - User '4143' selects as the first variable from an analysis of two variables.: Grup_A</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable 2" user="4143" session="20090527105035" time="20090527105535" time_ms="301" type="active" number="76">
+		<param name="Select variables - Variable 2" value="Grup_B"/>
+		<description>2009-05-27 10:55:35 - User '4143' selects as the second variable from an analysis of two variables.: Grup_B</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="323" type="active" number="77">
+		<param name="Change: confidence level" value="94"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 94</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="324" type="reactive" number="78">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="324" type="reactive" number="79">
+		<param name="Output Confidence" value=" 94.0 % 0.0146 0.1334 0.0037 0.0241 0.0594 0.0152 0.1328 0.0588 0.0152 0.1328 0.0588 0.2755 3.9599"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  94.0 % 0.0146 0.1334 0.0037 0.0241 0.0594 0.0152 0.1328 0.0588 0.0152 0.1328 0.0588 0.2755 3.9599</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="324" type="reactive" number="80">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="324" type="active" number="81">
+		<param name="Change: confidence level" value="93"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 93</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="324" type="reactive" number="82">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="324" type="reactive" number="83">
+		<param name="Output Confidence" value=" 93.0 % 0.0172 0.1308 0.0038 0.023 0.0568 0.0175 0.1305 0.0565 0.0176 0.1304 0.0564 0.2901 3.7598"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  93.0 % 0.0172 0.1308 0.0038 0.023 0.0568 0.0175 0.1305 0.0565 0.0176 0.1304 0.0564 0.2901 3.7598</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="324" type="reactive" number="84">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="324" type="active" number="85">
+		<param name="Change: confidence level" value="92"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 92</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="324" type="reactive" number="86">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="324" type="reactive" number="87">
+		<param name="Output Confidence" value=" 92.0 % 0.0195 0.1285 0.0039 0.0221 0.0545 0.0196 0.1284 0.0544 0.0196 0.1284 0.0544 0.3037 3.5915"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  92.0 % 0.0195 0.1285 0.0039 0.0221 0.0545 0.0196 0.1284 0.0544 0.0196 0.1284 0.0544 0.3037 3.5915</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="324" type="reactive" number="88">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="324" type="active" number="89">
+		<param name="Change: confidence level" value="91"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 91</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="324" type="reactive" number="90">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="324" type="reactive" number="91">
+		<param name="Output Confidence" value=" 91.0 % 0.0216 0.1264 0.004 0.0213 0.0524 0.0215 0.1265 0.0525 0.0215 0.1265 0.0525 0.3165 3.4467"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  91.0 % 0.0216 0.1264 0.004 0.0213 0.0524 0.0215 0.1265 0.0525 0.0215 0.1265 0.0525 0.3165 3.4467</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="324" type="reactive" number="92">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="325" type="active" number="93">
+		<param name="Change: confidence level" value="90"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 90</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="325" type="reactive" number="94">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="325" type="reactive" number="95">
+		<param name="Output Confidence" value=" 90.0 % 0.0234 0.1246 0.0041 0.0206 0.0506 0.0232 0.1248 0.0508 0.0232 0.1248 0.0508 0.3286 3.3201"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  90.0 % 0.0234 0.1246 0.0041 0.0206 0.0506 0.0232 0.1248 0.0508 0.0232 0.1248 0.0508 0.3286 3.3201</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="325" type="reactive" number="96">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="327" type="active" number="97">
+		<param name="Change: confidence level" value="89"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 89</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="327" type="reactive" number="98">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="327" type="reactive" number="99">
+		<param name="Output Confidence" value=" 89.0 % 0.025 0.123 0.0041 0.02 0.049 0.0247 0.1233 0.0493 0.0247 0.1233 0.0493 0.3401 3.2079"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  89.0 % 0.025 0.123 0.0041 0.02 0.049 0.0247 0.1233 0.0493 0.0247 0.1233 0.0493 0.3401 3.2079</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="327" type="reactive" number="100">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="327" type="active" number="101">
+		<param name="Change: confidence level" value="88"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 88</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="327" type="reactive" number="102">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="327" type="reactive" number="103">
+		<param name="Output Confidence" value=" 88.0 % 0.0266 0.1214 0.0042 0.0195 0.0474 0.0262 0.1218 0.0478 0.0262 0.1218 0.0478 0.3511 3.1072"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  88.0 % 0.0266 0.1214 0.0042 0.0195 0.0474 0.0262 0.1218 0.0478 0.0262 0.1218 0.0478 0.3511 3.1072</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="327" type="reactive" number="104">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="327" type="active" number="105">
+		<param name="Change: confidence level" value="87"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 87</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="327" type="reactive" number="106">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="327" type="reactive" number="107">
+		<param name="Output Confidence" value=" 87.0 % 0.028 0.12 0.0043 0.019 0.046 0.0275 0.1205 0.0465 0.0275 0.1205 0.0465 0.3617 3.0161"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  87.0 % 0.028 0.12 0.0043 0.019 0.046 0.0275 0.1205 0.0465 0.0275 0.1205 0.0465 0.3617 3.0161</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="327" type="reactive" number="108">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="327" type="active" number="109">
+		<param name="Change: confidence level" value="86"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 86</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="327" type="reactive" number="110">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="327" type="reactive" number="111">
+		<param name="Output Confidence" value=" 86.0 % 0.0293 0.1187 0.0043 0.0185 0.0447 0.0288 0.1192 0.0452 0.0288 0.1192 0.0452 0.3719 2.933"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  86.0 % 0.0293 0.1187 0.0043 0.0185 0.0447 0.0288 0.1192 0.0452 0.0288 0.1192 0.0452 0.3719 2.933</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="327" type="reactive" number="112">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="328" type="active" number="113">
+		<param name="Change: confidence level" value="85"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 85</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="328" type="reactive" number="114">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="328" type="reactive" number="115">
+		<param name="Output Confidence" value=" 85.0 % 0.0305 0.1175 0.0044 0.0181 0.0435 0.0299 0.1181 0.0441 0.0299 0.1181 0.0441 0.3819 2.8566"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  85.0 % 0.0305 0.1175 0.0044 0.0181 0.0435 0.0299 0.1181 0.0441 0.0299 0.1181 0.0441 0.3819 2.8566</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="328" type="reactive" number="116">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="328" type="active" number="117">
+		<param name="Change: confidence level" value="84"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 84</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="328" type="reactive" number="118">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="328" type="reactive" number="119">
+		<param name="Output Confidence" value=" 84.0 % 0.0317 0.1163 0.0045 0.0178 0.0423 0.031 0.117 0.043 0.0311 0.1169 0.0429 0.3915 2.7861"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  84.0 % 0.0317 0.1163 0.0045 0.0178 0.0423 0.031 0.117 0.043 0.0311 0.1169 0.0429 0.3915 2.7861</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="328" type="reactive" number="120">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="328" type="active" number="121">
+		<param name="Change: confidence level" value="83"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 83</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="328" type="reactive" number="122">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="328" type="reactive" number="123">
+		<param name="Output Confidence" value=" 83.0 % 0.0328 0.1152 0.0045 0.0174 0.0412 0.0321 0.1159 0.0419 0.0321 0.1159 0.0419 0.4009 2.7207"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  83.0 % 0.0328 0.1152 0.0045 0.0174 0.0412 0.0321 0.1159 0.0419 0.0321 0.1159 0.0419 0.4009 2.7207</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="328" type="reactive" number="124">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="328" type="active" number="125">
+		<param name="Change: confidence level" value="82"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 82</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="328" type="reactive" number="126">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="328" type="reactive" number="127">
+		<param name="Output Confidence" value=" 82.0 % 0.0339 0.1141 0.0046 0.0171 0.0401 0.0331 0.1149 0.0409 0.0331 0.1149 0.0409 0.4101 2.6596"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  82.0 % 0.0339 0.1141 0.0046 0.0171 0.0401 0.0331 0.1149 0.0409 0.0331 0.1149 0.0409 0.4101 2.6596</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="328" type="reactive" number="128">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="active" number="129">
+		<param name="Change: confidence level" value="83"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 83</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="130">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="131">
+		<param name="Output Confidence" value=" 83.0 % 0.0328 0.1152 0.0045 0.0174 0.0412 0.0321 0.1159 0.0419 0.0321 0.1159 0.0419 0.4009 2.7207"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  83.0 % 0.0328 0.1152 0.0045 0.0174 0.0412 0.0321 0.1159 0.0419 0.0321 0.1159 0.0419 0.4009 2.7207</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="132">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="active" number="133">
+		<param name="Change: confidence level" value="84"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 84</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="134">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="135">
+		<param name="Output Confidence" value=" 84.0 % 0.0317 0.1163 0.0045 0.0178 0.0423 0.031 0.117 0.043 0.0311 0.1169 0.0429 0.3915 2.7861"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  84.0 % 0.0317 0.1163 0.0045 0.0178 0.0423 0.031 0.117 0.043 0.0311 0.1169 0.0429 0.3915 2.7861</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="136">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="active" number="137">
+		<param name="Change: confidence level" value="85"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 85</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="138">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="139">
+		<param name="Output Confidence" value=" 85.0 % 0.0305 0.1175 0.0044 0.0181 0.0435 0.0299 0.1181 0.0441 0.0299 0.1181 0.0441 0.3819 2.8566"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  85.0 % 0.0305 0.1175 0.0044 0.0181 0.0435 0.0299 0.1181 0.0441 0.0299 0.1181 0.0441 0.3819 2.8566</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="140">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="active" number="141">
+		<param name="Change: confidence level" value="86"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 86</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="142">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="143">
+		<param name="Output Confidence" value=" 86.0 % 0.0293 0.1187 0.0043 0.0185 0.0447 0.0288 0.1192 0.0452 0.0288 0.1192 0.0452 0.3719 2.933"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  86.0 % 0.0293 0.1187 0.0043 0.0185 0.0447 0.0288 0.1192 0.0452 0.0288 0.1192 0.0452 0.3719 2.933</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="144">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="active" number="145">
+		<param name="Change: confidence level" value="87"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 87</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="146">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="147">
+		<param name="Output Confidence" value=" 87.0 % 0.028 0.12 0.0043 0.019 0.046 0.0275 0.1205 0.0465 0.0275 0.1205 0.0465 0.3617 3.0161"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  87.0 % 0.028 0.12 0.0043 0.019 0.046 0.0275 0.1205 0.0465 0.0275 0.1205 0.0465 0.3617 3.0161</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="148">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="active" number="149">
+		<param name="Change: confidence level" value="88"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 88</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="150">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="151">
+		<param name="Output Confidence" value=" 88.0 % 0.0266 0.1214 0.0042 0.0195 0.0474 0.0262 0.1218 0.0478 0.0262 0.1218 0.0478 0.3511 3.1072"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  88.0 % 0.0266 0.1214 0.0042 0.0195 0.0474 0.0262 0.1218 0.0478 0.0262 0.1218 0.0478 0.3511 3.1072</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="330" type="reactive" number="152">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="331" type="active" number="153">
+		<param name="Change: confidence level" value="89"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 89</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="331" type="reactive" number="154">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="331" type="reactive" number="155">
+		<param name="Output Confidence" value=" 89.0 % 0.025 0.123 0.0041 0.02 0.049 0.0247 0.1233 0.0493 0.0247 0.1233 0.0493 0.3401 3.2079"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  89.0 % 0.025 0.123 0.0041 0.02 0.049 0.0247 0.1233 0.0493 0.0247 0.1233 0.0493 0.3401 3.2079</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="331" type="reactive" number="156">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change: confidence level" user="4143" session="20090527105035" time="20090527105622" time_ms="331" type="active" number="157">
+		<param name="Change: confidence level" value="90"/>
+		<description>2009-05-27 10:56:22 - User '4143' changes the confidence level to: Change: confidence level = 90</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105622" time_ms="331" type="reactive" number="158">
+		<param name="Output Descriptive" value="Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the descriptive panel: Output Descriptive = Grup_A - Grup_B 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105622" time_ms="331" type="reactive" number="159">
+		<param name="Output Confidence" value=" 90.0 % 0.0234 0.1246 0.0041 0.0206 0.0506 0.0232 0.1248 0.0508 0.0232 0.1248 0.0508 0.3286 3.3201"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  90.0 % 0.0234 0.1246 0.0041 0.0206 0.0506 0.0232 0.1248 0.0508 0.0232 0.1248 0.0508 0.3286 3.3201</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105622" time_ms="331" type="reactive" number="160">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:56:22 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Cal" action="Request analysis - One-sample analysis" user="4143" session="20090527105035" time="20090527105622" time_ms="343" type="active" number="161">
+		<description>2009-05-27 10:56:22 - User '4143' launches the one-sample analysis frame</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable" user="4143" session="20090527105035" time="20090527105622" time_ms="348" type="active" number="162">
+		<param name="Select variables - Variable" value="Grup_A"/>
+		<description>2009-05-27 10:56:22 - User '4143' selects the variable: Grup_A</description>
+	</event>
+	<event application="Ons" action="1er cop" user="4143" session="20090527105035" time="20090527105628" time_ms="348" type="active" number="163">
+	</event>
+	<event application="Ons" action="Change: percentil" user="4143" session="20090527105035" time="20090527105710" time_ms="363" type="active" number="164">
+		<param name="percentil" value="6"/>
+		<description>2009-05-27 10:56:28 - User '4143' changes the percentile to, with the new value as '6'</description>
+	</event>
+	<event application="Ons" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105710" time_ms="363" type="reactive" number="165">
+		<param name="Descriptive" value="Grup_A 10 0.611 0.52 0.21 0.0662 0.6 0.73 0.0209 0.0044 0.521"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the descriptive panel, with the values 'Grup_A 10 0.611 0.52 0.21 0.0662 0.6 0.73 0.0209 0.0044 0.521'</description>
+	</event>
+	<event application="Ons" action="Output Confidence" user="4143" session="20090527105035" time="20090527105710" time_ms="363" type="reactive" number="166">
+		<param name="Confidence" value=" 95.0 % 0.5636 0.6584 0.0021 0.0146"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the confidence intervals panel, with the values ' 95.0 % 0.5636 0.6584 0.0021 0.0146'</description>
+	</event>
+	<event application="Ons" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105710" time_ms="363" type="reactive" number="167">
+		<param name="Hypothesis" value="29.1688 9 0 0.0395 9 0"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the contrast of hypothesis panel, with the values '29.1688 9 0 0.0395 9 0'</description>
+	</event>
+	<event application="Ons" action="Change: percentil" user="4143" session="20090527105035" time="20090527105710" time_ms="364" type="active" number="168">
+		<param name="percentil" value="7"/>
+		<description>2009-05-27 10:57:10 - User '4143' changes the percentile to, with the new value as '7'</description>
+	</event>
+	<event application="Ons" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105710" time_ms="364" type="reactive" number="169">
+		<param name="Descriptive" value="Grup_A 10 0.611 0.52 0.21 0.0662 0.6 0.73 0.0209 0.0044 0.522"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the descriptive panel, with the values 'Grup_A 10 0.611 0.52 0.21 0.0662 0.6 0.73 0.0209 0.0044 0.522'</description>
+	</event>
+	<event application="Ons" action="Output Confidence" user="4143" session="20090527105035" time="20090527105710" time_ms="364" type="reactive" number="170">
+		<param name="Confidence" value=" 95.0 % 0.5636 0.6584 0.0021 0.0146"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the confidence intervals panel, with the values ' 95.0 % 0.5636 0.6584 0.0021 0.0146'</description>
+	</event>
+	<event application="Ons" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105710" time_ms="364" type="reactive" number="171">
+		<param name="Hypothesis" value="29.1688 9 0 0.0395 9 0"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the contrast of hypothesis panel, with the values '29.1688 9 0 0.0395 9 0'</description>
+	</event>
+	<event application="Ons" action="Change: percentil" user="4143" session="20090527105035" time="20090527105710" time_ms="365" type="active" number="172">
+		<param name="percentil" value="8"/>
+		<description>2009-05-27 10:57:10 - User '4143' changes the percentile to, with the new value as '8'</description>
+	</event>
+	<event application="Ons" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105710" time_ms="365" type="reactive" number="173">
+		<param name="Descriptive" value="Grup_A 10 0.611 0.52 0.21 0.0662 0.6 0.73 0.0209 0.0044 0.523"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the descriptive panel, with the values 'Grup_A 10 0.611 0.52 0.21 0.0662 0.6 0.73 0.0209 0.0044 0.523'</description>
+	</event>
+	<event application="Ons" action="Output Confidence" user="4143" session="20090527105035" time="20090527105710" time_ms="365" type="reactive" number="174">
+		<param name="Confidence" value=" 95.0 % 0.5636 0.6584 0.0021 0.0146"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the confidence intervals panel, with the values ' 95.0 % 0.5636 0.6584 0.0021 0.0146'</description>
+	</event>
+	<event application="Ons" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105710" time_ms="365" type="reactive" number="175">
+		<param name="Hypothesis" value="29.1688 9 0 0.0395 9 0"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the contrast of hypothesis panel, with the values '29.1688 9 0 0.0395 9 0'</description>
+	</event>
+	<event application="Ons" action="Change: percentil" user="4143" session="20090527105035" time="20090527105710" time_ms="365" type="active" number="176">
+		<param name="percentil" value="9"/>
+		<description>2009-05-27 10:57:10 - User '4143' changes the percentile to, with the new value as '9'</description>
+	</event>
+	<event application="Ons" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105710" time_ms="365" type="reactive" number="177">
+		<param name="Descriptive" value="Grup_A 10 0.611 0.52 0.21 0.0662 0.6 0.73 0.0209 0.0044 0.524"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the descriptive panel, with the values 'Grup_A 10 0.611 0.52 0.21 0.0662 0.6 0.73 0.0209 0.0044 0.524'</description>
+	</event>
+	<event application="Ons" action="Output Confidence" user="4143" session="20090527105035" time="20090527105710" time_ms="365" type="reactive" number="178">
+		<param name="Confidence" value=" 95.0 % 0.5636 0.6584 0.0021 0.0146"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the confidence intervals panel, with the values ' 95.0 % 0.5636 0.6584 0.0021 0.0146'</description>
+	</event>
+	<event application="Ons" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105710" time_ms="365" type="reactive" number="179">
+		<param name="Hypothesis" value="29.1688 9 0 0.0395 9 0"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the contrast of hypothesis panel, with the values '29.1688 9 0 0.0395 9 0'</description>
+	</event>
+	<event application="Ons" action="Change: percentil" user="4143" session="20090527105035" time="20090527105710" time_ms="365" type="active" number="180">
+		<param name="percentil" value="10"/>
+		<description>2009-05-27 10:57:10 - User '4143' changes the percentile to, with the new value as '10'</description>
+	</event>
+	<event application="Ons" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105710" time_ms="365" type="reactive" number="181">
+		<param name="Descriptive" value="Grup_A 10 0.611 0.52 0.21 0.0662 0.6 0.73 0.0209 0.0044 0.525"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the descriptive panel, with the values 'Grup_A 10 0.611 0.52 0.21 0.0662 0.6 0.73 0.0209 0.0044 0.525'</description>
+	</event>
+	<event application="Ons" action="Output Confidence" user="4143" session="20090527105035" time="20090527105710" time_ms="365" type="reactive" number="182">
+		<param name="Confidence" value=" 95.0 % 0.5636 0.6584 0.0021 0.0146"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the confidence intervals panel, with the values ' 95.0 % 0.5636 0.6584 0.0021 0.0146'</description>
+	</event>
+	<event application="Ons" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105710" time_ms="365" type="reactive" number="183">
+		<param name="Hypothesis" value="29.1688 9 0 0.0395 9 0"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the contrast of hypothesis panel, with the values '29.1688 9 0 0.0395 9 0'</description>
+	</event>
+	<event application="Ons" action="Change: percentil" user="4143" session="20090527105035" time="20090527105710" time_ms="365" type="active" number="184">
+		<param name="percentil" value="11"/>
+		<description>2009-05-27 10:57:10 - User '4143' changes the percentile to, with the new value as '11'</description>
+	</event>
+	<event application="Ons" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105710" time_ms="365" type="reactive" number="185">
+		<param name="Descriptive" value="Grup_A 10 0.611 0.52 0.21 0.0662 0.6 0.73 0.0209 0.0044 0.526"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the descriptive panel, with the values 'Grup_A 10 0.611 0.52 0.21 0.0662 0.6 0.73 0.0209 0.0044 0.526'</description>
+	</event>
+	<event application="Ons" action="Output Confidence" user="4143" session="20090527105035" time="20090527105710" time_ms="365" type="reactive" number="186">
+		<param name="Confidence" value=" 95.0 % 0.5636 0.6584 0.0021 0.0146"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the confidence intervals panel, with the values ' 95.0 % 0.5636 0.6584 0.0021 0.0146'</description>
+	</event>
+	<event application="Ons" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105710" time_ms="365" type="reactive" number="187">
+		<param name="Hypothesis" value="29.1688 9 0 0.0395 9 0"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the contrast of hypothesis panel, with the values '29.1688 9 0 0.0395 9 0'</description>
+	</event>
+	<event application="Ons" action="Change: percentil" user="4143" session="20090527105035" time="20090527105710" time_ms="366" type="active" number="188">
+		<param name="percentil" value="10"/>
+		<description>2009-05-27 10:57:10 - User '4143' changes the percentile to, with the new value as '10'</description>
+	</event>
+	<event application="Ons" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105710" time_ms="366" type="reactive" number="189">
+		<param name="Descriptive" value="Grup_A 10 0.611 0.52 0.21 0.0662 0.6 0.73 0.0209 0.0044 0.525"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the descriptive panel, with the values 'Grup_A 10 0.611 0.52 0.21 0.0662 0.6 0.73 0.0209 0.0044 0.525'</description>
+	</event>
+	<event application="Ons" action="Output Confidence" user="4143" session="20090527105035" time="20090527105710" time_ms="366" type="reactive" number="190">
+		<param name="Confidence" value=" 95.0 % 0.5636 0.6584 0.0021 0.0146"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the confidence intervals panel, with the values ' 95.0 % 0.5636 0.6584 0.0021 0.0146'</description>
+	</event>
+	<event application="Ons" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105710" time_ms="366" type="reactive" number="191">
+		<param name="Hypothesis" value="29.1688 9 0 0.0395 9 0"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the contrast of hypothesis panel, with the values '29.1688 9 0 0.0395 9 0'</description>
+	</event>
+	<event application="Ons" action="Change: percentil" user="4143" session="20090527105035" time="20090527105710" time_ms="367" type="active" number="192">
+		<param name="percentil" value="9"/>
+		<description>2009-05-27 10:57:10 - User '4143' changes the percentile to, with the new value as '9'</description>
+	</event>
+	<event application="Ons" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105710" time_ms="367" type="reactive" number="193">
+		<param name="Descriptive" value="Grup_A 10 0.611 0.52 0.21 0.0662 0.6 0.73 0.0209 0.0044 0.524"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the descriptive panel, with the values 'Grup_A 10 0.611 0.52 0.21 0.0662 0.6 0.73 0.0209 0.0044 0.524'</description>
+	</event>
+	<event application="Ons" action="Output Confidence" user="4143" session="20090527105035" time="20090527105710" time_ms="367" type="reactive" number="194">
+		<param name="Confidence" value=" 95.0 % 0.5636 0.6584 0.0021 0.0146"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the confidence intervals panel, with the values ' 95.0 % 0.5636 0.6584 0.0021 0.0146'</description>
+	</event>
+	<event application="Ons" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105710" time_ms="367" type="reactive" number="195">
+		<param name="Hypothesis" value="29.1688 9 0 0.0395 9 0"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the contrast of hypothesis panel, with the values '29.1688 9 0 0.0395 9 0'</description>
+	</event>
+	<event application="Cal" action="Request analysis - One-sample analysis" user="4143" session="20090527105035" time="20090527105710" time_ms="392" type="active" number="196">
+		<description>2009-05-27 10:57:10 - User '4143' launches the one-sample analysis frame</description>
+	</event>
+	<event application="Ons" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105710" time_ms="396" type="reactive" number="197">
+		<param name="Descriptive" value="Grup_B 10 0.537 0.46 0.17 0.0648 0.525 0.63 0.0205 0.0042 0.464"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the descriptive panel, with the values 'Grup_B 10 0.537 0.46 0.17 0.0648 0.525 0.63 0.0205 0.0042 0.464'</description>
+	</event>
+	<event application="Ons" action="Output Confidence" user="4143" session="20090527105035" time="20090527105710" time_ms="396" type="reactive" number="198">
+		<param name="Confidence" value=" 95.0 % 0.4906 0.5834 0.002 0.014"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the confidence intervals panel, with the values ' 95.0 % 0.4906 0.5834 0.002 0.014'</description>
+	</event>
+	<event application="Ons" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105710" time_ms="396" type="reactive" number="199">
+		<param name="Hypothesis" value="26.1995 9 0 0.0378 9 0"/>
+		<description>2009-05-27 10:57:10 - User '4143' gets this output from the contrast of hypothesis panel, with the values '26.1995 9 0 0.0378 9 0'</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable" user="4143" session="20090527105035" time="20090527105710" time_ms="396" type="active" number="200">
+		<param name="Select variables - Variable" value="Grup_B"/>
+		<description>2009-05-27 10:57:10 - User '4143' selects the variable: Grup_B</description>
+	</event>
+	<event application="Statmedia form" action="Save form" user="4143" session="20090527105035" time="20090527105802" time_ms="" number="201">
+		<param name="answer_1" value="1"/>
+		<param name="answer_2" value="1"/>
+		<param name="answer_3" value="0.611"/>
+		<param name="answer_4" value="0.537"/>
+		<param name="answer_5" value="3"/>
+		<param name="answer_6" value="0.0044"/>
+		<param name="answer_7" value="0.0042"/>
+		<param name="action" value="Save"/>
+		<description>2009-05-27 10:58:02 - User '4143' submitted the form with answers on 2009-05-27 10:58:02
+			User replied to question '1' with answer '1'
+			User replied to question '2' with answer '1'
+			User replied to question '3' with answer '0.611'
+			User replied to question '4' with answer '0.537'
+			User replied to question '5' with answer '3'
+			User replied to question '6' with answer '0.0044'
+			User replied to question '7' with answer '0.0042'
+		</description>
+	</event>
+	<event application="Statmedia form" action="Save form" user="4143" session="20090527105035" time="20090527105806" time_ms="" number="202">
+		<param name="answer_1" value="1"/>
+		<param name="answer_2" value="1"/>
+		<param name="answer_3" value="0.611"/>
+		<param name="answer_4" value="0.537"/>
+		<param name="answer_5" value="3"/>
+		<param name="answer_6" value="0.0044"/>
+		<param name="answer_7" value="0.0042"/>
+		<param name="action" value="Move_forward"/>
+		<description>2009-05-27 10:58:06 - User '4143' submitted the form with answers on 2009-05-27 10:58:06
+			User replied to question '1' with answer '1'
+			User replied to question '2' with answer '1'
+			User replied to question '3' with answer '0.611'
+			User replied to question '4' with answer '0.537'
+			User replied to question '5' with answer '3'
+			User replied to question '6' with answer '0.0044'
+			User replied to question '7' with answer '0.0042'
+		</description>
+	</event>
+	<event application="Cal" action="Load Variable" user="4143" session="20090527105035" time="20090527105935" time_ms="459" type="active" number="203">
+		<param name="Variable" value="Control_Basal"/>
+		<description>2009-05-27 10:59:35 - User '4143' loads variable: Control_Basal</description>
+	</event>
+	<event application="Cal" action="Load Variable" user="4143" session="20090527105035" time="20090527105935" time_ms="459" type="active" number="204">
+		<param name="Variable" value="Control_3_setmanes"/>
+		<description>2009-05-27 10:59:35 - User '4143' loads variable: Control_3_setmanes</description>
+	</event>
+	<event application="Cal" action="Request analysis - One-sample analysis" user="4143" session="20090527105035" time="20090527105935" time_ms="529" type="active" number="205">
+		<description>2009-05-27 10:59:35 - User '4143' launches the one-sample analysis frame</description>
+	</event>
+	<event application="Cal" action="Cancel" user="4143" session="20090527105035" time="20090527105935" time_ms="532" type="active" number="206">
+		<description>2009-05-27 10:59:35 - User '4143' cancels current analysis</description>
+	</event>
+	<event application="Cal" action="Request analysis - Two-sample analysis" user="4143" session="20090527105035" time="20090527105935" time_ms="533" type="active" number="207">
+		<description>2009-05-27 10:59:35 - User '4143' launches the two-sample analysis frame</description>
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527105935" time_ms="541" type="reactive" number="208">
+		<param name="Output Descriptive" value="Control_Basal - Control_3_setmanes 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 10:59:35 - User '4143' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527105935" time_ms="541" type="reactive" number="209">
+		<param name="Output Confidence" value=" 90.0 % 0.0234 0.1246 0.0041 0.0206 0.0506 0.0232 0.1248 0.0508 0.0232 0.1248 0.0508 0.3286 3.3201"/>
+		<description>2009-05-27 10:59:35 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  90.0 % 0.0234 0.1246 0.0041 0.0206 0.0506 0.0232 0.1248 0.0508 0.0232 0.1248 0.0508 0.3286 3.3201</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527105935" time_ms="541" type="reactive" number="210">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 10:59:35 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable 1" user="4143" session="20090527105035" time="20090527105935" time_ms="541" type="active" number="211">
+		<param name="Select variables - Variable 1" value="Control_Basal"/>
+		<description>2009-05-27 10:59:35 - User '4143' selects as the first variable from an analysis of two variables.: Control_Basal</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable 2" user="4143" session="20090527105035" time="20090527105935" time_ms="541" type="active" number="212">
+		<param name="Select variables - Variable 2" value="Control_3_setmanes"/>
+		<description>2009-05-27 10:59:35 - User '4143' selects as the second variable from an analysis of two variables.: Control_3_setmanes</description>
+	</event>
+	<event application="Tws" action="Change to Paired Samples" user="4143" session="20090527105035" time="20090527110928" time_ms="546" type="active" number="213">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527110928" time_ms="546" type="reactive" number="214">
+		<param name="Output Descriptive" value="Control_Basal - Control_3_setmanes 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 11:09:28 - User '4143' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527110928" time_ms="546" type="reactive" number="215">
+		<param name="Output Confidence" value=" 90.0 % 0.0234 0.1246 0.0041 0.0206 0.0506 0.0232 0.1248 0.0508 0.0232 0.1248 0.0508 0.3286 3.3201"/>
+		<description>2009-05-27 11:09:28 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  90.0 % 0.0234 0.1246 0.0041 0.0206 0.0506 0.0232 0.1248 0.0508 0.0232 0.1248 0.0508 0.3286 3.3201</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527110928" time_ms="546" type="reactive" number="216">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 11:09:28 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change to Hypot. Cont." user="4143" session="20090527105035" time="20090527110928" time_ms="566" type="active" number="217">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527110928" time_ms="566" type="reactive" number="218">
+		<param name="Output Descriptive" value="Control_Basal - Control_3_setmanes 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 11:09:28 - User '4143' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527110928" time_ms="566" type="reactive" number="219">
+		<param name="Output Confidence" value=" 90.0 % 0.0234 0.1246 0.0041 0.0206 0.0506 0.0232 0.1248 0.0508 0.0232 0.1248 0.0508 0.3286 3.3201"/>
+		<description>2009-05-27 11:09:28 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  90.0 % 0.0234 0.1246 0.0041 0.0206 0.0506 0.0232 0.1248 0.0508 0.0232 0.1248 0.0508 0.3286 3.3201</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527110928" time_ms="566" type="reactive" number="220">
+		<param name="Output Hypothesis" value="2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252"/>
+		<description>2009-05-27 11:09:28 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0212 1.0444 9 and 9 0.9494 2.525 17.9915 0.03 2.6796 9 0.0252</description>
+	</event>
+	<event application="Tws" action="Change alt Hipot for Mean to unilat right" user="4143" session="20090527105035" time="20090527110928" time_ms="601" type="active" number="221">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527110928" time_ms="601" type="reactive" number="222">
+		<param name="Output Descriptive" value="Control_Basal - Control_3_setmanes 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 11:09:28 - User '4143' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527110928" time_ms="601" type="reactive" number="223">
+		<param name="Output Confidence" value=" 90.0 % 0.0234 0.1246 0.0041 0.0206 0.0506 0.0232 0.1248 0.0508 0.0232 0.1248 0.0508 0.3286 3.3201"/>
+		<description>2009-05-27 11:09:28 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  90.0 % 0.0234 0.1246 0.0041 0.0206 0.0506 0.0232 0.1248 0.0508 0.0232 0.1248 0.0508 0.3286 3.3201</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527110928" time_ms="601" type="reactive" number="224">
+		<param name="Output Hypothesis" value="2.525 18 0.0106 1.0444 9 and 9 0.9494 2.525 17.9915 0.015 2.6796 9 0.0126"/>
+		<description>2009-05-27 11:09:28 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0106 1.0444 9 and 9 0.9494 2.525 17.9915 0.015 2.6796 9 0.0126</description>
+	</event>
+	<event application="Tws" action="Change alt Hipot for Mean to unilat left" user="4143" session="20090527105035" time="20090527110928" time_ms="603" type="active" number="225">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527110928" time_ms="603" type="reactive" number="226">
+		<param name="Output Descriptive" value="Control_Basal - Control_3_setmanes 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 11:09:28 - User '4143' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527110928" time_ms="603" type="reactive" number="227">
+		<param name="Output Confidence" value=" 90.0 % 0.0234 0.1246 0.0041 0.0206 0.0506 0.0232 0.1248 0.0508 0.0232 0.1248 0.0508 0.3286 3.3201"/>
+		<description>2009-05-27 11:09:28 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  90.0 % 0.0234 0.1246 0.0041 0.0206 0.0506 0.0232 0.1248 0.0508 0.0232 0.1248 0.0508 0.3286 3.3201</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527110928" time_ms="603" type="reactive" number="228">
+		<param name="Output Hypothesis" value="2.525 18 0.9894 1.0444 9 and 9 0.9494 2.525 17.9915 0.985 2.6796 9 0.9874"/>
+		<description>2009-05-27 11:09:28 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.9894 1.0444 9 and 9 0.9494 2.525 17.9915 0.985 2.6796 9 0.9874</description>
+	</event>
+	<event application="Tws" action="Change alt Hipot for Mean to unilat right" user="4143" session="20090527105035" time="20090527110928" time_ms="604" type="active" number="229">
+	</event>
+	<event application="Tws" action="Output Descriptive" user="4143" session="20090527105035" time="20090527110928" time_ms="604" type="reactive" number="230">
+		<param name="Output Descriptive" value="Control_Basal - Control_3_setmanes 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648"/>
+		<description>2009-05-27 11:09:28 - User '4143' gets this output from the descriptive panel: Output Descriptive = Control_Basal - Control_3_setmanes 10 0.074 -0.09 0.3 0.0873 0.74 0.21 0.0276 0.0076 0.074 1.0444 10 0.611 0.0662 10 0.537 0.0648</description>
+	</event>
+	<event application="Tws" action="Output Confidence" user="4143" session="20090527105035" time="20090527110928" time_ms="604" type="reactive" number="231">
+		<param name="Output Confidence" value=" 90.0 % 0.0234 0.1246 0.0041 0.0206 0.0506 0.0232 0.1248 0.0508 0.0232 0.1248 0.0508 0.3286 3.3201"/>
+		<description>2009-05-27 11:09:28 - User '4143' gets this output from the confidence intervals panel: Output Confidence =  90.0 % 0.0234 0.1246 0.0041 0.0206 0.0506 0.0232 0.1248 0.0508 0.0232 0.1248 0.0508 0.3286 3.3201</description>
+	</event>
+	<event application="Tws" action="Output Hypothesis" user="4143" session="20090527105035" time="20090527110928" time_ms="604" type="reactive" number="232">
+		<param name="Output Hypothesis" value="2.525 18 0.0106 1.0444 9 and 9 0.9494 2.525 17.9915 0.015 2.6796 9 0.0126"/>
+		<description>2009-05-27 11:09:28 - User '4143' gets this output from the contrast of hypothesis panel: Output Hypothesis = 2.525 18 0.0106 1.0444 9 and 9 0.9494 2.525 17.9915 0.015 2.6796 9 0.0126</description>
+	</event>
+	<event application="Cal" action="Load Variable" user="4143" session="20090527105035" time="20090527110928" time_ms="699" type="active" number="233">
+		<param name="Variable" value="Descens_Dopamina"/>
+		<description>2009-05-27 11:09:28 - User '4143' loads variable: Descens_Dopamina</description>
+	</event>
+	<event application="Cal" action="Request analysis - Linear Regression" user="4143" session="20090527105035" time="20090527110928" time_ms="1117" type="active" number="234">
+		<description>2009-05-27 11:09:28 - User '4143' launches the linear regression frame</description>
+	</event>
+	<event application="Cal" action="Cancel" user="4143" session="20090527105035" time="20090527110928" time_ms="1127" type="active" number="235">
+		<description>2009-05-27 11:09:28 - User '4143' cancels current analysis</description>
+	</event>
+	<event application="Cal" action="Main-Change to Data Interface" user="4143" session="20090527105035" time="20090527110928" time_ms="1131" type="active" number="236">
+		<description>2009-05-27 11:09:28 - User '4143' switches to data panel</description>
+	</event>
+	<event application="Cal" action="Main-Change to reset vars" user="4143" session="20090527105035" time="20090527110928" time_ms="1133" type="active" number="237">
+		<description>2009-05-27 11:09:28 - User '4143' clears the variables</description>
+	</event>
+	<event application="Statmedia form" action="Save form" user="4143" session="20090527105035" time="20090527110933" time_ms="" number="238">
+		<param name="answer_1" value="2"/>
+		<param name="answer_2" value="2.6796"/>
+		<param name="answer_3" value="0.0126"/>
+		<param name="answer_4" value="1"/>
+		<param name="answer_5" value="2"/>
+		<param name="answer_6" value=""/>
+		<param name="answer_7" value=""/>
+		<param name="answer_8" value=""/>
+		<param name="answer_9" value=""/>
+		<param name="action" value="Save"/>
+		<description>2009-05-27 11:09:33 - User '4143' submitted the form with answers on 2009-05-27 11:09:33
+			User replied to question '1' with answer '2'
+			User replied to question '2' with answer '2.6796'
+			User replied to question '3' with answer '0.0126'
+			User replied to question '4' with answer '1'
+			User replied to question '5' with answer '2'
+			User replied to question '6' with no answer
+			User replied to question '7' with no answer
+			User replied to question '8' with no answer
+			User replied to question '9' with no answer
+		</description>
+	</event>
+	<event application="Cal" action="Load Variable" user="4143" session="20090527105035" time="20090527110948" time_ms="1150" type="active" number="239">
+		<param name="Variable" value="Descens_Dopamina"/>
+		<description>2009-05-27 11:09:48 - User '4143' loads variable: Descens_Dopamina</description>
+	</event>
+	<event application="Cal" action="Load Variable" user="4143" session="20090527105035" time="20090527110948" time_ms="1150" type="active" number="240">
+		<param name="Variable" value="Nicotina"/>
+		<description>2009-05-27 11:09:48 - User '4143' loads variable: Nicotina</description>
+	</event>
+	<event application="Cal" action="Main-Change to Analysis Interface" user="4143" session="20090527105035" time="20090527111004" time_ms="1157" type="active" number="241">
+		<description>2009-05-27 11:10:04 - User '4143' switches to analysis panel</description>
+	</event>
+	<event application="Cal" action="Request analysis - Linear Regression" user="4143" session="20090527105035" time="20090527111004" time_ms="1158" type="active" number="242">
+		<description>2009-05-27 11:10:04 - User '4143' launches the linear regression frame</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.074 140.063 0.0873 2.0468 0.1192 0.7407 0.0316 -4.3523 0.0143  ( 0.0082 , 0.055 ) -4.3523  95.0 %  ( -7.626 , -1.0785 )  ( -7.6291 , -1.0754 )" user="4143" session="20090527105035" time="20090527111004" time_ms="1170" type="reactive" number="243">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.074 140.063 0.0873 2.0468 0.1192 0.7407 0.0316 -4.3523 0.0143  ( 0.0082 , 0.055 ) -4.3523  95.0 %  ( -7.626 , -1.0785 )  ( -7.6291 , -1.0754 )"/>
+		<description>2009-05-27 11:10:04 - User '4143' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.074 140.063 0.0873 2.0468 0.1192 0.7407 0.0316 -4.3523 0.0143  ( 0.0082 , 0.055 ) -4.3523  95.0 %  ( -7.626 , -1.0785 )  ( -7.6291 , -1.0754 )</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Dep." user="4143" session="20090527105035" time="20090527111004" time_ms="1170" type="active" number="244">
+		<param name="Select variables - Variable Dep." value="Descens_Dopamina"/>
+		<description>2009-05-27 11:10:04 - User '4143' selects as the dependent variable: Descens_Dopamina</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Indep." user="4143" session="20090527105035" time="20090527111004" time_ms="1170" type="active" number="245">
+		<param name="Select variables - Variable Indep." value="Nicotina"/>
+		<description>2009-05-27 11:10:04 - User '4143' selects as the independent variable: Nicotina</description>
+	</event>
+	<event application="Cal" action="Request analysis - Linear Regression" user="4143" session="20090527105035" time="20090527111141" time_ms="1263" type="active" number="246">
+		<description>2009-05-27 11:11:41 - User '4143' launches the linear regression frame</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.074 140.063 0.0873 2.0468 0.1192 0.7407 0.0316 -4.3523 0.0143  ( 0.0082 , 0.055 ) -4.3523  95.0 %  ( -7.626 , -1.0785 )  ( -7.6291 , -1.0754 )" user="4143" session="20090527105035" time="20090527111141" time_ms="1267" type="reactive" number="247">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.074 140.063 0.0873 2.0468 0.1192 0.7407 0.0316 -4.3523 0.0143  ( 0.0082 , 0.055 ) -4.3523  95.0 %  ( -7.626 , -1.0785 )  ( -7.6291 , -1.0754 )"/>
+		<description>2009-05-27 11:11:41 - User '4143' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.074 140.063 0.0873 2.0468 0.1192 0.7407 0.0316 -4.3523 0.0143  ( 0.0082 , 0.055 ) -4.3523  95.0 %  ( -7.626 , -1.0785 )  ( -7.6291 , -1.0754 )</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Dep." user="4143" session="20090527105035" time="20090527111141" time_ms="1267" type="active" number="248">
+		<param name="Select variables - Variable Dep." value="Descens_Dopamina"/>
+		<description>2009-05-27 11:11:41 - User '4143' selects as the dependent variable: Descens_Dopamina</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Indep." user="4143" session="20090527105035" time="20090527111141" time_ms="1267" type="active" number="249">
+		<param name="Select variables - Variable Indep." value="Nicotina"/>
+		<description>2009-05-27 11:11:41 - User '4143' selects as the independent variable: Nicotina</description>
+	</event>
+	<event application="Reg" action="Change to Reg. Line" user="4143" session="20090527105035" time="20090527111248" time_ms="1271" type="active" number="250">
+		<description>2009-05-27 11:11:41 - User '4143' changes to regression line panel</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.074 140.063 0.0873 2.0468 0.1192 0.7407 0.0316 -4.3523 0.0143  ( 0.0082 , 0.055 ) -4.3523  95.0 %  ( -7.626 , -1.0785 )  ( -7.6291 , -1.0754 )" user="4143" session="20090527105035" time="20090527111248" time_ms="1271" type="reactive" number="251">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.074 140.063 0.0873 2.0468 0.1192 0.7407 0.0316 -4.3523 0.0143  ( 0.0082 , 0.055 ) -4.3523  95.0 %  ( -7.626 , -1.0785 )  ( -7.6291 , -1.0754 )"/>
+		<description>2009-05-27 11:12:48 - User '4143' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.074 140.063 0.0873 2.0468 0.1192 0.7407 0.0316 -4.3523 0.0143  ( 0.0082 , 0.055 ) -4.3523  95.0 %  ( -7.626 , -1.0785 )  ( -7.6291 , -1.0754 )</description>
+	</event>
+	<event application="Cal" action="Request analysis - Linear Regression" user="4143" session="20090527105035" time="20090527111248" time_ms="1328" type="active" number="252">
+		<description>2009-05-27 11:12:48 - User '4143' launches the linear regression frame</description>
+	</event>
+	<event application="Reg" action="Output Nicotina Descens_DopaminaNicotina Descens_Dopamina 140.063 0.074 2.0468 0.0873 0.1192 0.7407 17.3598 138.7784 0.0143  ( 4.5215 , 30.1982 ) 138.7784  95.0 %  ( 137.3522 , 140.2045 )  ( 135.125 , 142.4318 )" user="4143" session="20090527105035" time="20090527111248" time_ms="1333" type="reactive" number="253">
+		<param name="Output" value="Nicotina Descens_DopaminaNicotina Descens_Dopamina 140.063 0.074 2.0468 0.0873 0.1192 0.7407 17.3598 138.7784 0.0143  ( 4.5215 , 30.1982 ) 138.7784  95.0 %  ( 137.3522 , 140.2045 )  ( 135.125 , 142.4318 )"/>
+		<description>2009-05-27 11:12:48 - User '4143' gets this output from the regression analysis: Nicotina Descens_DopaminaNicotina Descens_Dopamina 140.063 0.074 2.0468 0.0873 0.1192 0.7407 17.3598 138.7784 0.0143  ( 4.5215 , 30.1982 ) 138.7784  95.0 %  ( 137.3522 , 140.2045 )  ( 135.125 , 142.4318 )</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Dep." user="4143" session="20090527105035" time="20090527111248" time_ms="1333" type="active" number="254">
+		<param name="Select variables - Variable Dep." value="Nicotina"/>
+		<description>2009-05-27 11:12:48 - User '4143' selects as the dependent variable: Nicotina</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Indep." user="4143" session="20090527105035" time="20090527111248" time_ms="1333" type="active" number="255">
+		<param name="Select variables - Variable Indep." value="Descens_Dopamina"/>
+		<description>2009-05-27 11:12:48 - User '4143' selects as the independent variable: Descens_Dopamina</description>
+	</event>
+	<event application="Reg" action="Change to Forecasts" user="4143" session="20090527105035" time="20090527111315" time_ms="1336" type="active" number="256">
+		<description>2009-05-27 11:12:48 - User '4143' changes to forecasts panel</description>
+	</event>
+	<event application="Reg" action="Output Nicotina Descens_DopaminaNicotina Descens_Dopamina 140.063 0.074 2.0468 0.0873 0.1192 0.7407 17.3598 138.7784 0.0143  ( 4.5215 , 30.1982 ) 138.7784  95.0 %  ( 137.3522 , 140.2045 )  ( 135.125 , 142.4318 )" user="4143" session="20090527105035" time="20090527111315" time_ms="1336" type="reactive" number="257">
+		<param name="Output" value="Nicotina Descens_DopaminaNicotina Descens_Dopamina 140.063 0.074 2.0468 0.0873 0.1192 0.7407 17.3598 138.7784 0.0143  ( 4.5215 , 30.1982 ) 138.7784  95.0 %  ( 137.3522 , 140.2045 )  ( 135.125 , 142.4318 )"/>
+		<description>2009-05-27 11:13:15 - User '4143' gets this output from the regression analysis: Nicotina Descens_DopaminaNicotina Descens_Dopamina 140.063 0.074 2.0468 0.0873 0.1192 0.7407 17.3598 138.7784 0.0143  ( 4.5215 , 30.1982 ) 138.7784  95.0 %  ( 137.3522 , 140.2045 )  ( 135.125 , 142.4318 )</description>
+	</event>
+	<event application="Reg" action="Change: Predic. Value" user="4143" session="20090527105035" time="20090527111315" time_ms="1353" type="active" number="258">
+		<param name="Change" value=" 140"/>
+		<description>2009-05-27 11:13:15 - User '4143' changes the value to make the prediction to 140</description>
+	</event>
+	<event application="Reg" action="Output Nicotina Descens_DopaminaNicotina Descens_Dopamina 140.063 0.074 2.0468 0.0873 0.1192 0.7407 17.3598 138.7784 0.0143  ( 4.5215 , 30.1982 ) 2569.1572  95.0 %  ( 772.7417 , 4365.5726 )  ( 772.7385 , 4365.5758 )" user="4143" session="20090527105035" time="20090527111315" time_ms="1353" type="reactive" number="259">
+		<param name="Output" value="Nicotina Descens_DopaminaNicotina Descens_Dopamina 140.063 0.074 2.0468 0.0873 0.1192 0.7407 17.3598 138.7784 0.0143  ( 4.5215 , 30.1982 ) 2569.1572  95.0 %  ( 772.7417 , 4365.5726 )  ( 772.7385 , 4365.5758 )"/>
+		<description>2009-05-27 11:13:15 - User '4143' gets this output from the regression analysis: Nicotina Descens_DopaminaNicotina Descens_Dopamina 140.063 0.074 2.0468 0.0873 0.1192 0.7407 17.3598 138.7784 0.0143  ( 4.5215 , 30.1982 ) 2569.1572  95.0 %  ( 772.7417 , 4365.5726 )  ( 772.7385 , 4365.5758 )</description>
+	</event>
+	<event application="Cal" action="Request analysis - Linear Regression" user="4143" session="20090527105035" time="20090527111315" time_ms="1358" type="active" number="260">
+		<description>2009-05-27 11:13:15 - User '4143' launches the linear regression frame</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.074 140.063 0.0873 2.0468 0.1192 0.7407 0.0316 -4.3523 0.0143  ( 0.0082 , 0.055 ) -4.3523  95.0 %  ( -7.626 , -1.0785 )  ( -7.6291 , -1.0754 )" user="4143" session="20090527105035" time="20090527111315" time_ms="1361" type="reactive" number="261">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.074 140.063 0.0873 2.0468 0.1192 0.7407 0.0316 -4.3523 0.0143  ( 0.0082 , 0.055 ) -4.3523  95.0 %  ( -7.626 , -1.0785 )  ( -7.6291 , -1.0754 )"/>
+		<description>2009-05-27 11:13:15 - User '4143' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.074 140.063 0.0873 2.0468 0.1192 0.7407 0.0316 -4.3523 0.0143  ( 0.0082 , 0.055 ) -4.3523  95.0 %  ( -7.626 , -1.0785 )  ( -7.6291 , -1.0754 )</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Dep." user="4143" session="20090527105035" time="20090527111315" time_ms="1361" type="active" number="262">
+		<param name="Select variables - Variable Dep." value="Descens_Dopamina"/>
+		<description>2009-05-27 11:13:15 - User '4143' selects as the dependent variable: Descens_Dopamina</description>
+	</event>
+	<event application="Cal" action="Select variables - Variable Indep." user="4143" session="20090527105035" time="20090527111315" time_ms="1361" type="active" number="263">
+		<param name="Select variables - Variable Indep." value="Nicotina"/>
+		<description>2009-05-27 11:13:15 - User '4143' selects as the independent variable: Nicotina</description>
+	</event>
+	<event application="Statmedia form" action="Save form" user="4143" session="20090527105035" time="20090527111332" time_ms="" number="264">
+		<param name="answer_1" value="2"/>
+		<param name="answer_2" value="2.6796"/>
+		<param name="answer_3" value="0.0126"/>
+		<param name="answer_4" value="1"/>
+		<param name="answer_5" value="2"/>
+		<param name="answer_6" value="0.5486"/>
+		<param name="answer_7" value="0.0316"/>
+		<param name="answer_8" value="-4.3523"/>
+		<param name="answer_9" value="0.072"/>
+		<param name="action" value="Move_forward"/>
+		<description>2009-05-27 11:13:32 - User '4143' submitted the form with answers on 2009-05-27 11:13:32
+			User replied to question '1' with answer '2'
+			User replied to question '2' with answer '2.6796'
+			User replied to question '3' with answer '0.0126'
+			User replied to question '4' with answer '1'
+			User replied to question '5' with answer '2'
+			User replied to question '6' with answer '0.5486'
+			User replied to question '7' with answer '0.0316'
+			User replied to question '8' with answer '-4.3523'
+			User replied to question '9' with answer '0.072'
+		</description>
+	</event>
+	<event application="Reg" action="Change: Predic. Value" user="4143" session="20090527105035" time="20090527111341" time_ms="1365" type="active" number="265">
+		<param name="Change" value=" 140"/>
+		<description>2009-05-27 11:13:32 - User '4143' changes the value to make the prediction to 140</description>
+	</event>
+	<event application="Reg" action="Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.074 140.063 0.0873 2.0468 0.1192 0.7407 0.0316 -4.3523 0.0143  ( 0.0082 , 0.055 ) 0.072  95.0 %  ( 0.0266 , 0.1174 )  ( -0.0785 , 0.2225 )" user="4143" session="20090527105035" time="20090527111341" time_ms="1365" type="reactive" number="266">
+		<param name="Output" value="Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.074 140.063 0.0873 2.0468 0.1192 0.7407 0.0316 -4.3523 0.0143  ( 0.0082 , 0.055 ) 0.072  95.0 %  ( 0.0266 , 0.1174 )  ( -0.0785 , 0.2225 )"/>
+		<description>2009-05-27 11:13:41 - User '4143' gets this output from the regression analysis: Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.074 140.063 0.0873 2.0468 0.1192 0.7407 0.0316 -4.3523 0.0143  ( 0.0082 , 0.055 ) 0.072  95.0 %  ( 0.0266 , 0.1174 )  ( -0.0785 , 0.2225 )</description>
+	</event>
+	<event application="Statmedia form" action="Save form" user="4143" session="20090527105035" time="20090606201556" time_ms="" number="267">
+	</event>
+	<event application="Statmedia form" action="New session" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="268">
+	</event>
+	<event application="Grader" action="Grade" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="269">
+		<param name="Section" value="1"/>
+		<param name="field" value="1"/>
+		<param name="final answer" value="1"/>
+		<param name="points" value="-0.0"/>
+		<description>User 4143 answered field '1' in form '1' with the value '1', obtaining '-0.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="270">
+		<param name="Section" value="1"/>
+		<param name="field" value="2"/>
+		<param name="final answer" value="1"/>
+		<param name="points" value="1.0"/>
+		<description>User 4143 answered field '2' in form '1' with the value '1', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="271">
+		<param name="Section" value="1"/>
+		<param name="field" value="3"/>
+		<param name="final answer" value="0.611"/>
+		<param name="points" value="1.0"/>
+		<description>User 4143 answered field '3' in form '1' with the value '0.611', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="272">
+		<param name="Section" value="1"/>
+		<param name="field" value="4"/>
+		<param name="final answer" value="0.537"/>
+		<param name="points" value="1.0"/>
+		<description>User 4143 answered field '4' in form '1' with the value '0.537', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="273">
+		<param name="Section" value="1"/>
+		<param name="field" value="5"/>
+		<param name="final answer" value="3"/>
+		<param name="points" value="1.0"/>
+		<description>User 4143 answered field '5' in form '1' with the value '3', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="274">
+		<param name="Section" value="1"/>
+		<param name="field" value="6"/>
+		<param name="final answer" value="0.0044"/>
+		<param name="points" value="1.0"/>
+		<description>User 4143 answered field '6' in form '1' with the value '0.0044', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="275">
+		<param name="Section" value="1"/>
+		<param name="field" value="7"/>
+		<param name="final answer" value="0.0042"/>
+		<param name="points" value="1.0"/>
+		<description>User 4143 answered field '7' in form '1' with the value '0.0042', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="276">
+		<param name="Section" value="2"/>
+		<param name="field" value="1"/>
+		<param name="final answer" value="2"/>
+		<param name="points" value="1.0"/>
+		<description>User 4143 answered field '1' in form '2' with the value '2', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="277">
+		<param name="Section" value="2"/>
+		<param name="field" value="2"/>
+		<param name="final answer" value="2.6796"/>
+		<param name="points" value="1.0"/>
+		<description>User 4143 answered field '2' in form '2' with the value '2.6796', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="278">
+		<param name="Section" value="2"/>
+		<param name="field" value="3"/>
+		<param name="final answer" value="0.0126"/>
+		<param name="points" value="1.0"/>
+		<description>User 4143 answered field '3' in form '2' with the value '0.0126', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="279">
+		<param name="Section" value="2"/>
+		<param name="field" value="4"/>
+		<param name="final answer" value="1"/>
+		<param name="points" value="1.0"/>
+		<description>User 4143 answered field '4' in form '2' with the value '1', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="280">
+		<param name="Section" value="2"/>
+		<param name="field" value="5"/>
+		<param name="final answer" value="2"/>
+		<param name="points" value="1.0"/>
+		<description>User 4143 answered field '5' in form '2' with the value '2', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="281">
+		<param name="Section" value="2"/>
+		<param name="field" value="6"/>
+		<param name="final answer" value="0.5486"/>
+		<param name="points" value="1.0"/>
+		<description>User 4143 answered field '6' in form '2' with the value '0.5486', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="282">
+		<param name="Section" value="2"/>
+		<param name="field" value="7"/>
+		<param name="final answer" value="0.0316"/>
+		<param name="points" value="1.0"/>
+		<description>User 4143 answered field '7' in form '2' with the value '0.0316', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="283">
+		<param name="Section" value="2"/>
+		<param name="field" value="8"/>
+		<param name="final answer" value="-4.3523"/>
+		<param name="points" value="1.0"/>
+		<description>User 4143 answered field '8' in form '2' with the value '-4.3523', obtaining '1.0' points for this answer</description>
+	</event>
+	<event application="Grader" action="Grade" user="4143" session="20090606201556" time="20090606201556" time_ms="" number="284">
+		<param name="Section" value="2"/>
+		<param name="field" value="9"/>
+		<param name="final answer" value="0.072"/>
+		<param name="points" value="1.0"/>
+		<description>User 4143 answered field '9' in form '2' with the value '0.072', obtaining '1.0' points for this answer</description>
+	</event>
+</log>

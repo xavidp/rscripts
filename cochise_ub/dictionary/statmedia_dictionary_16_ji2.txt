@@ -1,0 +1,5 @@
+-= Ji2 # Frame d’anàlisi de taules de contingència =-
+"Change: expected values ="#"changes values to"
+"Change: rows ="#"changes the number of rows to"
+"Change: columns ="#"changes the number of columns to"
+

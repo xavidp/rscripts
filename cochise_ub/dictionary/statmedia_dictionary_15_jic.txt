@@ -1,0 +1,4 @@
+-= Jic # Frame d’anàlisi khi-quadrat =-
+"Change: classes ={valor}"#"changes number of classes to"
+"Change: values ="#"changes values to"
+

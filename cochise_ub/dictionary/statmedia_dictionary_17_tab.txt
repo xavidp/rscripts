@@ -1,0 +1,3 @@
+-= Tab # Frame de construcció de taules de freqüències =-
+"par scroll{valor}"#"changes number of classes to"
+"java.awt.event.ItemEvent{…}"#"exchanges between discrete and continuous data"

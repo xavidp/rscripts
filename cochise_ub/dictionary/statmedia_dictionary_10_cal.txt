@@ -1,0 +1,33 @@
+-= Cal # Frame principal =-
+"Load Variable:{nom variable} "#"loads variable"
+"Main-Change to Data Interface"#"switches to data panel"
+"Main-Change to Probabilistic Interface"#"switches to probabilistic panel"
+"Main-Change to Analysis Interface"#"switches to analysis panel"
+"Analysis Interface"#"switches to analysis panel"
+"Main-Change to Help Interface"#"switches to help panel"
+"Probabilistic-Change to Select Distribution:{distribució}"#"selects distribution"
+"Probabilistic-Change to Parameter:{paràmetre + valor}"#"changes parameter"
+"Probabilistic-Output:{diversos valors de sortida de la distribució}"#"sees output values"
+"Probabilistic-Change values:{+ diversos valors d’entrada}"#"gets the following output values of the distribution"
+"Edit data- Variable ={nom variable}"#"edits the data for the variable"
+"Main-Change to language catalan"#"switches language to Catalan"
+"Main-Change to language spanish"#"switches language to Spanish"
+"Main-Change to language english"#"switches language to English"
+"Main-Change to reset vars"#"clears the variables"
+"Probabilistic-Change to show graph"#"requests the distribution graph"
+"Request analysis - One-sample analysis"#"launches the one-sample analysis frame"
+"Request analysis - Two-sample analysis"#"launches the two-sample analysis frame"
+"Request Two-sample analysis"#"launches the two-sample analysis frame"
+"Request analysis - Chi-squared test"#"launches the chi-squared test frame"
+"Request analysis - Contingency tables"#"launches the Contingency tables frame"
+"Request analysis - Linear Regression"#"launches the linear regression frame"
+"Request analysis - Inference on proportions"#"launches the inference on proportions frame"
+"Request analysis - Frequency tables"#"launches the frequency tables frame"
+"Select variables - Variable:{nom variable}"#"selects the variable"
+"Select variables - Variable 1{nom varible}"#"selects as the first variable from an analysis of two variables".
+"Select variables - Variable 2{nom varible}"#"selects as the second variable from an analysis of two variables".
+"Variable 1{nom varible}"#"selects as the first variable from an analysis of two variables".
+"Variable 2{nom varible}"#"selects as the second variable from an analysis of two variables".
+"Select variables - Variable Dep.{nom variable}"#"selects as the dependent variable"
+"Select variables - Variable Indep.{nom variable}"#"selects as the independent variable"
+"Cancel"#"cancels current analysis"

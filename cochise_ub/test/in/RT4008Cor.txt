@@ -1,0 +1,212 @@
+Respostes de 4008 2009-05-23 11:41:08
+1ra entrada de la sessio. Formulari = P1t1
+Respostes de 4008 2009-05-28 10:46:51
+1ra entrada de la sessio. Formulari = P1t1
+Respostes de 4008 2009-05-28 17:29:13
+1ra entrada de la sessio. Formulari = P1t1
+1 4008 2009-05-28 17:34:54;Cal;Main-Change to Analysis Interface;329
+1 4008 2009-05-28 17:36:18;Cal;Main-Change to Probabilistic Interface;403
+2 4008 2009-05-28 17:36:18;Cal;Probabilistic-Change to Select Distribution: Distribución Normal;403
+3 4008 2009-05-28 17:36:18;Cal;Probabilistic-Change to Parameter: mu = 0;403
+4 4008 2009-05-28 17:36:18;Cal;Probabilistic-Change to Parameter: sigma = 1;403
+5 4008 2009-05-28 17:36:18;Cal;Probabilistic-Output: f(x) = 0.39894 F(x) = 0.5 x = 1.64485 E(X) =0 Var(X)=1 1-F(x) = 0.5;403
+6 4008 2009-05-28 17:36:18;Cal;Main-Change to Analysis Interface;406
+7 4008 2009-05-28 17:36:18;Cal;Request analysis - Two-sample analysis;410
+8 4008 2009-05-28 17:36:18;Cal;Select variables - Variable 1: Variable 1;414
+9 4008 2009-05-28 17:36:18;Cal;Select variables - Variable 2: Variable 2;414
+1 4008 2009-05-28 17:36:25;Cal;Main-Change to Data Interface;422
+Respostes de 4008 2009-05-28 17:36:52
+Formulari = P1t1
+1 1
+2 
+3 
+4 
+5 
+6 
+7 
+Boto accio = Avançar
+1 4008 2009-05-28 17:37:52;Cal;Load Variable: Control_Basal;467
+2 4008 2009-05-28 17:37:52;Cal;Load Variable: Control_3_setmanes;467
+1 4008 2009-05-28 17:38:03;Cal;Main-Change to Probabilistic Interface;514
+2 4008 2009-05-28 17:38:03;Cal;Probabilistic-Change to Select Distribution: Distribución Normal;514
+3 4008 2009-05-28 17:38:03;Cal;Probabilistic-Change to Parameter: mu = 0;514
+4 4008 2009-05-28 17:38:03;Cal;Probabilistic-Change to Parameter: sigma = 1;514
+5 4008 2009-05-28 17:38:03;Cal;Probabilistic-Output: f(x) = 0.39894 F(x) = 0.5 x = 1.64485 E(X) =0 Var(X)=1 1-F(x) = 0.5;514
+6 4008 2009-05-28 17:38:03;Cal;Main-Change to Analysis Interface;515
+7 4008 2009-05-28 17:38:03;Cal;Request analysis - Two-sample analysis;518
+8 4008 2009-05-28 17:38:03;Cal;Select variables - Variable 1: Control_Basal;522
+9 4008 2009-05-28 17:38:03;Cal;Select variables - Variable 2: Control_3_setmanes;522
+1 4008 2009-05-28 17:38:04;Tws;1er cop;522
+2 4008 2009-05-28 17:38:04;Tws;Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572 ;522
+3 4008 2009-05-28 17:38:04;Tws;Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827 ;522
+4 4008 2009-05-28 17:38:04;Tws;Output Hypothesis = 2.9766 18 0.0081 0.7905 9 y 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086 ;522
+1 4008 2009-05-28 17:39:11;Tws;Change to Paired Samples ;531
+2 4008 2009-05-28 17:39:11;Tws;Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572 ;531
+3 4008 2009-05-28 17:39:11;Tws;Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827 ;531
+4 4008 2009-05-28 17:39:11;Tws;Output Hypothesis = 2.9766 18 0.0081 0.7905 9 y 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086 ;531
+5 4008 2009-05-28 17:39:11;Tws;Change to Confidence Interval ;547
+6 4008 2009-05-28 17:39:11;Tws;Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572 ;547
+7 4008 2009-05-28 17:39:11;Tws;Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827 ;547
+8 4008 2009-05-28 17:39:11;Tws;Output Hypothesis = 2.9766 18 0.0081 0.7905 9 y 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086 ;547
+9 4008 2009-05-28 17:39:11;Tws;Change to Hypot. Cont. ;551
+10 4008 2009-05-28 17:39:11;Tws;Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572 ;551
+11 4008 2009-05-28 17:39:11;Tws;Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827 ;551
+12 4008 2009-05-28 17:39:11;Tws;Output Hypothesis = 2.9766 18 0.0081 0.7905 9 y 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086 ;551
+13 4008 2009-05-28 17:39:11;Tws;Change alt Hipot for Mean to unilat right ;564
+14 4008 2009-05-28 17:39:11;Tws;Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572 ;564
+15 4008 2009-05-28 17:39:11;Tws;Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827 ;564
+16 4008 2009-05-28 17:39:11;Tws;Output Hypothesis = 2.9766 18 0.004 0.7905 9 y 9 0.732 2.9766 17.757 0.0061 3.3425 9 0.0043 ;564
+17 4008 2009-05-28 17:39:11;Tws;Change alt Hipot for Mean to unilat left ;566
+18 4008 2009-05-28 17:39:11;Tws;Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572 ;566
+19 4008 2009-05-28 17:39:11;Tws;Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827 ;566
+20 4008 2009-05-28 17:39:11;Tws;Output Hypothesis = 2.9766 18 0.996 0.7905 9 y 9 0.732 2.9766 17.757 0.9939 3.3425 9 0.9957 ;566
+21 4008 2009-05-28 17:39:11;Tws;Change alt Hipot for Mean to unilat right ;567
+22 4008 2009-05-28 17:39:11;Tws;Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572 ;567
+23 4008 2009-05-28 17:39:11;Tws;Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827 ;567
+24 4008 2009-05-28 17:39:11;Tws;Output Hypothesis = 2.9766 18 0.004 0.7905 9 y 9 0.732 2.9766 17.757 0.0061 3.3425 9 0.0043 ;567
+25 4008 2009-05-28 17:39:11;Tws;Change alt Hipot for Mean to bilat ;568
+26 4008 2009-05-28 17:39:11;Tws;Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572 ;568
+27 4008 2009-05-28 17:39:11;Tws;Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827 ;568
+28 4008 2009-05-28 17:39:11;Tws;Output Hypothesis = 2.9766 18 0.0081 0.7905 9 y 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086 ;568
+29 4008 2009-05-28 17:39:11;Cal;Request analysis - Two-sample analysis;585
+Respostes de 4008 2009-05-28 17:39:40
+Formulari = P1t2
+1 2
+2 3.3425
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+Boto accio = Retrocedir
+Respostes de 4008 2009-05-28 17:40:11
+Formulari = P1t1
+1 1
+2 
+3 
+4 
+5 
+6 
+7 
+Boto accio = Avançar
+1 4008 2009-05-28 17:40:25;Cal;Request analysis - Two-sample analysis;659
+2 4008 2009-05-28 17:40:25;Cal;Request analysis - Two-sample analysis;661
+3 4008 2009-05-28 17:40:25;Tws;Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572 ;663
+4 4008 2009-05-28 17:40:25;Tws;Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827 ;663
+5 4008 2009-05-28 17:40:25;Tws;Output Hypothesis = 2.9766 18 0.0081 0.7905 9 y 9 0.732 2.9766 17.757 0.0122 3.3425 9 0.0086 ;663
+6 4008 2009-05-28 17:40:25;Cal;Select variables - Variable 1: Control_Basal;663
+7 4008 2009-05-28 17:40:25;Cal;Select variables - Variable 2: Control_3_setmanes;663
+1 4008 2009-05-28 17:41:52;Tws;Change alt Hipot for Mean to unilat right ;707
+2 4008 2009-05-28 17:41:52;Tws;Output Descriptive = Control_Basal - Control_3_setmanes 10 0.072 -0.01 0.22 0.0681 0.72 0.21 0.0215 0.0046 0.072 0.7905 10 0.625 0.0508 10 0.553 0.0572 ;707
+3 4008 2009-05-28 17:41:52;Tws;Output Confidence =  95.0 % 0.0233 0.1207 0.0022 0.0155 0.0487 0.0212 0.1228 0.0508 0.0213 0.1227 0.0507 0.1964 3.1827 ;707
+4 4008 2009-05-28 17:41:52;Tws;Output Hypothesis = 2.9766 18 0.004 0.7905 9 y 9 0.732 2.9766 17.757 0.0061 3.3425 9 0.0043 ;707
+5 4008 2009-05-28 17:41:52;Cal;Main-Change to Data Interface;749
+6 4008 2009-05-28 17:41:52;Cal;Main-Change to reset vars;750
+1 4008 2009-05-28 17:42:33;Cal;Load Variable: Descens_Dopamina;762
+2 4008 2009-05-28 17:42:33;Cal;Load Variable: Nicotina;762
+3 4008 2009-05-28 17:42:33;Cal;Main-Change to Analysis Interface;786
+4 4008 2009-05-28 17:42:33;Cal;Request analysis - Linear Regression;788
+5 4008 2009-05-28 17:42:33;Cal;Select variables - Variable Dep.: Descens_Dopamina;791
+6 4008 2009-05-28 17:42:33;Cal;Select variables - Variable Indep.: Nicotina;791
+1 4008 2009-05-28 17:42:35;Reg;1er cop;791
+2 4008 2009-05-28 17:42:35;Reg;Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 ; 0.0284 ) -1.5005  95.0 %  ( -3.939 ; 0.9379 )  ( -3.9435 ; 0.9424 ) ;791
+1 4008 2009-05-28 17:42:50;Reg;Change to Reg. Line ;799
+2 4008 2009-05-28 17:42:50;Reg;Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 ; 0.0284 ) -1.5005  95.0 %  ( -3.939 ; 0.9379 )  ( -3.9435 ; 0.9424 ) ;799
+3 4008 2009-05-28 17:42:50;Reg;Change to Forecasts ;804
+4 4008 2009-05-28 17:42:50;Reg;Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 ; 0.0284 ) -1.5005  95.0 %  ( -3.939 ; 0.9379 )  ( -3.9435 ; 0.9424 ) ;804
+1 4008 2009-05-28 17:44:27;Cal;Request analysis - Linear Regression;900
+2 4008 2009-05-28 17:44:27;Reg;Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 ; 0.0284 ) -1.5005  95.0 %  ( -3.939 ; 0.9379 )  ( -3.9435 ; 0.9424 ) ;905
+3 4008 2009-05-28 17:44:27;Cal;Select variables - Variable Dep.: Descens_Dopamina;905
+4 4008 2009-05-28 17:44:27;Cal;Select variables - Variable Indep.: Nicotina;905
+1 4008 2009-05-28 17:44:40;Reg;Change to Reg. Line ;908
+2 4008 2009-05-28 17:44:40;Reg;Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 ; 0.0284 ) -1.5005  95.0 %  ( -3.939 ; 0.9379 )  ( -3.9435 ; 0.9424 ) ;908
+3 4008 2009-05-28 17:44:40;Cal;Request analysis - Linear Regression;916
+4 4008 2009-05-28 17:44:40;Reg;Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 ; 0.0284 ) -1.5005  95.0 %  ( -3.939 ; 0.9379 )  ( -3.9435 ; 0.9424 ) ;918
+5 4008 2009-05-28 17:44:40;Cal;Select variables - Variable Dep.: Descens_Dopamina;918
+6 4008 2009-05-28 17:44:40;Cal;Select variables - Variable Indep.: Nicotina;918
+1 4008 2009-05-28 17:44:54;Cal;Request analysis - Linear Regression;931
+2 4008 2009-05-28 17:44:54;Reg;Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 ; 0.0284 ) -1.5005  95.0 %  ( -3.939 ; 0.9379 )  ( -3.9435 ; 0.9424 ) ;933
+3 4008 2009-05-28 17:44:54;Cal;Select variables - Variable Dep.: Descens_Dopamina;933
+4 4008 2009-05-28 17:44:54;Cal;Select variables - Variable Indep.: Nicotina;933
+1 4008 2009-05-28 17:45:35;Reg;Change to Descriptive Stat. ;940
+2 4008 2009-05-28 17:45:35;Reg;Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 ; 0.0284 ) -1.5005  95.0 %  ( -3.939 ; 0.9379 )  ( -3.9435 ; 0.9424 ) ;940
+3 4008 2009-05-28 17:45:35;Reg;Change to Reg. Line ;948
+4 4008 2009-05-28 17:45:35;Reg;Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 ; 0.0284 ) -1.5005  95.0 %  ( -3.939 ; 0.9379 )  ( -3.9435 ; 0.9424 ) ;948
+5 4008 2009-05-28 17:45:35;Reg;Change to Forecasts ;951
+6 4008 2009-05-28 17:45:35;Reg;Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 ; 0.0284 ) -1.5005  95.0 %  ( -3.939 ; 0.9379 )  ( -3.9435 ; 0.9424 ) ;951
+7 4008 2009-05-28 17:45:35;Cal;Request analysis - Linear Regression;973
+8 4008 2009-05-28 17:45:35;Reg;Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 ; 0.0284 ) -1.5005  95.0 %  ( -3.939 ; 0.9379 )  ( -3.9435 ; 0.9424 ) ;973
+9 4008 2009-05-28 17:45:35;Cal;Select variables - Variable Dep.: Descens_Dopamina;974
+10 4008 2009-05-28 17:45:35;Cal;Select variables - Variable Indep.: Nicotina;974
+1 4008 2009-05-28 17:46:15;Reg;Change: Predic. Value = 142.63;980
+2 4008 2009-05-28 17:46:15;Reg;Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 ; 0.0284 ) 0.0872  95.0 %  ( 0.035 ; 0.1395 )  ( -0.0692 ; 0.2437 ) ;980
+3 4008 2009-05-28 17:46:15;Reg;Change: Predic. Value = 143.2;994
+4 4008 2009-05-28 17:46:15;Reg;Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 ; 0.0284 ) 0.0936  95.0 %  ( 0.0362 ; 0.151 )  ( -0.0647 ; 0.2518 ) ;994
+5 4008 2009-05-28 17:46:15;Cal;Request analysis - Linear Regression;1012
+6 4008 2009-05-28 17:46:15;Reg;Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 ; 0.0284 ) 0.0936  95.0 %  ( 0.0362 ; 0.151 )  ( -0.0647 ; 0.2518 ) ;1014
+7 4008 2009-05-28 17:46:15;Cal;Select variables - Variable Dep.: Descens_Dopamina;1014
+8 4008 2009-05-28 17:46:15;Cal;Select variables - Variable Indep.: Nicotina;1014
+1 4008 2009-05-28 17:46:35;Reg;Change: Predic. Value = 140;1020
+2 4008 2009-05-28 17:46:35;Reg;Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 ; 0.0284 ) 0.058  95.0 %  ( 0.0065 ; 0.1094 )  ( -0.0982 ; 0.2141 ) ;1020
+3 4008 2009-05-28 17:46:35;Cal;Request analysis - Linear Regression;1032
+4 4008 2009-05-28 17:46:35;Reg;Output Descens_Dopamina NicotinaDescens_Dopamina Nicotina 0.072 141.262 0.0681 2.848 0.0813 0.4654 0.0111 -1.5005 0.1752  ( -0.0061 ; 0.0284 ) 0.058  95.0 %  ( 0.0065 ; 0.1094 )  ( -0.0982 ; 0.2141 ) ;1033
+5 4008 2009-05-28 17:46:35;Cal;Select variables - Variable Dep.: Descens_Dopamina;1033
+6 4008 2009-05-28 17:46:35;Cal;Select variables - Variable Indep.: Nicotina;1033
+1 4008 2009-05-28 17:46:40;Cal;Request analysis - Linear Regression;1036
+2 4008 2009-05-28 17:46:40;Reg;Output Nicotina Descens_DopaminaNicotina Descens_Dopamina 141.262 0.072 2.848 0.0681 0.0813 0.4654 19.4602 139.8609 0.1752  ( -10.7103 ; 49.6308 ) 2864.2957  95.0 %  ( -1357.4119 ; 7086.0033 )  ( -1357.4164 ; 7086.0078 ) ;1039
+3 4008 2009-05-28 17:46:40;Cal;Select variables - Variable Dep.: Nicotina;1039
+4 4008 2009-05-28 17:46:40;Cal;Select variables - Variable Indep.: Descens_Dopamina;1039
+1 4008 2009-05-28 17:46:53;Reg;Change: Predic. Value = 142.63;1045
+2 4008 2009-05-28 17:46:53;Reg;Output Nicotina Descens_DopaminaNicotina Descens_Dopamina 141.262 0.072 2.848 0.0681 0.0813 0.4654 19.4602 139.8609 0.1752  ( -10.7103 ; 49.6308 ) 2915.4763  95.0 %  ( -1385.5801 ; 7216.5326 )  ( -1385.5845 ; 7216.537 ) ;1045
+Respostes de 4008 2009-05-28 17:47:29
+Formulari = P1t2
+1 2
+2 3.3425
+3 0.0043
+4 1
+5 3
+6 
+7 0.0111
+8 -1.5005
+9 0.058
+Boto accio = Avançar
+Respostes de 4008 2009-05-31 21:30:34
+1ra entrada de la sessio. Formulari = P1t1
+Respostes de 4008 2009-05-31 21:30:48
+Formulari = P1t1
+1 1
+2 
+3 
+4 
+5 
+6 
+7 
+Boto accio = Avançar
+Respostes de 4008 2009-05-31 21:31:02
+Formulari = P1t2
+1 2
+2 3.3425
+3 0.0043
+4 1
+5 3
+6 
+7 0.0111
+8 -1.5005
+9 0.058
+Boto accio = Retrocedir
+Respostes de 4008 2009-06-02 15:42:22
+1ra entrada de la sessio. Formulari = P1t1
+Respostes de 4008 2009-06-03 09:56:02
+1ra entrada de la sessio. Formulari = P1t2
+
+Secció 1 camp 1 resposta final = 1 punts = -0.0
+Secció 2 camp 1 resposta final = 2 punts = 1.0
+Secció 2 camp 2 resposta final = 3.3425 punts = 1.0
+Secció 2 camp 3 resposta final = 0.0043 punts = 1.0
+Secció 2 camp 4 resposta final = 1 punts = 1.0
+Secció 2 camp 5 resposta final = 3 punts = -0.0
+Secció 2 camp 7 resposta final = 0.0111 punts = 1.0
+Secció 2 camp 8 resposta final = -1.5005 punts = 1.0
+Secció 2 camp 9 resposta final = 0.058 punts = -0.0
