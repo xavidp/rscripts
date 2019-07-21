@@ -1,0 +1,235 @@
+---
+title: "R-view ActionLog"
+author: "Xavier de Pedro"
+date: "21/7/2019"
+output: 
+  html_document:
+    toc: true
+    number_sections: true
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Basic params
+
+```{r Basic params, echo=FALSE}
+
+baseDir <- "."
+workingDir <- baseDir
+dataRelDir <- "data"
+resultsRelDir <- "results"
+logsRelDir <- "logs"
+
+folders2create <- c(dataRelDir, resultsRelDir, logsRelDir)
+# Start loop over folders
+for (folder in folders2create) {
+  # Check if folder exists. If not, create it.
+  if (!dir.exists(file.path(workingDir, folder))) dir.create(file.path(workingDir, folder))
+  }
+```
+
+# Install packages
+
+## System packages
+You will need unaccent (which reuses iconv system command in the backend) to replace accented characters with their non-accented counterparts. The function iconv from the R package works well with data inside a data.frame, but it seems to produce NA when the string to make the replacement in, is the column name of the dataframe. Therefore, since we need to do this replacement for the data in the csv coming from the tracker, we will do so with a system command to that csv file before reading it into a data.frame in R.
+
+We will also replace some strings there with system program "sed" . See:
+* http://www.grymoire.com/Unix/Sed.html 
+* http://www.brunolinux.com/02-The_Terminal/Find_and%20Replace_with_Sed.html
+
+You can install them in Debian based machines with:
+
+> sudo apt-get install unaccent sed
+
+## R packages (from CRAN and eventually from Bioconductor)
+```{r Install packages, echo=TRUE, message=FALSE}
+#############################
+# Package dependencies
+#############################
+# Names of packages to be installed from CRAN if not present yet in this machine
+pCRAN <- c("devtools",
+           "scales",
+           "sjmisc",
+           "sjPlot",
+           "ggplot2",
+           "httr",
+           "stringi",
+           "stringr",
+           "data.table",
+           "RMySQL",
+           "jsonlite",
+           "readr",
+           "dplyr",
+           "htmlwidgets",
+           "rpivotTable",
+           "versions",
+           "memisc")
+
+if( any(!pCRAN %in% rownames(installed.packages())) ){
+  install.packages(pCRAN[!pCRAN %in% rownames(installed.packages())])
+}
+
+#Load required libraries
+packages <- c(pCRAN)
+for (ii in 1:length(packages)) {
+  require(as.character(packages[ii]), character.only=TRUE)
+}
+
+# if memisc fails for some reason on CRAN, like the package is just updated online but CRAN still points to the old package which is not available anymore, then you can install through github:
+#devtools::install_github("melff/memisc",subdir="pkg")
+my.paths.all <- .libPaths()
+my.paths.clean <- NULL
+
+if (F) {
+  # Define pvReq = Package Version Requirements (Name, Version, URL)
+  pvReq <- data.frame("sjPlot", "1.8.4",
+                      "https://cran.r-project.org/src/contrib/Archive/sjPlot/sjPlot_1.8.4.tar.gz", stringsAsFactors=FALSE) 
+  #pvReq <- data.frame("sjPlot", "1.9.1",
+  #                      "https://cran.r-project.org/src/contrib/sjPlot_1.9.1.tar.gz", stringsAsFactors=FALSE) 
+  colnames(pvReq) <- c("pName", "pVer", "pUrl") # pN = Package Name; pV = Package Version
+  #str(pvReq)
+  
+  for (mm in 1:length(my.paths.all)) {
+    cat(paste0(mm,"/", length(my.paths.all), ": Checking in ", my.paths.all[mm], "\n"))
+    for (ii in 1:length(pvReq$pName)) {
+      if (any(grepl(pvReq$pName[ii], installed.packages(lib=my.paths.all[mm])[,1]))) {
+        #    cat(paste0("       *** sjPlot found in ", my.paths.all[mm], " ***\n"))
+        cat(paste0("       *** ", pvReq$pName[ii]," found, v ", 
+                   installed.versions(pvReq$pName[ii], lib=my.paths.all[mm]),
+                   " ***\n"))
+        my.paths.clean <- c(my.paths.clean, my.paths.all[mm])
+      } else {
+        cat(paste0("       (none found)\n"))
+      }
+    }
+  }
+  
+  for (my.path in my.paths.clean) {
+    cat(paste0("Checking in ", my.path, "\n"))
+    for (ii in 1:length(pvReq$pName)) {
+      if (installed.versions(pvReq$pName[ii], lib=my.path) != pvReq$pVer[ii]) {
+        cat(paste0("       Different ", pvReq$pName[ii]," version than ", pvReq$pVer[ii],": ",
+                   installed.versions(pvReq$pName[ii], lib=my.path), " \n"))
+        # remove the conflicting version of that package
+        cat(paste0("Removing  ", pvReq$pName[ii], "v ", pvReq$pVer[ii]," from ", my.path, "\n"))
+        remove.packages(pvReq$pName[ii], lib=my.path)   
+        # Install a secific version of some package, like sjPlot 0.8.4
+        install.packages(pvReq$pUrl[ii], repos=NULL, type="source", lib=as.character(my.path))  
+      } else {
+        cat(paste0("       ", pvReq$pName[ii]," v: ", installed.versions(pvReq$pName[ii], lib=my.path), " \n"))
+      }
+    }
+  }  
+}
+
+```
+
+# Load data from Rda (if available)
+
+```{r Load data from Rda (if available), echo=TRUE}
+my.rda <- "mySession.Rda"
+
+# load it from disk (if present on disk)
+if (file.exists(file.path(getwd(), my.rda))) {
+  ## ----loadData------------------------------------------------------------
+  load(file=file.path(getwd(), my.rda))
+}
+```
+
+# Fetch Mysql DB Table for Tracker fields
+
+```{r Fetch Mysql DB Table for Action log data, echo=FALSE, message=FALSE}
+myMySQLUser <- Sys.getenv("tiki_db_user")
+myMySQLPw   <- Sys.getenv("tiki_db_user_pass")
+myTikiDb    <- "tiki20svn_test"
+myTikiTable <- "tiki_actionlog"
+# connect to local MySQL database (host='localhost' by default)
+con = dbConnect(RMySQL::MySQL(), myTikiDb, username=myMySQLUser, password=myMySQLPw, host="127.0.0.1")
+summary(con)
+dbGetInfo(con)
+dbListResults(con)
+#dbGetQuery(con, "SET NAMES utf8")
+#dbGetQuery(con, 'set character set utf8')
+#dbGetQuery(con, "SHOW VARIABLES LIKE 'character_set_%'")
+db.tables <- dbListTables(con)
+head(db.tables)
+#tmp <- sprintf("SELECT * FROM name WHERE lname = %s", "O'Reilly")
+#dbEscapeStrings(con, tmp)
+
+my.t = dbReadTable(con, myTikiTable) # All fields from all trackers
+head(my.t, 4)
+dim(my.t)
+# [1] 114  23
+```
+
+```{r}
+# Disconnect from the MySQL connection
+dbDisconnect(con)
+```
+
+# Do some time aggregations
+
+```{r}
+my.t.orig <- my.t
+
+my.t$date <- as.POSIXct(my.t$lastModif,origin = "1970-01-01",tz = "GMT")
+format(my.t$date, format="%y%m%d")
+
+my.t <- my.t %>% 
+  dplyr::select(actionId, 
+         action, 
+         date, 
+         object, 
+         objectType, 
+         user, 
+         comment, 
+         categId) %>% 
+  mutate(year=format(date, format="%Y"),
+         yymm=format(date, format="%y%m"),
+         yymmdd=format(date, format="%y%m%d"))
+
+
+```
+
+
+# Play with rpivotTable
+
+```{r Play with rpivotTable}
+rpivotTable(my.t, rows=c("objectType", "object"), cols=c("yymm", "action"), rendererName="Heatmap")
+```
+
+
+# Store objects into an Rda
+
+```{r Store objects into an Rda, echo=TRUE, message=TRUE}
+save(my.c,
+     my.t,
+     file=my.rda)
+```
+
+# Stored session info
+
+```{r Stored session info, echo=TRUE, message=TRUE, eval=TRUE}
+###################################################
+# Store session info (package versions, etc) in the logs folder
+###################################################
+sink(file.path(logsRelDir, paste0("log_", format(Sys.Date(), format="%y%m%d"), "_", aID, ".txt")))
+cat("Sys.info() : \n")
+cat("--------------------\n")
+data.frame(Sys.info())
+if (exists("biocValid")) {
+  cat("\n\nbiocValid() : \n")
+  cat("--------------------\n")
+  biocValid()
+} else { # Only show sessionInfo() if no biocValid() is found since it's already included in it.
+  cat("\n\nsessionInfo() : \n")
+  cat("--------------------\n")
+  sessionInfo()
+}
+sink()
+
+```
+
