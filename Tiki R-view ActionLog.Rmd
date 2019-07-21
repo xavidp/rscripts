@@ -51,22 +51,11 @@ You can install them in Debian based machines with:
 #############################
 # Names of packages to be installed from CRAN if not present yet in this machine
 pCRAN <- c("devtools",
-           "scales",
-           "sjmisc",
-           "sjPlot",
-           "ggplot2",
-           "httr",
-           "stringi",
-           "stringr",
-           "data.table",
            "RMySQL",
-           "jsonlite",
            "readr",
            "dplyr",
            "htmlwidgets",
-           "rpivotTable",
-           "versions",
-           "memisc")
+           "rpivotTable")
 
 if( any(!pCRAN %in% rownames(installed.packages())) ){
   install.packages(pCRAN[!pCRAN %in% rownames(installed.packages())])
