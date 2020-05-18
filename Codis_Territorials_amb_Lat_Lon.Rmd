@@ -1,0 +1,83 @@
+---
+title: "Caodis_Territorials_amb_Lat_Lon"
+author: "Xavier de Pedro"
+date: "17/5/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!require(pacman)) {install.packages(pacman)}; require(pacman)
+p_load(rio)
+p_load(stringr)
+p_load(tidyverse)
+p_load(janitor)
+```
+
+```{r}
+path.csv.codis.territorials <- "~/ownCloud/OMD-GID/CodisTerritorials/"
+list.files(path.csv.codis.territorials, recursive = TRUE)
+```
+
+# Add lat long to municipis
+
+## Carrega GEO municipis
+
+```{r}
+gtp.muni <- rio::import(file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_municipis_INE.csv"))
+gtp.muni  %>% filter(Nom_Municipi=="Aceituna")
+gtp.muni
+```
+
+```{r}
+# nombre de municipis unics
+gtp.muni.unique <- unique(gtp.muni$ID_INE_NUM_Municipi)
+length(gtp.muni.unique)
+```
+
+
+## Carrega codis.muni
+
+```{r}
+## Carrega GEO municipis
+geo.muni <- rio::import(file.path(path.csv.codis.territorials, "geo/codis.muni.csv"))
+geo.muni <- geo.muni %>% 
+  select(-distance, -Comunidad) %>% 
+#  filter(name=="Aceituna") %>% 
+  mutate(ine_id_curt=as.numeric(str_sub(id, start=7L, end=-1L))) 
+#  tabyl(ine_id)
+geo.muni
+```
+
+```{r}
+# Revisem si hi ha duplicats, comparant els únics amb el total que hem vist abans
+#geo.muni.unique <- unique(geo.muni$id)
+geo.muni.unique <- unique(geo.muni$ine_id_curt)
+length(geo.muni.unique)
+```
+
+```{r}
+geo.muni.dupes <- get_dupes(geo.muni, id)
+geo.muni.dupes
+```
+
+```{r}
+gtp.geo.muni <- left_join(gtp.muni, geo.muni, by=c("ID_INE_NUM_Municipi_Curt"="ine_id_curt"))
+if (F) {
+  gtp.geo.muni$adist <- adist(gtp.geo.muni$Nom_Municipi, gtp.geo.muni$name)
+}
+gtp.geo.muni
+```
+
+```{r}
+gtp.geo.muni.unique <- unique(gtp.geo.muni$ID_INE_NUM_Municipi)
+length(gtp.geo.muni.unique)
+```
+
+
+```{r}
+aj.gtp.geo.muni <- anti_join(gtp.muni, geo.muni, by=c("ID_INE_NUM_Municipi_Curt"="ine_id_curt"))
+aj.gtp.geo.muni
+# 60 municipis fora del join
+```
+
