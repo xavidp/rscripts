@@ -72,6 +72,10 @@ codis.ll.muni.esp <- rio::import(file.path(path.codis.extra, "lonlat-municipios-
          esp_lat=Latitud)
 
 # Carreguem els noms i codis de província
+codis.muni.ine <- rio::import(file.path(path.codis.extra, "ine_20codmun.xlsx"), skip=1) %>% 
+  mutate(id_muni=str_c(CODAUTO, CPRO, CMUN))
+
+# Carreguem els noms i codis de província
 codis.prov <- rio::import(file.path(path.codis.extra, "cod_ccaa_provincia.xlsx"), skip=0)
 # codis.prov  <- codis.prov %>% mutate(CPRO=str_pad(as.character(CPRO), 2, "left", "0"))
 
@@ -92,12 +96,16 @@ aj.codis.ll.muni.esp.2 <- anti_join(codis.ll.muni.esp, codis.prov,
 # Comprovem que no tenim cap registre d'antijoin=tots els municipis tindran codi de provincia et al.
 nrow(aj.codis.ll.muni.esp.2)
 
+left_join(geo.muni, )
+
 # Fem el join per donar les columnes extra codi provincia, com.autonoma, etc.
 codis.ll.muni.esp.2 <-left_join(codis.ll.muni.esp, codis.prov, 
-                                 by=c("Provincia"="Provincia"))
+                                 by=c("Provincia"="Provincia")) %>% 
+  mutate(id_prov_curt=str_c(str_pad(as.character(CODAUTO), 2, "left", "0"),
+                            str_pad(as.character(CPRO), 2, "left", "0")))
 
 # Fem join contra codis de munici de tota espanya
-codis.muni.esp <- stringdist_left_join(codis.muni, codis.ll.muni.esp, by=c("name"="Población"), max_dist=0, distance_col="distance", ignore_case=T) %>% 
+codis.muni.esp <- stringdist_left_join(geo.muni, codis.ll.muni.esp.2, by=c("name"="Población", "ine_id_curt"=), max_dist=0, distance_col="distance", ignore_case=T) %>% 
   select(id,
          name,
 #         distance,
