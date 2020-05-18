@@ -16,6 +16,8 @@ p_load(janitor)
 
 ```{r}
 path.csv.codis.territorials <- "~/ownCloud/OMD-GID/CodisTerritorials/"
+#path.codis.extra <- "/windows/k/QUOTA/OMD/COMU/PROJECTES/19_001_BSC/dades/codis_territorials/"
+path.codis.extra <- file.path("codis_territorials", "vell")
 list.files(path.csv.codis.territorials, recursive = TRUE)
 ```
 
@@ -60,6 +62,59 @@ length(geo.muni.unique)
 geo.muni.dupes <- get_dupes(geo.muni, id)
 geo.muni.dupes
 ```
+
+```{r}
+# Carreguem les dades de noms de municipis (en castellà i sense codi municipi ine)
+codis.ll.muni.esp <- rio::import(file.path(path.codis.extra, "lonlat-municipios-espana.xls"), skip=2)  %>% 
+  rename(esp_Provincia=Provincia,
+         esp_Comunidad=Comunidad,
+         esp_lon=Longitud,
+         esp_lat=Latitud)
+
+# Carreguem els noms i codis de província
+codis.prov <- rio::import(file.path(path.codis.extra, "cod_ccaa_provincia.xlsx"), skip=0)
+# codis.prov  <- codis.prov %>% mutate(CPRO=str_pad(as.character(CPRO), 2, "left", "0"))
+
+# Arreglem alsguns noms conflictius que provenen de l'excel origianl (en teoria de l'INE) per a que quadrin amb els noms de l'arxiu que té també el codi de provincia i autonomia
+codis.ll.muni.esp <- codis.ll.muni.esp %>%  
+  rename(Provincia=esp_Provincia) %>% 
+  mutate(Provincia=str_replace(Provincia, "^Álava$", "Araba/Álava"),
+         Provincia=str_replace(Provincia, "^Illes Balears$", "Balears, Illes"),
+         Provincia=str_replace(Provincia, "^A Coruña$", "Coruña, A"),
+         Provincia=str_replace(Provincia, "^Guipúzcoa$", "Gipuzkoa"),
+         Provincia=str_replace(Provincia, "^Las Palmas$", "Palmas, Las"),
+         Provincia=str_replace(Provincia, "^La Rioja$", "Rioja, La"),
+         Provincia=str_replace(Provincia, "^Vizcaya$", "Bizkaia"))
+
+# Fem un join de codis de província a df de codis municipals, per poder fer un altre join més endavant de tot el codis.muni amb codis.ll.muni.esp per match en nom de municipi i codi de província (no podem emprar nom de província per a la clau de match i haviem de trobar el codi, per que a codis.muni els noms de província són en català, i a codis.ll.muni.esp els noms de província són en castellà, i hi ha 30 municipis que tenen el mateix nom però son de províncies diferents)
+aj.codis.ll.muni.esp.2 <- anti_join(codis.ll.muni.esp, codis.prov,
+                                    by=c("Provincia"="Provincia"))
+# Comprovem que no tenim cap registre d'antijoin=tots els municipis tindran codi de provincia et al.
+nrow(aj.codis.ll.muni.esp.2)
+
+# Fem el join per donar les columnes extra codi provincia, com.autonoma, etc.
+codis.ll.muni.esp.2 <-left_join(codis.ll.muni.esp, codis.prov, 
+                                 by=c("Provincia"="Provincia"))
+
+# Fem join contra codis de munici de tota espanya
+codis.muni.esp <- stringdist_left_join(codis.muni, codis.ll.muni.esp, by=c("name"="Población"), max_dist=0, distance_col="distance", ignore_case=T) %>% 
+  select(id,
+         name,
+#         distance,
+          Provincia,
+         Comunidad,
+          Longitud,
+          Latitud)
+
+# Comprovació que no ens deixem cap
+codis.muni.esp.na <- codis.muni.esp %>% filter(is.na(Latitud))
+codis.muni.esp.no.na <- codis.muni.esp %>% filter(!is.na(Latitud))
+
+
+```
+
+
+## Abans de fer el join de columnes cal corregir els id errornis
 
 ```{r}
 gtp.geo.muni <- left_join(gtp.muni, geo.muni, by=c("ID_INE_NUM_Municipi_Curt"="ine_id_curt"))
