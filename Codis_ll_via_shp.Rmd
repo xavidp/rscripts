@@ -27,6 +27,7 @@ p_load(plotly)
 #path.csv.codis.territorials <- "~/ownCloud/OMD-GID/CodisTerritorials/"
 path.csv.codis.territorials <- "codis_territorials/geo/"
 path.shp.codis.territorials <- "codis_territorials/shp/ine.es/cartografia_censo2011_nacional/"
+#path.shp.codis.territorials <- "codis_territorials/shp/cnig.es/Poblacines_v0/"
 #path.codis.extra <- "/windows/k/QUOTA/OMD/COMU/PROJECTES/19_001_BSC/dades/codis_territorials/"
 path.codis.extra <- file.path("codis_territorials", "vell")
 rel.files.shp <- list.files(path.shp.codis.territorials, pattern="*.shp$", recursive = TRUE)
@@ -38,12 +39,26 @@ rel.files.shp
 
 ```{r}
 secc <- sf::st_read(file.path(path.shp.codis.territorials, rel.files.shp[1]))
+# INE
 # Reading layer `SECC_CPV_E_20111101_01_R_INE' from data source `/home/xavi/code/rscripts/codis_territorials/shp/ine.es/cartografia_censo2011_nacional/SECC_CPV_E_20111101_01_R_INE.shp' using driver `ESRI Shapefile'
 # Simple feature collection with 35960 features and 21 fields
 # geometry type:  MULTIPOLYGON
 # dimension:      XY
 # bbox:           xmin: -1004502 ymin: 3132130 xmax: 1126932 ymax: 4859240
 # proj4string:    +proj=utm +zone=30 +ellps=GRS80 +units=m +no_defs 
+
+# CNIG
+
+```
+
+```{r}
+# Guardem copia amb la projecció de l'ine amb que arriben les dades (UTM, zona 30)
+secc.utm30 <- secc
+# Convertim a lon lat
+secc.wgs84 <- st_as_sf(st_transform(secc, "+proj=longlat +datum=WGS84 +no_defs"))
+
+# Fem qeu per omissió treballem ara amb wgs84 (longlat)
+secc <- secc.wgs84
 ```
 
 ```{r}
@@ -66,7 +81,7 @@ mun.c
 dim(mun.c)
 distinct(data.frame(mun.c), NMUN)
 janitor::get_dupes(data.frame(mun.c), NMUN)
-st_write(mun.c, file.path(path.shp.codis.territorials, "..","mun.centroids.csv"),
+st_write(mun.c, file.path(path.shp.codis.territorials, "..","mun.ine.centroids.wgs84.csv"),
          layer_options = "GEOMETRY=AS_XY")
 
 ```
