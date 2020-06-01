@@ -18,6 +18,7 @@ p_load(ggforce)
 p_load(viridis)
 p_load(ggiraph)
 p_load(plotly)
+p_load(tidyverse)
 ```
 
 
@@ -112,16 +113,33 @@ plot(st_geometry(st_centroid(secc[c("habitantes")])), pch = 3, col = 'red', add 
 
 ```{r}
 if (origen.shp == "ine") {
-  mun.c <- st_centroid(secc[c("CUSEC", "CUMUN", "CSEC", "CDIS", "CMUN", "CPRO", "CCA", "CUDIS", "NPRO", "NCA", "NMUN")])
-  mun.c
-  dim(mun.c)
-  distinct(data.frame(mun.c), NMUN)
+  #mun.c <- st_centroid(secc[c("CUSEC", "CUMUN", "CSEC", "CDIS", "CMUN", "CPRO", "CCA", "CUDIS", "NPRO", "NCA", "NMUN")],
+  #                     of_largest_polygon = TRUE)
+  mun.c <- st_centroid(secc[c("CUMUN", "CDIS", "CMUN", "CPRO", "CCA", "CUDIS", "NPRO", "NCA", "NMUN")],
+                       of_largest_polygon = TRUE)
+  mun.c <- bind_cols(mun.c,
+                     data.frame(st_coordinates(mun.c))) %>% 
+    rename(lon=X,
+           lat=Y)
+  
+  mun.centroid.unique.cumun <- mun.c %>% group_by(CUMUN) %>% summarize(mean_lon = mean(lon),
+                                        mean_lat = mean(lat)
+                                        ) %>% 
+    rename(lon=mean_lon,
+           lat=mean_lat)
+  
+  st_write(mun.centroid.unique.cumun, file.path(path.shp.codis.territorials, "..",
+                          paste0("mun.", origen.shp, ".centroids.unique.cumun.wgs84.csv")), delete_dsn = T)
+  
+  #dim(mun.c)
+  #distinct(data.frame(mun.c), NMUN)
   #janitor::get_dupes(data.frame(mun.c), NMUN)
 } else if (origen.shp == "cnig") {
-  mun.c <- st_centroid(secc[c("id_ep", "nombre", "codine", "ine", "capital")])
-  dim(mun.c)
-  distinct(data.frame(mun.c), nombre)
-  }
+  mun.c <- st_centroid(secc[c("id_ep", "nombre", "codine", "ine", "capital")],
+                       of_largest_polygon = TRUE)
+  #dim(mun.c)
+  #distinct(data.frame(mun.c), nombre)
+}
 
 st_write(mun.c, file.path(path.shp.codis.territorials, "..",
                           paste0("mun.", origen.shp, ".centroids.wgs84.csv")),
