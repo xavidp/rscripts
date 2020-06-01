@@ -80,7 +80,7 @@ mun.c <- st_centroid(secc[c("NMUN")])
 mun.c
 dim(mun.c)
 distinct(data.frame(mun.c), NMUN)
-janitor::get_dupes(data.frame(mun.c), NMUN)
+#janitor::get_dupes(data.frame(mun.c), NMUN)
 st_write(mun.c, file.path(path.shp.codis.territorials, "..","mun.ine.centroids.wgs84.csv"),
          layer_options = "GEOMETRY=AS_XY")
 
