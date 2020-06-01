@@ -1,0 +1,570 @@
+#sidebarCollapse{
+	padding:0px;
+	border-width: 0px;
+}
+
+.navbar {
+    padding: 0px 1.2rem;
+    margin-left:0px;
+    background: #457E76 !important;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-btn{
+	box-shadow: none;
+	outline: none!important;
+	border: none;
+	padding-top: 0px;
+}
+
+/*
+.wrapper {
+    display: block;
+}
+*/
+
+
+#sidebar {
+	 padding-left: 7px;
+	 padding-right: 7px;
+	 min-width: 290px;
+    max-width: 290px;
+    width: 290px;
+    position: fixed;
+    top: 0px;
+    left: -290px;
+    height: 100%;
+    z-index: 99999;
+    background: #457E76;
+    color: #fff;
+    transition: all 0.5s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+#sidebar .titulo h1{
+    display: inline-block;
+    font-size: 0px;
+    line-height: 0px;
+    margin:0px;
+}
+
+#sidebar .titulo h1>a>span{
+	text-indent: -1000px;
+    display: inline-block;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+nav a:hover,
+.NAVtag a:hover,
+.nav a:hover {
+	border-bottom: 0px !important;
+	text-decoration: none;
+}
+
+
+#sidebar.active {
+    left: 0;
+}
+#sidebar .sidebar-header{
+	padding: 20px;
+	background: #DDEEEC;
+	color:black;
+}
+#sidebar ul.components{
+	padding: 0px;
+	border-bottom: 0px;
+}
+#sidebar ul.components li{
+border-bottom: 1px solid #fff;
+padding-left: 0px;
+margin-left: 5px;
+margin-right:5px
+}
+#sidebar ul.components li:last-child{
+border-bottom: 0px;
+}
+
+#sidebar ul.components li ul li{
+margin: 0px;
+}
+
+
+#sidebar ul.margen_sup40 a {padding: 3px 5px;}
+
+
+#sidebar ul.margen_sup40 li.link-font09 a {
+padding: 0px; font-size:0.9em;}
+
+#sidebar ul p{
+	padding: 10px 10px 10px 0px;
+	font-size: 1.1em;
+	display: block;
+}
+#sidebar a{
+	padding: 8px 20px 8px 5px;
+	font-size: 1.1em;
+	display: block;
+	color: #fff;
+	z-index: 1;
+}
+#sidebar a:hover  {
+    color: #457E76;
+    background: #fff;
+}
+#sidebar .sideBarIdioma a{
+	min-height:35px;
+}
+
+#sidebar .Menu_cabeceraIdiomaEstatico>ul>li, #sidebar .Menu_cabeceraIdioma>ul>li{
+	text-align:center;
+}
+#sidebar .sideBarIdioma a{
+	background-image: url(/menus/_b/img/idiomaIco.gif);
+    background-position: left center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height:35px;
+    min-width:40px;
+    margin:0px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 40px;
+}
+
+#sidebar .sideBarIdioma a:hover>span{
+	background-image: url(/menus/_b/img/idiomaIcoH.gif);
+    background-position: calc(100% - 3px) center;;
+    background-repeat: no-repeat;
+}
+
+footer a.icoTwitter,
+#footer a.icoTwitter{
+	background-image: url(/menus/_b/img/logo_twitter.gif);
+    background-position: 2px  center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+footer a.icoTwitter:hover,
+#footer a.icoTwitter:hover,
+.navbar a.icoTwitter:focus  {
+    background-image: url(/menus/_b/img/logo_twitterH.gif);
+    background-position: 2px center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+footer a.icoYouTube,
+#footer a.icoYouTube{
+	background-image: url(/menus/_b/img/logo_youtube.gif);
+    background-position: 2px center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+footer a.icoYouTube:hover,
+#footer a.icoYouTube:hover,
+.navbar a.icoYouTube:focus  {
+    background-image: url(/menus/_b/img/logo_youtubeH.gif);
+    background-position: 2px center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+footer a.icoInstagram,
+#footer a.icoInstagram{
+	background-image: url(/menus/_b/img/logo_instagram.gif);
+    background-position: 2px center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+footer a.icoInstagram:hover,
+#footer a.icoInstagram:hover,
+.navbar a.icoInstagram:focus  {
+    background-image: url(/menus/_b/img/logo_instagramH.gif);
+    background-position: 2px center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+footer a.icoSocial>.tit,
+#footer a.icoSocial>.tit{
+	align-self: center;
+	padding:5px;
+	width: inherit;
+}
+
+footer a.icoSocial:hover,
+#footer a.icoSocial:hover,
+footer a.icoSocial:focus,
+#footer a.icoSocial:focus{
+	background-color: white;
+	color: #457E76;
+}
+
+footer a.icoSocial,
+#footer a.icoSocial{
+	height:35px;
+    min-width:35px;
+    padding-left: 35px;
+    margin:0px;
+    display: flex;
+    color:white;
+    width: fit-content;
+}
+
+
+
+#sidebar ul li.active a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #457E76;
+}
+#sidebar ul.list-unstyled li ul li ul.lista_nivel2 {margin-left:0px;    background-color: black;font:black;font-size:0.9em;}
+#sidebar ul.list-unstyled li ul li ul.lista_nivel2 > li:before {
+    content: unset !important;
+    counter-increment: unset;
+}
+
+/* estilos para cerrar niveles 1 al hacer click */
+	ul.accordion {margin-top:1px;}
+	ul.accordion li.card {background-color: #457e76; padding: 0px;}
+	ul.accordion li.card ul.accordion li.card {background-color: #335B55;}
+	ul.accordion>li.card>.collapse,ul.accordion>li.card>.collapsing {padding: 0em 3px;font-size:0.95em;}
+
+	#accor1_H6{border-bottom: 2px solid #fff;}
+
+	.card-body {background-color: #203C37; padding: 0rem;}
+	.card {background-color: #457E76 ; border-bottom: 1px solid white ; border-radius: 0; border: 0;}
+	.card-header {padding: 0rem; border:0px;}
+	.card-header:first-child {border-radius: 0; background-color: unset;}
+	.card-header p {margin-bottom: 0rem;}
+/* fin */
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle {
+	white-space:normal;}
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+	 top: 1.0rem;
+	 right: 8px;
+    transform: translateY(-50%);
+}
+
+
+ul.CTAs {
+    padding: 20px;
+}
+ul.CTAs a {
+    text-align: center;
+    font-size: 1.0em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.article {
+    background: #fff !important;
+    color: #457E76 !important;
+	font-weight: normal;
+}
+a.article:hover {
+    background: #DDEEEC !important;
+    color: #000 !important;
+}
+
+#sidebar-content {
+ /*  width: 9%;*/
+padding: 0px;
+min-height: 100vh;
+transition: all 0.3s;
+z-index: 1;
+					}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #457E76;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/*
+#dismiss:hover {
+    background: #fff;
+    color: #7386D5;}
+    */
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 200vh;
+    background: rgba(222, 232, 228, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    top: -150px;
+}
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+
+
+/*corrige posicion boton menu*/
+.container-fluid {
+    padding:0px !important;
+	margin:0px !important;
+	}
+/*fin*/
+
+
+/* corrige estilo de boton */
+.btn-info {
+    color: #fff;
+    background-color: #457E76;
+    border-color: #457E76;
+    padding:0px;
+}
+
+
+/* corrige colorfuente  menu horizontal */
+ul.navbar-nav li.nav-item a.nav-link {color:#fff; margin-right:10px;}
+
+.btn:focus {outline: 0; box-shadow: unset}
+
+button:focus {outline: 0; box-shadow: unset}
+
+.navbar-light .navbar-toggler {margin-left: 30px;}
+
+.btn {border-radius: unset; padding:0px; margin: 0px;}
+
+div.collapse ul li.nav-item:hover {
+    background: #457E76;
+    opacity: 0.5;
+}
+
+span.navbar-toggler-icon:hover{
+   opacity: 0.5;
+}
+/* fin cambios menu segundo ****/
+
+
+.navbar-dark .navbar-toggler {
+border:none;
+ }
+
+.navbar button>a{
+	padding: 8px;
+	font-size: 1.1em;
+	display: block;
+	color: #fff;
+	text-align:center;
+}
+
+.navbar a{
+	padding: 4px;
+	font-size: 1.1em;
+	display: block;
+	color: #fff;
+}
+.navbar a:hover  {
+    color: #457E76;
+    background: #fff;
+    border-radius: 0px;
+}
+
+
+
+nav ul.dropdown-menu,
+.NAVtag ul.dropdown-menu{
+    min-width: 7.2rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 0.95em;
+    color: #212529;
+    text-align: right;
+    list-style: none;
+    background-color: #457e76;
+    border: 0px;
+    border-radius:0px;
+}
+
+.navbar a.icoSocial>.tit{
+	align-self: center;
+	padding:5px;
+	width: inherit;
+}
+
+#sidebar a[aria-expanded="true"],
+.navbar a[aria-expanded="true"]{
+    color: #457e76;
+    background: white;
+}
+.navbar a:hover>.tit,
+.navbar li.nav-item.show>a>.tit,
+footer a:hover>.tit,
+#footer a:hover>.tit{
+	color:#457e76;
+}
+
+
+
+.navbar a.icoSocial{
+	height:35px;
+    min-width:35px;
+    padding-right: 35px;
+    margin:0px;
+    display: flex;
+}
+
+.navbar a.icoShare {
+    background-image: url(/menus/_b/img/logo_compartir.gif);
+    background-position: calc(100% - 3px) center;
+    background-repeat: no-repeat;
+}
+
+.navbar a.icoShare:hover,
+.navbar a[aria-expanded="true"]{
+    background-image: url(/menus/_b/img/logo_compartirH.gif);
+    background-position: calc(100% - 3px) center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.navbar a.icoTwitter{
+	background-image: url(/menus/_b/img/logo_twitter.gif);
+    background-position: calc(100% - 3px) center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.navbar a.icoTwitter:hover,
+.navbar a.icoTwitter:focus  {
+    background-image: url(/menus/_b/img/logo_twitterH.gif);
+    background-position: calc(100% - 3px) center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.navbar a.icoFacebook{
+	background-image: url(/menus/_b/img/logo_facebook.gif);
+    background-position: calc(100% - 3px) center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.navbar a.icoFacebook:hover,
+.navbar a.icoFacebook:focus  {
+    background-image: url(/menus/_b/img/logo_facebookH.gif);
+    background-position: calc(100% - 3px) center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.navbar a.icoLinkedin{
+	background-image: url(/menus/_b/img/logo_Linkedin.gif);
+    background-position: calc(100% - 3px) center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.navbar a.icoLinkedin:hover,
+.navbar a.icoLinkedin:focus {
+    background-image: url(/menus/_b/img/logo_LinkedinH.gif);
+    background-position: calc(100% - 3px) center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.navbar a.icoWhatsapp{
+	background-image: url(/menus/_b/img/logo_whatsapp.gif);
+    background-position: calc(100% - 3px) center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.navbar a.icoWhatsapp:hover,
+.navbar a.icoWhatsapp:focus {
+    background-image: url(/menus/_b/img/logo_whatsappH.gif);
+    background-position: calc(100% - 3px) center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.navbar a.icoMail{
+	background-image: url(/menus/_b/img/logo_contRound.gif);
+    background-position: calc(100% - 3px) center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.navbar a.icoMail:hover,
+.navbar a.icoMail:focus  {
+    background-image: url(/menus/_b/img/logo_contRoundH.gif);
+    background-position: calc(100% - 3px) center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.navbar a.icoClipboard{
+	background-image: url(/menus/_b/img/logo_copiar.gif);
+    background-position: calc(100% - 3px) center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.navbar a.icoClipboard:hover,
+.navbar a.icoClipboard:focus {
+    background-image: url(/menus/_b/img/logo_copiarH.gif);
+    background-position: calc(100% - 3px) center;;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.navbar a.sede {
+    background-position: calc(100% - 3px) center;;
+    background-repeat: no-repeat;
+    height:35px;
+    min-width:35px;
+    margin:0px 20px 0px 0px;
+    display: flex;
+}
+
+.navbar a.sede:hover,
+.navbar a.sede[aria-expanded="true"]{
+    background-position: calc(100% - 3px) center;;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    }
+
+.navbar a.sede>.tit{
+	align-self: center;
+	padding:5px;
+}
+.navbar a.sede:hover>.tit{
+	align-self: center;
+	padding:5px;
+	color:#457e76;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+

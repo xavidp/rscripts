@@ -1,0 +1,164 @@
+var social_win_width=screen.width*0.75;
+var social_win_height=screen.height*0.75;
+var social_win_top=(screen.height-social_win_height)/2
+var social_win_left=(screen.width-social_win_width)/2
+
+var social_window_param="resizable=1, titlebar=0, scrollbars=1, status=0, menubar=0, toolbar=0, location=0"
+      + ", left=" +  social_win_left
+      + ", top=" +  social_win_top
+      + ", height=" +  social_win_height
+      + ", width=" +  social_win_width
+
+function shareMail(evnt){
+	try{
+	  $(evnt.currentTarget).parents(".dropdown-menu").removeClass("show");
+
+		/*cc=,bcc=,subject=,body=*/
+	  url="mailto:"
+
+	  msg=""
+	  if (typeof data_social_text != 'undefined')
+		  msg+=data_social_text;
+	  else if (typeof $(evnt.currentTarget).attr("data-social-text") != 'undefined')
+		  	msg+=$(evnt.currentTarget).attr("data-social-text");
+  	  msg+=  ' ' + $('head').children("title").text();
+	  url+="?subject=" +window.encodeURIComponent(msg)
+
+	  msg=  selectUrl(evnt);//window.location.href ;
+	  url+="&body=" +window.encodeURIComponent(msg)
+
+	  window.open(url, $(evnt.currentTarget).attr("target"), social_window_param);
+	}catch(err){}
+	return false;
+}
+
+function shareWhatsapp(evnt){
+	try{
+	  $(evnt.currentTarget).parents(".dropdown-menu").removeClass("show");
+
+	  url="https://api.whatsapp.com/send?text=";
+	  msg="";
+	  if (typeof data_social_text != 'undefined')
+		  msg+=data_social_text;
+	  else if (typeof $(evnt.currentTarget).attr("data-social-text") != 'undefined')
+		  	msg+=$(evnt.currentTarget).attr("data-social-text");
+	  if (msg.indexOf($('head').children("title").text())<0)
+		  msg+= ' ' + $('head').children("title").text();
+	  msg+= "\n" + selectUrl(evnt);//window.location.href ;
+	  win=window.open(url + window.encodeURIComponent(msg), $(evnt.currentTarget).attr("target"), social_window_param);
+	  win.focus();
+	}catch(err){}
+	return false;
+}
+
+function shareTwitter(evnt){
+	try{
+	  $(evnt.currentTarget).parents(".dropdown-menu").removeClass("show");
+
+	  aux=$(evnt.currentTarget).attr("data-social-text");
+	  url="https://twitter.com/intent/tweet"
+	  if (typeof data_social_text != 'undefined')
+		  url+="?text=" + data_social_text;
+	  else if (typeof aux != 'undefined'){
+		  	url+="?text=" + encodeURIComponent(aux)  ;
+			titulo=$('head').children("title").text();
+	  		if (aux.indexOf(titulo)<0){
+				titulo=encodeURIComponent( ' ' + titulo);
+	  			url+= titulo;
+			}
+		}else
+	  		url+="?text=" + encodeURIComponent($('title').text());
+	  if (typeof data_social_hashtags != 'undefined')
+		  url+="&hashtags=" + data_social_hashtags;
+	  else if (typeof $(evnt.currentTarget).attr("data-social-hashtags") != 'undefined')
+		  	url+="&hashtags="  + $(evnt.currentTarget).attr("data-social-hashtags");
+
+	  if (typeof data_social_via != 'undefined')
+		  url+="&via=" + data_social_via;
+	  else if (typeof $(evnt.currentTarget).attr("data-social-via") != 'undefined')
+		  url+="&via="+ $(evnt.currentTarget).attr("data-social-via")
+
+	  if (typeof data_social_related != 'undefined')
+		  url+="&related=" + data_social_related;
+	  else if (typeof $(evnt.currentTarget).attr("data-social-related") != 'undefined')
+	    url+="&related="+ $(evnt.currentTarget).attr("data-social-related")
+
+	  url+="&url=" + selectUrl(evnt);//window.location.href ;
+	  win=window.open(url, $(evnt.currentTarget).attr("target"), social_window_param);
+	  win.focus();
+	}catch(err){}
+	return false;
+}
+
+function shareFacebook(evnt){
+	try{
+	  $(evnt.currentTarget).parents(".dropdown-menu").removeClass("show");
+
+	  url="https://www.facebook.com/sharer/sharer.php";
+	  msg= "?u=" +  window.encodeURIComponent(selectUrl(evnt));//window.location.href ;
+	  if (typeof data_social_text != 'undefined')
+		  msg+="&title=" + data_social_text;
+	  else if (typeof $(evnt.currentTarget).attr("data-social-text") != 'undefined')
+		  msg+="&title=" + encodeURIComponent($(evnt.currentTarget).attr("data-social-text"))  + encodeURIComponent($('title').text());
+	  else
+		  msg+="&title=" + encodeURIComponent( ' ' + $('head').children("title").text());
+	  win=window.open(url +msg, $(evnt.currentTarget).attr("target"), social_window_param);
+	  win.focus();
+	}catch(err){}
+	return false;
+}
+
+function shareLinkedin(evnt){
+	try{
+	  $(evnt.currentTarget).parents(".dropdown-menu").removeClass("show");
+
+	  url="https://www.linkedin.com/sharing/share-offsite/?";
+	  msg= "url=" +  window.encodeURIComponent(selectUrl(evnt));//window.location.href) ;
+	  win=window.open(url + msg, $(evnt.currentTarget).attr("target"), social_window_param);
+	  win.focus();
+	}catch(err){}
+	return false;
+}
+
+function shareClipboard(evnt){
+	var copyText =null;
+	try{
+		  $(evnt.currentTarget).parents(".dropdown-menu").removeClass("show");
+
+		  copyText = document.createElement('input');
+
+		  copyText.textContent = selectUrl(evnt);//window.location.href;
+		  copyText.value=selectUrl(evnt);//window.location.href;
+		  copyText.style.position = "absolute";
+		  copyText.style.left = "-9999999px";
+		  copyText.style.top = "0";
+          document.body.appendChild(copyText)
+           copyText.focus();
+		  copyText.select();
+		  copyText.setSelectionRange(0, copyText.value.length);
+
+		  document.execCommand("copy");
+		  alerta("Texto copiado","center middle")
+	}catch(err){}
+
+	copyText.remove();
+	return false;
+}
+
+function shortUrl_click(evnt){
+	evnt.preventDefault();
+	shortUrl(evnt);
+}
+
+$(document).ready(function () {
+	$("#shareWhatsapp").click({callback:shareWhatsapp},shortUrl_click);
+	$("#shareTwitter").click({callback:shareTwitter},shortUrl_click);
+	$("#shareFacebook").click({callback:shareFacebook},shortUrl_click);
+	$("#shareLinkedin").click({callback:shareLinkedin},shortUrl_click);
+	$("#shareMail").click({callback:shareMail},shortUrl_click);
+	$("#shareClipboard").click({callback:shareClipboard},shortUrl_click);
+});
+
+
+
+

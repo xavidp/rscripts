@@ -1,0 +1,43 @@
+onLoadAsync(function(){
+	//Evaluamos componente tabs
+	if (((aux=$(".tabs")).length>0 || (aux=$("#tabs")).length>0)
+		&& (tabcontent=aux.find("ul")).length>0
+		){
+		tabcontent=tabcontent.first();
+		tabcontent.find("li>a").click(function(event){
+				tabcontent=$(this).parents("ul").children("li");
+				tabcontent.removeClass("ui-tabs-active");
+				tabcontent.removeClass("On");
+				$(this).parents("li").addClass("On");
+				tabcontent.find("a").each(function( index, element ) {
+					$($(element).prop('hash')).hide();
+				});
+				var hash = $(this).prop('hash');
+				if(hash){
+					$(hash).show();
+					window.location.hash = "#!" + hash.replace(/^#/, '');
+					event.preventDefault();
+				}
+		      });
+
+		tablist=tabcontent.find("li")
+
+
+		tablist.find("a").each(function( index, element ) {
+			$($(element).prop('hash')).hide();
+		});
+		id = window.location.hash.replace(/^#!/, '#');
+		if (id){
+			tablist.find("a").each(function( index, element ) {
+				if ($(element).prop('hash')==id)
+					$(element).click();
+			});
+		}else{
+			if (tablist.find(".On").index()<0)
+				$(tablist.get(0)).children("a").click()
+			else
+				tablist.get(tablist.find(".On").index()).children("a").click()
+		}
+	}
+	//FIN tabs
+});

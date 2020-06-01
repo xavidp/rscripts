@@ -1,0 +1,472 @@
+
+
+/* ajustar bloques dos columnas de publicaciónes UAudit,MYH,etc*/
+div.uaudit_contiene_mitad_derecha iframe#mapFrame {
+	display:none;}
+a#visor_ampliado {
+	display:none;}
+p#mapas_ciudad {
+	display:none;}	
+div.uaudit_contiene_mitad_izquierda {
+	width:100%;}
+div.uaudit_contiene_mitad_derecha {
+	width:100%; margin:0.5em 0 0 0;}	
+/* fin ajuste publicaciones */
+
+/****************************************************************************************************************************************************
+resolucion desde la maxima hasta 925 pixeles
+*************************************************************************************/
+@media screen and (max-width: 925px) {
+
+#cuerpo_lateral {min-width:192px;}
+
+#cuerpo_prin_uno {min-width:32%;}
+
+#cuerpo_prin_dos {width:auto; clear:both;padding-left:0px;}
+
+.noseve {display:none;}
+.nav li {height:auto;}
+
+ul.nav li.left ul {display:none;}
+
+.imagenCabeceraMapa {position:absolute;margin-left: 84%; margin-top: 0px;}
+.imagenCabeceraExplica {margin-left:2%;margin-bottom:2%;margin-top: 5px; max-width:53%}
+.imagenCabeceraExplica img {max-width:70%;}
+
+
+	/* ajustes para los videos */
+  #cuerpo_principal p object {
+		width: 100%;
+	}
+
+  #cuerpo_principal div object {
+		width: 100%;
+	}
+
+  #cuerpo_principal object {
+		width: 100%;
+	}	
+ 
+
+
+/*******************************************************************************************/
+/*  ESTILOS para el MENU desplegable oculto HASTA 925 max-----*/
+/*******************************************************************************************/
+
+.tablaMini td.dato img {	height: 16px; min-width:16px;}
+
+
+div#contieneHtml table div.menuib {	display: none;}
+div#contieneHtml table p img {	display: none;}
+
+#cuerpo .cuerpo_lateral .multimediaMenu img {display:none;}
+
+
+
+
+
+/*  estilos para que el menu lateral de las paginas se esconda
+**************************************************************  */
+
+/* menu de prensa */
+#contieneHtml table td ul.menu:Hover ul li a {display:block;background:#457e76;margin-left:30px;}
+#contieneHtml table td ul.menu li {margin: 0px;border:0px;padding:0px}
+#contieneHtml table td ul.menu {background: #fff url(opciones.gif) no-repeat 0px 2px;width:30px;height:120px;cursor:pointer; position:absolute;}
+#contieneHtml table td ul.menu a {border-top: 0px;width:190px;}
+#contieneHtml table td ul.menu li a {display:none;color:black;}
+#contieneHtml table td ul.menu li:hover {background:unset;}
+#contieneHtml table td ul.menu:Hover li a {display:block;background:#ddeeec;padding: 10px;margin-left:35px;border-top: 2px solid #FFFFFF;}
+
+
+div.menu_lateral_estaticas { width:30px; }
+
+
+.menu_lateral_estaticas div.menu_lateral_estaticas_img img {display:none;}
+/* fin menu prensa */
+
+/* menu de censo2001 */
+
+div#contieneHtml table div.menu {	display: none;}
+
+#contieneHtml table td div.menu:Hover ul li a {display:block;background:#457e76;margin-left:30px;}
+#contieneHtml table td div.menu li {margin: 0px;border:0px;padding:0px}
+#contieneHtml table td div.menu {background: #fff url(opciones.gif) no-repeat 0px 2px;width:30px;height:120px;cursor:pointer; position:absolute;}
+#contieneHtml table td div.menu a {border-top: 0px;width:190px;}
+#contieneHtml table td div.menu li a {display:none;color:white;}
+#contieneHtml table td div.menu li:hover {background:unset;}
+#contieneHtml table td div.menu:Hover li a {display:block;background:#457e76;padding: 10px;margin-left:35px;border-top: 2px solid #FFFFFF;}
+/*fin censo2001*/
+
+/* **** estilos para que el menu lateral UL se esconda ********   */
+div#cuerpo .cuerpo_lateral li {margin: 0em;}
+div#cuerpo .cuerpo_lateral li {border-bottom:0px !important;}
+#cuerpo .cuerpo_lateral ul {background: #fff url(opciones.gif) no-repeat 0px 2px;width:30px;height:120px;cursor:pointer; position:absolute;list-style: outside none none;margin: 0;padding: 0;z-index: 1;}
+#cuerpo .cuerpo_lateral ul a {border-top:0px;}
+#cuerpo .cuerpo_lateral ul li a {display:none;}
+#cuerpo .cuerpo_lateral ul li span {display:none;}
+#cuerpo .cuerpo_lateral:Hover ul li {background:transparent;}
+#cuerpo .cuerpo_lateral:Hover ul li.menu_seleccionado a {display:block;background:#457e76;margin-left:30px;border-top: 4px solid #FFFFFF;width:190px;padding:10px;}
+#cuerpo .cuerpo_lateral:Hover ul li a {display:block;background:#dee8e4;margin-left:30px;border-top: 4px solid #FFFFFF;width:190px;padding:10px;}
+#cuerpo .cuerpo_lateral:Hover ul li span {display:block;background:#457e76;margin-left:0px;border-top: 4px solid #FFFFFF;width:200px;}
+#cuerpo .cuerpo_lateral:Hover .multimediaMenu {display:none;}
+#cuerpo .cuerpo_lateral div.CENTER {display:none;}
+.cuerpo_principal {margin-right: 0; padding-right: 0;padding-left:30px; margin-left:0px !important;}
+.cuerpo_principal_ancho {padding-left:0px;}
+#cuerpo .cuerpo_lateral ul li.menu_cat_cierre {border-bottom: 0px;}
+/* **** FIN FIN estilos para que el menu lateral UL  se esconda ********   */
+
+
+/* **** estilos para que el menu lateral DIV se esconda ********   */
+div#cuerpo .cuerpo_lateral div {margin: 0em;border-top:0px;border-bottom:0px;}
+div#cuerpo div.cuerpo_lateral div {border-bottom:0px !important;}
+#cuerpo .cuerpo_lateral {background: #fff url(opciones.gif) no-repeat 0px 2px;width:30px !important;height:120px;cursor:pointer; position:absolute;list-style: outside none none;margin: 0;padding: 0;}
+#cuerpo .cuerpo_lateral div a {border-top:0px;}
+#cuerpo .cuerpo_lateral div a {display:none;}
+#cuerpo .cuerpo_lateral:Hover div {background:transparent;}
+#cuerpo .cuerpo_lateral:Hover div.menu_seleccionado a {display:block;background:#457e76;margin-left:30px;border-top: 4px solid #FFFFFF;width:190px;padding:10px;}
+#cuerpo .cuerpo_lateral:Hover div a {display:block;background:#dee8e4;margin-left:30px;border-top: 4px solid #FFFFFF;width:190px;padding:10px;}
+#cuerpo .cuerpo_lateral:Hover .multimediaMenu {display:none;}
+#cuerpo .cuerpo_lateral div.CENTER {display:none;}
+.cuerpo_principal {margin-right: 0; padding-right: 0;padding-left:30px !important;}
+.cuerpo_centro_principal_ancho {margin-left:30px !important;} 
+.cuerpo_principal_resul_centro div.cuerpo_principal_IB {margin-left: 30px !important;}
+.cuerpo_principal_resul_centro div.cuerpo_centro_principal_IBultdat {margin-left: 30px !important;}
+.cuerpo_principal_resul_centro {margin-left: 14px;}
+
+.cuerpo_principal_cole {margin-left: 30px !important;}
+
+DIV.menu_divulga_abre {	border-top:0px;}
+
+.censos2011_cuerpo_principal_tres_cols {float:left;margin-left:35px;width: auto;}
+.censos2011_cuerpo_principal_tres_cols table {margin-left: 0px; width: auto;}
+
+/* **** FIN FIN estilos para que el menu lateral   DIV se esconda ********   */
+
+/*  descripcion inebase jaxi esconder - PARA pagina  */
+TD.dieznormalfondonuevo {width:1%;cursor:pointer;min-width:21px;}
+TD.dieznormalfondonuevo span.apnonnom {display:none;}
+TD.dieznormalfondonuevo:Hover span.apnonnom {display:block; position:absolute;background:#eef2f8;width:70%;margin-left:35px;}
+TD.dieznormalfondonuevo:Hover span.apnonnom img {display:none;}
+/* fin */
+
+
+}
+
+
+
+/************************************************************************************************************
+resolucion entre   985 pixeles y 925 px
+*************************************************************************************/
+@media screen  and (min-width: 925px) and (max-width: 985px)
+
+{
+
+#cuerpo_lateral {min-width:192px; width:30%; font-size:100%;}
+}
+
+/************************************************************************************************************
+resolucion menor de  925 pixeles hasta 601 px
+*************************************************************************************/
+@media screen  and (min-width: 601px) and (max-width: 925px)
+
+{
+
+#cuerpo_lateral {min-width:192px; width:30%; font-size:100%;}
+
+#cuerpo_lateral ul li.lateral_item_fondo A {width:98%;}
+
+#cuerpo_lateral ul li.lateral_item_fondo_nivel2 A {width:100%;}
+
+#cuerpo_prin_uno { /*width:auto;*/ float:left; margin-left:10%; }
+
+#cuerpo_prin_uno ul.table {width:100%;}
+
+#cuerpo_prin_uno ul.contiene_colCentro_unoTipoMasine { max-width: 98.0%;font-size:1em;}
+
+#cuerpo_prin_uno ul.contiene_colCentro_unoElecciones { max-width: 98.0%;}
+
+#cuerpo_prin_uno ul.table li.contiene_tercio {float:left; clear:left;}
+
+#cuerpo_prin_uno ul.table li.contiene_tercio_dos {float:left;}
+
+#cuerpo_prin_dos {width:auto;}
+
+
+.cuerpo_principal_ancho {padding-left:5px;}
+
+.dos_cols_izquierda_principal { margin-left: 0px; width: auto; min-width: 0px;}
+.dos_cols_derecha { margin-left: 0px; width: auto; min-width: 0px;}
+
+.cuerpo_principal_ancho_3_bloques {
+	max-width:70%; margin:1em;
+}
+
+/*  oculto PARTE DEL bloque video y graficos de la home  */ 
+#flashcontent {display:none;}
+.contiene_video {display:none;}
+#cuerpo_lateral #fondoZonaCalen {display:none;}
+/* fin oculto calen y grafs  */
+
+
+
+li.menubd01 {width:100%;}
+li.menubd01 ul {width:100%;}
+li.menubd01 ul li {width:100%; margin-left:0%; padding-left:0%;}
+li.menubd01 a, .menubd01 a:visited {padding-left:0px;}
+
+
+.noseve {display:none;}
+.nav li {height:auto;}
+
+ul.nav li.left ul {display:none;}
+
+
+	/* ajustes para los videos */
+  #cuerpo_principal p object {
+		width: 100%;
+	}
+
+  #cuerpo_principal div object {
+		width: 100%;
+	}
+
+  #cuerpo_principal object {
+		width: 100%;
+	}	
+	
+	
+a.AppToolBarLogo {	display:none;}
+.AppToolBarContent { margin:0px;}
+.AppToolBarContent .Sup { margin: 0px;}
+
+.censos2011_cuerpo_principal_coldcha {display:none;}
+.censos2011_cuerpo_principal_tres_cols {	display: block; width: auto;float:none;}
+
+/*  oculto PARTE DEL bloque video y graficos de la home  */ 
+ul.video {display:none;}
+/* fin oculto calen y grafs  */
+
+
+li.contiene_tercio_tressec_tres {width:29.5%;}
+
+/* ajustar bloques dos columnas de publicaciónes UAudit,MYH,etc*/
+div.uaudit_contiene_mitad_izquierda {
+	width:100%;}
+div.uaudit_contiene_mitad_derecha {
+	width:100%; margin:0.5em 0 0 0;}	
+/* fin ajuste publicaciones */
+
+
+
+}
+
+/*************************************************************************************************************************************************
+resolución menor de 600 px
+****************************************************************************
+*****************************************************/
+@media screen and (max-width: 600px) {
+
+
+#cuerpo_lateral {width:100%; font-size:105%;}
+#cuerpo_lateral div.lateral_itemNOMEN_fondo {font-size: 100%;width:auto;min-height:24px;}
+
+#cuerpo_prin_uno {margin-left:0%; width:100%; float:left;font-size: 110%; }
+#cuerpo_prin_uno ul.table {width:100%;}
+#cuerpo_prin_dos {width: auto;font-size:110%;}
+
+#cuerpo_prin_uno ul.contiene_colCentro_unoTipoMasine li img { max-height:16px;}
+
+.cuerpo_principal_ancho_3_bloques {
+	max-width:100%; margin:1em;
+}
+
+/*  #cuerpo_lateral ul li.lateral_item_fondo A img {width:100px;} */
+#cuerpo_lateral ul li.lateral_item_fondo A {width:98%;border:none;font-size:100%;min-height:31px}
+#cuerpo_lateral ul li.lateral_item_fondo_nivel2 {display:none;}
+#cuerpo_lateral ul li.lateral_item_fondo_nivel2 A {width:100%; border:none;}
+
+
+/*  oculto PARTE DEL bloque video y graficos de la home  */ 
+#flashcontent {display:none;}
+.contiene_video {display:none;}
+#cuerpo_lateral #fondoZonaCalen {display:none;}
+/* fin oculto calen y grafs  */
+
+
+/*  **  Ocultar logo INEbase en rastro migas  **************  */
+div.fondo_rastro_inebase a img.alineaderechatotal {display:none;}
+div.fondo_rastro_inebase img.alineaderechatotal {display:none;}
+/*  Fin ocultar logos  */
+
+
+#cuerpo_lateral div.lateral_itemNOMEN_fondo p span.right {float:none; margin-left:16px;}
+div.lateral_itemNOMEN_fondo {width:98%;border-top: none;margin-bottom: 0;}
+
+sup {font-size:90%;}
+
+li.contiene_tercio {clear: left;float: left;margin: 0px 3px 3px 0px;min-height: 30%;width: 46.5%;}
+li.contiene_tercio_dos {float: right;margin: 0 0 0.5% 0.0%;min-height: 30%;width: 47.5%;}
+li.contiene_tercio_tressec {width:31%; margin: 1% 0 1% 0%;padding:0.5%;}
+li.contiene_tercio_tressec_dos {width:31%; margin: 1% 3% 1% 3%;padding:0.5%;}
+li.contiene_tercio_tressec_tres {width:29%;float:right;margin: 1% 0 1% 0%;padding:0.5%;}
+.contiene_colCentro_unoTipoVideosYT {width: 99%;padding:0.2% 0% 0% 1%;}
+.contiene_colCentro_unoTipoMasine {font-size: 1em;padding: 0.4em 0.0em;width:100%; height:auto; min-height:24px;margin: 0.3em 3em 0.3em 0;}
+
+
+/* para que no salga el logo de INEbase en Jaxi */
+.AppToolBarLogo {display: none;}
+
+li.menubd01 {width:100%;}
+li.menubd01 ul {width:100%;}
+li.menubd01 ul li {width:100%; margin-left:0%; padding-left:0%;}
+li.menubd01 a, .menubd01 a:visited {padding-left:0px;}
+
+/* *********   cambios para CABECERAS / PAGINAS DEL GESTOR  / PAGINAS ESTATICAS A PARTIR DE < 600 PX *****  */
+
+.dos_cols_izquierda_principal { margin-left: 0px; width: auto; min-width: 0px;}
+.dos_cols_derecha { margin-left: 0px; width: auto; min-width: 0px;}
+
+ul#lista_subtemas_hori {padding-left:0px;}
+ul#lista_subtemas_hori li.bordeL {margin-bottom: 0; padding: 3px 10px 2px 7px;}
+
+
+div.menu_lateral_estaticas { width:30px; }
+table.cuadro td img.right {display:none;}
+
+.menu_cat_cierre {background: none repeat scroll 0 0 #E5E7F3; border-bottom: 0px;}
+.cen11_graf_notas {margin-top:0 ;margin-bottom:0; position: relative;}
+.censos2011_cuerpo_principal_coldcha {padding-left: 0px;width:auto;}
+
+.AppToolBarContent { margin:0px; }
+.AppToolBarContent .Sup { margin: 0px;}
+a.AppToolBarLogo {	display:none;}
+ div.AppToolBarContent div.Inf a.MenuImprimir { display:none;}
+ 
+ table.tablacentrada h1.normal {
+ 	width: 38%; }
+
+span.ficha_cata_cubierta {margin: 0em 0.5em 1em 0em;}
+.cifras_ficha_descrip {padding-left: 0em;}
+.ficha_cata_cubierta {margin: 0em 0.5em 1em 0em;}
+.ficha_cata_descrip {padding-left: 0em;}
+
+div.margen_sup_1em div.padding_izq150 {
+	padding-left:0px
+}
+
+/*  fin  *******************************  */
+
+
+/*estadisticas territoriales */
+#capa_regiones {
+    margin-left: 0px;
+    margin-top:30px;
+    width: 375px;}
+/*fin estad. territ */
+
+
+.tooltip:hover > .tooltip-content {
+  display: block;
+}
+
+
+/* las 2 columnas con borde -calen- pasar a 1 columna */
+.columna_izq_borde {
+	width:100%;
+}
+
+.columna_der_borde {
+	width:100%;float:left;margin-top: 10px;margin-bottom:10px;
+}
+/*  fin  */
+
+
+/* ajustar bloques dos columnas de publicaciónes UAudit,MYH,etc*/
+div.uaudit_contiene_mitad_izquierda {
+	width:100%;}
+div.uaudit_contiene_mitad_derecha {
+	width:100%; margin:0.5em 0 0 0;}	
+/* fin ajuste publicaciones */
+
+
+}
+
+
+/* estilos para los widgets en movil  */
+iframe.widget_ifra {font-size:0.8em;}
+.widgets {left:1%; width:97%;height:100%;position:fixed;}
+/* fin widgets */
+
+
+
+/************************************************************************************************************
+resolucion menor de  440 pixeles 
+*************************************************************************************/
+@media screen  and (min-width: 250px) and (max-width: 440px){
+
+
+div.iframe-window {margin-top: 19em;}
+
+}
+
+
+
+
+
+/************************************************************************************************************
+resolucion menor de  401 pixeles hasta 250 px para corregir posicion botones rastro migas JAXI
+*************************************************************************************/
+@media screen  and (min-width: 250px) and (max-width: 401px){
+
+/*.AppToolBarContent .Inf { width: 100px;}*/
+.AppToolBarContent .Inf a.imprimir { display:none;}
+
+}
+
+
+/*************************************************************************************************************************************************
+resolución menor de 321 px
+*************************************************************************************/
+@media screen and (max-width: 321px) {
+
+#cuerpo_lateral {width:100%; font-size:105%;}
+
+#cuerpo_prin_uno {margin-left:0%; width:auto; float:left;font-size: 110%; }
+
+#cuerpo_prin_dos {width: auto;font-size:110%;}
+
+sup {font-size:90%;}
+
+#cuerpo_lateral ul li.lateral_item_fondo A {width:98%;border:none;}
+#cuerpo_lateral ul li.lateral_item_fondo_nivel2 A {width:100%; border:none;}
+/* #cuerpo_lateral ul li.lateral_item_fondo A img {width:100px;}  */
+/* #cuerpo_prin_uno ul li img { max-height:35px;}  */
+#cuerpo_prin_uno ul.contiene_colCentro_unoTipoMasine li img { max-height:20px;}
+#cuerpo_prin_uno ul.contiene_colCentro_unoTipoMasine { width:98%;}
+
+
+
+/*  #cuerpo_lateral div.lateral_itemNOMEN_fondo {font-size: 140%;width:auto;}  */
+
+li.contiene_tercio {clear: left;float: left;width:98%;margin:0%;min-height:30%;}
+li.contiene_tercio_dos {width:98%; min-height:30%;margin: 1% 0 1% 1%;}
+
+.contiene_colCentro_unoTipoVideosYT {width: 100%;}
+/*
+li.contiene_tercio {clear: left;float: left;height:auto;}
+li.contiene_tercio_dos {height:auto;}
+
+/* MENU */
+
+/* #Menu_cabeceraMenu ul.nav {top: -67px;left:10%;} */
+
+
+li.menubd01 {width:100%;}
+li.menubd01 ul {width:100%;}
+li.menubd01 ul li {width:100%; margin-left:0%; padding-left:0%;}
+li.menubd01 a, .menubd01 a:visited {padding-left:0px;}
+
+ .AppToolBarContent .Inf a.btntree:Hover { padding: 0px 5px 0px 25px;}
+ .AppToolBarContent .Inf { margin: 0px;}
+
+}

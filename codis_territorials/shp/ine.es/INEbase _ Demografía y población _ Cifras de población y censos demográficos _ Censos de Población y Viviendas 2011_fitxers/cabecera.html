@@ -1,0 +1,141 @@
+
+function scrollIrArriba(){
+	if($(this).scrollTop() > 0){ $('.ir-arriba').slideDown(600); }else{ $('.ir-arriba').slideUp(600); }
+}
+
+var nav;
+var scrollSupBar=function(){
+	/*if (isMobile.any()){*/
+	if(typeof nav !== 'undefined'){
+		nav.each(function( index ) {
+			maxHeight=nav.height();
+	        if (!$(this).hasClass( "fixed-top" )
+	        	 && ($(document).scrollTop() >= $(this).prop("posInicial").top)
+	        		){
+
+	            $(this).addClass('fixed-top');
+	        } else if ( ($(document).scrollTop() <= $(this).prop("posInicial").top)){
+	        	$(this).removeClass('fixed-top');
+	        }
+		});
+	}
+	/*}*/
+}
+
+function CallbackInitCabecera () {
+
+    $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+    });
+
+    $('#dismiss, .overlay').on('click', function () {
+        $('#sidebar').removeClass('active');
+        $('.overlay').removeClass('active');
+    });
+
+
+	showSideBar();
+}
+
+NavMenuLoaded=0;
+function LoadMenu () {
+  if(NavMenuLoaded==0){
+	//Carga menú
+	$.ajax({
+		type : 'GET',
+		url : HM_Menu_DirVersion + "/" + HM_idioma + "/MenuHome.shtml",
+		context : {
+			funCallback:CallbackInitCabecera,
+		},
+		contentType: 'Content-type: text/plain; charset=iso-8859-15',
+	    // This is the imporant part!!!
+	    beforeSend: function(jqXHR) {
+	        jqXHR.overrideMimeType('text/html;charset=iso-8859-15');
+	    },
+		success : function(data, status, xhr){
+			$("#sidebarCollapse").after(data);
+			if ($(".Menu_cabeceraIdioma").length>0)
+				$(".sideBarIdioma").append($(".Menu_cabeceraIdioma").html());
+			if ($(".Menu_cabeceraIdiomaEstatico").length>0)
+				$(".sideBarIdioma").append($(".Menu_cabeceraIdiomaEstatico").html());
+			this.funCallback();
+		},
+		error: function(xhr, status, error){
+			console.log(error);
+		}
+	});
+	NavMenuLoaded=1;
+  }
+}
+
+function showSideBar(){
+	$('#sidebar').addClass('active');
+    $('.overlay').addClass('active');
+    $('.collapse.in').toggleClass('in');
+    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+}
+
+function InitMenu(){
+	loadUrlStyle("/menus/lib/jquery.mCustomScrollbar.min.css",null,null);
+	loadUrlScript("/menus/lib/jquery.mCustomScrollbar.concat.min.js",null,null);
+
+	$('.ir-arriba').click(function(){ $('body,html').animate({ scrollTop:'0px' },1000); });
+
+	nav = $('.navbar');
+
+	$('#sidebarCollapse').on('click', function () {
+		if($('#sidebar').length>0){
+			showSideBar();
+	 	}else{
+	   	 LoadMenu();
+	 	}
+	     return false;
+	    });
+
+	/*if (isMobile.any()){*/
+		nav.each(function( index ) {
+			$(this).prop("posInicial",nav.offset());
+		});
+
+		scrollSupBar();
+	/*}*/
+
+
+	$(window).scroll(function(){
+
+		scrollSupBar();
+		scrollIrArriba();
+	});
+
+	if (!isMobile.any()){
+	    $( document ).tooltip({
+		      //items: "a:not(.icoSocial),img,.miga a",
+	    	  items: ".miga a, .tooltip",
+		      close: function () { $(".ui-helper-hidden-accessible > *:not(:last)").remove();},
+		      content: function () {
+		            var element = $(this);
+		            if(element.attr('title') != undefined){
+		            	if (element.text().indexOf(element.attr('title'))<0)
+		            		return element.attr('title');
+		            	else
+		            		return null;
+		            }else if (element.parents(".miga").length>0)
+		            		return element.text();
+	            	else if (element.hasClass("tooltip")){
+	            		if(element.children(".tooltip-content").length==0)
+							return element.text();
+	            		else
+	            			return null;
+	            	}else
+							return null;
+
+		        }
+		    });
+	}
+}
+
+
+onLoadAsync(InitMenu,1);
+
+
+

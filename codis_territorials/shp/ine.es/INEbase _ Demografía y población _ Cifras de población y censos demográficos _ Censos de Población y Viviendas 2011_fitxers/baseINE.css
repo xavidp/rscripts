@@ -1,0 +1,482 @@
+BODY  {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+	color: black;
+	font-size: 0.9em;
+	padding: 15px;
+	margin: 0px;
+	line-height: 1.3;
+}
+
+BODY>.contenedor{
+	max-width: 1280px;
+	min-width: 800px;
+	margin: auto;
+	background-color: white;
+}
+
+
+*:focus {
+    outline: #457E76 auto 1px;
+}
+
+*::selection{
+	background-color:  #457E76;
+	color:white;
+}
+
+/* joseba comentado porque interfiere paginas estaticas */
+/*BODY.nocab  {
+	padding: 0px;
+}
+*/
+/*fin comentario joseba */
+
+form{
+	page-break-after: avoid;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	page-break-before: avoid;
+}
+
+section>h2>a{
+    color: #9E1834!Important;
+}
+
+
+a,a:link,a:active,a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a.w,a.w:link,a.w:active,a.w:visited{
+	color: black!Important;
+	text-decoration: none!Important;
+}
+
+a:hover, a:focus{
+	text-decoration:underline;
+}
+
+a.w:hover,a.w:focus{
+	text-decoration:underline!Important;
+}
+
+*:focus{
+	outline: 1px outset white!Important;
+}
+
+p a,
+p a:link,
+p a:active,
+p a:visited,
+dd a,
+dd a:link,
+dd a:active,
+dd a:visited{
+	color: #457e76;
+	text-decoration:none;
+}
+
+p a:hover
+,dd a:hover
+,a.titulo:hover{
+	text-decoration:underline!Important;
+}
+
+
+p.fondoClaro a,
+p.fondoClaro a:link,
+p.fondoClaro a:active,
+p.fondoClaro a:visited {
+	color: #335B55;
+	text-decoration:none;
+}
+
+p.fondoClaro a:hover{
+	text-decoration:underline;
+}
+
+* a.boton:hover {
+	text-decoration:none;
+}
+
+label {
+    margin-bottom: 0px;
+}
+
+span {
+     color: inherit;
+}
+
+ul, ol {
+	list-style: none;
+	margin: 0em 0em 0em 0em;
+	padding:0em;
+}
+
+ul.listado>li,ol.listado>li{
+	padding-top:0.15rem;
+	padding-bottom:0.15rem;
+}
+
+ul.listadoSang>li,ol.listadoSang>li{
+	padding-top:0.15rem;
+	padding-bottom:0.15rem;
+	margin-left:1rem;
+}
+
+
+img {
+	border: 0px;
+	max-width: 100%;
+	height: auto;
+}
+
+img.icon24x24 {width:24px; height:24px;}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+p {
+    margin: 0;
+}
+
+
+section{
+	display:block;
+/*	padding: 1.2rem; */
+    padding: 1rem;
+}
+
+section.nopadding{
+	padding: 0rem;
+}
+section.imgleft{
+	padding: 0px 1.2rem 0px 300px;
+	background-size: 300px auto;
+}
+section.bordeInf{
+	border-bottom:  6px solid #ddeeec;
+	padding-bottom: 1rem;
+}
+
+section.bordeSup{
+	border-top:  6px solid #ddeeec;
+	padding-top: 1rem;
+}
+
+section.backgAlt
+, section>div>.backgAlt
+, section>ul>.backgAlt{
+	background-color: #DDEEEC;
+}
+
+section>h2:first-child{
+	padding: 0rem 0rem 1rem 0rem;
+	margin: 0rem;
+	color: #9E1834;
+}
+section.imgleft>h2:first-child {
+	padding:1rem 1.2rem ;
+}
+
+section>div.texto{
+    padding: 0rem 1.2rem 0rem 1.2rem;
+}
+section.flex>div,
+section.flex>ul{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+section>div>*,
+section>ul>*{
+	-ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+section>div.columna>*,
+section>ul.columna>*{
+	padding: 0rem 2rem ;
+	margin-bottom: 20px;
+	min-width: 200px;
+}
+
+section>div.paddingDef>*,
+section>div .paddingDef>li,
+section>div .paddingDef>div,
+section>ul.paddingDef>li,
+section>ul .paddingDef>li,
+section>ul .paddingDef>div{
+	padding: 0rem 2rem ;
+	margin-bottom: 10px;
+}
+
+section>div.nopadding>*,
+section>ul.nopadding>*{
+	padding:0rem !Important;
+	margin: 0rem !Important;
+}
+
+
+/*Los estilos colN provocarán que esas listas se dispongan en filas de máximo N columnas;
+de forma que se expanderán para ocupar el espacio de toda la fila*/
+.col2>*{
+	min-width:calc(100%/2);
+}
+
+section>ul.col3>*{
+	min-width:calc(100%/3);
+}
+
+section>ul.col4>*{
+	min-width:calc(100%/4);
+}
+
+section>ul.col5>*{
+	min-width:calc(100%/5);
+}
+
+/*Los estilos colMinN provocarán que esas listas se dispongan en filas de N columnas;
+de forma que no se expanderán para ocupar el espacio de toda la fila*/
+section>ul.colMin3>*{
+	max-width:calc(100%/3);
+	min-width:calc(100%/3);
+}
+
+section>ul.colMin4>*{
+	max-width:calc(100%/4);
+	min-width:calc(100%/4);
+}
+
+section>ul.colMin5>*{
+	max-width:calc(100%/5);
+	min-width:calc(100%/5);
+}
+
+.center{
+	text-align: center;
+}
+
+.middle{
+	vertical-align:middle;
+}
+
+.right {
+    text-align: right;
+}
+
+button.right {
+	float: right;
+}
+
+
+.derecha{
+	text-align: right;
+}
+
+.izquierda{
+	text-align: left;
+}
+
+/*joseba*/
+button, input {
+overflow: hidden;
+}
+/*fin*/
+
+/*
+SELECT option:checked{
+    background: #487F78 linear-gradient(0deg, #487F78 0%, #487F78 100%) !important;
+    color:white!Important;
+}
+
+SELECT:focus option:checked {
+    background: #487F78 linear-gradient(0deg, #487F78 0%, #487F78 100%) !important;
+    color:white!Important;
+}
+
+SELECT:focus option:hover,
+SELECT option:hover,
+SELECT option:active{
+    outline: 1px solid #ddeeec;
+}
+
+*/
+
+SELECT option{
+	padding: 3px 0px;
+    margin: 0px 0px;
+}
+
+
+/*
+,SELECT[multiple]:focus option
+,SELECT[multiple]:focus option:focus
+,SELECT[multiple]:focus option:active
+,SELECT[multiple]:focus option:checked
+{
+	padding: 3px 0px;
+    margin: 0px 0px;
+	color:white!Important;
+}
+
+SELECT[multiple]:focus option:checked {
+    background: #457E76 linear-gradient(0deg, #457E76 0%, #457E76 100%) !important;
+    color:white;
+}
+
+
+
+SELECT[multiple] option:focus {
+    background: #DDEEEA linear-gradient(0deg, #DDEEEA 0%, #DDEEEA 100%) !important;
+    color:white;
+}
+*/
+
+/*estilos incorporados desde cabecera-pie.css por joseba */
+/* formato */
+
+.backgAlt {background-color: #ddeeec;}
+
+.right_txt {text-align: right;}
+.centrar {text-align: center;}
+.centrar_hori {margin: 0 auto;}
+.centrar_flex {align-items: center;}
+.centro_vertical {	width: 100%;  margin-left: auto;  margin-right: auto;  text-align: center;}
+.alineacentro {vertical-align: middle;}
+img.alineaderecha {float: right;vertical-align: top;margin: 0 1em 0 1em;}
+img.todoizquierda {float:left;padding:5px 10px 10px 0px;}
+.noflota {float: none;}
+.flotaderecha {float:right;}
+.flotaizquierda {float:left;}
+.alineaderecha_menu {margin: 7px 7px 0em 0em;float:right;}
+.nowrap {white-space: nowrap;}
+.clearleft {clear: left;}
+.clearright {clear: right;}
+.clear {clear: both;}
+
+.margen-inf5 {	margin-bottom:5px !important;}
+.margen_masarriba {margin-top: -10px;}
+.margen_masarriba1 {margin-top: -3px;}
+.margen_sup40 {margin-top: 40px;}
+.margen_sup20 {margin-top: 20px;}
+.margen_sup20imp {margin-top: 20px!important;}
+.margen_sup10 {margin-top: 10px;}
+.margen_sup5 {margin-top: 5px;}
+.margen_der10 {margin-right: 10px;}
+.margen_izq10 {margin-left: 10px;}
+.margen_izq15 {margin-left: 15px;}
+.margen_todo {margin: 0.3em 0.3em 0.3em 0.3em;}
+.margen_izq19 {margin-left:19px;}
+.margen_izq33pc {margin-left:33%;}
+.margen_nada {margin:0px;}
+.margen_inferior_1em {margin-bottom: 1em;}
+
+.padding_de {padding: 0px 5px 0px 0px;}
+.padding_id {padding: 0px 10px 0px 10px;}
+.padding_id20 {padding: 0px 20px 0px 20px;}
+.padding_10y20 {padding: 10px 10px 10px 20px;}
+.padding_i {padding-left:1.5rem;}
+
+.padding_1rem {padding: 1rem;}
+.padding_05rem {padding: 0.5rem;}
+.padding_todo {padding: 0.3em 0.3em 0.3em 0.3em;}
+.padding_todo20 {padding: 20px;}
+
+.padding_todomas {padding: 0.5em 0.5em 0.5em 0.5em;}
+.padding_todomas_inferiormenos {padding: 0.5em 0.5em 0em 0.5em;}
+.padding_sup5 {padding-top: 5px;}
+
+.sinesp {margin-bottom : -2px;	margin-top : -2px;}
+
+a.nosub:link {text-decoration:none!important;}
+
+.alto_60 { max-height:60px;}
+.ancho_cien { width: 100%;}
+.ancho_mitad { width: 50%;}
+.ancho_tercio { width: 30%;}
+.ancho_40xc { width: 40%;}
+.ancho_45xc { width: 45%;}
+.ancho_auto { width: auto;max-width:inherit;}
+
+.ancho_min-content {max-width: min-content;}
+.colorINE{color: #9E1834;}
+
+.fondo_blanco {	background-color: #ffffff;}
+
+.fuente_negro {	color: #000000;}
+
+.fuente_tam90 {font-size:0.90rem;}
+.fuente_tam80 {font-size:0.80rem;}
+
+.fuente_tam140	{font-size: 1.40rem;}
+.fuente_tam120	{font-size: 1.20rem;}
+.fuente_tam110	{font-size: 1.10rem;}
+
+.fuente_negrita {	font-weight: bold;}
+
+.border_radius5  {	border-radius: 5px;}
+.bordeInfOsc{ border-bottom:  #457e76 3px solid;}
+
+.oculto {display: none;}
+
+.titulo_principal {font-size: 2.0em; float:left; color:#9e1834;}
+.titulo_principal_bloque {padding: 0rem 0rem 0.5rem 0rem; margin:0rem; color: #9E1834; font-size: 2rem;}
+
+.titulo_mas_grande {font-size : 1.75em;}
+
+.titulo_grande {font-size : 1.25em;}
+
+.titulo_mediano {font-size : 1.15em;}
+
+.flexwrap {display: flex; flex-wrap: wrap;}
+
+/*fin estilos incorporados*/
+
+.borde_img {border: 2px solid #89beba;}
+
+
+/*lista botones horizontal covid19*/
+div.lista_botones ul.botones {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+div.lista_botones ul.botones li {
+  float: left;
+}
+
+div.lista_botones ul.botones li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin:5px 15px;
+  text-decoration: none;
+  background-color: #DDEEEC;
+  color:black!important;
+  width:120px;
+}
+
+div.lista_botones ul.botones li.on a {
+  background-color: #457e76;
+}
+
+div.lista_botones ul.botones li a:hover {
+  background-color: #457e76;
+  color:white!important;
+}
+/*fin lista botones horizontal */

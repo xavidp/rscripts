@@ -1,0 +1,104 @@
+*, ::after, ::before {
+     box-sizing: inherit;
+}
+
+nav,
+.NAVtag
+, ::after, ::before {
+     box-sizing: border-box;
+}
+
+legend {
+    width: inherit;
+}
+
+label{
+	margin-bottom: 0px;
+}
+/********************************************/
+/***		COLORES NUEVOS 				***/
+/********************************************/
+
+
+/*********************************************************************/
+/***		                             COLORES NUEVOS
+                                      -------------------------
+-	#B6C5DF;	AZUL oscuro 	       --> #457E76  VERDE oscuro
+-	#E5E7F3; AZUL intermedio 	    --> #7FA3A1  VERDE intermedio
+-	#EEF2F8; AZUL m�s claro 	    --> #DDEEEC  VERDE claro
+-	#2B2D73;	color link
+-	#0D4EAE;	texto t�tulo 	       --> #457E76
+-	#333333; color texto
+-	#000000;	Negro
+-	#ffffff;	Blanco
+-	#324649;
+-	#0000CC;
+
+													Otros verdes:
+													+ claro    #EEF8F4
+													+ oscuro   #325250
+													++ oscuro  #153936
+/*********************************************************************/
+
+
+
+/***********************************************************/
+/***********************************************************/
+/***********************************************************/
+/***		baseINE.css     				             ***/
+/***********************************************************/
+/*** Nuevos colores del fichero baseINE.CSS 				  ***/
+/*** Nuevos colores del fichero baseINE.CSS 				  ***/
+/*** Nuevos colores del fichero baseINE.CSS 				  ***/
+
+
+/*** NO es necesario ning�n cambio de color porque solo tiene los siguientes colores:
+		background-color: #FDFDFD; 	--> No tiene correspondencia
+	   color: #333333;               --> Color texto (de momento no tiene correspondencia)
+		color: #2B2D73;					--> Color link (de momento not tiene correspondencia)
+
+***/
+
+BODY  {
+	background-color: white;
+	color: black;
+}
+
+.miga {
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    float: left;
+    display: inline-block;
+}
+/***		FIN baseINE.CSS                              ***/
+/***********************************************************/
+
+
+
+
+
+
+
+
+/****INICIO -- TREE GRP   *****/
+
+
+.contenedorArbol>.filtro{
+   border-color: #DDEEEC!Important;
+   background-color: #DDEEEC!Important;
+}
+
+
+.contenedorArbol>.opciones{
+    border-color: #DDEEEC!Important;
+ }
+
+.contenedorArbol>.pie{
+    border-color: #DDEEEC!Important ;
+    background-color: #DDEEEC!Important;
+   }
+
+
+
+/****FIN -- TREE GRP   *****/

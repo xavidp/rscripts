@@ -1,0 +1,76 @@
+
+
+loadUrlScript(HM_DirJs +"loading.js",null,null);
+loadUrlScript(HM_DirJs +"thickboxINE.js",null,null);
+
+var ua = "/ua/?noCab=1";
+
+
+function urlcorta(url, info, callback, captcha){
+	var data = {
+		'goUrl': url,
+		'goInfo': info
+	};
+	var destiny = captcha ? ua + '&RespuestaCaptcha=' + captcha : ua;
+	data = JSON.stringify(data);
+	$.ajax({
+		type : 'PUT',
+		url : destiny,
+		contentType: "application/json",
+		data : data,
+		context : {
+			funCallback:callback,
+			infoSend:info,
+			urlSend: url,
+			type: "uc",
+			funType: urlcorta
+		},
+		cache: false,
+		success : function(data, status, xhr){
+			if (xhr.getResponseHeader('captcha')=="1"){
+				tbINE_showHTMLDoc("Captcha", data, null, {height:300,width:350});
+				thickBoxConfig(this);
+			}else{
+				this.funCallback.data.shortUrl = data;
+				this.funCallback.data.callback(this.funCallback);
+			}
+		},
+		error: function(xhr, status, error){
+			if (xhr.getResponseHeader('captcha')=="1"){
+				tbINE_showHTMLDoc("Captcha", xhr.responseText, null, {height:300,width:350});
+				thickBoxConfig(this);
+			} else {
+				this.funCallback.data.callback(this.funCallback);
+			}
+		}
+	});
+}
+
+
+function thickBoxConfig(context){
+	$("#thickBoxINE").dialog( "option", "buttons", {
+		'OK': function () {
+			  var captcha = $("#thickBoxINEfrm").contents().find('input[name="RespuestaCaptcha"]').val();
+			  context.funType(context.urlSend, context.infoSend, context.funCallback, captcha);
+			  $(this).dialog("close");
+		},
+		'Cancel': function () {
+			$(this).dialog("close");
+		}
+	});
+}
+
+function shortUrl(event){
+	var url = window.location.href;
+	var info = typeof UrlCorta_InfoPOST != 'undefined' && typeof UrlCorta_InfoPOST === "function" ? UrlCorta_InfoPOST() : [];
+	
+	urlcorta(url, info, event);
+	
+	return false;
+}
+
+function selectUrl(event){
+	var sLoc = window.location.href;
+	var sUrl = event.data != null ? event.data.shortUrl : "";
+	return typeof sUrl === 'undefined' || sUrl.length > sLoc.length ? sLoc : sUrl;
+}

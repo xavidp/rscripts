@@ -1,0 +1,271 @@
+
+#Menu_cabeceraBuscador>button{
+	background-image: url(../img/lupa.png);
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	background-color: #a70332;
+    min-width: 32px;
+    padding-left: 32px;
+    color: white;
+    box-sizing: border-box;
+    max-width: 32px;
+    padding-right: 0px;
+    background-size: 32px 32px;
+}
+
+
+header,#header{
+	margin-bottom:15px;
+}
+
+footer,#footer{
+	margin-top:15px;
+	clear: both;
+}
+
+.sideBarIdioma{
+	display:block;
+	text-align: center;
+}
+
+.ImagenLogoIne>a{
+	min-width: 300px;
+	padding-left: 1.2rem;
+}
+
+.ImagenLogoIne>a>img{
+	max-width: calc(100% - 30px);
+}
+
+.capa_Menu_cabeceraBuscador
+{
+    height: 50%;
+    display: flex;
+}
+
+
+.ir-arriba{
+	opacity: 0.6;
+}
+
+.Menu_idioma{
+	height: 50%;
+	text-align: right;
+}
+
+
+
+#contenedor {
+/*width: 100%;   */
+background-color: White;
+padding:5px 0px 0px 0px;
+border: 0px;
+height: auto;
+/*min-width:1000px;*/
+max-width: 1280px;
+position: relative;
+margin: 0 auto;
+box-sizing: border-box;
+}
+
+
+#header {
+width: 100%;
+/*min-height: 135px;*/
+}
+
+
+#capa_Menu_cabeceraBuscador {
+	float: right;
+	height: 30px;
+	margin-top: 90px;
+	    min-width: 380px;
+    	 margin-right: 10px;}
+
+
+#Menu_cabeceraBuscador{
+	padding-left: 0px;
+	display:inline;
+}
+
+.Menu_searchString{
+	text-decoration: none;
+	background: White;
+	padding: 1px 1px 1px 1px;
+	vertical-align: bottom;
+	width: 380px;
+	height:28px;
+	border: 1px solid #000000;
+	box-sizing: unset;
+	margin: 0 5px 0px 0px;
+}
+
+
+
+#Menu_botonBuscador{
+	background:unset ;
+	border: 0px;
+	cursor: pointer;
+}
+
+
+form{
+	page-break-after: avoid;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	page-break-before: avoid;
+	display:inline;
+}
+
+.imagenLogoIne {
+	margin-left:15px;
+}
+
+
+/* estilos pie */
+
+#pie {
+	background-color: #457E76;
+	font-size:1.0em;
+	color:white;
+	border-top:unset;
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+#pie ul li {display:flex;}
+#pie div.homePie {display:inline-block; margin: 20px;  vertical-align: top;}
+#pie div.homePie ul li {
+	display: list-item;
+	float: unset;
+	text-align: left;
+	margin-top:0.4rem;
+	color: #fff;
+	white-space: nowrap;}
+#pie div.homePie ul li a {color: #fff !important; text-decoration:none;}
+#pie div.homePie ul li a span.tit {color: #fff !important; text-decoration:none;}
+#pie div.homePie ul li a span:hover {color: #457e76 !important;}
+#pie div.homePie ul li img { vertical-align: middle;}
+
+#pie div.homePie>ul>li.inicioSec{
+	margin-top:1.4rem;
+}
+
+/*fin estilos pie */
+
+
+/*  boton subir arriba pagina */
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+  display:none;
+  background-repeat:no-repeat;
+  font-size:20px;
+  color:#457E76;
+  cursor:pointer;
+  position:fixed;
+  bottom:10px;
+  right:3px;
+  margin-right: 15px;
+
+  z-index: 2;
+  padding: 3px;
+
+
+}
+/* fin boton subir */
+
+
+/****************************/
+/* Cuadro de seleccion AJAX */
+/****************************/
+
+#jquery-live-search {
+
+	background: #fff;
+
+	padding : 2px 2px;
+	max-height: 400px;
+	overflow: auto;
+
+	position: absolute;
+/* 	z-index: 999999; */
+
+	border: 1px solid #A9A9A9;
+	border-width: 0 1px 1px 1px;
+
+	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+	font-size: 0.8em;
+}
+
+#jquery-live-search ul {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	list-style-type: none;
+	display:block;
+	overflow:auto;
+	--height:5em;
+/* 	font-weight: bold; */
+	}
+
+
+#jquery-live-search li a{
+ 	text-decoration:  none;
+ 	display:block;
+	white-space: nowrap;
+	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+
+#jquery-live-search li a em{
+	font-weight: bold;
+}
+
+#jquery-live-search li a:hover {
+	background-color: #E5E7F3;
+	white-space: nowrap;
+}
+
+
+/*modifica bootstrap */
+caption {
+    padding-top: 0px;
+        padding-bottom: 0px;
+    color: black;
+    text-align: left;
+    caption-side: top;
+}
+
+.icoContacto{
+	width:34px;
+	vertical-align:unset!important;
+
+}
+
+
+.bloque_video_home {
+    width: 100%;
+    margin: 0 auto;
+    height: 55%; /*antes 100%*/
+  /* max-width: 330px;*/
+}
+
+.widgets *{
+	box-sizing:unset;
+}
+.widgets {
+	display:none;
+	z-index:99999;
+	position:fixed;
+	margin-left: 0px;
+	margin-top: 0px;
+	top: 15%;
+	left: 15%;
+	border: #457e76 solid 2px;
+	background:white;
+	-moz-box-shadow: 0 0 500px 150px #457e76;
+	-webkit-box-shadow: 0 0 500px 150px #457e76;
+	box-shadow: 0 0 500px 150px #457e76;
+}

@@ -3,3 +3,4 @@
 .RData
 .Ruserdata
 *.Rproj
+codis_territorials/shp/*/*.zip

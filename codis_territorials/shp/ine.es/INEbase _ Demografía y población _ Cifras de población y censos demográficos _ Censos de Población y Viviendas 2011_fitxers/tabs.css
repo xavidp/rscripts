@@ -1,0 +1,133 @@
+/* INICIO  TABS de selección
+role= "tablist"  y "tabpanel"
+
+*/
+.tabs>ul:first-child
+, #tabs>ul
+, #lista_subtemas_hori {
+	width:100%;
+	margin-top: 0px!Important;
+    margin-bottom: 0px!Important;
+    margin-left: 0!Important;
+    font-size: 1.0rem!Important;
+    list-style: none!Important;
+    margin: 0em 0em 0em 0em!Important;
+    padding: 0em!Important;
+    border-top: unset!Important;
+    border-right: unset!Important;
+    border-left: unset!Important;
+    border-bottom: #457e76 3px solid!Important;
+    margin-block-start: 0;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    display:inline-block!Important;
+    border-radius:0px!Important;
+    line-height: 1rem;
+    border:none;
+}
+.tabs>ul:first-child>li>a{
+	text-decoration: none;
+}
+.tabs>ul:first-child>li.On>a{
+	text-decoration: none;
+	color:white;
+}
+
+.tabs>ul:first-child>li
+, #tabs>ul>li.ui-tabs-tab
+, #lista_subtemas_hori>li
+{
+	border-left: 0px!Important;
+    padding: 10px 10px 10px 15px!Important;
+    margin: 0px 5px 0px 0px!Important;
+    BACKGROUND: #DDEEEC!Important;
+    display:inline-block!Important;
+    float: left;
+    border-radius:0px!Important;
+    border: unset;
+    line-height: 1rem;
+    border:none;
+}
+
+
+
+
+
+
+
+/*joseba*/
+
+/*.tabs>ul:first-child>li
+, #tabs>ul>li.ui-tabs-tab
+, */#lista_subtemas_hori>li.bordeL:hover
+{
+		BACKGROUND: #457e76!Important;
+		COLOR: white!Important;		
+}
+
+#lista_subtemas_hori>li.On span.cata_titulo a:link, 
+#lista_subtemas_hori>li.On span.cata_titulo a:active,
+#lista_subtemas_hori>li.On span.cata_titulo a:visited {
+		COLOR: white!Important;		
+}
+
+
+
+
+
+
+
+/*.tabs>ul:first-child>li
+, #tabs>ul>li.ui-tabs-tab
+, */#lista_subtemas_hori>li.bordeL:hover a
+{
+		COLOR: white!Important;
+}
+
+ul#lista_subtemas_hori li a:link{
+     color: black!Important;
+}
+
+ul#lista_subtemas_hori li a:visited{
+     color: black!Important;
+}
+/*fin*/
+
+
+
+
+
+
+
+
+
+
+.tabs>ul:first-child>li>*
+, #tabs>ul>li.ui-tabs-tab>*
+, #lista_subtemas_hori>li>*
+{
+	padding:0px;
+	margin:0px;
+}
+
+.tabs>ul:first-child>li.On
+, #tabs>ul>li.ui-tabs-active
+, #tabs>ul>li.ui-state-active
+, #lista_subtemas_hori>li.On{
+	BACKGROUND: #457e76!Important;
+	padding: 10px 10px!Important;
+    border: 0px!Important;
+    color: white!Important;
+    font-weight: bolder!Important;
+}
+
+/*ul.tabulador>li.On
+, #tabs>ul>li.ui-tabs-active
+, #lista_subtemas_hori>li.On>*{
+	font-weight: bold;
+}*/
+
+
+/* FIN  TABS de selección  */

@@ -1,0 +1,1309 @@
+/* CAMBIOS SOBRE TODO A /estilos/menus_ems.css  -------------------------------------------------------------------------------------------*/
+
+/*cambio a /_b/css/baseine.css */
+p {margin-bottom: 0.8em; margin-top: 0.2em;}
+
+
+div#contieneHtml ol {
+    list-style: decimal;
+    margin: 0em 0em 0em 1.5rem;
+    padding: 0em;	
+}
+
+/* cambios a /menus/estilos/baseINE.css*/
+
+
+a span {color: white;}
+
+a.w span {color: #457e76;}
+
+a:link, a:active, a:visited {   
+	color:#457e76; 
+    text-decoration: none;}
+
+div.Menu_cabeceraIdiomaEstatico>ul>li>a {color:black!important}
+li.sideBarIdioma>div.Menu_cabeceraIdiomaEstatico>ul>li>a {color:white!important}
+
+/*  ESTILOS para los Rastros de miga     ------------...........*/
+/*  Se recomienda usarlos con párrafos <p>                      */
+
+.fondo_rastro_ayuda {
+    margin: 0px 0px 15px 0px;
+    padding: 10px 10px 10px 20px;
+    border-bottom: 3px solid #ddeeec;
+    background: unset;
+    min-height:unset;	
+}
+
+.fondo_rastro_ine {
+    margin: 0px 0px 15px 0px;
+    padding: 10px 10px 10px 20px;
+    border-bottom: 3px solid #ddeeec;
+    background: unset;
+    min-height:unset;	
+}
+.fondo_rastro_ine a {color:black!important;}
+.fondo_rastro_inebase {
+	margin: 0px 0px 15px 0px;
+    padding: 0px 0px 10px 20px;
+    border-bottom: 3px solid #ddeeec;
+    background: unset;
+    min-height: 34px;		 
+}
+
+.fondo_rastro_metodos {
+    margin: 0px 0px 15px 0px;
+    padding: 10px 10px 10px 20px;
+    border-bottom: 3px solid #ddeeec;
+    background: unset;
+    min-height:unset;		
+}
+
+.fondo_rastro_empleo {
+    margin: 0px 0px 15px 0px;
+    padding: 10px 10px 10px 20px;
+    border-bottom: 3px solid #ddeeec;
+    background: unset;
+    min-height:unset;		
+}
+
+.fondo_rastro_prensa {
+    margin: 0px 0px 15px 0px;
+    padding: 10px 10px 10px 20px;
+    border-bottom: 3px solid #ddeeec;
+    background: unset;
+    min-height:unset;	
+}
+
+.fondo_rastro_pys {
+    margin: 0px 0px 15px 0px;
+    padding: 10px 10px 10px 20px;
+    border-bottom: 3px solid #ddeeec;
+    background: unset;
+    min-height:unset;		
+}
+
+.fondo_rastro_oce {
+    margin: 0px 0px 15px 0px;
+    padding: 10px 10px 10px 20px;
+    border-bottom: 3px solid #ddeeec;
+    background: unset;
+    min-height:unset;		
+}
+
+.fondo_rastro_sede {
+    margin: 0px 0px 15px 0px;
+    padding: 10px 10px 10px 20px;
+    border-bottom: 3px solid #ddeeec;
+    background: unset;
+    min-height:unset;		
+}
+
+
+/* cambios aplicados a /estilos/menus_ems.css */
+
+/*listas horizontales tipo botones*/
+a.w, a.w:link, a.w:active, a.w:visited {
+color: #457e76!Important;}
+
+ul.lista_subtemas_hori li a.w:visited {
+color: black!Important;}
+ul.lista_subtemas_hori li a.w:active {
+color: black!Important;}
+ul.lista_subtemas_hori li a.w:link {
+color: black!Important;}
+ul.lista_subtemas_hori li a.w:hover {	
+	BACKGROUND: #457e76; 
+	COLOR: white!important;		
+}
+/* fin listas*/
+
+
+.cf4  {
+	background: #457e76;
+}
+.bordeinf {
+	border-bottom : 1px solid #457e76;
+	}	
+.ocho {
+	background-color: #457e76;
+}
+.nuevenbor {
+	background-color: #ddeeec;
+	border-bottom : 1px solid #457e76;
+}
+.nueveoro {
+	background-color: #457e76;
+}
+.diez {
+	background-color: #457e76;
+	padding: 0.25em;
+    color: white !important;	
+}
+.diez a.w {
+    color: white !important;	
+}
+.diez a:link{
+	color: #000;	
+}
+.diez a:visited{
+	color: #000;	
+}
+.diezcarne {
+	background-color: #ddeeec;
+}
+.diezcarnenobold {
+	background-color: #ddeeec;
+}
+.diezn {
+	background-color: #457e76;	
+}
+.dieznc {
+	background-color: #457e76;
+}
+.diezn_top {
+	background-color: #457e76;
+}
+.dieznormalfondonuevo{	
+	background-color: #ddeeec;	
+}
+.diezfondon  {
+	background-color : #ddeeec;
+}
+.fondocarne {
+    background-color: #ddeeec;
+}
+.once {
+	background-color: #457e76;
+	padding: 0.5em;
+    color: white;
+}
+p.docenobama {
+	background-color: #457e76;
+}
+.doceb {
+	color: #457e76;
+}
+.docebam {
+	background-color: inherit;
+}
+.docenobama {
+	background-color: #457e76;
+}
+.catorce {
+	background-color: #457e76;
+}
+.catorcenorm {
+	background-color: #457e76;	
+}
+TD.P1 {
+	background : #457e76;
+}
+
+
+
+/* ESTILOS PARA menus DIVULGA -  DIA MUNDIAL DE ESTADISTICA*/
+DIV.menu_divulga {
+	BACKGROUND: #ddeeec;
+	width: unset;
+}
+DIV.menu_divulga A {
+	padding: 10px;
+	BORDER-TOP: 0px;
+	COLOR: black;
+	width: unset;
+}
+DIV.menu_divulga A:hover {
+	BACKGROUND: #457e76; 
+	COLOR: white;
+	TEXT-DECORATION: underline;
+}
+DIV.menu_divulga_abre {
+	BACKGROUND: #ddeeec;
+	width: unset;
+	BORDER-TOP: 0px;
+}
+DIV.menu_divulga_abre A {
+	padding: 10px;
+	BORDER-TOP: 0px;
+	COLOR: black;
+	width: unset;
+}
+DIV.menu_divulga_abre A:hover {
+	BACKGROUND: #457e76; 
+	COLOR: white;		
+	TEXT-DECORATION: underline;
+}
+DIV.menu_divulga_cierre {
+	PADDING: 10px;
+	width:unset;
+	BORDER: 0px;	
+	BACKGROUND: #ddeeec;
+}
+
+DIV.menu_divulga_cierre A {
+	PADDING:10px;
+	width:unset;
+	color:black;   
+}
+
+DIV.menu_divulga_cierre A:hover {
+	BACKGROUND: #457e76; 
+	TEXT-DECORATION: underline;
+	color:white;
+}
+
+
+DIV.menua_divulga_abre {
+	PADDING: 10px;
+	width:unset;
+	BORDER: 0px;	
+	BACKGROUND: #457e76;
+}
+DIV.menua_divulga_abre A {
+	PADDING:10px;
+	width:unset;
+	color:white;
+}
+DIV.menua_divulga_abre A:hover {
+	BACKGROUND: inherit; 
+	TEXT-DECORATION: underline;
+}
+DIV.menua_divulga {
+	PADDING: 10px;
+	width:unset;
+	BORDER: 0px;	
+	BACKGROUND: #457e76;
+}
+DIV.menua_divulga A {
+	PADDING:10px;
+	width:unset;
+	color:white;
+	BACKGROUND: #457e76 !important;	
+}
+DIV.menua_divulga A:hover {
+	BACKGROUND: inherit; 
+	TEXT-DECORATION: underline;
+}
+DIV.menua_divulga_cierre {
+	PADDING: 10px;
+	width:unset;
+	BORDER: 0px;	
+	BACKGROUND: #457e76;
+}
+DIV.menua_divulga_cierre A {
+	PADDING:10px;
+	width:unset;
+	color:white;
+}
+DIV.menua_divulga_cierre A:hover {
+	BACKGROUND: inherit; 
+	TEXT-DECORATION: underline;
+}
+
+/* ---------------FIN ---------- */ 
+
+
+/* ESTILOS PARA LOS MENUS PARTE IZQUIERDA    -----     MENUS PARTE IZQUIERDA    ------------ */
+
+.menu {
+	BACKGROUND: #ddeeec;
+	width:205px;
+	margin:5px 0px;
+	padding:0px;
+}
+.menu li {border-bottom: white 5px solid;
+	padding: 5px;}	
+.menu li:hover {
+	BACKGROUND: #457e76; 
+	COLOR: white;
+}	
+.menu A {
+	border-top:0px;
+	width: unset ;
+	color:black;
+}
+.menu A:hover {
+	BACKGROUND: #457e76; 
+	COLOR: white; 	
+}
+
+#contieneHtml td div.menu A {
+	border-top:0px;
+	width: unset ;
+	color:black;
+	padding: 5px;
+}
+#contieneHtml td div.menu A:hover {
+color:white;
+}
+
+#contieneHtml td div.menua A {
+    PADDING: 5px;
+ }
+
+/*censoagrario 2009*/
+
+.menua {
+	PADDING: 0px;
+	MARGIN: 0em;
+	width: 205px;
+	BORDER: 0px;	
+	BACKGROUND: unset;
+}
+.menua A {
+    PADDING: 10px;
+    BORDER-TOP:0px;
+    width: unset;
+    color: black;
+	background: #ddeeec;}
+
+
+.menua A:hover {
+	BACKGROUND: #457e76;
+	color:white;	
+}
+
+.menua_cierre {
+	padding: 0px;
+	BACKGROUND: white;
+	MARGIN: 0em;
+	width: 190px;
+	PADDING-TOP: 0px;
+	BORDER-BOTTOM: #457e76 1px solid;
+}
+.menua_cierre A {
+	padding: 0.2em;
+	DISPLAY: block;
+	FONT-WEIGHT: bold;
+	MARGIN: 0px;
+	width: 190px;
+	TEXT-DECORATION: none;
+}
+.menua_cierre A:hover {
+	BACKGROUND: white; 
+}
+
+.menu_cierre {
+	padding: 0px;
+	MARGIN: 0em;
+	width: 190px;
+	BACKGROUND: #ddeeec;
+	BORDER-BOTTOM: #457e76 2px solid;
+}
+.menu_cierre A {
+	MARGIN: 0px;
+	padding: 0.2em 0.0em;
+	DISPLAY: block;
+	FONT-WEIGHT: normal;
+	width: 190px;
+	TEXT-DECORATION: none;
+	BORDER-TOP: #ffffff 2px solid;
+}
+.menu_cierre A:hover {
+	BACKGROUND: white; 
+}
+
+DIV.menudos {
+	PADDING: 0px;
+	BORDER-TOP: 0px;
+	BACKGROUND: #ddeeec;
+	MARGIN: 5px 0px;
+	BORDER-LEFT: white 12px solid;
+	WIDTH: inherit;
+	BORDER-BOTTOM: 0px;
+}
+DIV.menudos A {
+	BORDER-TOP: 0px;
+	DISPLAY: block;
+	FONT-WEIGHT: normal;
+	PADDING: 0.2em 0.0em;
+	MARGIN: 5px 0px;
+	WIDTH: 100%;
+	color: black;
+	TEXT-DECORATION: none;
+}
+DIV.menudos A:hover {
+	BACKGROUND: #457e76; 
+	color:white;
+}
+
+
+DIV.menutres {
+	MARGIN: 0em;
+	BORDER-BOTTOM: #457e76 1px solid;
+	PADDING: 0px;
+	BACKGROUND: #ddeeec;
+	WIDTH: 14em;
+}
+DIV.menutres A {
+	MARGIN: 0px;
+	PADDING: 0.2em;
+	BORDER-TOP: #457e76 1px solid;
+	DISPLAY: block;
+	FONT-WEIGHT: bold;
+	WIDTH: 100%;
+	TEXT-DECORATION: none;
+}
+DIV.menutres A:hover {
+	BACKGROUND: #457e76; 
+}
+
+/* ESTILOS PARA LOS CENSOS 2011 */
+DIV.menu_cen {
+	padding: 0px;
+	MARGIN: 0em;
+	WIDTH: 155px;
+	BACKGROUND: #ddeeec;
+}
+DIV.menu_cen A {
+	MARGIN: 0px;
+	padding: 0.2em;
+	BORDER-TOP: #457e76 1px solid;
+	DISPLAY: block;
+	FONT-WEIGHT: bold;
+	WIDTH: 150px;
+	TEXT-DECORATION: none;
+}
+DIV.menu_cen A:hover {
+	BACKGROUND: white;
+}
+DIV.menu_cen_cierre {
+	padding: 0px;
+	BACKGROUND: #ddeeec;
+	MARGIN: 0em;
+	WIDTH: 155px;
+	BORDER-BOTTOM: #457e76 1px solid;
+}
+DIV.menu_cen_cierre A {
+	MARGIN: 0px;
+	padding: 0.2em;
+	BORDER-TOP: #457e76 1px solid;
+	BORDER-BOTTOM: #457e76 0px solid;
+	DISPLAY: block;
+	FONT-WEIGHT: bold;
+	WIDTH: 150px;
+	TEXT-DECORATION: none;
+}
+DIV.menu_cen_cierre A:hover {
+	BACKGROUND: white;
+}
+
+DIV.menua_cen {
+	MARGIN: 0em;
+	BORDER-RIGHT: #457e76 0px solid;
+	BORDER-TOP: #666600 0px solid;	
+	BORDER-LEFT: #457e76 0px solid;	
+	BORDER-BOTTOM: #457e76 0px solid;	
+	PADDING: 0px;
+	BACKGROUND: white;
+	WIDTH: 155px;
+}
+DIV.menua_cen A {
+	PADDING-RIGHT: 0.0em;
+	PADDING-BOTTOM: 0.2em;	
+	PADDING-LEFT: 0.2em;	
+	PADDING-TOP: 0.2em;
+	BORDER-TOP: #457e76 1px solid;
+	DISPLAY: block;
+	FONT-WEIGHT: bold;
+	MARGIN: 0px;
+	WIDTH: 153px;
+	TEXT-DECORATION: none
+}
+DIV.menua_cen_cierre {
+	padding: 0px;
+	BACKGROUND: #ffffff;
+	MARGIN: 0em;
+	WIDTH: 155px;
+	BORDER-BOTTOM: #457e76 1px solid;
+}
+DIV.menua_cen_cierre A {
+	MARGIN: 0px;
+	padding: 0.2em;
+	BORDER-TOP: #457e76 1px solid;
+	BORDER-BOTTOM: #457e76 0px solid;
+	DISPLAY: block;
+	FONT-WEIGHT: bold;
+	WIDTH: 150px;
+	TEXT-DECORATION: none;
+}
+DIV.menua_cen_cierre A:hover {
+	BACKGROUND: white; 
+}
+/* ---------------FIN ---------- */
+
+DIV.menub {
+	PADDING: 0px 0px 0px 10px;
+	BACKGROUND: #457e76;
+	MARGIN: 0em;
+	BORDER: 0px ;
+	WIDTH: 145px;
+}
+DIV.menub A {
+	MARGIN: 0px;
+	PADDING: 0.2em;
+	DISPLAY: block;
+	FONT-WEIGHT: bold;
+	WIDTH: 140px;
+	TEXT-DECORATION: none;
+}
+DIV.menub A:hover {
+	BACKGROUND: #ddeeec; 
+}
+
+DIV.menuba {
+	PADDING: 0px;
+	BACKGROUND: white;
+	MARGIN: 0em;
+	BORDER-LEFT: white 10px solid;
+	BORDER-BOTTOM: #457e76 0px solid;
+	BORDER-TOP: #457e76 0px solid;
+	WIDTH: 143px;
+}
+DIV.menuba A {
+	MARGIN: 0px;
+	PADDING: 0.2em;
+	DISPLAY: block;
+	FONT-WEIGHT: bold;
+	WIDTH: 140px;
+	TEXT-DECORATION: none;
+}
+
+DIV.menuw {
+	BORDER: #457e76 0px solid;
+	PADDING: 0px;
+	BACKGROUND: #ddeeec;
+	MARGIN: 0em;
+	WIDTH: 185px;
+}
+DIV.menuw A {
+	PADDING: 0.1em;
+	BORDER-TOP: #457e76 1px solid;
+	DISPLAY: block;
+	FONT-WEIGHT: normal;
+	MARGIN: 0px;
+	WIDTH: 100%;
+	TEXT-DECORATION: none;
+}
+DIV.menuw A:hover {
+	BACKGROUND: #ddeeec;
+}
+
+DIV.menuib {
+	BORDER-RIGHT: #457e76 0px solid;
+	BORDER-TOP: #457e76 0px solid;
+	BORDER-LEFT: #457e76 0px solid;
+	BORDER-BOTTOM: #457e76 1px solid;
+	PADDING: 0px;
+	BACKGROUND: #ddeeec;
+	MARGIN: 0em;
+	WIDTH: 130px;
+}
+DIV.menuib A {
+	MARGIN: 0px;
+	PADDING-top: 0.1em;
+	PADDING-bottom: 0.1em;
+	BORDER-TOP: #457e76 1px solid;
+	DISPLAY: block;
+	FONT-WEIGHT: normal;
+	WIDTH: 100%;
+	TEXT-DECORATION: none;
+}
+DIV.menuib A:hover {
+	BACKGROUND: #ffffff;
+}
+
+DIV.menu_censoag {
+	BORDER-RIGHT: #457e76 0px solid;
+	BORDER-TOP: #666600 0px solid;	
+	BORDER-LEFT: #457e76 0px solid;	
+	BORDER-BOTTOM: #666600 1px solid;	
+	PADDING: 0px;
+	BACKGROUND: #dee6a8;
+	MARGIN: 0em;
+	WIDTH: 155px;
+}
+
+DIV.menu_censoag A {
+	MARGIN: 0px;
+	PADDING: 0.2em;
+	BORDER-TOP: #666600 1px solid;
+	DISPLAY: block;
+	FONT-WEIGHT: bold;
+	WIDTH: 100%;
+	COLOR: #666600;
+	TEXT-DECORATION: none;
+}
+
+DIV.menu_censoag A:hover {
+	BACKGROUND: #ddeeec; 
+}
+
+/* FIn Menus*/
+	
+
+input {
+	border: 1px solid #457e76;
+}
+input:focus {
+	background: #ddeeec;
+}
+
+.fuente_color_ine {color: #457e76;}
+.fuente_tituloGrande {color: #457e76;}
+
+.borde_inf_ine {border-bottom : 1px solid #457e76;}
+.borde_sup_ine {border-top : 1px solid #457e76;}
+.borde_sup_black {border-top : 1px solid #000000;}
+.borde_sup_ine_puntos {border-top : 1px dotted #457e76;}
+.borde_tot_ine {border: 1px solid #457e76;}
+.borde_tot_sede {border: 1px solid #333333;}
+.borde_ficha_cata {border-bottom: 2px solid #457e76;}
+.borde_cata {border-top: 2px solid #457e76; padding-top:1em;}
+.borde_supinf {border-top: 2px solid #457e76;  border-bottom: 2px solid #457e76; padding-bottom:0.5em;}
+
+.fondo_azulclaro {
+	background-color: #eef8f4;
+}
+
+/****************************************************************/
+
+.ficha-completa {
+    /* display: flow-root; */
+    overflow: auto;
+    background-color: #fff;
+    margin-top: 0px;
+    border-bottom: #457e76 3px solid;
+    border-top: #457e76 3px solid;
+    padding-left: 10px;
+    padding-bottom: 11px;
+    padding-top: 10px;
+}
+
+/******************************/
+
+.cuerpo_principal_IB {
+margin-left: 215px;}
+
+.cuerpo_principal_borde{
+	border: 1px  solid #ddeeec;	
+}
+
+.cuerpo_texto_borde{
+	border: 1px  solid #ddeeec;
+}
+
+.cuerpo_caja_titulo {
+    background-color: #ddeeec;
+    border: 2px solid #ddeeec;
+}
+
+.cuerpo_caja_texto {
+   border: 2px solid #ddeeec;
+}
+
+.cuerpo_resaltado_titulo {
+   background-color: #457e76;
+   color:white;
+}
+
+.cuerpo_resaltado_titulo_nivel2 {
+   background-color: #457e76; 
+     color:white;
+}
+
+.cuerpo_resaltado_item {
+   background-color: #457e76; 
+}
+
+#botonBuscar{
+	COLOR: black;
+	background: #457e76;
+	border: 1px solid #457e76;
+}
+#botonBuscar:hover {
+	background: #ddeeec;
+	COLOR: black;
+}
+
+.botonBuscar{
+	COLOR: black;
+	background: #457e76;
+	border: 1px solid #457e76;
+}
+.botonBuscar:hover {	
+	background: #ddeeec;
+	COLOR: black;
+}
+
+div#cadenaBuscador{
+	border: 1px solid #457e76;
+}
+
+.fondo_rastro_INE {
+    padding-top:2px;
+    border-bottom: 2px solid #457e76;	 
+    background: unset;
+    min-height: unset;
+    padding: unset;
+}
+
+.fondo_rastro_INEB {
+    padding-top:2px;
+    border-bottom: 3px solid #457e76;	 
+    background: unset;	
+    min-height: unset;
+    padding: 2px 0px 0px 0px;
+}
+
+.fondo_rastro_MYE {
+    padding-top:2px;
+    border-bottom: 3px solid #457e76;	 
+    background: unset;	
+    min-height: unset;
+    padding: 2px 0px 0px 0px;
+}
+
+.fondo_rastro_FYE {
+    padding-top:2px;
+    border-bottom: 3px solid #457e76;	 
+    background: unset;	
+    min-height: unset;
+    padding: 2px 0px 0px 0px;
+}
+
+.fondo_rastro_PRS {
+    padding-top:2px;
+    border-bottom: 3px solid #457e76;	 
+    background: unset;	
+    min-height: unset;
+    padding: 2px 0px 0px 0px;
+}
+
+.fondo_rastro_PYS {
+    padding-top:2px;
+    border-bottom: 3px solid #457e76;	 
+    background: unset;	
+    min-height: unset;
+    padding: 2px 0px 0px 0px;
+}
+
+.fondo_rastro_CE {
+    padding-top:2px;
+    border-bottom: 3px solid #457e76;	 
+    background: unset;	
+    min-height: unset;
+    padding: 2px 0px 0px 0px;
+}
+
+.fondo_rastro_SE {
+    padding-top:2px;
+    border-bottom: 3px solid #457e76;	 
+    background: unset;	
+    min-height: unset;
+    padding: 2px 0px 0px 0px;
+}
+
+.fondo_rastro_AY {
+    padding-top:2px;
+    border-bottom: 3px solid #457e76;	 
+    background: unset;	
+    min-height: unset;
+    padding: 2px 0px 0px 0px;
+}
+
+#capa_rastroMigasIne{
+    border-bottom: 3px solid #457e76;	 
+    background: url(../menus/img/cab1_num.gif) no-repeat top left;	
+}
+	
+#capa_rastroMigasPyS{
+    border-bottom: 3px solid #457e76;	 
+    background: url(../menus/img/cab6_num.gif) no-repeat top left;	
+}
+
+
+/*  estilos para el boton de IR -------------------*/
+
+input.Menu_BtnBuscar{
+	background: #457e76;
+	border: 1px solid #457e76;
+	color:black;
+}
+input.Menu_BtnBuscar:hover{
+	background: #ddeeec;
+}
+
+input.Menu_BtnBuscar-hover{
+	background: #ddeeec;
+	border: 1px solid #457e76;
+}
+/*   fin estilos boton IR ----------------*/
+
+/*Formato de los botones a. INE*/
+a.boton  {
+    background: none repeat scroll 0 0 #457e76;
+	border: 1px solid #457e76;
+    color: white!important;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 2px 7px;
+    text-decoration: none;
+}
+
+a.boton:hover {
+	background-color: #ddeeec!important;
+	color: black!important;
+	border: 1px solid #457e76;
+}
+/*fin*/
+
+a.cajab {
+	background: #457e76;
+	border: 1px solid #457e76;
+	color: white !important;
+}
+a.cajab:hover {
+	BACKGROUND: #ddeeec;
+	color:black !important;
+}
+
+a.cajabg {
+	background: #457e76;
+	border: 1px solid #457e76;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+    color:white;
+}
+a.cajabg:hover {
+	BACKGROUND: #ddeeec;
+	color:black;
+}
+
+.fondoine {
+	background-color : #ddeeec;	
+	border: 1px solid #457e76;
+	}
+	
+.fondoinediez {
+	background-color : #457e76;	
+	}
+
+
+.uno {
+	background-color: inherit;
+}
+.cuatro {   
+	background-color: #457e76;
+}
+
+ul.lista_no_vi_no_sang_menos {
+margin-left: inherit;}
+
+/*  BOTONes formulario  */
+
+input.boton	 {
+	background: #457e76;
+	border: 1px solid #457e76;
+	color: white;
+}
+
+input.boton:hover {	
+	background: #ddeeec;
+}
+
+input.boton-hover {
+	background: #ddeeec;
+	border: 1px solid #457e76;
+}
+
+input.botonRojo	 {	
+	background: #ddeeec;
+	border: 1px solid #457e76;
+}
+
+input.botonRojo:hover {
+	border: 1px solid #ddeeec;
+	background: #457e76;
+}
+
+input.botonRojo-hover {	
+	background: #457e76;	
+	border: 1px solid #ddeeec;	
+}
+
+/* fin botones con evento */
+
+
+/*  BOTONes formulario  */
+
+.boton	 {
+	background: #457e76;
+	border: 1px solid #457e76;
+	color:white;
+}
+.boton:hover {	
+	background: #ddeeec;
+	color:black;
+}
+.boton-hover {
+	background: #ddeeec;
+	border: 1px solid #457e76;
+}
+
+.botonRojo	 {	
+	background: #ddeeec;
+	border: 1px solid #457e76;
+}
+.botonRojo:hover {
+	border: 1px solid #ddeeec;
+	background: #457e76;
+}
+.botonRojo-hover {	
+	background: #457e76;	
+	border: 1px solid #ddeeec;	
+}
+
+/* fin botones con evento */
+
+
+/* Colores y bordes para campos formulario  */
+
+.form {
+	background-color: #ddeeec;
+}
+
+.campos_form_sale {
+   border: 1px solid #333333;
+}
+
+.campos_form_sale_oce {
+   border: 1px solid #333333;
+}
+
+ /* Fin colores y bordes formularios  */
+
+/* estilos para pagina estatica con lista tablas de inebase ETCL  */
+
+.cuerpo_resaltado_titulo_margen {
+   background-color: #ddeeec; 
+}
+/* fin estilos para pagina estatica tablas inebase etcl  */
+
+
+/*  Lista Horizontal con separador  BORDE LATERAL ...Class No Id...----------*/
+
+ul.lista_subtemas_hori {
+    font-size: 1.1em;
+    }
+ul.lista_subtemas_hori li:hover {
+	BACKGROUND: #457e76; 
+	COLOR: white;
+}
+ul.lista_subtemas_hori li {
+    padding: 0.5em;
+    margin-bottom: 0px;
+		*display: inline; /* IE */
+	BACKGROUND: #ddeeec;
+}
+ul.lista_subtemas_hori li.bordeL {
+    border-left: 0px; 
+    padding: 10px 10px 10px 15px;
+    margin-bottom: -5px;
+    margin-right: 5px;
+	BACKGROUND: #ddeeec;	
+}
+ul.lista_subtemas_hori li.bordeL:hover {	
+	COLOR: #fff;
+	BACKGROUND: #457e76;			
+}
+ul.lista_subtemas_hori li a:link {	
+	color: inherit;
+}
+ul.lista_subtemas_hori li a:hover {	
+	COLOR: white;	
+	padding-left: 0px;
+	padding-right: 0px;			
+}
+ul.lista_subtemas_hori li a:visited{
+	 color: inherit;
+}
+ul.lista_subtemas_hori li.On {
+    BACKGROUND: #457e76;
+    margin-right: 5px;
+    padding: 10px 10px;
+    border:0px;
+	color: black;
+}
+ul.lista_subtemas_hori li.On a {
+    COLOR: white;
+}
+ul.lista_subtemas_hori li.On a:hover {
+    COLOR: white;
+}
+ul.lista_subtemas_hori li.On:hover {	
+	BACKGROUND: #457e76; }
+ul.lista_subtemas_hori li.bordeLR {	
+	border-right: 2px solid #457e76;	
+	border-left: 2px solid #457e76;  
+	BACKGROUND: #ddeeec;			
+} 
+ul.lista_subtemas_hori li.bordeLR:hover {	
+	BACKGROUND: #ddeeec;			
+}
+/*  FIn  Lista Horizontal con separador  BORDE LATERAL  ---*/
+
+
+/*  Lista Horizontal con separador  BORDE LATERAL FUENTE 1.1em ------------------------*/
+
+ul#lista_subtemas_hori_p li.bordeL {
+    border-left: 2px solid #457e76;
+}
+ul#lista_subtemas_hori_p li a:hover {
+	background: #ddeeec;
+}
+ul#lista_subtemas_hori_p li a:visited {
+    color: #457e76;
+}
+ul#lista_subtemas_hori_p li.On {
+    background: none repeat scroll 0 0 #457e76;
+}
+/*  FIn  Lista Horizontal con separador  BORDE LATERAL  ---*/
+
+.bloqueBordeAzul{
+    border-top: 2px solid #457e76;	
+}
+
+.bloqueBordeAzulfuente{
+    border-top: 2px solid #457e76;	
+}
+
+div#ficha_cata {
+	border-top: 2px solid #457e76;	
+}
+
+.ficha_cata_formato_borde {border-top: 2px solid #457e76;}
+
+.texto_titulo_nivel1 {
+color:#457e76; 
+}
+.texto_titulo_nivel1_raya {
+	border-top-color: #ddeeec;
+}
+
+/* ESTILOS PARA LOS MENUS LATERALES */
+
+div#cuerpo div.cuerpo_lateral {
+	width:205px;
+	z-index:1;}
+div#cuerpo div.cuerpo_lateral div {
+	margin:0; 
+	padding:0px; 
+	border-bottom: white 5px solid;}
+
+div#cuerpo ul.menu_lateral_navegacion li {
+	margin:0; 
+	padding:0px; 
+	border-bottom: white 5px solid;}
+
+.menu_cat {
+	BACKGROUND: #ddeeec;
+	width: unset;
+}
+.menu_cat A {
+	padding: 10px;
+	BORDER-TOP: 0px;
+	COLOR: black;
+	width: unset;
+}
+.menu_cat A:hover {
+	BACKGROUND: #457e76; 
+	COLOR: white;
+}
+.menu_cat_cierre {
+	BACKGROUND: #ddeeec;
+	BORDER-BOTTOM: 0px;
+	width: unset;
+}
+.menu_cat_cierre A {
+    PADDING: 10px;
+	BORDER: 0px; 
+	color:black; 	
+	width: unset;
+}
+.menu_cat_cierre A:hover {
+	BACKGROUND: #457e76; 
+	COLOR: white;
+}
+
+.menua_cat {	
+	BACKGROUND: #ddeeec;
+	width: unset;
+}
+.menua_cat A {
+    PADDING: 10px;
+    BORDER-TOP:0px;
+	COLOR: black;
+	width: unset;
+}
+.menua_cat A:hover {
+	BACKGROUND: #457e76; 
+	COLOR: white;
+}
+
+.menu_seleccionado {
+	BACKGROUND: #457e76; 
+}
+.menu_seleccionado a {
+	BACKGROUND: #457e76;
+	color:white; 
+}
+.menu_seleccionado a:link,a:active {
+	color:white !important;
+}
+
+/* ---------------FIN ---------- */
+
+.cab_tabla_color {
+	background-color: #457e76;
+}
+
+.item_tabla_color {
+	background-color: #ddeeec;
+}
+
+.item_tabla_cierre_borde {
+	BORDER-BOTTOM: #457e76 1px solid;	
+}
+
+.secPren_lista_enlaces_fondo {
+	background-color: #ddeeec;
+}
+
+.lista_colorf A{
+	color: #457e76;
+}
+.lista_colorf A:hover{
+	background-color: #ddeeec;
+	color: #457e76;
+} 
+ 
+ .ioe_ficha_opcion_titulo { 
+	background-color: #ddeeec;
+ } 
+ .ioe_ficha_opcion_titulo_separador { 
+	background-color: #ddeeec;
+ } 
+ 
+ .botonBlanco {
+	color: #457e76;
+	border: 1px solid #457e76;
+}
+.botonBlanco:hover {
+	background: #457e76;
+}
+
+.FichaTabla {
+   border-bottom: 3px solid #457e76;
+}
+
+.dataLabDatos {
+	border-bottom:2px solid #457e76;
+}
+ .dataLabDatos th {
+	background-color: #ddeeec;
+	font-weight : bold;
+}
+.dataLabDatos caption {
+	background-color: #457e76;
+}
+
+/*titulo grafico widget  */
+.tit_graf_widget_eurostat {
+    background-color: #ddeeec;
+	border-top: 2px solid #457e76;
+	border-left: 2px solid #457e76;
+	border-right: 2px solid #457e76;
+ }
+ /*fin*/
+
+#cifrasine_pie {
+	background: #457e76;
+	color: black;
+}
+
+.cifrasine_bloque_fondoAzul {
+	background-color: #457e76;
+}	
+.cifrasine_fondoAzulClaro {
+    background-color: #ddeeec;
+ }
+
+ .cifrasine_fondoBody {
+    background-color: #ddeeec;
+}
+.cifrasine_titulo_mediano_fondo {
+	background:  #457e76;
+}
+.cifrasine_tablaUE {
+	background-color:#457e76;
+}
+.cifrasine_tablaUE_1col {
+	background-color:#457e76;
+}
+
+.cuerpo_resaltado_titulo_fuente_333 {
+    background-color: #457e76; 
+	color:black;
+}
+
+.miTabla tr.diez {
+   background-color: #457e76 !important;
+}
+
+.miTabla td table.miTablaNivel2 td:nth-child(1) {
+    width: 62px;
+}
+
+/* estilos paginas censos 2011 */
+.cen11_fondo_azul {
+	background-color: #89BEBA;}
+
+/*estilo para tabla calen.htm*/
+.dato_calen {
+	background-color: #ddeeec;}
+
+.columna_izq_borde {
+	border-top:2px solid #457e76;
+}
+
+.columna_der_borde {
+	border-top:2px solid #457e76;
+}
+/*fin*/
+
+.fuente_tam90 {
+    font-size: 1em;
+}
+
+#contieneHtml {
+    font-size: 1em;
+}
+
+.cuerpo_principal_cole {
+    margin-left: 15.3em;
+}
+
+.AppToolBarFondo {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin: 0px 0px 5px 0px;
+    border-bottom: 0px solid #DDEEEC;
+	width: 100%;}
+.AppToolBarContent .Sup {
+    padding: unset;}
+
+a.boton:hover {
+    background: #DDEEEC;
+color: #333333;}

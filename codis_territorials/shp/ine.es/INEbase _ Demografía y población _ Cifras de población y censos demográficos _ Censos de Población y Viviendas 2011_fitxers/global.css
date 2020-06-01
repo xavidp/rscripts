@@ -1,0 +1,1174 @@
+#DIVloading{
+  background: url(../img/loading.gif) no-repeat center bottom;
+  background-size:inherit;
+  background-repeat:no-repeat;
+  background-position: 50% 50%;
+
+}
+
+a.rojo:link,a.rojo:active,a.rojo:hover,a.rojo:visited {
+	color: #a70331; text-decoration:none;
+}
+
+.noseve{
+	display: none;
+}
+
+.bloque{
+	display: block;
+}
+
+.marcoINE{
+   border: 1px solid #DDEEEC;
+   display: block;
+   float: left;
+   margin: 2px;
+   padding: 0px;
+}
+
+.marcoINE>fieldset, fieldset.marcoINE{
+	border-top: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	margin: 3px;
+	padding: 0px;
+	float: left;
+	display: block;
+}
+
+.marcoINE>fieldset>legend, fieldset.marcoINE>legend{
+  width:100%;
+  margin:0px 0px 0px 0px;
+  height:auto;
+  padding:0px;
+  color:black;
+  min-width: 200px;
+}
+
+.marcoINE>fieldset>legend>label, fieldset.marcoINE>legend>label {
+  padding:5px;
+}
+
+
+.serieDato, .sd {
+	padding-right: 5px;
+	background-image : url(../../img/marcador.gif);
+	background-position : top right;
+	background-repeat : no-repeat;
+	cursor: pointer;
+}
+
+.serieDatoNota, .sdn {
+	padding-right: 5px;
+	background-image : url(../../img/marcadorNota.gif);
+	background-position : top right;
+	background-repeat : no-repeat;
+	cursor: pointer;
+}
+
+/*********************************************************/
+/**            BARRA DE HERAMIENTAS APLICACION           */
+/*********************************************************/
+.AppToolBarFondo{
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: top left;
+	margin: 0px 0px 5px 0px;
+	border-bottom: 3px solid #DDEEEC;
+	width: 100%;
+}
+
+.AppToolBarFondo>div{
+	display: inline;
+}
+
+.AppToolBarContent{
+	display: inline-block !Important;
+	width: calc(100% - 125px);
+	padding: 2px 0px 0px 16px;
+}
+
+
+.AppToolBarContent .Sup{
+	min-height: 20px;
+	/*padding: 2px 0px 0px 55px;*/
+	overflow: auto;
+	margin-bottom: 0px;
+}
+
+.AppToolBarContent .Sup >*{
+	display:inline-block;
+}
+
+.AppToolBarContent .Inf{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 110px 0px 0px;
+	display: block;
+	position: relative;
+	float:left;
+	clear: both;
+/*	.position: inherit;  */
+}
+
+.AppToolBarContent .Inf>*{
+	float:left;
+	margin-left:5px;
+	margin:1px;
+}
+
+.AppToolBarContent .Inf div{
+   margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+/*	.position: inherit;  */
+	bottom: 2px;
+}
+
+.AppToolBarContent .Inf img.sinborde{
+   margin-right: 7px;
+}
+
+.AppToolBarContentRight{
+	float:right;
+}
+.AppToolBarContentRight span{
+	float:left;
+	margin: 3px;
+}
+
+.AppToolBarLogo{
+	display:inline;
+	max-width:100px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+/*comienzo TOOLTILP */
+
+
+/*  TOOLTIP para una capa DIV */
+
+div.Ntooltip {color:#457e76; /* forzar color del texto */
+}
+
+div:Ntooltip hover {
+	background:#ffffff; /*BG color is a must for IE6*/
+	text-decoration:none;
+	}
+
+div.Ntooltip span {
+ 	display:none;
+	padding:5px 5px;
+   margin-top:-3px;
+	/* 			margin-top: 15px\9;   /*IE8 and below  */
+	/* margin-left:-130px; */
+	width:300px;
+	text-align:left;
+	cursor: default;
+	}
+
+div.Ntooltip:hover span {
+	border-radius: 5px 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	display:block;
+	position:absolute;
+	border:1px solid #457E76;
+	text-decoration:none;
+	background:#DDEEEC;
+	color:#000000;
+	z-index: 999;
+	padding:0.5em;
+	}
+ /*  Fin Tooltip para CAPA DIV */
+
+ /*  TOOLTIP para una capa DIV con lista descripci?n operaciones INEbase */
+
+div.Ntooltip_tablaOper {
+    margin-left: 40%;
+    vertical-align: middle;
+    width: 20px;
+    color:#457e76; /* forzar color del texto */
+}
+
+div:Ntooltip_tablaOper hover {
+	background:#ddeeec; /*BG color is a must for IE6*/
+	text-decoration:none;
+	}
+
+div.Ntooltip_tablaOper dl {
+    display: none;
+    margin-left: -430px;
+    margin-top: -3px;
+    padding: 5px;
+    text-align: left;
+    width: 450px;
+	}
+
+div.Ntooltip_tablaOper:hover dl {
+	border-radius: 5px 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	display:block;
+	position:absolute;
+	border:1px solid #457E76;
+	text-decoration:none;
+	background:#DDEEEC;
+	color:#000000;
+	z-index: 999;
+	padding:0.5em;
+	}
+ /*  Fin TOOLTIP DIV con lista descripci?n operaciones INEbase  */
+
+
+/*  TOOLTIP para Descripcion Operacion INEBASE -- VALE PARA CUALQUIER TOOPTIL*/
+
+/*a.Ntooltip {
+		position:relative;
+}
+*/
+a:Ntooltip hover {
+	background:#ddeeec; /*BG color is a must for IE6*/
+	text-decoration:none;
+	}
+
+a.Ntooltip span {
+ 	display:none;
+	padding:5px 5px;
+   margin-top:-3px;
+	 			margin-top: 15px\9; /* IE8 and below  */
+	/* margin-left:-130px; */
+	width:300px;
+	text-align:left;
+	cursor: default;
+	}
+
+a.Ntooltip:hover span {
+	border-radius: 5px 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	display:block;
+	position:absolute;
+	border:1px solid #457E76;
+	text-decoration:none;
+	background:#DDEEEC;
+	color:#000000;
+	z-index: 999;
+	padding:0.5em;
+	}
+ /*  Fin Tooltip  */
+
+/*Comienzo Ntooltip FICHA TECNICA  */
+
+a.NtooltipFicha {
+position: relative; /* es la posici?n normal */
+text-decoration: none; /* forzar sin subrayado */
+color:#457e76; /* forzar color del texto */
+font-weight: normal; /* forzar negritas */
+background-color: transparent;
+}
+
+a.NtooltipFicha:hover {
+z-index:999; /* va a estar por encima de todo */
+background-color:#fff; /* DEBE haber un color de fondo */
+color: #457e76 ; /* forzar color del texto */
+}
+
+a.NtooltipFicha span {
+display: none; /* el elemento va a estar oculto */
+}
+
+a.NtooltipFicha:hover span {
+display: block; /* se fuerza a mostrar el bloque */
+position: absolute; /* se fuerza a que se ubique en un lugar de la pantalla */
+top:1.2em; left:2em; /* donde va a estar */
+width:350px; /* el ancho por defecto que va a tener */
+padding:10px; /* la separaci?n entre el contenido y los bordes */
+background-color: white; /* el color de fondo por defecto */
+color: #000000; /* el color de los textos por defecto */
+border: 1px solid #457e76;
+font-weight: normal;
+}
+
+/*  Fin  Ntooltip FICHA TECNICA */
+
+/*  TOOLTIP ACCESIBLE para notas cortas  mensu INEbase BASE DE DATOS */
+
+a.NtooltipVacio {
+position: relative; /* es la posici?n normal */
+text-decoration: none !important; /* forzar sin subrayado */
+color:#ffffff !important; /* forzar color del texto */
+font-weight:bold !important; /* forzar negritas */
+background-color: #ddeeec;
+}
+
+a.NtooltipVacio:hover {
+z-index:999; /* va a estar por encima de todo */
+background-color:#ddeeec; /* DEBE haber un color de fondo */
+}
+
+a.NtooltipVacio span {
+display: none; /* el elemento va a estar oculto */
+text-decoration: none !important; /* forzar sin subrayado */
+}
+
+
+a.NtooltipVacio:hover span {
+display: block; /* se fuerza a mostrar el bloque */
+position: absolute; /* se fuerza a que se ubique en un lugar de la pantalla */
+top:2em; left:4em; /* donde va a estar */
+width:250px; /* el ancho por defecto que va a tener */
+padding:10px; /* la separaci?n entre el contenido y los bordes */
+background-color: white; /* el color de fondo por defecto */
+color: #457e76; /* el color de los textos por defecto */
+border: 1px solid #457e76;
+font-weight: normal;
+font-size:0.75em;
+}
+
+/*  Fin Ntooltip Vacio con CAJA mas Ancha*/
+
+/*  TOOLTIP ACCESIBLE para notas cortas  mensu INEbase BASE DE DATOS */
+
+a.NtooltipVacioAncho {
+position: relative; /* es la posici?n normal */
+text-decoration: none !important; /* forzar sin subrayado */
+color:#ffffff !important; /* forzar color del texto */
+font-weight:bold !important; /* forzar negritas */
+background-color: #ddeeec;
+}
+
+a.NtooltipVacioAncho:hover {
+z-index:999; /* va a estar por encima de todo */
+background-color:#ddeeec; /* DEBE haber un color de fondo */
+}
+
+a.NtooltipVacioAncho span {
+display: none; /* el elemento va a estar oculto */
+text-decoration: none !important; /* forzar sin subrayado */
+}
+
+
+a.NtooltipVacioAncho:hover span {
+display: block; /* se fuerza a mostrar el bloque */
+position: absolute; /* se fuerza a que se ubique en un lugar de la pantalla */
+top:2em; left:4em; /* donde va a estar */
+width:450px; /* el ancho por defecto que va a tener */
+padding:10px; /* la separaci?n entre el contenido y los bordes */
+background-color: white; /* el color de fondo por defecto */
+color: #457e76; /* el color de los textos por defecto */
+border: 1px solid #457e76;
+font-weight: normal;
+font-size:0.75em;
+}
+
+/*  Fin Ntooltip Vacio Ancho */
+
+
+/*fin NTOOLTIP*/
+
+
+
+
+/* INICIO ToolTip*/
+#dhtmlgoodies_tooltip{
+		background-color:#FFFFFF;
+		border:0.1em solid #000;
+		position:absolute;
+		display:none;
+		z-index:20000;
+		padding:0.2em;
+		font-size:0.75em;
+		font-family: Arial, helvetica, sans-serif;
+		margin-left:-0.1em;
+
+}
+
+#dhtmlgoodies_tooltipClose{
+	background-color: #b6c5df;
+}
+
+#dhtmlgoodies_tooltipShadow{
+		position:absolute;
+		background-color:#BBB;
+		display:none;
+		z-index:10000;
+}
+
+.tooltipContent{
+	padding: 5px;
+	float:left;
+	width: 100%;
+}
+
+#dhtmlgoodies_tooltipClose {
+float:left;
+width:100%;
+padding:0px 0px 0px 0px;
+ }
+
+#dhtmlgoodies_tooltipClose a{
+	float: left;
+	margin-right: -25px;
+	padding: 2px 0px 2px 2px;
+}
+#dhtmlgoodies_tooltipClose strong{
+	float: left;
+	margin-left: 25px;
+	margin-top: 3px;
+}
+
+
+/* RASTRO DE MIGAS*/
+
+h1.submiga{
+	display: inline;
+    font-size: inherit;
+    float: inherit;
+    font-weight: bolder;
+}
+.miga {
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	display: inline-block;
+	float: left;
+}
+
+
+/* miga en modo lista*/
+/*miga en modo lista */
+ul.miga{
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	overflow-y: auto;
+    max-height: 40px;
+	white-space: nowrap;
+	width: 100%;
+}
+
+ul.miga > li{
+	font-weight: normal;
+	margin:0px;
+	padding:0px 3px;
+   white-space: nowrap;
+	max-width: none;
+	overflow: show;
+   text-overflow: none;
+	display: inline-block;
+	float: left;
+}
+
+ul.miga > li.medio{
+	max-width:5em;
+	overflow: hidden;
+   text-overflow: ellipsis;
+	display: inline-block;
+}
+
+/*
+ul.miga > li.medio:hover{
+	 max-width: none ;
+	 overflow: visible;
+}*/
+
+ul.miga > li.medio:last-child{
+    max-width: none ;
+ 	 overflow: visible;
+	 white-space: normal;
+}
+ul.miga > li.title{
+	 max-width: none ;
+	 white-space: inherit;
+}
+
+ul.miga li.medio{
+	background: url(/menus/img/MigaSep.gif) no-repeat 0% 50%;
+	padding-left: 9px;
+}
+
+ul.miga > li > h1{
+	font-size: 1em;
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	font-size: inherit;
+}
+
+ul.miga a{
+	text-decoration: none;
+}
+
+
+.fondo_rastro_pys{
+    margin: 0px 0px 15px 0px;
+    padding: 10px 10px 10px 25px;
+    border-bottom: 3px solid #ddeeec;
+    background: unset;
+	min-height: unset;}
+
+
+.fondo_rastro_pys a:link{
+    color:black !important;}
+.fondo_rastro_pys a:active{
+    color:black !important;}
+.fondo_rastro_pys a:visited{
+    color:black !important;}
+
+.fondo_rastro_inebase a:link{
+    color:black !important;}
+.fondo_rastro_inebase a:active{
+    color:black !important;}
+.fondo_rastro_inebase a:visited{
+    color:black !important;}
+
+.fondo_rastro_prensa {
+    margin: 0px 0px 15px 0px;
+    padding: 0px 0px 0px 25px;
+    border-bottom: 3px solid #ddeeec;
+    background: unset;
+	min-height: unset;}
+
+/*  FIN MIGA */
+
+
+.ui-widget {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+
+}
+
+.ui-widget-header {
+	margin: 0.2em;
+	height:auto;
+	border: 1px solid #aaaaaa;
+   background-color: #7FA3A1;
+	background: #7FA3A1 url(../../_b/img/btnfondo.gif);
+	font-weight: bold;
+	background-size: contain;
+}
+
+.ui-dialog {
+	position: fixed;
+}
+
+.ui-dialog .ui-dialog-title {
+padding: 0px;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+	background-color: #DDEEEC;
+	padding: .1em;
+	min-height: 34px;
+}
+
+.ui-dialog .ui-dialog-titlebar-close{
+	top: 40%;
+	width: 30px;
+	margin: -12px 0 0 0;
+	height: 30px;
+}
+
+.ui-dialog .ui-dialog-content {
+	position: relative;
+	border: 0;
+	padding: 0.3em;
+	background: none;
+	overflow: auto;
+}
+
+.ui-dialog-content iframe{
+	 width: 100%;
+	 height: 100%;
+	 margin: 0em;
+	border-width: 0px;
+	border-style: none;
+	display: block;
+}
+
+.ui-icon-minimizethick{
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-image: url(../../img/minimizar_flecha_24x24.png);
+}
+
+.ui-widget-overlay {
+	opacity: .3;
+}
+
+
+.oculto {
+display: none;
+}
+
+.serieDato, .sd {
+	padding-right: 5px;
+	background-image : url(../../img/marcador.gif);
+	background-position : top right;
+	background-repeat : no-repeat;
+	cursor: pointer;
+}
+
+.serieDato:hover, .sd:hover, .sdG:hover {
+	background-color: #DDEEEC;
+	cursor:pointer;
+}
+
+.serieDatoNota, .sdn {
+	padding-right: 5px;
+	background-image : url(../../img/marcadorNota.gif);
+	background-position : top right;
+	background-repeat : no-repeat;
+	cursor: pointer;
+}
+
+.sdG {
+    background-image: url(../img/ico_grafico.png);
+    padding-right: 20px!Important;
+    background-position: right center;
+    background-repeat : no-repeat;
+}
+
+
+
+dl#serieDatoToolTip{
+	list-style-type: none;
+	margin: 0.5em 0px 0.5px 1em;
+	float:left;
+	width: 95%;
+}
+
+
+dl#serieDatoToolTip dt{
+	float:left;
+	clear:both	;
+	min-width: 50px;
+	font-weight: bolder;
+	}
+
+dl#serieDatoToolTip dd{
+	margin:0px 0px 0px 0px;
+
+}
+
+dl#serieDatoToolTip dd em{
+	font-weight: bolder;
+	font-size: 1.1em;
+	font-style: normal;
+}
+dl#serieDatoToolTip dd ul{
+  float:left;
+  margin: 10px 0px 0px 0px;
+  padding: 0px 0px 0px 15px;
+  list-style: none;
+  list-style-position: outside;
+}
+
+dl#serieDatoToolTip dd.Notas{
+ overflow:auto;
+ max-height:50px;
+ width: 80%;
+}
+
+#dhtmlgoodies_tooltip .pieSD {
+	clear:both;
+	width:100%;
+	border-top-color: #2b2d73;
+	border-top-style: dotted;
+	border-top-width: thin;
+	float:left;
+	padding: 2px 0px;
+}
+#dhtmlgoodies_tooltip .pieSD a{
+	vertical-align: middle
+}
+#dhtmlgoodies_tooltip .pieSD a img{
+	vertical-align: middle
+}
+
+#dhtmlgoodies_tooltip .pieSD a.consul{
+	background-image : url(../../img/grafico.gif);
+	background-position : top right;
+	background-repeat : no-repeat;
+	padding: 0px 18px 0px 0px;
+	margin: 1px 3px;
+	float:right;
+}
+#tooltipWindow {
+	padding: 5px;
+	text-align: left;
+	font-size: 0.75rem;
+}
+
+.textoGraphConsul{
+	display:inline-block;
+	padding: 0px;
+	width: 100%;
+}
+
+.textoGraphConsul> .title >a.CestaAdd{
+	display:inline-block;
+	vertical-align:top;
+	text-align: right;
+    width: 10%;
+}
+.textoGraphConsul> .title > strong{
+	margin: 0em;
+	width:90%;
+	text-align: justify;
+	display:inline-block;
+	white-space: pre-line;
+}
+
+#tooltipWindow .pieSD {
+	clear:both;
+	width:100%;
+	border-top-color: #2b2d73;
+	border-top-style: dotted;
+	border-top-width: thin;
+	float:left;
+	padding: 2px 0px;
+}
+#tooltipWindow .pieSD a{
+	vertical-align: middle
+}
+#tooltipWindow .pieSD a img{
+	vertical-align: middle
+}
+#tooltipWindow .pieSD a{
+	float:right;
+	margin:0px 1px;
+}
+#tooltipWindow .jqplot-target {
+	padding: 0px;
+	width: 100%;
+	display: block;
+}
+
+div[aria-describedby="tooltipWindow"] .ui-dialog-title{
+	min-height:24px;
+}
+
+.ui-dialog-title>a.consul{
+	background-image : url(../../img/t3.gif);
+	background-position : top left;
+	background-repeat : no-repeat;
+	background-size: 24px 24px;
+	padding: 0px 0px 0px 26px;
+	margin: 0px;
+	float:left;
+	min-height: 24px;
+}
+
+.ui-dialog-title>a.consul>span{
+	vertical-align: middle;
+	line-height: 24px;
+}
+
+#tooltipWindowAlert{
+
+}
+
+/******  Dynt3 Inebas ***/
+
+OL.ListadoTablas LI {
+display: block;
+list-style-type: none;
+vertical-align: middle!Important;
+}
+
+.inebase_capitulo OL {
+    padding-left: 10px;
+}
+
+img.navigator {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    width: 13px;
+    height: 16px;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+}
+
+/** Tooltip*/
+.tooltip {
+	margin: 0px 3px;
+	padding: 0px;
+	opacity: 1;
+    display: inline-block;
+    position: inherit;
+}
+
+.tooltip .texto{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.tooltip:hover > .tooltip-content{
+	display:inline;
+}
+
+.tooltip:hover + .tooltip-content{
+	display:inline-table;;
+}
+.tooltip-content:hover{
+	display:inline;
+}
+
+.tooltip-content {
+    display: none;
+    z-index: 99999;
+    background-color: #EEF8F4;
+    margin: 0px;
+    border: 1px solid #457E76;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    min-width: 10rem!Important;
+    max-width: 50%;
+    font-size: inherit;
+    font-weight: normal;
+}
+
+dl.tooltip-content{
+	min-width: 20em;
+	margin: 0px 0px 0px 0px
+}
+dl.tooltip-content>dt{
+	float:left;
+	clear: both;
+	margin-right: 5px;
+	font-weight: bolder;
+}
+dl.tooltip-content>dd {
+	margin:0px;
+}
+
+
+dl.tooltip-content>dd.Variables
+,dl.tooltip-content>dd.Periodos
+,dl.tooltip-content>dt.Variables
+,dl.tooltip-content>dt.Periodos{
+	display:none;
+}
+
+
+.inebase_tabla>.tooltip{
+	opacity: 1;
+	position:relative;
+	display:inline-block;
+	line-height:inherit;
+	font-family: inherit;
+	font-size:inherit;
+	z-index: auto;
+}
+
+#alerta{
+	overflow-y: hidden;
+}
+#alerta>.modal-dialog>.modal-content>.modal-header{
+	margin: 0.2em;
+    height: auto;
+    border: 1px solid #aaaaaa;
+    background-color: #7FA3A1;
+    background: #7FA3A1 url(../../_b/img/btnfondo.gif);
+    font-weight: bold;
+    background-size: contain;
+	margin: .2rem;
+    padding: .1rem .5rem;
+}
+
+#alerta>.modal-dialog>.modal-content>.modal-header>.close{
+	margin: .2rem;
+    padding: 0rem;
+}
+
+#alerta>.modal-dialog>.modal-content>.modal-footer>.btn{
+	background-color: #457E76;
+    border-color: #457E76;
+}
+
+/* Arbol */
+.expand  {
+	cursor : pointer;
+	background-image: url(../../img/plus.gif);
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	padding-left: 16px;
+}
+
+.collapse  {
+	cursor : pointer;
+	background-image: url(../../img/minus.gif);
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	padding-left: 16px;
+}
+/* Fin Arbol */
+
+/*Formato de los botones INE*/
+
+input[type=submit], input.boton, input.botonSel, input.botonRojo, button.boton
+,a.boton {
+    color: black;
+    background: #457E76;
+    border: 1px #457E76;
+    border-style: outset;
+    cursor: pointer;
+    padding: 2px 5px;
+    overflow: visible;
+    margin: 0px 5px;
+    color: white;
+}
+
+input[type=submit]:hover, input.botonSel:hover, input.boton:hover, input.botonRojo:hover, button.boton:hover
+,a.boton:hover {
+    border: 1px #89BEBA;
+    border-color: #89BEBA;
+    background: #DDEEEC;
+    color: black;
+    border-style: inset;
+    overflow: visible;
+}
+
+input:focus:not([type=button]) {
+    border: 1px solid #457E76 !important;
+    background: #DDEEEC;
+    color: black;
+}
+input:active {
+    border: 1px solid #457E76 !important;
+    background: #DDEEEC ;
+}
+/* Fin Botones */
+
+.jqplot-axis{
+    font-size: 0.7rem!Important;
+}
+
+/**
+Provocamos que en el x-axis se oculyen los ticks impares
+*/
+.jqplot-Xeven canvas.jqplot-xaxis-tick:nth-child(even) {
+    display: none;
+}
+
+#infoGraph {
+	display: none;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: visible;
+    z-index: 99999;
+    padding: 5px 5px;
+    background-color: #F3F4F7;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+
+}
+
+/* La hr con el bootstrap no se ve, este estilo es para que se vea */
+hr {
+	border-top: 2px solid #7FA3A1 !IMPORTANT;
+}
+
+
+
+img.icono{
+	width:16px;
+	height:16px;
+}
+
+img.iconoExporta {
+    width: 24px;
+    height: 24px;
+}
+
+img.icono20 {
+    width: 20px;
+    height: 20px;
+}
+
+img.icono24 {
+    width: 24px;
+    height: 24px;
+}
+
+img.icono32 {
+    width: 32px;
+    height: 32px;
+}
+
+img[src="/menus/_b/img/triDch.gif"]{
+	width: 16px;
+    height: 16px;
+}
+
+.btn{
+	line-height: 1.5rem;
+}
+
+.btn-primary,
+.btn-secondary{
+   color: #fff;
+    background-color: #457E76;
+    border-color: #457E76;
+    line-height: 1.5;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    margin: .25rem;
+}
+.modal-header {
+	padding: 5px 1rem;
+	color: #fff;
+    background-color: #457E76;
+}
+
+.col25{
+	max-width:25%;
+}
+
+.col20{
+	max-width:20%;
+}
+
+/*estilos quitados de cabecera-pie Joseba */
+
+/* Estilos para que se vean bien las dos partes del cuerpo */
+
+.cf{
+	zoom: 1;
+}
+
+.cf:after{
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+/* Fin estilos ver bien cuerpo  */
+
+.vAlign {
+  display: table-cell;
+  width: calc(100vw - 10px);
+  vertical-align: middle;
+}
+.vAlign p {
+text-align:center;
+}
+
+.vAlign1 {
+  display: table-cell;
+  width: calc(100vw - 10px);
+
+}
+.vAlign1 p {
+text-align:left;
+}
+
+.separador_claro {
+	height: 6px;
+    background-color: #ddeeec;
+    margin-left: -7px;}
+
+.div_imagen {min-width:300px;}
+
+.resaltado{
+	display: inline-block;
+}
+
+.resaltado:hover, .resaltado:focus {
+    color: white;
+    cursor: pointer;
+    background: #457E76;
+}
+
+.imgDchText{
+	display:inline-block;
+}
+
+.imgDchText img:first-child{
+	float:left;
+}
+
+
+img.ulTree_plusimageapply {
+	background-image: url(../img/triDch.gif)!Important;
+    background-repeat: no-repeat;
+    background-position:  50% 50%;
+    background-size:16px 16px;
+    cursor:pointer;
+    width: 16px!Important;
+	height: 16px!Important;
+}
+img.ulTree_minusimageapply{
+	  	 list-style: none;
+	 background-image: url(..//img/triAba.gif)!Important;
+	 background-repeat: no-repeat;
+	 background-position:  50% 50%;
+	background-size:16px 16px;
+    cursor:pointer;
+    width: 16px!Important;
+	height: 16px!Important;
+}
+
+.invertirTexto {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+div.cifras_ficha_descrip>a:link {color: #457e76!important;}
+div.cifras_ficha_descrip>a:active {color: #457e76!important;}
+div.cifras_ficha_descrip>a:visited {color: #457e76!important;}
+
+.switchcontent{
+	display:none;
+	margin-left:0em;
+	color:#324649;
+	font-size:1em;
+	font-weight:normal;
+	margin-bottom:0;
+	margin-top:0em;
+	width:auto;
+	padding:0em;
+}
+
+
+/* estilos para pagina estatica con textos enlace verde y textos sin enlace negro */
+a.verde, a.verde:link, a.verde:active, a.verde:visited {
+    color: #457e76!Important;
+}
+/* fin... */
+div.contenEnlace{
+	display: inline-block;
+}
+div.contenEnlace:hover,div.contenEnlace:focus, div.contenEnlace:hover a, div.contenEnlace:focus a {
+    color: white;
+    cursor: pointer;
+    background: #457E76;
+}
+h3.aviso {font-weight: 500;font-size: 1.1rem;}

@@ -1,0 +1,1186 @@
+"Pais";"ID_INE";"ID_EUROSTAT_n";"ID_EUROSTAT_a";"ID_UNSD";"ID_ISO_a2";"ID_ISO_a3";"CONTINENT";"REGIO_MON";"CONTINENT_ANG";"REGIO_MON_ANG";"UE";"POP_EST";"pais_ANG";"ADM0_DIF";"MD_DATA_CANVI"
+"Albània";"101";70;"AL";8;"AL";"ALB";"Europa";"Europa meridional";"Europe";"Southern Europe";;3639453;"Albania";0;2016
+"Àustria";"102";38;"AT";40;"AT";"AUT";"Europa";"Europa occidental";"Europe";"Western Europe";1;8210281;"Austria";0;2016
+"Bèlgica";"103";17;"BE";56;"BE";"BEL";"Europa";"Europa occidental";"Europe";"Western Europe";1;10414336;"Belgium";0;2016
+"Bulgària";"104";68;"BG";100;"BG";"BGR";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;7204687;"Bulgaria";0;2016
+"Xipre";"106";600;"CY";196;"CY";"CYP";"Àsia";"Àsia occidental";"Asia";"Western Asia";1;531640;"Cyprus";0;2016
+"Dinamarca";"107";8;"DK";208;"DK";"DNK";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;5500510;"Denmark";0;2016
+"Espanya";"108";11;"ES";724;"ES";"ESP";"Europa";"Europa meridional";"Europe";"Southern Europe";1;40525002;"Spain";0;2016
+"Finlàndia";"109";32;"FI";246;"FI";"FIN";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;5250275;"Finland";0;2016
+"França";"110";1;"FR";250;"FR";"FRA";"Europa";"Europa occidental";"Europe";"Western Europe";1;64057792;"France";0;2016
+"Grècia";"111";9;"GR";300;"GR";"GRC";"Europa";"Europa meridional";"Europe";"Southern Europe";1;10737428;"Greece";0;2016
+"Hongria";"112";64;"HU";348;"HU";"HUN";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;9905596;"Hungary";0;2016
+"Irlanda";"113";7;"IE";372;"IE";"IRL";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;4203200;"Ireland";0;2016
+"Islàndia";"114";24;"IS";352;"IS";"ISL";"Europa";"Europa septentrional";"Europe";"Northern Europe";;306694;"Iceland";0;2016
+"Itàlia";"115";5;"IT";380;"IT";"ITA";"Europa";"Europa meridional";"Europe";"Southern Europe";1;58126212;"Italy";0;2016
+"Liechtenstein";"116";37;"LI";438;"LI";"LIE";"Europa";"Europa occidental";"Europe";"Western Europe";;34761;"Liechtenstein";0;2016
+"Luxemburg";"117";18;"LU";442;"LU";"LUX";"Europa";"Europa occidental";"Europe";"Western Europe";1;491775;"Luxembourg";0;2016
+"Malta";"118";46;"MT";470;"MT";"MLT";"Europa";"Europa meridional";"Europe";"Southern Europe";1;405165;"Malta";0;2016
+"Mònaco";"119";1;"FR";492;"MC";"MCO";"Europa";"Europa occidental";"Europe";"Western Europe";;32965;"Monaco";0;2016
+"Noruega";"120";28;"NO";578;"NO";"NOR";"Europa";"Europa septentrional";"Europe";"Northern Europe";;4676305;"Norway";0;2016
+"Països Baixos";"121";3;"NL";528;"NL";"NLD";"Europa";"Europa occidental";"Europe";"Western Europe";1;16715999;"Netherlands";0;2016
+"Polònia";"122";60;"PL";616;"PL";"POL";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;38482919;"Poland";0;2016
+"Portugal";"123";10;"PT";620;"PT";"PRT";"Europa";"Europa meridional";"Europe";"Southern Europe";1;10707924;"Portugal";0;2016
+"Andorra";"124";43;"AD";20;"AD";"AND";"Europa";"Europa meridional";"Europe";"Southern Europe";;83888;"Andorra";0;2016
+"Regne Unit";"125";6;"GB";826;"GB";"GBR";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;61113205;"United Kingdom";0;2016
+"Alemanya";"126";4;"DE";276;"DE";"DEU";"Europa";"Europa occidental";"Europe";"Western Europe";1;82329758;"Germany";0;2016
+"Romania";"128";66;"RO";642;"RO";"ROU";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;22215421;"Romania";0;2016
+"San Marino";"129";47;"SM";674;"SM";"SMR";"Europa";"Europa meridional";"Europe";"Southern Europe";;30324;"San Marino";0;2016
+"Santa Seu";"130";45;"VA";336;"VA";"VAT";"Europa";"Europa meridional";"Europe";"Southern Europe";;826;"Holy See (Vatican City State)";0;2016
+"Suècia";"131";30;"SE";752;"SE";"SWE";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;9059651;"Sweden";0;2016
+"Suïssa";"132";39;"CH";756;"CH";"CHE";"Europa";"Europa occidental";"Europe";"Western Europe";;7604467;"Switzerland";0;2016
+"Ucraïna";"135";72;"UA";804;"UA";"UKR";"Europa";"Europa oriental";"Europe";"Eastern Europe";;45700395;"Ukraine";0;2016
+"Letònia";"136";54;"LV";428;"LV";"LVA";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;2231503;"Latvia";0;2016
+"Moldàvia";"137";74;"MD";498;"MD";"MDA";"Europa";"Europa oriental";"Europe";"Eastern Europe";;4320748;"Moldova, Republic of";0;2016
+"Belarús";"138";73;"BY";112;"BY";"BLR";"Europa";"Europa oriental";"Europe";"Eastern Europe";;9648533;"Belarus";0;2016
+"Geòrgia";"139";76;"GE";268;"GE";"GEO";"Àsia";"Àsia occidental";"Asia";"Western Asia";;4615807;"Georgia";0;2016
+"Estònia";"141";53;"EE";233;"EE";"EST";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;1299371;"Estonia";0;2016
+"Lituània";"142";55;"LT";440;"LT";"LTU";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;3555179;"Lithuania";0;2016
+"Txèquia";"143";61;"CZ";203;"CZ";"CZE";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;10211904;"Czech Republic";0;2016
+"Eslovàquia";"144";63;"SK";703;"SK";"SVK";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;5463046;"Slovakia";0;2016
+"Bòsnia i Hercegovina";"145";93;"BA";70;"BA";"BIH";"Europa";"Europa meridional";"Europe";"Southern Europe";;4613414;"Bosnia and Herzegovina";0;2016
+"Croàcia";"146";92;"HR";191;"HR";"HRV";"Europa";"Europa meridional";"Europe";"Southern Europe";1;4489409;"Croatia";0;2016
+"Eslovènia";"147";91;"SI";705;"SI";"SVN";"Europa";"Europa meridional";"Europe";"Southern Europe";1;2005692;"Slovenia";0;2016
+"Armènia";"148";77;"AM";51;"AM";"ARM";"Àsia";"Àsia occidental";"Asia";"Western Asia";;2967004;"Armenia";0;2016
+"Rússia";"154";75;"RU";643;"RU";"RUS";"Europa";"Europa oriental";"Europe";"Eastern Europe";;140041247;"Russian Federation";0;2016
+"Macedònia";"156";96;"MK";807;"MK";"MKD";"Europa";"Europa meridional";"Europe";"Southern Europe";;2066718;"Macedonia, the former Yugoslav Republic of";0;2016
+"Sèrbia";"157";98;"XS";688;"RS";"SRB";"Europa";"Europa meridional";"Europe";"Southern Europe";;7379339;"Serbia";0;2016
+"Montenegro";"158";97;"ME";499;"ME";"MNE";"Europa";"Europa meridional";"Europe";"Southern Europe";;672180;"Montenegro";0;2016
+"Guernsey";"170";6;"GB";831;"GG";"GGY";"Europa";"Europa septentrional";"Europe";"Northern Europe";;65870;"Guernsey";1;2016
+"Svalbard i Jan Mayen";"171";28;"NO";744;"SJ";"SJM";"Europa";"Europa septentrional";"Europe";"Northern Europe";;;"Svalbard and Jan Mayen";1;2016
+"Fèroe";"172";41;"FO";234;"FO";"FRO";"Europa";"Europa septentrional";"Europe";"Northern Europe";;48856;"Faroe Islands";1;2016
+"Illa de Man";"173";6;"GB";833;"IM";"IMN";"Europa";"Europa septentrional";"Europe";"Northern Europe";;76512;"Isle of Man";1;2016
+"Gibraltar";"174";44;"GI";292;"GI";"GIB";"Europa";"Europa meridional";"Europe";"Southern Europe";1;;"Gibraltar";1;2016
+"Jersey";"176";6;"GB";832;"JE";"JEY";"Europa";"Europa septentrional";"Europe";"Northern Europe";;91626;"Jersey";1;2016
+"Aland";"177";32;"FI";248;"AX";"ALA";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;27153;"Aland Islands";1;2016
+"Burkina Faso";"201";236;"BF";854;"BF";"BFA";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;15746232;"Burkina Faso";0;2016
+"Angola";"202";330;"AO";24;"AO";"AGO";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;12799293;"Angola";0;2016
+"Algèria";"203";208;"DZ";12;"DZ";"DZA";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;34178188;"Algeria";0;2016
+"Benín";"204";284;"BJ";204;"BJ";"BEN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;8791832;"Benin";0;2016
+"Botswana";"205";391;"BW";72;"BW";"BWA";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;1990876;"Botswana";0;2016
+"Burundi";"206";328;"BI";108;"BI";"BDI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;8988091;"Burundi";0;2016
+"Cap Verd";"207";247;"CV";132;"CV";"CPV";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;429474;"Cabo Verde";0;2016
+"Camerun";"208";302;"CM";120;"CM";"CMR";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;18879301;"Cameroon";0;2016
+"Comores, les";"209";375;"KM";174;"KM";"COM";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;752438;"Comoros";0;2016
+"Congo";"210";318;"CG";178;"CG";"COG";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;4012809;"Congo";0;2016
+"Costa d'Ivori";"211";272;"CI";384;"CI";"CIV";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;20617068;"Cote d'Ivoire";0;2016
+"Djibouti";"212";338;"DJ";262;"DJ";"DJI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;516055;"Djibouti";0;2016
+"Egipte";"213";220;"EG";818;"EG";"EGY";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;83082869;"Egypt";0;2016
+"Etiòpia";"214";334;"ET";231;"ET";"ETH";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;85237338;"Ethiopia";0;2016
+"Gabon";"215";314;"GA";266;"GA";"GAB";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;1514993;"Gabon";0;2016
+"Gàmbia";"216";252;"GM";270;"GM";"GMB";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;1782893;"Gambia";0;2016
+"Ghana";"217";276;"GH";288;"GH";"GHA";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;23832495;"Ghana";0;2016
+"Guinea";"218";260;"GN";324;"GN";"GIN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;10057975;"Guinea";0;2016
+"Guinea-Bissau";"219";257;"GW";624;"GW";"GNB";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;1533964;"Guinea-Bissau";0;2016
+"Guinea Equatorial";"220";310;"GQ";226;"GQ";"GNQ";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;633441;"Equatorial Guinea";0;2016
+"Kenya";"221";346;"KE";404;"KE";"KEN";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;39002772;"Kenya";0;2016
+"Lesotho";"222";395;"LS";426;"LS";"LSO";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;2130819;"Lesotho";0;2016
+"Libèria";"223";268;"LR";430;"LR";"LBR";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;3441790;"Liberia";0;2016
+"Líbia";"224";216;"LY";434;"LY";"LBY";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;6310434;"Libya";0;2016
+"Madagascar";"225";370;"MG";450;"MG";"MDG";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;20653556;"Madagascar";0;2016
+"Malawi";"226";386;"MW";454;"MW";"MWI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;14268711;"Malawi";0;2016
+"Mali";"227";232;"ML";466;"ML";"MLI";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;12666987;"Mali";0;2016
+"Marroc, el";"228";204;"MA";504;"MA";"MAR";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;34859364;"Morocco";0;2016
+"Maurici";"229";373;"MU";480;"MU";"MUS";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;1284264;"Mauritius";0;2016
+"Mauritània";"230";228;"MR";478;"MR";"MRT";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;3129486;"Mauritania";0;2016
+"Moçambic";"231";366;"MZ";508;"MZ";"MOZ";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;21669278;"Mozambique";0;2016
+"Namíbia";"232";389;"NA";516;"NA";"NAM";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;2108665;"Namibia";0;2016
+"Níger";"233";240;"NE";562;"NE";"NER";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;15306252;"Niger";0;2016
+"Nigèria";"234";288;"NG";566;"NG";"NGA";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;149229090;"Nigeria";0;2016
+"República Centreafricana";"235";306;"CF";140;"CF";"CAF";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;4511488;"Central African Republic";0;2016
+"Sud-àfrica";"236";388;"ZA";710;"ZA";"ZAF";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;49052489;"South Africa";0;2016
+"Ruanda";"237";324;"RW";646;"RW";"RWA";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;10473282;"Rwanda";0;2016
+"São Tomé i Príncipe";"238";311;"ST";678;"ST";"STP";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;212679;"Sao Tome and Principe";0;2016
+"Senegal";"239";248;"SN";686;"SN";"SEN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;13711597;"Senegal";0;2016
+"Seychelles";"240";355;"SC";690;"SC";"SYC";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;87476;"Seychelles";0;2016
+"Sierra Leone";"241";264;"SL";694;"SL";"SLE";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;6440053;"Sierra Leone";0;2016
+"Somàlia";"242";342;"SO";706;"SO";"SOM";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;9832017;"Somalia";0;2016
+"Sudan, el";"243";224;"SD";729;"SD";"SDN";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;30894000;"Sudan";0;2016
+"Swaziland";"244";393;"SZ";748;"SZ";"SWZ";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;1123913;"Swaziland";0;2016
+"Tanzània";"245";352;"TZ";834;"TZ";"TZA";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;41048532;"Tanzania, United Republic of";0;2016
+"Txad";"246";244;"TD";148;"TD";"TCD";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;10329208;"Chad";0;2016
+"Togo";"247";280;"TG";768;"TG";"TGO";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;6019877;"Togo";0;2016
+"Tunísia";"248";212;"TN";788;"TN";"TUN";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;10486339;"Tunisia";0;2016
+"Uganda";"249";350;"UG";800;"UG";"UGA";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;32369558;"Uganda";0;2016
+"República Democràtica del Congo";"250";322;"CD";180;"CD";"COD";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;68692542;"Congo, the Democratic Republic of the";0;2016
+"Zàmbia";"251";378;"ZM";894;"ZM";"ZMB";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;11862740;"Zambia";0;2016
+"Zimbàbue";"252";382;"ZW";716;"ZW";"ZWE";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;11392629;"Zimbabwe";0;2016
+"Eritrea";"253";336;"ER";232;"ER";"ERI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;5647168;"Eritrea";0;2016
+"Sudan del Sud, el";"254";224;"SS";728;"SS";"SSD";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;8260490;"South Sudan";0;2016
+"Saint Helena, Ascenció i Tristan da Cunha";"260";329;"SH";654;"SH";"SHN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;7637;"Saint Helena, Ascension and Tristan da Cunha";1;2016
+"Reunió, la";"261";1;"FR";638;"RE";"REU";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";1;;"Reunion";1;2016
+"Mayotte";"262";377;"YT";175;"YT";"MYT";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";1;;"Mayotte";1;2016
+"Sàhara Occidental";"263";;"EH";732;"EH";"ESH";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;;"Western Sahara";0;2016
+"Canadà";"301";404;"CA";124;"CA";"CAN";"Amèrica";"Amèrica del nord";"Americas";"Northern America";;33487208;"Canada";0;2016
+"Estats Units, els";"302";400;"US";840;"US";"USA";"Amèrica";"Amèrica del nord";"Americas";"Northern America";;307212123;"United States";0;2016
+"Mèxic";"303";412;"MX";484;"MX";"MEX";"Amèrica";"Amèrica central";"Americas";"Central America";;111211789;"Mexico";0;2016
+"Antigua i Barbuda";"310";459;"AG";28;"AG";"ATG";"Amèrica";"Carib";"Americas";"Caribbean";;85632;"Antigua and Barbuda";0;2016
+"Bahames, les";"311";453;"BS";44;"BS";"BHS";"Amèrica";"Carib";"Americas";"Caribbean";;309156;"Bahamas";0;2016
+"Barbados";"312";469;"BB";52;"BB";"BRB";"Amèrica";"Carib";"Americas";"Caribbean";;284589;"Barbados";0;2016
+"Belize";"313";421;"BZ";84;"BZ";"BLZ";"Amèrica";"Amèrica central";"Americas";"Central America";;307899;"Belize";0;2016
+"Costa Rica";"314";436;"CR";188;"CR";"CRI";"Amèrica";"Amèrica central";"Americas";"Central America";;4253877;"Costa Rica";0;2016
+"Cuba";"315";448;"CU";192;"CU";"CUB";"Amèrica";"Carib";"Americas";"Caribbean";;11451652;"Cuba";0;2016
+"Dominica";"316";460;"DM";212;"DM";"DMA";"Amèrica";"Carib";"Americas";"Caribbean";;72660;"Dominica";0;2016
+"El Salvador";"317";428;"SV";222;"SV";"SLV";"Amèrica";"Amèrica central";"Americas";"Central America";;7185218;"El Salvador";0;2016
+"Grenada";"318";473;"GD";308;"GD";"GRD";"Amèrica";"Carib";"Americas";"Caribbean";;90739;"Grenada";0;2016
+"Guatemala";"319";416;"GT";320;"GT";"GTM";"Amèrica";"Amèrica central";"Americas";"Central America";;13276517;"Guatemala";0;2016
+"Haití";"320";452;"HT";332;"HT";"HTI";"Amèrica";"Carib";"Americas";"Caribbean";;9035536;"Haiti";0;2016
+"Hondures";"321";424;"HN";340;"HN";"HND";"Amèrica";"Amèrica central";"Americas";"Central America";;7792854;"Honduras";0;2016
+"Jamaica";"322";464;"JM";388;"JM";"JAM";"Amèrica";"Carib";"Americas";"Caribbean";;2825928;"Jamaica";0;2016
+"Nicaragua";"323";432;"NI";558;"NI";"NIC";"Amèrica";"Amèrica central";"Americas";"Central America";;5891199;"Nicaragua";0;2016
+"Panamà";"324";442;"PA";591;"PA";"PAN";"Amèrica";"Amèrica central";"Americas";"Central America";;3360474;"Panama";0;2016
+"Saint Vincent i les Grenadines";"325";467;"VC";670;"VC";"VCT";"Amèrica";"Carib";"Americas";"Caribbean";;104574;"Saint Vincent and the Grenadines";0;2016
+"República Dominicana";"326";456;"DO";214;"DO";"DOM";"Amèrica";"Carib";"Americas";"Caribbean";;9650054;"Dominican Republic";0;2016
+"Trinidad i Tobago";"327";472;"TT";780;"TT";"TTO";"Amèrica";"Carib";"Americas";"Caribbean";;1310000;"Trinidad and Tobago";0;2016
+"Saint Lucia";"328";465;"LC";662;"LC";"LCA";"Amèrica";"Carib";"Americas";"Caribbean";;160267;"Saint Lucia";0;2016
+"Saint Kitts i Nevis";"329";449;"KN";659;"KN";"KNA";"Amèrica";"Carib";"Americas";"Caribbean";;40131;"Saint Kitts and Nevis";0;2016
+"Argentina";"340";528;"AR";32;"AR";"ARG";"Amèrica";"Amèrica del sud";"Americas";"South America";;40913584;"Argentina";0;2016
+"Bolívia";"341";516;"BO";68;"BO";"BOL";"Amèrica";"Amèrica del sud";"Americas";"South America";;9775246;"Bolivia, Plurinational State of";0;2016
+"Brasil";"342";508;"BR";76;"BR";"BRA";"Amèrica";"Amèrica del sud";"Americas";"South America";;198739269;"Brazil";0;2016
+"Colòmbia";"343";480;"CO";170;"CO";"COL";"Amèrica";"Amèrica del sud";"Americas";"South America";;45644023;"Colombia";0;2016
+"Xile";"344";512;"CL";152;"CL";"CHL";"Amèrica";"Amèrica del sud";"Americas";"South America";;16601707;"Chile";0;2016
+"Equador";"345";500;"EC";218;"EC";"ECU";"Amèrica";"Amèrica del sud";"Americas";"South America";;14573101;"Ecuador";0;2016
+"Guyana";"346";488;"GY";328;"GY";"GUY";"Amèrica";"Amèrica del sud";"Americas";"South America";;772298;"Guyana";0;2016
+"Paraguai";"347";520;"PY";600;"PY";"PRY";"Amèrica";"Amèrica del sud";"Americas";"South America";;6995655;"Paraguay";0;2016
+"Perú";"348";504;"PE";604;"PE";"PER";"Amèrica";"Amèrica del sud";"Americas";"South America";;29546963;"Peru";0;2016
+"Surinam";"349";492;"SR";740;"SR";"SUR";"Amèrica";"Amèrica del sud";"Americas";"South America";;481267;"Suriname";0;2016
+"Uruguai";"350";524;"UY";858;"UY";"URY";"Amèrica";"Amèrica del sud";"Americas";"South America";;3494382;"Uruguay";0;2016
+"Veneçuela";"351";484;"VE";862;"VE";"VEN";"Amèrica";"Amèrica del sud";"Americas";"South America";;26814843;"Venezuela, Bolivarian Republic of";0;2016
+"Saint-Pierre-et-Miquelon";"370";408;"PM";666;"PM";"SPM";"Amèrica";"Amèrica del nord";"Americas";"Northern America";;7051;"Saint Pierre and Miquelon";1;2016
+"Groenlàndia";"371";406;"GL";304;"GL";"GRL";"Amèrica";"Amèrica del nord";"Americas";"Northern America";;57600;"Greenland";1;2016
+"Illes Caiman";"380";463;"KY";136;"KY";"CYM";"Amèrica";"Carib";"Americas";"Caribbean";;49035;"Cayman Islands";1;2016
+"Illes Turks i Caicos";"381";454;"TC";796;"TC";"TCA";"Amèrica";"Carib";"Americas";"Caribbean";;22942;"Turks and Caicos Islands";1;2016
+"Illes Verges dels Estats Units";"382";457;"VI";850;"VI";"VIR";"Amèrica";"Carib";"Americas";"Caribbean";;109825;"Virgin Islands, U.S.";1;2016
+"Guadalupe";"383";1;"FR";312;"GP";"GLP";"Amèrica";"Carib";"Americas";"Caribbean";1;;"Guadeloupe";1;2016
+"Bermudes";"384";413;"BM";60;"BM";"BMU";"Amèrica";"Amèrica del nord";"Americas";"Northern America";;67837;"Bermuda";1;2016
+"Saint-Martin";"385";1;"FR";663;"MF";"MAF";"Amèrica";"Carib";"Americas";"Caribbean";1;29820;"Saint Martin (French part)";1;2016
+"Martinica";"386";1;"FR";474;"MQ";"MTQ";"Amèrica";"Carib";"Americas";"Caribbean";1;;"Martinique";1;2016
+"Montserrat";"387";470;"MS";500;"MS";"MSR";"Amèrica";"Carib";"Americas";"Caribbean";;5097;"Montserrat";1;2016
+"Anguilla";"388";446;"AI";660;"AI";"AIA";"Amèrica";"Carib";"Americas";"Caribbean";;14436;"Anguilla";1;2016
+"Saint-Barthélemy";"389";1;"BL";652;"BL";"BLM";"Amèrica";"Carib";"Americas";"Caribbean";;7448;"Saint Barthelemy";1;2016
+"Puerto Rico";"390";400;"US";630;"PR";"PRI";"Amèrica";"Carib";"Americas";"Caribbean";;3971020;"Puerto Rico";1;2016
+"Aruba";"391";474;"AW";533;"AW";"ABW";"Amèrica";"Carib";"Americas";"Caribbean";;103065;"Aruba";1;2016
+"Illes Verges Britàniques";"393";468;"VG";92;"VG";"VGB";"Amèrica";"Carib";"Americas";"Caribbean";;24491;"Virgin Islands, British";1;2016
+"Guaiana Francesa";"394";1;"FR";254;"GF";"GUF";"Amèrica";"Amèrica del sud";"Americas";"South America";1;236250;"French Guiana";1;2016
+"Illes Falkland (Malvines)";"395";529;"FK";238;"FK";"FLK";"Amèrica";"Amèrica del sud";"Americas";"South America";;3140;"Falkland Islands (Malvinas)";1;2016
+"Afganistan";"401";660;"AF";4;"AF";"AFG";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;28400000;"Afghanistan";0;2016
+"Aràbia Saudí";"402";632;"SA";682;"SA";"SAU";"Àsia";"Àsia occidental";"Asia";"Western Asia";;28686633;"Saudi Arabia";0;2016
+"Bahrain";"403";640;"BH";48;"BH";"BHR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;727785;"Bahrain";0;2016
+"Bangladesh";"404";666;"BD";50;"BD";"BGD";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;156050883;"Bangladesh";0;2016
+"Myanmar";"405";676;"MM";104;"MM";"MMR";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;48137741;"Myanmar";0;2016
+"Xina";"407";720;"CN";156;"CN";"CHN";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;1338612968;"China";0;2016
+"Emirats Àrabs Units, els";"408";647;"AE";784;"AE";"ARE";"Àsia";"Àsia occidental";"Asia";"Western Asia";;4798491;"United Arab Emirates";0;2016
+"Filipines";"409";708;"PH";608;"PH";"PHL";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;97976603;"Philippines";0;2016
+"Índia";"410";664;"IN";356;"IN";"IND";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;1166079217;"India";0;2016
+"Indonèsia";"411";700;"ID";360;"ID";"IDN";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;240271522;"Indonesia";0;2016
+"Iraq, l'";"412";612;"IQ";368;"IQ";"IRQ";"Àsia";"Àsia occidental";"Asia";"Western Asia";;28945657;"Iraq";0;2016
+"Iran";"413";616;"IR";364;"IR";"IRN";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;66429284;"Iran, Islamic Republic of";0;2016
+"Israel";"414";624;"IL";376;"IL";"ISR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;7233701;"Israel";0;2016
+"Japó";"415";732;"JP";392;"JP";"JPN";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;127078679;"Japan";0;2016
+"Jordània";"416";628;"JO";400;"JO";"JOR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;6342948;"Jordan";0;2016
+"Cambodja";"417";696;"KH";116;"KH";"KHM";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;14494293;"Cambodia";0;2016
+"Kuwait";"418";636;"KW";414;"KW";"KWT";"Àsia";"Àsia occidental";"Asia";"Western Asia";;2691158;"Kuwait";0;2016
+"Lao";"419";684;"LA";418;"LA";"LAO";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;6834942;"Lao People's Democratic Republic";0;2016
+"Líban";"420";604;"LB";422;"LB";"LBN";"Àsia";"Àsia occidental";"Asia";"Western Asia";;4017095;"Lebanon";0;2016
+"Malàisia";"421";701;"MY";458;"MY";"MYS";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;25715819;"Malaysia";0;2016
+"Maldives";"422";667;"MV";462;"MV";"MDV";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;396334;"Maldives";0;2016
+"Mongòlia";"423";716;"MN";496;"MN";"MNG";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;3041142;"Mongolia";0;2016
+"Nepal";"424";672;"NP";524;"NP";"NPL";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;28563377;"Nepal";0;2016
+"Oman";"425";649;"OM";512;"OM";"OMN";"Àsia";"Àsia occidental";"Asia";"Western Asia";;3418085;"Oman";0;2016
+"Pakistan";"426";662;"PK";586;"PK";"PAK";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;176242949;"Pakistan";0;2016
+"Qatar";"427";644;"QA";634;"QA";"QAT";"Àsia";"Àsia occidental";"Asia";"Western Asia";;833285;"Qatar";0;2016
+"Corea del Sud";"430";728;"KR";410;"KR";"KOR";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;48508972;"Korea, Republic of";0;2016
+"Corea del Nord";"431";724;"KP";408;"KP";"PRK";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;22665345;"Korea, Democratic People's Republic of";0;2016
+"Singapur";"432";706;"SG";702;"SG";"SGP";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;4657542;"Singapore";0;2016
+"Síria";"433";608;"SY";760;"SY";"SYR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;20178485;"Syrian Arab Republic";0;2016
+"Sri Lanka";"434";669;"LK";144;"LK";"LKA";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;21324791;"Sri Lanka";0;2016
+"Tailàndia";"435";680;"TH";764;"TH";"THA";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;65905410;"Thailand";0;2016
+"Turquia";"436";52;"TR";792;"TR";"TUR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;76805524;"Turkey";0;2016
+"Vietnam";"437";690;"VN";704;"VN";"VNM";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;86967524;"Viet Nam";0;2016
+"Taiwan,Xina";"438";736;"TW";158;"TW";"TWN";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;22974347;"China-Taiwan";0;2016
+"Brunei";"439";703;"BN";96;"BN";"BRN";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;388190;"Brunei Darussalam";0;2016
+"Illes Marshall";"440";824;"MH";584;"MH";"MHL";"Oceania";"Micronèsia";"Oceania";"Micronesia";;64522;"Marshall Islands";0;2016
+"Iemen, el";"441";653;"YE";887;"YE";"YEM";"Àsia";"Àsia occidental";"Asia";"Western Asia";;23822783;"Yemen";0;2016
+"Azerbaidjan";"442";78;"AZ";31;"AZ";"AZE";"Àsia";"Àsia occidental";"Asia";"Western Asia";;8238672;"Azerbaijan";0;2016
+"Kazakhstan";"443";79;"KZ";398;"KZ";"KAZ";"Àsia";"Àsia central";"Asia";"Central Asia";;15399437;"Kazakhstan";0;2016
+"Kirguizstan";"444";83;"KG";417;"KG";"KGZ";"Àsia";"Àsia central";"Asia";"Central Asia";;5431747;"Kyrgyzstan";0;2016
+"Tadjikistan";"445";82;"TJ";762;"TJ";"TJK";"Àsia";"Àsia central";"Asia";"Central Asia";;7349145;"Tajikistan";0;2016
+"Turkmenistan";"446";80;"TM";795;"TM";"TKM";"Àsia";"Àsia central";"Asia";"Central Asia";;4884887;"Turkmenistan";0;2016
+"Uzbekistan";"447";81;"UZ";860;"UZ";"UZB";"Àsia";"Àsia central";"Asia";"Central Asia";;27606007;"Uzbekistan";0;2016
+"Bhutan";"448";675;"BT";64;"BT";"BTN";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;691141;"Bhutan";0;2016
+"Territoris Palestins [o Palestina]";"449";625;"PS";275;"PS";"PSE";"Àsia";"Àsia occidental";"Asia";"Western Asia";;2514845;"Palestine, State of";0;2016
+"Hong Kong, Xina";"450";740;"HK";344;"HK";"HKG";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;7055071;"Hong Kong";1;2016
+"Guam";"454";831;"GU";316;"GU";"GUM";"Oceania";"Micronèsia";"Oceania";"Micronesia";;178430;"Guam";1;2016
+"Macao, Xina";"455";743;"MO";446;"MO";"MAC";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;559846;"Macao";1;2016
+"Illes Marianes del Nord";"456";820;"MP";580;"MP";"MNP";"Oceania";"Micronèsia";"Oceania";"Micronesia";;88662;"Northern Mariana Islands";1;2016
+"Austràlia";"501";800;"AU";36;"AU";"AUS";"Oceania";"Austràlia i Nova Zelanda";"Oceania";"Australia and New Zealand";;21262641;"Australia";0;2016
+"Fiji";"502";815;"FJ";242;"FJ";"FJI";"Oceania";"Melanèsia";"Oceania";"Melanesia";;944720;"Fiji";0;2016
+"Nova Zelanda";"504";804;"NZ";554;"NZ";"NZL";"Oceania";"Austràlia i Nova Zelanda";"Oceania";"Australia and New Zealand";;4213418;"New Zealand";0;2016
+"Papua Nova Guinea";"505";801;"PG";598;"PG";"PNG";"Oceania";"Melanèsia";"Oceania";"Melanesia";;6057263;"Papua New Guinea";0;2016
+"Illes Salomó";"506";806;"SB";90;"SB";"SLB";"Oceania";"Melanèsia";"Oceania";"Melanesia";;595613;"Solomon Islands";0;2016
+"Samoa";"507";819;"WS";882;"WS";"WSM";"Oceania";"Polinèsia";"Oceania";"Polynesia";;219998;"Samoa";0;2016
+"Tonga";"508";817;"TO";776;"TO";"TON";"Oceania";"Polinèsia";"Oceania";"Polynesia";;120898;"Tonga";0;2016
+"Vanuatu";"509";816;"VU";548;"VU";"VUT";"Oceania";"Melanèsia";"Oceania";"Melanesia";;218519;"Vanuatu";0;2016
+"Micronèsia";"511";823;"FM";583;"FM";"FSM";"Oceania";"Micronèsia";"Oceania";"Micronesia";;107434;"Micronesia, Federated States of";0;2016
+"Tuvalu";"512";807;"TV";798;"TV";"TUV";"Oceania";"Polinèsia";"Oceania";"Polynesia";;12373;"Tuvalu";0;2016
+"Illes Cook";"513";837;"CK";184;"CK";"COK";"Oceania";"Polinèsia";"Oceania";"Polynesia";;11870;"Cook Islands";1;2016
+"Kiribati";"514";812;"KI";296;"KI";"KIR";"Oceania";"Micronèsia";"Oceania";"Micronesia";;112850;"Kiribati";0;2016
+"Nauru";"515";803;"NR";520;"NR";"NRU";"Oceania";"Micronèsia";"Oceania";"Micronesia";;14019;"Nauru";0;2016
+"Palau";"516";825;"PW";585;"PW";"PLW";"Oceania";"Micronèsia";"Oceania";"Micronesia";;20796;"Palau";0;2016
+"Timor-Leste";"517";626;"TL";626;"TL";"TLS";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;1131612;"Timor-Leste";0;2016
+"Polinèsia Francesa";"520";822;"PF";258;"PF";"PYF";"Oceania";"Polinèsia";"Oceania";"Polynesia";;287032;"French Polynesia";1;2016
+"Illa Norfolk";"521";836;"NF";574;"NF";"NFK";"Oceania";"Austràlia i Nova Zelanda";"Oceania";"Australia and New Zealand";;2141;"Norfolk Island";1;2016
+"Niue";"523";838;"NU";570;"NU";"NIU";"Oceania";"Polinèsia";"Oceania";"Polynesia";;1398;"Niue";1;2016
+"Pitcairn";"524";813;"PN";612;"PN";"PCN";"Oceania";"Polinèsia";"Oceania";"Polynesia";;48;"Pitcairn";1;2016
+"Tokelau";"525";839;"TK";772;"TK";"TKL";"Oceania";"Polinèsia";"Oceania";"Polynesia";;;"Tokelau";1;2016
+"Nova Caledònia";"526";809;"NC";540;"NC";"NCL";"Oceania";"Melanèsia";"Oceania";"Melanesia";;227436;"New Caledonia";1;2016
+"Wallis i Futuna";"527";811;"WF";876;"WF";"WLF";"Oceania";"Polinèsia";"Oceania";"Polynesia";;15289;"Wallis and Futuna";1;2016
+"Samoa Americana";"528";830;"AS";16;"AS";"ASM";"Oceania";"Polinèsia";"Oceania";"Polynesia";;65628;"American Samoa";1;2016
+"Albània";"101";70;"AL";8;"AL";"ALB";"Europa";"Europa meridional";"Europe";"Southern Europe";;3639453;;0;2017
+"Àustria";"102";38;"AT";40;"AT";"AUT";"Europa";"Europa occidental";"Europe";"Western Europe";1;8210281;;0;2017
+"Bèlgica";"103";17;"BE";56;"BE";"BEL";"Europa";"Europa occidental";"Europe";"Western Europe";1;10414336;;0;2017
+"Bulgària";"104";68;"BG";100;"BG";"BGR";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;7204687;;0;2017
+"Xipre";"106";600;"CY";196;"CY";"CYP";"Àsia";"Àsia occidental";"Asia";"Western Asia";1;531640;;0;2017
+"Dinamarca";"107";8;"DK";208;"DK";"DNK";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;5500510;;0;2017
+"Espanya";"108";11;"ES";724;"ES";"ESP";"Europa";"Europa meridional";"Europe";"Southern Europe";1;40525002;;0;2017
+"Finlàndia";"109";32;"FI";246;"FI";"FIN";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;5250275;;0;2017
+"França";"110";1;"FR";250;"FR";"FRA";"Europa";"Europa occidental";"Europe";"Western Europe";1;64057792;;0;2017
+"Grècia";"111";9;"GR";300;"GR";"GRC";"Europa";"Europa meridional";"Europe";"Southern Europe";1;10737428;;0;2017
+"Hongria";"112";64;"HU";348;"HU";"HUN";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;9905596;;0;2017
+"Irlanda";"113";7;"IE";372;"IE";"IRL";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;4203200;;0;2017
+"Islàndia";"114";24;"IS";352;"IS";"ISL";"Europa";"Europa septentrional";"Europe";"Northern Europe";;306694;;0;2017
+"Itàlia";"115";5;"IT";380;"IT";"ITA";"Europa";"Europa meridional";"Europe";"Southern Europe";1;58126212;;0;2017
+"Liechtenstein";"116";37;"LI";438;"LI";"LIE";"Europa";"Europa occidental";"Europe";"Western Europe";;34761;;0;2017
+"Luxemburg";"117";18;"LU";442;"LU";"LUX";"Europa";"Europa occidental";"Europe";"Western Europe";1;491775;;0;2017
+"Malta";"118";46;"MT";470;"MT";"MLT";"Europa";"Europa meridional";"Europe";"Southern Europe";1;405165;;0;2017
+"Mònaco";"119";1;"FR";492;"MC";"MCO";"Europa";"Europa occidental";"Europe";"Western Europe";;32965;;0;2017
+"Noruega";"120";28;"NO";578;"NO";"NOR";"Europa";"Europa septentrional";"Europe";"Northern Europe";;4676305;;0;2017
+"Països Baixos";"121";3;"NL";528;"NL";"NLD";"Europa";"Europa occidental";"Europe";"Western Europe";1;16715999;;0;2017
+"Polònia";"122";60;"PL";616;"PL";"POL";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;38482919;;0;2017
+"Portugal";"123";10;"PT";620;"PT";"PRT";"Europa";"Europa meridional";"Europe";"Southern Europe";1;10707924;;0;2017
+"Andorra";"124";43;"AD";20;"AD";"AND";"Europa";"Europa meridional";"Europe";"Southern Europe";;83888;;0;2017
+"Regne Unit";"125";6;"GB";826;"GB";"GBR";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;61113205;;0;2017
+"Alemanya";"126";4;"DE";276;"DE";"DEU";"Europa";"Europa occidental";"Europe";"Western Europe";1;82329758;;0;2017
+"Romania";"128";66;"RO";642;"RO";"ROU";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;22215421;;0;2017
+"San Marino";"129";47;"SM";674;"SM";"SMR";"Europa";"Europa meridional";"Europe";"Southern Europe";;30324;;0;2017
+"Santa Seu";"130";45;"VA";336;"VA";"VAT";"Europa";"Europa meridional";"Europe";"Southern Europe";;826;;0;2017
+"Suècia";"131";30;"SE";752;"SE";"SWE";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;9059651;;0;2017
+"Suïssa";"132";39;"CH";756;"CH";"CHE";"Europa";"Europa occidental";"Europe";"Western Europe";;7604467;;0;2017
+"Ucraïna";"135";72;"UA";804;"UA";"UKR";"Europa";"Europa oriental";"Europe";"Eastern Europe";;45700395;;0;2017
+"Letònia";"136";54;"LV";428;"LV";"LVA";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;2231503;;0;2017
+"Moldàvia";"137";74;"MD";498;"MD";"MDA";"Europa";"Europa oriental";"Europe";"Eastern Europe";;4320748;;0;2017
+"Belarús";"138";73;"BY";112;"BY";"BLR";"Europa";"Europa oriental";"Europe";"Eastern Europe";;9648533;;0;2017
+"Geòrgia";"139";76;"GE";268;"GE";"GEO";"Àsia";"Àsia occidental";"Asia";"Western Asia";;4615807;;0;2017
+"Estònia";"141";53;"EE";233;"EE";"EST";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;1299371;;0;2017
+"Lituània";"142";55;"LT";440;"LT";"LTU";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;3555179;;0;2017
+"Txèquia";"143";61;"CZ";203;"CZ";"CZE";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;10211904;;0;2017
+"Eslovàquia";"144";63;"SK";703;"SK";"SVK";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;5463046;;0;2017
+"Bòsnia i Hercegovina";"145";93;"BA";70;"BA";"BIH";"Europa";"Europa meridional";"Europe";"Southern Europe";;4613414;;0;2017
+"Croàcia";"146";92;"HR";191;"HR";"HRV";"Europa";"Europa meridional";"Europe";"Southern Europe";1;4489409;;0;2017
+"Eslovènia";"147";91;"SI";705;"SI";"SVN";"Europa";"Europa meridional";"Europe";"Southern Europe";1;2005692;;0;2017
+"Armènia";"148";77;"AM";51;"AM";"ARM";"Àsia";"Àsia occidental";"Asia";"Western Asia";;2967004;;0;2017
+"Rússia";"154";75;"RU";643;"RU";"RUS";"Europa";"Europa oriental";"Europe";"Eastern Europe";;140041247;;0;2017
+"Macedònia";"156";96;"MK";807;"MK";"MKD";"Europa";"Europa meridional";"Europe";"Southern Europe";;2066718;;0;2017
+"Sèrbia";"157";98;"XS";688;"RS";"SRB";"Europa";"Europa meridional";"Europe";"Southern Europe";;7379339;;0;2017
+"Montenegro";"158";97;"ME";499;"ME";"MNE";"Europa";"Europa meridional";"Europe";"Southern Europe";;672180;;0;2017
+"Guernsey";"170";6;"GB";831;"GG";"GGY";"Europa";"Europa septentrional";"Europe";"Northern Europe";;65870;;1;2017
+"Svalbard i Jan Mayen";"171";28;"NO";744;"SJ";"SJM";"Europa";"Europa septentrional";"Europe";"Northern Europe";;;;1;2017
+"Fèroe";"172";41;"FO";234;"FO";"FRO";"Europa";"Europa septentrional";"Europe";"Northern Europe";;48856;;1;2017
+"Illa de Man";"173";6;"GB";833;"IM";"IMN";"Europa";"Europa septentrional";"Europe";"Northern Europe";;76512;;1;2017
+"Gibraltar";"174";44;"GI";292;"GI";"GIB";"Europa";"Europa meridional";"Europe";"Southern Europe";1;;;1;2017
+"Jersey";"176";6;"GB";832;"JE";"JEY";"Europa";"Europa septentrional";"Europe";"Northern Europe";;91626;;1;2017
+"Aland";"177";32;"FI";248;"AX";"ALA";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;27153;;1;2017
+"Burkina Faso";"201";236;"BF";854;"BF";"BFA";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;15746232;;0;2017
+"Angola";"202";330;"AO";24;"AO";"AGO";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;12799293;;0;2017
+"Algèria";"203";208;"DZ";12;"DZ";"DZA";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;34178188;;0;2017
+"Benín";"204";284;"BJ";204;"BJ";"BEN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;8791832;;0;2017
+"Botswana";"205";391;"BW";72;"BW";"BWA";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;1990876;;0;2017
+"Burundi";"206";328;"BI";108;"BI";"BDI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;8988091;;0;2017
+"Cap Verd";"207";247;"CV";132;"CV";"CPV";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;429474;;0;2017
+"Camerun";"208";302;"CM";120;"CM";"CMR";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;18879301;;0;2017
+"Comores, les";"209";375;"KM";174;"KM";"COM";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;752438;;0;2017
+"Congo";"210";318;"CG";178;"CG";"COG";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;4012809;;0;2017
+"Costa d'Ivori";"211";272;"CI";384;"CI";"CIV";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;20617068;;0;2017
+"Djibouti";"212";338;"DJ";262;"DJ";"DJI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;516055;;0;2017
+"Egipte";"213";220;"EG";818;"EG";"EGY";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;83082869;;0;2017
+"Etiòpia";"214";334;"ET";231;"ET";"ETH";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;85237338;;0;2017
+"Gabon";"215";314;"GA";266;"GA";"GAB";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;1514993;;0;2017
+"Gàmbia";"216";252;"GM";270;"GM";"GMB";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;1782893;;0;2017
+"Ghana";"217";276;"GH";288;"GH";"GHA";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;23832495;;0;2017
+"Guinea";"218";260;"GN";324;"GN";"GIN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;10057975;;0;2017
+"Guinea-Bissau";"219";257;"GW";624;"GW";"GNB";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;1533964;;0;2017
+"Guinea Equatorial";"220";310;"GQ";226;"GQ";"GNQ";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;633441;;0;2017
+"Kenya";"221";346;"KE";404;"KE";"KEN";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;39002772;;0;2017
+"Lesotho";"222";395;"LS";426;"LS";"LSO";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;2130819;;0;2017
+"Libèria";"223";268;"LR";430;"LR";"LBR";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;3441790;;0;2017
+"Líbia";"224";216;"LY";434;"LY";"LBY";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;6310434;;0;2017
+"Madagascar";"225";370;"MG";450;"MG";"MDG";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;20653556;;0;2017
+"Malawi";"226";386;"MW";454;"MW";"MWI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;14268711;;0;2017
+"Mali";"227";232;"ML";466;"ML";"MLI";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;12666987;;0;2017
+"Marroc, el";"228";204;"MA";504;"MA";"MAR";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;34859364;;0;2017
+"Maurici";"229";373;"MU";480;"MU";"MUS";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;1284264;;0;2017
+"Mauritània";"230";228;"MR";478;"MR";"MRT";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;3129486;;0;2017
+"Moçambic";"231";366;"MZ";508;"MZ";"MOZ";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;21669278;;0;2017
+"Namíbia";"232";389;"NA";516;"NA";"NAM";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;2108665;;0;2017
+"Níger";"233";240;"NE";562;"NE";"NER";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;15306252;;0;2017
+"Nigèria";"234";288;"NG";566;"NG";"NGA";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;149229090;;0;2017
+"República Centreafricana";"235";306;"CF";140;"CF";"CAF";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;4511488;;0;2017
+"Sud-àfrica";"236";388;"ZA";710;"ZA";"ZAF";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;49052489;;0;2017
+"Ruanda";"237";324;"RW";646;"RW";"RWA";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;10473282;;0;2017
+"São Tomé i Príncipe";"238";311;"ST";678;"ST";"STP";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;212679;;0;2017
+"Senegal";"239";248;"SN";686;"SN";"SEN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;13711597;;0;2017
+"Seychelles";"240";355;"SC";690;"SC";"SYC";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;87476;;0;2017
+"Sierra Leone";"241";264;"SL";694;"SL";"SLE";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;6440053;;0;2017
+"Somàlia";"242";342;"SO";706;"SO";"SOM";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;9832017;;0;2017
+"Sudan, el";"243";224;"SD";729;"SD";"SDN";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;30894000;;0;2017
+"Swaziland";"244";393;"SZ";748;"SZ";"SWZ";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;1123913;;0;2017
+"Tanzània";"245";352;"TZ";834;"TZ";"TZA";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;41048532;;0;2017
+"Txad";"246";244;"TD";148;"TD";"TCD";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;10329208;;0;2017
+"Togo";"247";280;"TG";768;"TG";"TGO";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;6019877;;0;2017
+"Tunísia";"248";212;"TN";788;"TN";"TUN";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;10486339;;0;2017
+"Uganda";"249";350;"UG";800;"UG";"UGA";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;32369558;;0;2017
+"República Democràtica del Congo";"250";322;"CD";180;"CD";"COD";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;68692542;;0;2017
+"Zàmbia";"251";378;"ZM";894;"ZM";"ZMB";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;11862740;;0;2017
+"Zimbàbue";"252";382;"ZW";716;"ZW";"ZWE";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;11392629;;0;2017
+"Eritrea";"253";336;"ER";232;"ER";"ERI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;5647168;;0;2017
+"Sudan del Sud, el";"254";224;"SS";728;"SS";"SSD";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;8260490;;0;2017
+"Saint Helena, Ascenció i Tristan da Cunha";"260";329;"SH";654;"SH";"SHN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;7637;;1;2017
+"Reunió, la";"261";1;"FR";638;"RE";"REU";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";1;;;1;2017
+"Mayotte";"262";377;"YT";175;"YT";"MYT";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";1;;;1;2017
+"Sàhara Occidental";"263";;"EH";732;"EH";"ESH";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;;;0;2017
+"Canadà";"301";404;"CA";124;"CA";"CAN";"Amèrica";"Amèrica del nord";"Americas";"Northern America";;33487208;;0;2017
+"Estats Units, els";"302";400;"US";840;"US";"USA";"Amèrica";"Amèrica del nord";"Americas";"Northern America";;307212123;;0;2017
+"Mèxic";"303";412;"MX";484;"MX";"MEX";"Amèrica";"Amèrica central";"Americas";"Central America";;111211789;;0;2017
+"Antigua i Barbuda";"310";459;"AG";28;"AG";"ATG";"Amèrica";"Carib";"Americas";"Caribbean";;85632;;0;2017
+"Bahames, les";"311";453;"BS";44;"BS";"BHS";"Amèrica";"Carib";"Americas";"Caribbean";;309156;;0;2017
+"Barbados";"312";469;"BB";52;"BB";"BRB";"Amèrica";"Carib";"Americas";"Caribbean";;284589;;0;2017
+"Belize";"313";421;"BZ";84;"BZ";"BLZ";"Amèrica";"Amèrica central";"Americas";"Central America";;307899;;0;2017
+"Costa Rica";"314";436;"CR";188;"CR";"CRI";"Amèrica";"Amèrica central";"Americas";"Central America";;4253877;;0;2017
+"Cuba";"315";448;"CU";192;"CU";"CUB";"Amèrica";"Carib";"Americas";"Caribbean";;11451652;;0;2017
+"Dominica";"316";460;"DM";212;"DM";"DMA";"Amèrica";"Carib";"Americas";"Caribbean";;72660;;0;2017
+"El Salvador";"317";428;"SV";222;"SV";"SLV";"Amèrica";"Amèrica central";"Americas";"Central America";;7185218;;0;2017
+"Grenada";"318";473;"GD";308;"GD";"GRD";"Amèrica";"Carib";"Americas";"Caribbean";;90739;;0;2017
+"Guatemala";"319";416;"GT";320;"GT";"GTM";"Amèrica";"Amèrica central";"Americas";"Central America";;13276517;;0;2017
+"Haití";"320";452;"HT";332;"HT";"HTI";"Amèrica";"Carib";"Americas";"Caribbean";;9035536;;0;2017
+"Hondures";"321";424;"HN";340;"HN";"HND";"Amèrica";"Amèrica central";"Americas";"Central America";;7792854;;0;2017
+"Jamaica";"322";464;"JM";388;"JM";"JAM";"Amèrica";"Carib";"Americas";"Caribbean";;2825928;;0;2017
+"Nicaragua";"323";432;"NI";558;"NI";"NIC";"Amèrica";"Amèrica central";"Americas";"Central America";;5891199;;0;2017
+"Panamà";"324";442;"PA";591;"PA";"PAN";"Amèrica";"Amèrica central";"Americas";"Central America";;3360474;;0;2017
+"Saint Vincent i les Grenadines";"325";467;"VC";670;"VC";"VCT";"Amèrica";"Carib";"Americas";"Caribbean";;104574;;0;2017
+"República Dominicana";"326";456;"DO";214;"DO";"DOM";"Amèrica";"Carib";"Americas";"Caribbean";;9650054;;0;2017
+"Trinidad i Tobago";"327";472;"TT";780;"TT";"TTO";"Amèrica";"Carib";"Americas";"Caribbean";;1310000;;0;2017
+"Saint Lucia";"328";465;"LC";662;"LC";"LCA";"Amèrica";"Carib";"Americas";"Caribbean";;160267;;0;2017
+"Saint Kitts i Nevis";"329";449;"KN";659;"KN";"KNA";"Amèrica";"Carib";"Americas";"Caribbean";;40131;;0;2017
+"Argentina";"340";528;"AR";32;"AR";"ARG";"Amèrica";"Amèrica del sud";"Americas";"South America";;40913584;;0;2017
+"Bolívia";"341";516;"BO";68;"BO";"BOL";"Amèrica";"Amèrica del sud";"Americas";"South America";;9775246;;0;2017
+"Brasil";"342";508;"BR";76;"BR";"BRA";"Amèrica";"Amèrica del sud";"Americas";"South America";;198739269;;0;2017
+"Colòmbia";"343";480;"CO";170;"CO";"COL";"Amèrica";"Amèrica del sud";"Americas";"South America";;45644023;;0;2017
+"Xile";"344";512;"CL";152;"CL";"CHL";"Amèrica";"Amèrica del sud";"Americas";"South America";;16601707;;0;2017
+"Equador";"345";500;"EC";218;"EC";"ECU";"Amèrica";"Amèrica del sud";"Americas";"South America";;14573101;;0;2017
+"Guyana";"346";488;"GY";328;"GY";"GUY";"Amèrica";"Amèrica del sud";"Americas";"South America";;772298;;0;2017
+"Paraguai";"347";520;"PY";600;"PY";"PRY";"Amèrica";"Amèrica del sud";"Americas";"South America";;6995655;;0;2017
+"Perú";"348";504;"PE";604;"PE";"PER";"Amèrica";"Amèrica del sud";"Americas";"South America";;29546963;;0;2017
+"Surinam";"349";492;"SR";740;"SR";"SUR";"Amèrica";"Amèrica del sud";"Americas";"South America";;481267;;0;2017
+"Uruguai";"350";524;"UY";858;"UY";"URY";"Amèrica";"Amèrica del sud";"Americas";"South America";;3494382;;0;2017
+"Veneçuela";"351";484;"VE";862;"VE";"VEN";"Amèrica";"Amèrica del sud";"Americas";"South America";;26814843;;0;2017
+"Saint-Pierre-et-Miquelon";"370";408;"PM";666;"PM";"SPM";"Amèrica";"Amèrica del nord";"Americas";"Northern America";;7051;;1;2017
+"Groenlàndia";"371";406;"GL";304;"GL";"GRL";"Amèrica";"Amèrica del nord";"Americas";"Northern America";;57600;;1;2017
+"Illes Caiman";"380";463;"KY";136;"KY";"CYM";"Amèrica";"Carib";"Americas";"Caribbean";;49035;;1;2017
+"Illes Turks i Caicos";"381";454;"TC";796;"TC";"TCA";"Amèrica";"Carib";"Americas";"Caribbean";;22942;;1;2017
+"Illes Verges dels Estats Units";"382";457;"VI";850;"VI";"VIR";"Amèrica";"Carib";"Americas";"Caribbean";;109825;;1;2017
+"Guadalupe";"383";1;"FR";312;"GP";"GLP";"Amèrica";"Carib";"Americas";"Caribbean";1;;;1;2017
+"Bermudes";"384";413;"BM";60;"BM";"BMU";"Amèrica";"Amèrica del nord";"Americas";"Northern America";;67837;;1;2017
+"Saint-Martin";"385";1;"FR";663;"MF";"MAF";"Amèrica";"Carib";"Americas";"Caribbean";1;29820;;1;2017
+"Martinica";"386";1;"FR";474;"MQ";"MTQ";"Amèrica";"Carib";"Americas";"Caribbean";1;;;1;2017
+"Montserrat";"387";470;"MS";500;"MS";"MSR";"Amèrica";"Carib";"Americas";"Caribbean";;5097;;1;2017
+"Anguilla";"388";446;"AI";660;"AI";"AIA";"Amèrica";"Carib";"Americas";"Caribbean";;14436;;1;2017
+"Saint-Barthélemy";"389";1;"BL";652;"BL";"BLM";"Amèrica";"Carib";"Americas";"Caribbean";;7448;;1;2017
+"Puerto Rico";"390";400;"US";630;"PR";"PRI";"Amèrica";"Carib";"Americas";"Caribbean";;3971020;;1;2017
+"Aruba";"391";474;"AW";533;"AW";"ABW";"Amèrica";"Carib";"Americas";"Caribbean";;103065;;1;2017
+"Illes Verges Britàniques";"393";468;"VG";92;"VG";"VGB";"Amèrica";"Carib";"Americas";"Caribbean";;24491;;1;2017
+"Guaiana Francesa";"394";1;"FR";254;"GF";"GUF";"Amèrica";"Amèrica del sud";"Americas";"South America";1;236250;;1;2017
+"Illes Falkland (Malvines)";"395";529;"FK";238;"FK";"FLK";"Amèrica";"Amèrica del sud";"Americas";"South America";;3140;;1;2017
+"Afganistan";"401";660;"AF";4;"AF";"AFG";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;28400000;;0;2017
+"Aràbia Saudí";"402";632;"SA";682;"SA";"SAU";"Àsia";"Àsia occidental";"Asia";"Western Asia";;28686633;;0;2017
+"Bahrain";"403";640;"BH";48;"BH";"BHR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;727785;;0;2017
+"Bangladesh";"404";666;"BD";50;"BD";"BGD";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;156050883;;0;2017
+"Myanmar";"405";676;"MM";104;"MM";"MMR";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;48137741;;0;2017
+"Xina";"407";720;"CN";156;"CN";"CHN";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;1338612968;;0;2017
+"Emirats Àrabs Units, els";"408";647;"AE";784;"AE";"ARE";"Àsia";"Àsia occidental";"Asia";"Western Asia";;4798491;;0;2017
+"Filipines";"409";708;"PH";608;"PH";"PHL";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;97976603;;0;2017
+"Índia";"410";664;"IN";356;"IN";"IND";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;1166079217;;0;2017
+"Indonèsia";"411";700;"ID";360;"ID";"IDN";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;240271522;;0;2017
+"Iraq, l'";"412";612;"IQ";368;"IQ";"IRQ";"Àsia";"Àsia occidental";"Asia";"Western Asia";;28945657;;0;2017
+"Iran";"413";616;"IR";364;"IR";"IRN";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;66429284;;0;2017
+"Israel";"414";624;"IL";376;"IL";"ISR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;7233701;;0;2017
+"Japó";"415";732;"JP";392;"JP";"JPN";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;127078679;;0;2017
+"Jordània";"416";628;"JO";400;"JO";"JOR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;6342948;;0;2017
+"Cambodja";"417";696;"KH";116;"KH";"KHM";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;14494293;;0;2017
+"Kuwait";"418";636;"KW";414;"KW";"KWT";"Àsia";"Àsia occidental";"Asia";"Western Asia";;2691158;;0;2017
+"Lao";"419";684;"LA";418;"LA";"LAO";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;6834942;;0;2017
+"Líban";"420";604;"LB";422;"LB";"LBN";"Àsia";"Àsia occidental";"Asia";"Western Asia";;4017095;;0;2017
+"Malàisia";"421";701;"MY";458;"MY";"MYS";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;25715819;;0;2017
+"Maldives";"422";667;"MV";462;"MV";"MDV";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;396334;;0;2017
+"Mongòlia";"423";716;"MN";496;"MN";"MNG";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;3041142;;0;2017
+"Nepal";"424";672;"NP";524;"NP";"NPL";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;28563377;;0;2017
+"Oman";"425";649;"OM";512;"OM";"OMN";"Àsia";"Àsia occidental";"Asia";"Western Asia";;3418085;;0;2017
+"Pakistan";"426";662;"PK";586;"PK";"PAK";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;176242949;;0;2017
+"Qatar";"427";644;"QA";634;"QA";"QAT";"Àsia";"Àsia occidental";"Asia";"Western Asia";;833285;;0;2017
+"Corea del Sud";"430";728;"KR";410;"KR";"KOR";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;48508972;;0;2017
+"Corea del Nord";"431";724;"KP";408;"KP";"PRK";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;22665345;;0;2017
+"Singapur";"432";706;"SG";702;"SG";"SGP";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;4657542;;0;2017
+"Síria";"433";608;"SY";760;"SY";"SYR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;20178485;;0;2017
+"Sri Lanka";"434";669;"LK";144;"LK";"LKA";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;21324791;;0;2017
+"Tailàndia";"435";680;"TH";764;"TH";"THA";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;65905410;;0;2017
+"Turquia";"436";52;"TR";792;"TR";"TUR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;76805524;;0;2017
+"Vietnam";"437";690;"VN";704;"VN";"VNM";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;86967524;;0;2017
+"Taiwan,Xina";"438";736;"TW";158;"TW";"TWN";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;22974347;"China-Taiwan";0;2017
+"Brunei";"439";703;"BN";96;"BN";"BRN";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;388190;;0;2017
+"Illes Marshall";"440";824;"MH";584;"MH";"MHL";"Oceania";"Micronèsia";"Oceania";"Micronesia";;64522;;0;2017
+"Iemen, el";"441";653;"YE";887;"YE";"YEM";"Àsia";"Àsia occidental";"Asia";"Western Asia";;23822783;;0;2017
+"Azerbaidjan";"442";78;"AZ";31;"AZ";"AZE";"Àsia";"Àsia occidental";"Asia";"Western Asia";;8238672;;0;2017
+"Kazakhstan";"443";79;"KZ";398;"KZ";"KAZ";"Àsia";"Àsia central";"Asia";"Central Asia";;15399437;;0;2017
+"Kirguizstan";"444";83;"KG";417;"KG";"KGZ";"Àsia";"Àsia central";"Asia";"Central Asia";;5431747;;0;2017
+"Tadjikistan";"445";82;"TJ";762;"TJ";"TJK";"Àsia";"Àsia central";"Asia";"Central Asia";;7349145;;0;2017
+"Turkmenistan";"446";80;"TM";795;"TM";"TKM";"Àsia";"Àsia central";"Asia";"Central Asia";;4884887;;0;2017
+"Uzbekistan";"447";81;"UZ";860;"UZ";"UZB";"Àsia";"Àsia central";"Asia";"Central Asia";;27606007;;0;2017
+"Bhutan";"448";675;"BT";64;"BT";"BTN";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;691141;;0;2017
+"Territoris Palestins [o Palestina]";"449";625;"PS";275;"PS";"PSE";"Àsia";"Àsia occidental";"Asia";"Western Asia";;2514845;;0;2017
+"Hong Kong, Xina";"450";740;"HK";344;"HK";"HKG";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;7055071;;1;2017
+"Guam";"454";831;"GU";316;"GU";"GUM";"Oceania";"Micronèsia";"Oceania";"Micronesia";;178430;;1;2017
+"Macao, Xina";"455";743;"MO";446;"MO";"MAC";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;559846;;1;2017
+"Illes Marianes del Nord";"456";820;"MP";580;"MP";"MNP";"Oceania";"Micronèsia";"Oceania";"Micronesia";;88662;;1;2017
+"Austràlia";"501";800;"AU";36;"AU";"AUS";"Oceania";"Austràlia i Nova Zelanda";"Oceania";"Australia and New Zealand";;21262641;;0;2017
+"Fiji";"502";815;"FJ";242;"FJ";"FJI";"Oceania";"Melanèsia";"Oceania";"Melanesia";;944720;;0;2017
+"Nova Zelanda";"504";804;"NZ";554;"NZ";"NZL";"Oceania";"Austràlia i Nova Zelanda";"Oceania";"Australia and New Zealand";;4213418;;0;2017
+"Papua Nova Guinea";"505";801;"PG";598;"PG";"PNG";"Oceania";"Melanèsia";"Oceania";"Melanesia";;6057263;;0;2017
+"Illes Salomó";"506";806;"SB";90;"SB";"SLB";"Oceania";"Melanèsia";"Oceania";"Melanesia";;595613;;0;2017
+"Samoa";"507";819;"WS";882;"WS";"WSM";"Oceania";"Polinèsia";"Oceania";"Polynesia";;219998;;0;2017
+"Tonga";"508";817;"TO";776;"TO";"TON";"Oceania";"Polinèsia";"Oceania";"Polynesia";;120898;;0;2017
+"Vanuatu";"509";816;"VU";548;"VU";"VUT";"Oceania";"Melanèsia";"Oceania";"Melanesia";;218519;;0;2017
+"Micronèsia";"511";823;"FM";583;"FM";"FSM";"Oceania";"Micronèsia";"Oceania";"Micronesia";;107434;;0;2017
+"Tuvalu";"512";807;"TV";798;"TV";"TUV";"Oceania";"Polinèsia";"Oceania";"Polynesia";;12373;;0;2017
+"Illes Cook";"513";837;"CK";184;"CK";"COK";"Oceania";"Polinèsia";"Oceania";"Polynesia";;11870;;1;2017
+"Kiribati";"514";812;"KI";296;"KI";"KIR";"Oceania";"Micronèsia";"Oceania";"Micronesia";;112850;;0;2017
+"Nauru";"515";803;"NR";520;"NR";"NRU";"Oceania";"Micronèsia";"Oceania";"Micronesia";;14019;;0;2017
+"Palau";"516";825;"PW";585;"PW";"PLW";"Oceania";"Micronèsia";"Oceania";"Micronesia";;20796;;0;2017
+"Timor-Leste";"517";626;"TL";626;"TL";"TLS";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;1131612;;0;2017
+"Polinèsia Francesa";"520";822;"PF";258;"PF";"PYF";"Oceania";"Polinèsia";"Oceania";"Polynesia";;287032;;1;2017
+"Illa Norfolk";"521";836;"NF";574;"NF";"NFK";"Oceania";"Austràlia i Nova Zelanda";"Oceania";"Australia and New Zealand";;2141;;1;2017
+"Niue";"523";838;"NU";570;"NU";"NIU";"Oceania";"Polinèsia";"Oceania";"Polynesia";;1398;;1;2017
+"Pitcairn";"524";813;"PN";612;"PN";"PCN";"Oceania";"Polinèsia";"Oceania";"Polynesia";;48;;1;2017
+"Tokelau";"525";839;"TK";772;"TK";"TKL";"Oceania";"Polinèsia";"Oceania";"Polynesia";;;;1;2017
+"Nova Caledònia";"526";809;"NC";540;"NC";"NCL";"Oceania";"Melanèsia";"Oceania";"Melanesia";;227436;;1;2017
+"Wallis i Futuna";"527";811;"WF";876;"WF";"WLF";"Oceania";"Polinèsia";"Oceania";"Polynesia";;15289;;1;2017
+"Samoa Americana";"528";830;"AS";16;"AS";"ASM";"Oceania";"Polinèsia";"Oceania";"Polynesia";;65628;;1;2017
+"Albània";"101";70;"AL";8;"AL";"ALB";"Europa";"Europa meridional";"Europe";"Southern Europe";;3639453;;0;2018
+"Àustria";"102";38;"AT";40;"AT";"AUT";"Europa";"Europa occidental";"Europe";"Western Europe";1;8210281;;0;2018
+"Bèlgica";"103";17;"BE";56;"BE";"BEL";"Europa";"Europa occidental";"Europe";"Western Europe";1;10414336;;0;2018
+"Bulgària";"104";68;"BG";100;"BG";"BGR";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;7204687;;0;2018
+"Xipre";"106";600;"CY";196;"CY";"CYP";"Àsia";"Àsia occidental";"Asia";"Western Asia";1;531640;;0;2018
+"Dinamarca";"107";8;"DK";208;"DK";"DNK";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;5500510;;0;2018
+"Espanya";"108";11;"ES";724;"ES";"ESP";"Europa";"Europa meridional";"Europe";"Southern Europe";1;40525002;;0;2018
+"Finlàndia";"109";32;"FI";246;"FI";"FIN";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;5250275;;0;2018
+"França";"110";1;"FR";250;"FR";"FRA";"Europa";"Europa occidental";"Europe";"Western Europe";1;64057792;;0;2018
+"Grècia";"111";9;"GR";300;"GR";"GRC";"Europa";"Europa meridional";"Europe";"Southern Europe";1;10737428;;0;2018
+"Hongria";"112";64;"HU";348;"HU";"HUN";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;9905596;;0;2018
+"Irlanda";"113";7;"IE";372;"IE";"IRL";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;4203200;;0;2018
+"Islàndia";"114";24;"IS";352;"IS";"ISL";"Europa";"Europa septentrional";"Europe";"Northern Europe";;306694;;0;2018
+"Itàlia";"115";5;"IT";380;"IT";"ITA";"Europa";"Europa meridional";"Europe";"Southern Europe";1;58126212;;0;2018
+"Liechtenstein";"116";37;"LI";438;"LI";"LIE";"Europa";"Europa occidental";"Europe";"Western Europe";;34761;;0;2018
+"Luxemburg";"117";18;"LU";442;"LU";"LUX";"Europa";"Europa occidental";"Europe";"Western Europe";1;491775;;0;2018
+"Malta";"118";46;"MT";470;"MT";"MLT";"Europa";"Europa meridional";"Europe";"Southern Europe";1;405165;;0;2018
+"Mònaco";"119";1;"FR";492;"MC";"MCO";"Europa";"Europa occidental";"Europe";"Western Europe";;32965;;0;2018
+"Noruega";"120";28;"NO";578;"NO";"NOR";"Europa";"Europa septentrional";"Europe";"Northern Europe";;4676305;;0;2018
+"Països Baixos";"121";3;"NL";528;"NL";"NLD";"Europa";"Europa occidental";"Europe";"Western Europe";1;16715999;;0;2018
+"Polònia";"122";60;"PL";616;"PL";"POL";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;38482919;;0;2018
+"Portugal";"123";10;"PT";620;"PT";"PRT";"Europa";"Europa meridional";"Europe";"Southern Europe";1;10707924;;0;2018
+"Andorra";"124";43;"AD";20;"AD";"AND";"Europa";"Europa meridional";"Europe";"Southern Europe";;83888;;0;2018
+"Regne Unit";"125";6;"GB";826;"GB";"GBR";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;61113205;;0;2018
+"Alemanya";"126";4;"DE";276;"DE";"DEU";"Europa";"Europa occidental";"Europe";"Western Europe";1;82329758;;0;2018
+"Romania";"128";66;"RO";642;"RO";"ROU";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;22215421;;0;2018
+"San Marino";"129";47;"SM";674;"SM";"SMR";"Europa";"Europa meridional";"Europe";"Southern Europe";;30324;;0;2018
+"Santa Seu";"130";45;"VA";336;"VA";"VAT";"Europa";"Europa meridional";"Europe";"Southern Europe";;826;;0;2018
+"Suècia";"131";30;"SE";752;"SE";"SWE";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;9059651;;0;2018
+"Suïssa";"132";39;"CH";756;"CH";"CHE";"Europa";"Europa occidental";"Europe";"Western Europe";;7604467;;0;2018
+"Ucraïna";"135";72;"UA";804;"UA";"UKR";"Europa";"Europa oriental";"Europe";"Eastern Europe";;45700395;;0;2018
+"Letònia";"136";54;"LV";428;"LV";"LVA";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;2231503;;0;2018
+"Moldàvia";"137";74;"MD";498;"MD";"MDA";"Europa";"Europa oriental";"Europe";"Eastern Europe";;4320748;;0;2018
+"Belarús";"138";73;"BY";112;"BY";"BLR";"Europa";"Europa oriental";"Europe";"Eastern Europe";;9648533;;0;2018
+"Geòrgia";"139";76;"GE";268;"GE";"GEO";"Àsia";"Àsia occidental";"Asia";"Western Asia";;4615807;;0;2018
+"Estònia";"141";53;"EE";233;"EE";"EST";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;1299371;;0;2018
+"Lituània";"142";55;"LT";440;"LT";"LTU";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;3555179;;0;2018
+"Txèquia";"143";61;"CZ";203;"CZ";"CZE";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;10211904;;0;2018
+"Eslovàquia";"144";63;"SK";703;"SK";"SVK";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;5463046;;0;2018
+"Bòsnia i Hercegovina";"145";93;"BA";70;"BA";"BIH";"Europa";"Europa meridional";"Europe";"Southern Europe";;4613414;;0;2018
+"Croàcia";"146";92;"HR";191;"HR";"HRV";"Europa";"Europa meridional";"Europe";"Southern Europe";1;4489409;;0;2018
+"Eslovènia";"147";91;"SI";705;"SI";"SVN";"Europa";"Europa meridional";"Europe";"Southern Europe";1;2005692;;0;2018
+"Armènia";"148";77;"AM";51;"AM";"ARM";"Àsia";"Àsia occidental";"Asia";"Western Asia";;2967004;;0;2018
+"Rússia";"154";75;"RU";643;"RU";"RUS";"Europa";"Europa oriental";"Europe";"Eastern Europe";;140041247;;0;2018
+"Macedònia";"156";96;"MK";807;"MK";"MKD";"Europa";"Europa meridional";"Europe";"Southern Europe";;2066718;;0;2018
+"Sèrbia";"157";98;"XS";688;"RS";"SRB";"Europa";"Europa meridional";"Europe";"Southern Europe";;7379339;;0;2018
+"Montenegro";"158";97;"ME";499;"ME";"MNE";"Europa";"Europa meridional";"Europe";"Southern Europe";;672180;;0;2018
+"Guernsey";"170";6;"GB";831;"GG";"GGY";"Europa";"Europa septentrional";"Europe";"Northern Europe";;65870;;1;2018
+"Svalbard i Jan Mayen";"171";28;"NO";744;"SJ";"SJM";"Europa";"Europa septentrional";"Europe";"Northern Europe";;;;1;2018
+"Fèroe";"172";41;"FO";234;"FO";"FRO";"Europa";"Europa septentrional";"Europe";"Northern Europe";;48856;;1;2018
+"Illa de Man";"173";6;"GB";833;"IM";"IMN";"Europa";"Europa septentrional";"Europe";"Northern Europe";;76512;;1;2018
+"Gibraltar";"174";44;"GI";292;"GI";"GIB";"Europa";"Europa meridional";"Europe";"Southern Europe";1;;;1;2018
+"Jersey";"176";6;"GB";832;"JE";"JEY";"Europa";"Europa septentrional";"Europe";"Northern Europe";;91626;;1;2018
+"Aland";"177";32;"FI";248;"AX";"ALA";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;27153;;1;2018
+"Burkina Faso";"201";236;"BF";854;"BF";"BFA";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;15746232;;0;2018
+"Angola";"202";330;"AO";24;"AO";"AGO";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;12799293;;0;2018
+"Algèria";"203";208;"DZ";12;"DZ";"DZA";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;34178188;;0;2018
+"Benín";"204";284;"BJ";204;"BJ";"BEN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;8791832;;0;2018
+"Botswana";"205";391;"BW";72;"BW";"BWA";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;1990876;;0;2018
+"Burundi";"206";328;"BI";108;"BI";"BDI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;8988091;;0;2018
+"Cap Verd";"207";247;"CV";132;"CV";"CPV";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;429474;;0;2018
+"Camerun";"208";302;"CM";120;"CM";"CMR";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;18879301;;0;2018
+"Comores, les";"209";375;"KM";174;"KM";"COM";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;752438;;0;2018
+"Congo";"210";318;"CG";178;"CG";"COG";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;4012809;;0;2018
+"Costa d'Ivori";"211";272;"CI";384;"CI";"CIV";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;20617068;;0;2018
+"Djibouti";"212";338;"DJ";262;"DJ";"DJI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;516055;;0;2018
+"Egipte";"213";220;"EG";818;"EG";"EGY";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;83082869;;0;2018
+"Etiòpia";"214";334;"ET";231;"ET";"ETH";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;85237338;;0;2018
+"Gabon";"215";314;"GA";266;"GA";"GAB";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;1514993;;0;2018
+"Gàmbia";"216";252;"GM";270;"GM";"GMB";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;1782893;;0;2018
+"Ghana";"217";276;"GH";288;"GH";"GHA";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;23832495;;0;2018
+"Guinea";"218";260;"GN";324;"GN";"GIN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;10057975;;0;2018
+"Guinea-Bissau";"219";257;"GW";624;"GW";"GNB";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;1533964;;0;2018
+"Guinea Equatorial";"220";310;"GQ";226;"GQ";"GNQ";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;633441;;0;2018
+"Kenya";"221";346;"KE";404;"KE";"KEN";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;39002772;;0;2018
+"Lesotho";"222";395;"LS";426;"LS";"LSO";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;2130819;;0;2018
+"Libèria";"223";268;"LR";430;"LR";"LBR";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;3441790;;0;2018
+"Líbia";"224";216;"LY";434;"LY";"LBY";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;6310434;;0;2018
+"Madagascar";"225";370;"MG";450;"MG";"MDG";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;20653556;;0;2018
+"Malawi";"226";386;"MW";454;"MW";"MWI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;14268711;;0;2018
+"Mali";"227";232;"ML";466;"ML";"MLI";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;12666987;;0;2018
+"Marroc, el";"228";204;"MA";504;"MA";"MAR";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;34859364;;0;2018
+"Maurici";"229";373;"MU";480;"MU";"MUS";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;1284264;;0;2018
+"Mauritània";"230";228;"MR";478;"MR";"MRT";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;3129486;;0;2018
+"Moçambic";"231";366;"MZ";508;"MZ";"MOZ";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;21669278;;0;2018
+"Namíbia";"232";389;"NA";516;"NA";"NAM";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;2108665;;0;2018
+"Níger";"233";240;"NE";562;"NE";"NER";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;15306252;;0;2018
+"Nigèria";"234";288;"NG";566;"NG";"NGA";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;149229090;;0;2018
+"República Centreafricana";"235";306;"CF";140;"CF";"CAF";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;4511488;;0;2018
+"Sud-àfrica";"236";388;"ZA";710;"ZA";"ZAF";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;49052489;;0;2018
+"Ruanda";"237";324;"RW";646;"RW";"RWA";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;10473282;;0;2018
+"São Tomé i Príncipe";"238";311;"ST";678;"ST";"STP";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;212679;;0;2018
+"Senegal";"239";248;"SN";686;"SN";"SEN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;13711597;;0;2018
+"Seychelles";"240";355;"SC";690;"SC";"SYC";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;87476;;0;2018
+"Sierra Leone";"241";264;"SL";694;"SL";"SLE";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;6440053;;0;2018
+"Somàlia";"242";342;"SO";706;"SO";"SOM";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;9832017;;0;2018
+"Sudan, el";"243";224;"SD";729;"SD";"SDN";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;30894000;;0;2018
+"Swaziland";"244";393;"SZ";748;"SZ";"SWZ";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;1123913;;0;2018
+"Tanzània";"245";352;"TZ";834;"TZ";"TZA";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;41048532;;0;2018
+"Txad";"246";244;"TD";148;"TD";"TCD";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;10329208;;0;2018
+"Togo";"247";280;"TG";768;"TG";"TGO";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;6019877;;0;2018
+"Tunísia";"248";212;"TN";788;"TN";"TUN";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;10486339;;0;2018
+"Uganda";"249";350;"UG";800;"UG";"UGA";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;32369558;;0;2018
+"República Democràtica del Congo";"250";322;"CD";180;"CD";"COD";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;68692542;;0;2018
+"Zàmbia";"251";378;"ZM";894;"ZM";"ZMB";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;11862740;;0;2018
+"Zimbàbue";"252";382;"ZW";716;"ZW";"ZWE";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;11392629;;0;2018
+"Eritrea";"253";336;"ER";232;"ER";"ERI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;5647168;;0;2018
+"Sudan del Sud, el";"254";224;"SS";728;"SS";"SSD";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;8260490;;0;2018
+"Saint Helena, Ascenció i Tristan da Cunha";"260";329;"SH";654;"SH";"SHN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;7637;;1;2018
+"Reunió, la";"261";1;"FR";638;"RE";"REU";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";1;;;1;2018
+"Mayotte";"262";377;"YT";175;"YT";"MYT";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";1;;;1;2018
+"Sàhara Occidental";"263";;"EH";732;"EH";"ESH";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;;;0;2018
+"Canadà";"301";404;"CA";124;"CA";"CAN";"Amèrica";"Amèrica del nord";"Americas";"Northern America";;33487208;;0;2018
+"Estats Units, els";"302";400;"US";840;"US";"USA";"Amèrica";"Amèrica del nord";"Americas";"Northern America";;307212123;;0;2018
+"Mèxic";"303";412;"MX";484;"MX";"MEX";"Amèrica";"Amèrica central";"Americas";"Central America";;111211789;;0;2018
+"Antigua i Barbuda";"310";459;"AG";28;"AG";"ATG";"Amèrica";"Carib";"Americas";"Caribbean";;85632;;0;2018
+"Bahames, les";"311";453;"BS";44;"BS";"BHS";"Amèrica";"Carib";"Americas";"Caribbean";;309156;;0;2018
+"Barbados";"312";469;"BB";52;"BB";"BRB";"Amèrica";"Carib";"Americas";"Caribbean";;284589;;0;2018
+"Belize";"313";421;"BZ";84;"BZ";"BLZ";"Amèrica";"Amèrica central";"Americas";"Central America";;307899;;0;2018
+"Costa Rica";"314";436;"CR";188;"CR";"CRI";"Amèrica";"Amèrica central";"Americas";"Central America";;4253877;;0;2018
+"Cuba";"315";448;"CU";192;"CU";"CUB";"Amèrica";"Carib";"Americas";"Caribbean";;11451652;;0;2018
+"Dominica";"316";460;"DM";212;"DM";"DMA";"Amèrica";"Carib";"Americas";"Caribbean";;72660;;0;2018
+"El Salvador";"317";428;"SV";222;"SV";"SLV";"Amèrica";"Amèrica central";"Americas";"Central America";;7185218;;0;2018
+"Grenada";"318";473;"GD";308;"GD";"GRD";"Amèrica";"Carib";"Americas";"Caribbean";;90739;;0;2018
+"Guatemala";"319";416;"GT";320;"GT";"GTM";"Amèrica";"Amèrica central";"Americas";"Central America";;13276517;;0;2018
+"Haití";"320";452;"HT";332;"HT";"HTI";"Amèrica";"Carib";"Americas";"Caribbean";;9035536;;0;2018
+"Hondures";"321";424;"HN";340;"HN";"HND";"Amèrica";"Amèrica central";"Americas";"Central America";;7792854;;0;2018
+"Jamaica";"322";464;"JM";388;"JM";"JAM";"Amèrica";"Carib";"Americas";"Caribbean";;2825928;;0;2018
+"Nicaragua";"323";432;"NI";558;"NI";"NIC";"Amèrica";"Amèrica central";"Americas";"Central America";;5891199;;0;2018
+"Panamà";"324";442;"PA";591;"PA";"PAN";"Amèrica";"Amèrica central";"Americas";"Central America";;3360474;;0;2018
+"Saint Vincent i les Grenadines";"325";467;"VC";670;"VC";"VCT";"Amèrica";"Carib";"Americas";"Caribbean";;104574;;0;2018
+"República Dominicana";"326";456;"DO";214;"DO";"DOM";"Amèrica";"Carib";"Americas";"Caribbean";;9650054;;0;2018
+"Trinidad i Tobago";"327";472;"TT";780;"TT";"TTO";"Amèrica";"Carib";"Americas";"Caribbean";;1310000;;0;2018
+"Saint Lucia";"328";465;"LC";662;"LC";"LCA";"Amèrica";"Carib";"Americas";"Caribbean";;160267;;0;2018
+"Saint Kitts i Nevis";"329";449;"KN";659;"KN";"KNA";"Amèrica";"Carib";"Americas";"Caribbean";;40131;;0;2018
+"Argentina";"340";528;"AR";32;"AR";"ARG";"Amèrica";"Amèrica del sud";"Americas";"South America";;40913584;;0;2018
+"Bolívia";"341";516;"BO";68;"BO";"BOL";"Amèrica";"Amèrica del sud";"Americas";"South America";;9775246;;0;2018
+"Brasil";"342";508;"BR";76;"BR";"BRA";"Amèrica";"Amèrica del sud";"Americas";"South America";;198739269;;0;2018
+"Colòmbia";"343";480;"CO";170;"CO";"COL";"Amèrica";"Amèrica del sud";"Americas";"South America";;45644023;;0;2018
+"Xile";"344";512;"CL";152;"CL";"CHL";"Amèrica";"Amèrica del sud";"Americas";"South America";;16601707;;0;2018
+"Equador";"345";500;"EC";218;"EC";"ECU";"Amèrica";"Amèrica del sud";"Americas";"South America";;14573101;;0;2018
+"Guyana";"346";488;"GY";328;"GY";"GUY";"Amèrica";"Amèrica del sud";"Americas";"South America";;772298;;0;2018
+"Paraguai";"347";520;"PY";600;"PY";"PRY";"Amèrica";"Amèrica del sud";"Americas";"South America";;6995655;;0;2018
+"Perú";"348";504;"PE";604;"PE";"PER";"Amèrica";"Amèrica del sud";"Americas";"South America";;29546963;;0;2018
+"Surinam";"349";492;"SR";740;"SR";"SUR";"Amèrica";"Amèrica del sud";"Americas";"South America";;481267;;0;2018
+"Uruguai";"350";524;"UY";858;"UY";"URY";"Amèrica";"Amèrica del sud";"Americas";"South America";;3494382;;0;2018
+"Veneçuela";"351";484;"VE";862;"VE";"VEN";"Amèrica";"Amèrica del sud";"Americas";"South America";;26814843;;0;2018
+"Saint-Pierre-et-Miquelon";"370";408;"PM";666;"PM";"SPM";"Amèrica";"Amèrica del nord";"Americas";"Northern America";;7051;;1;2018
+"Groenlàndia";"371";406;"GL";304;"GL";"GRL";"Amèrica";"Amèrica del nord";"Americas";"Northern America";;57600;;1;2018
+"Illes Caiman";"380";463;"KY";136;"KY";"CYM";"Amèrica";"Carib";"Americas";"Caribbean";;49035;;1;2018
+"Illes Turks i Caicos";"381";454;"TC";796;"TC";"TCA";"Amèrica";"Carib";"Americas";"Caribbean";;22942;;1;2018
+"Illes Verges dels Estats Units";"382";457;"VI";850;"VI";"VIR";"Amèrica";"Carib";"Americas";"Caribbean";;109825;;1;2018
+"Guadalupe";"383";1;"FR";312;"GP";"GLP";"Amèrica";"Carib";"Americas";"Caribbean";1;;;1;2018
+"Bermudes";"384";413;"BM";60;"BM";"BMU";"Amèrica";"Amèrica del nord";"Americas";"Northern America";;67837;;1;2018
+"Saint-Martin";"385";1;"FR";663;"MF";"MAF";"Amèrica";"Carib";"Americas";"Caribbean";1;29820;;1;2018
+"Martinica";"386";1;"FR";474;"MQ";"MTQ";"Amèrica";"Carib";"Americas";"Caribbean";1;;;1;2018
+"Montserrat";"387";470;"MS";500;"MS";"MSR";"Amèrica";"Carib";"Americas";"Caribbean";;5097;;1;2018
+"Anguilla";"388";446;"AI";660;"AI";"AIA";"Amèrica";"Carib";"Americas";"Caribbean";;14436;;1;2018
+"Saint-Barthélemy";"389";1;"BL";652;"BL";"BLM";"Amèrica";"Carib";"Americas";"Caribbean";;7448;;1;2018
+"Puerto Rico";"390";400;"US";630;"PR";"PRI";"Amèrica";"Carib";"Americas";"Caribbean";;3971020;;1;2018
+"Aruba";"391";474;"AW";533;"AW";"ABW";"Amèrica";"Carib";"Americas";"Caribbean";;103065;;1;2018
+"Illes Verges Britàniques";"393";468;"VG";92;"VG";"VGB";"Amèrica";"Carib";"Americas";"Caribbean";;24491;;1;2018
+"Guaiana Francesa";"394";1;"FR";254;"GF";"GUF";"Amèrica";"Amèrica del sud";"Americas";"South America";1;236250;;1;2018
+"Illes Falkland (Malvines)";"395";529;"FK";238;"FK";"FLK";"Amèrica";"Amèrica del sud";"Americas";"South America";;3140;;1;2018
+"Afganistan";"401";660;"AF";4;"AF";"AFG";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;28400000;;0;2018
+"Aràbia Saudí";"402";632;"SA";682;"SA";"SAU";"Àsia";"Àsia occidental";"Asia";"Western Asia";;28686633;;0;2018
+"Bahrain";"403";640;"BH";48;"BH";"BHR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;727785;;0;2018
+"Bangladesh";"404";666;"BD";50;"BD";"BGD";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;156050883;;0;2018
+"Myanmar";"405";676;"MM";104;"MM";"MMR";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;48137741;;0;2018
+"Xina";"407";720;"CN";156;"CN";"CHN";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;1338612968;;0;2018
+"Emirats Àrabs Units, els";"408";647;"AE";784;"AE";"ARE";"Àsia";"Àsia occidental";"Asia";"Western Asia";;4798491;;0;2018
+"Filipines";"409";708;"PH";608;"PH";"PHL";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;97976603;;0;2018
+"Índia";"410";664;"IN";356;"IN";"IND";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;1166079217;;0;2018
+"Indonèsia";"411";700;"ID";360;"ID";"IDN";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;240271522;;0;2018
+"Iraq, l'";"412";612;"IQ";368;"IQ";"IRQ";"Àsia";"Àsia occidental";"Asia";"Western Asia";;28945657;;0;2018
+"Iran";"413";616;"IR";364;"IR";"IRN";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;66429284;;0;2018
+"Israel";"414";624;"IL";376;"IL";"ISR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;7233701;;0;2018
+"Japó";"415";732;"JP";392;"JP";"JPN";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;127078679;;0;2018
+"Jordània";"416";628;"JO";400;"JO";"JOR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;6342948;;0;2018
+"Cambodja";"417";696;"KH";116;"KH";"KHM";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;14494293;;0;2018
+"Kuwait";"418";636;"KW";414;"KW";"KWT";"Àsia";"Àsia occidental";"Asia";"Western Asia";;2691158;;0;2018
+"Lao";"419";684;"LA";418;"LA";"LAO";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;6834942;;0;2018
+"Líban";"420";604;"LB";422;"LB";"LBN";"Àsia";"Àsia occidental";"Asia";"Western Asia";;4017095;;0;2018
+"Malàisia";"421";701;"MY";458;"MY";"MYS";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;25715819;;0;2018
+"Maldives";"422";667;"MV";462;"MV";"MDV";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;396334;;0;2018
+"Mongòlia";"423";716;"MN";496;"MN";"MNG";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;3041142;;0;2018
+"Nepal";"424";672;"NP";524;"NP";"NPL";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;28563377;;0;2018
+"Oman";"425";649;"OM";512;"OM";"OMN";"Àsia";"Àsia occidental";"Asia";"Western Asia";;3418085;;0;2018
+"Pakistan";"426";662;"PK";586;"PK";"PAK";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;176242949;;0;2018
+"Qatar";"427";644;"QA";634;"QA";"QAT";"Àsia";"Àsia occidental";"Asia";"Western Asia";;833285;;0;2018
+"Corea del Sud";"430";728;"KR";410;"KR";"KOR";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;48508972;;0;2018
+"Corea del Nord";"431";724;"KP";408;"KP";"PRK";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;22665345;;0;2018
+"Singapur";"432";706;"SG";702;"SG";"SGP";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;4657542;;0;2018
+"Síria";"433";608;"SY";760;"SY";"SYR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;20178485;;0;2018
+"Sri Lanka";"434";669;"LK";144;"LK";"LKA";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;21324791;;0;2018
+"Tailàndia";"435";680;"TH";764;"TH";"THA";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;65905410;;0;2018
+"Turquia";"436";52;"TR";792;"TR";"TUR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;76805524;;0;2018
+"Vietnam";"437";690;"VN";704;"VN";"VNM";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;86967524;;0;2018
+"Taiwan,Xina";"438";736;"TW";158;"TW";"TWN";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;22974347;"China-Taiwan";0;2018
+"Brunei";"439";703;"BN";96;"BN";"BRN";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;388190;;0;2018
+"Illes Marshall";"440";824;"MH";584;"MH";"MHL";"Oceania";"Micronèsia";"Oceania";"Micronesia";;64522;;0;2018
+"Iemen, el";"441";653;"YE";887;"YE";"YEM";"Àsia";"Àsia occidental";"Asia";"Western Asia";;23822783;;0;2018
+"Azerbaidjan";"442";78;"AZ";31;"AZ";"AZE";"Àsia";"Àsia occidental";"Asia";"Western Asia";;8238672;;0;2018
+"Kazakhstan";"443";79;"KZ";398;"KZ";"KAZ";"Àsia";"Àsia central";"Asia";"Central Asia";;15399437;;0;2018
+"Kirguizstan";"444";83;"KG";417;"KG";"KGZ";"Àsia";"Àsia central";"Asia";"Central Asia";;5431747;;0;2018
+"Tadjikistan";"445";82;"TJ";762;"TJ";"TJK";"Àsia";"Àsia central";"Asia";"Central Asia";;7349145;;0;2018
+"Turkmenistan";"446";80;"TM";795;"TM";"TKM";"Àsia";"Àsia central";"Asia";"Central Asia";;4884887;;0;2018
+"Uzbekistan";"447";81;"UZ";860;"UZ";"UZB";"Àsia";"Àsia central";"Asia";"Central Asia";;27606007;;0;2018
+"Bhutan";"448";675;"BT";64;"BT";"BTN";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;691141;;0;2018
+"Territoris Palestins [o Palestina]";"449";625;"PS";275;"PS";"PSE";"Àsia";"Àsia occidental";"Asia";"Western Asia";;2514845;;0;2018
+"Hong Kong, Xina";"450";740;"HK";344;"HK";"HKG";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;7055071;;1;2018
+"Guam";"454";831;"GU";316;"GU";"GUM";"Oceania";"Micronèsia";"Oceania";"Micronesia";;178430;;1;2018
+"Macao, Xina";"455";743;"MO";446;"MO";"MAC";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;559846;;1;2018
+"Illes Marianes del Nord";"456";820;"MP";580;"MP";"MNP";"Oceania";"Micronèsia";"Oceania";"Micronesia";;88662;;1;2018
+"Austràlia";"501";800;"AU";36;"AU";"AUS";"Oceania";"Austràlia i Nova Zelanda";"Oceania";"Australia and New Zealand";;21262641;;0;2018
+"Fiji";"502";815;"FJ";242;"FJ";"FJI";"Oceania";"Melanèsia";"Oceania";"Melanesia";;944720;;0;2018
+"Nova Zelanda";"504";804;"NZ";554;"NZ";"NZL";"Oceania";"Austràlia i Nova Zelanda";"Oceania";"Australia and New Zealand";;4213418;;0;2018
+"Papua Nova Guinea";"505";801;"PG";598;"PG";"PNG";"Oceania";"Melanèsia";"Oceania";"Melanesia";;6057263;;0;2018
+"Illes Salomó";"506";806;"SB";90;"SB";"SLB";"Oceania";"Melanèsia";"Oceania";"Melanesia";;595613;;0;2018
+"Samoa";"507";819;"WS";882;"WS";"WSM";"Oceania";"Polinèsia";"Oceania";"Polynesia";;219998;;0;2018
+"Tonga";"508";817;"TO";776;"TO";"TON";"Oceania";"Polinèsia";"Oceania";"Polynesia";;120898;;0;2018
+"Vanuatu";"509";816;"VU";548;"VU";"VUT";"Oceania";"Melanèsia";"Oceania";"Melanesia";;218519;;0;2018
+"Micronèsia";"511";823;"FM";583;"FM";"FSM";"Oceania";"Micronèsia";"Oceania";"Micronesia";;107434;;0;2018
+"Tuvalu";"512";807;"TV";798;"TV";"TUV";"Oceania";"Polinèsia";"Oceania";"Polynesia";;12373;;0;2018
+"Illes Cook";"513";837;"CK";184;"CK";"COK";"Oceania";"Polinèsia";"Oceania";"Polynesia";;11870;;1;2018
+"Kiribati";"514";812;"KI";296;"KI";"KIR";"Oceania";"Micronèsia";"Oceania";"Micronesia";;112850;;0;2018
+"Nauru";"515";803;"NR";520;"NR";"NRU";"Oceania";"Micronèsia";"Oceania";"Micronesia";;14019;;0;2018
+"Palau";"516";825;"PW";585;"PW";"PLW";"Oceania";"Micronèsia";"Oceania";"Micronesia";;20796;;0;2018
+"Timor-Leste";"517";626;"TL";626;"TL";"TLS";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;1131612;;0;2018
+"Polinèsia Francesa";"520";822;"PF";258;"PF";"PYF";"Oceania";"Polinèsia";"Oceania";"Polynesia";;287032;;1;2018
+"Illa Norfolk";"521";836;"NF";574;"NF";"NFK";"Oceania";"Austràlia i Nova Zelanda";"Oceania";"Australia and New Zealand";;2141;;1;2018
+"Niue";"523";838;"NU";570;"NU";"NIU";"Oceania";"Polinèsia";"Oceania";"Polynesia";;1398;;1;2018
+"Pitcairn";"524";813;"PN";612;"PN";"PCN";"Oceania";"Polinèsia";"Oceania";"Polynesia";;48;;1;2018
+"Tokelau";"525";839;"TK";772;"TK";"TKL";"Oceania";"Polinèsia";"Oceania";"Polynesia";;;;1;2018
+"Nova Caledònia";"526";809;"NC";540;"NC";"NCL";"Oceania";"Melanèsia";"Oceania";"Melanesia";;227436;;1;2018
+"Wallis i Futuna";"527";811;"WF";876;"WF";"WLF";"Oceania";"Polinèsia";"Oceania";"Polynesia";;15289;;1;2018
+"Samoa Americana";"528";830;"AS";16;"AS";"ASM";"Oceania";"Polinèsia";"Oceania";"Polynesia";;65628;;1;2018
+"Albània";"101";70;"AL";8;"AL";"ALB";"Europa";"Europa meridional";"Europe";"Southern Europe";;3639453;"Albania";0;2019
+"Àustria";"102";38;"AT";40;"AT";"AUT";"Europa";"Europa occidental";"Europe";"Western Europe";1;8210281;"Austria";0;2019
+"Bèlgica";"103";17;"BE";56;"BE";"BEL";"Europa";"Europa occidental";"Europe";"Western Europe";1;10414336;"Belgium";0;2019
+"Bulgària";"104";68;"BG";100;"BG";"BGR";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;7204687;"Bulgaria";0;2019
+"Xipre";"106";600;"CY";196;"CY";"CYP";"Àsia";"Àsia occidental";"Asia";"Western Asia";1;531640;"Cyprus";0;2019
+"Dinamarca";"107";8;"DK";208;"DK";"DNK";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;5500510;"Denmark";0;2019
+"Espanya";"108";11;"ES";724;"ES";"ESP";"Europa";"Europa meridional";"Europe";"Southern Europe";1;40525002;"Spain";0;2019
+"Finlàndia";"109";32;"FI";246;"FI";"FIN";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;5250275;"Finland";0;2019
+"França";"110";1;"FR";250;"FR";"FRA";"Europa";"Europa occidental";"Europe";"Western Europe";1;64057792;"France";0;2019
+"Grècia";"111";9;"GR";300;"GR";"GRC";"Europa";"Europa meridional";"Europe";"Southern Europe";1;10737428;"Greece";0;2019
+"Hongria";"112";64;"HU";348;"HU";"HUN";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;9905596;"Hungary";0;2019
+"Irlanda";"113";7;"IE";372;"IE";"IRL";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;4203200;"Ireland";0;2019
+"Islàndia";"114";24;"IS";352;"IS";"ISL";"Europa";"Europa septentrional";"Europe";"Northern Europe";;306694;"Iceland";0;2019
+"Itàlia";"115";5;"IT";380;"IT";"ITA";"Europa";"Europa meridional";"Europe";"Southern Europe";1;58126212;"Italy";0;2019
+"Liechtenstein";"116";37;"LI";438;"LI";"LIE";"Europa";"Europa occidental";"Europe";"Western Europe";;34761;"Liechtenstein";0;2019
+"Luxemburg";"117";18;"LU";442;"LU";"LUX";"Europa";"Europa occidental";"Europe";"Western Europe";1;491775;"Luxembourg";0;2019
+"Malta";"118";46;"MT";470;"MT";"MLT";"Europa";"Europa meridional";"Europe";"Southern Europe";1;405165;"Malta";0;2019
+"Mònaco";"119";1;"FR";492;"MC";"MCO";"Europa";"Europa occidental";"Europe";"Western Europe";;32965;"Monaco";0;2019
+"Noruega";"120";28;"NO";578;"NO";"NOR";"Europa";"Europa septentrional";"Europe";"Northern Europe";;4676305;"Norway";0;2019
+"Països Baixos";"121";3;"NL";528;"NL";"NLD";"Europa";"Europa occidental";"Europe";"Western Europe";1;16715999;"Netherlands";0;2019
+"Polònia";"122";60;"PL";616;"PL";"POL";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;38482919;"Poland";0;2019
+"Portugal";"123";10;"PT";620;"PT";"PRT";"Europa";"Europa meridional";"Europe";"Southern Europe";1;10707924;"Portugal";0;2019
+"Andorra";"124";43;"AD";20;"AD";"AND";"Europa";"Europa meridional";"Europe";"Southern Europe";;83888;"Andorra";0;2019
+"Regne Unit";"125";6;"GB";826;"GB";"GBR";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;61113205;"United Kingdom";0;2019
+"Alemanya";"126";4;"DE";276;"DE";"DEU";"Europa";"Europa occidental";"Europe";"Western Europe";1;82329758;"Germany";0;2019
+"Romania";"128";66;"RO";642;"RO";"ROU";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;22215421;"Romania";0;2019
+"San Marino";"129";47;"SM";674;"SM";"SMR";"Europa";"Europa meridional";"Europe";"Southern Europe";;30324;"San Marino";0;2019
+"Santa Seu";"130";45;"VA";336;"VA";"VAT";"Europa";"Europa meridional";"Europe";"Southern Europe";;826;"Holy See (Vatican City State)";0;2019
+"Suècia";"131";30;"SE";752;"SE";"SWE";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;9059651;"Sweden";0;2019
+"Suïssa";"132";39;"CH";756;"CH";"CHE";"Europa";"Europa occidental";"Europe";"Western Europe";;7604467;"Switzerland";0;2019
+"Ucraïna";"135";72;"UA";804;"UA";"UKR";"Europa";"Europa oriental";"Europe";"Eastern Europe";;45700395;"Ukraine";0;2019
+"Letònia";"136";54;"LV";428;"LV";"LVA";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;2231503;"Latvia";0;2019
+"Moldàvia";"137";74;"MD";498;"MD";"MDA";"Europa";"Europa oriental";"Europe";"Eastern Europe";;4320748;"Moldova, Republic Of";0;2019
+"Belarús";"138";73;"BY";112;"BY";"BLR";"Europa";"Europa oriental";"Europe";"Eastern Europe";;9648533;"Belarus";0;2019
+"Geòrgia";"139";76;"GE";268;"GE";"GEO";"Àsia";"Àsia occidental";"Asia";"Western Asia";;4615807;"Georgia";0;2019
+"Estònia";"141";53;"EE";233;"EE";"EST";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;1299371;"Estonia";0;2019
+"Lituània";"142";55;"LT";440;"LT";"LTU";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;3555179;"Lithuania";0;2019
+"Txèquia";"143";61;"CZ";203;"CZ";"CZE";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;10211904;"Czech Republic";0;2019
+"Eslovàquia";"144";63;"SK";703;"SK";"SVK";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;5463046;"Slovakia";0;2019
+"Bòsnia i Hercegovina";"145";93;"BA";70;"BA";"BIH";"Europa";"Europa meridional";"Europe";"Southern Europe";;4613414;"Bosnia And Herzegovina";0;2019
+"Croàcia";"146";92;"HR";191;"HR";"HRV";"Europa";"Europa meridional";"Europe";"Southern Europe";1;4489409;"Croatia";0;2019
+"Eslovènia";"147";91;"SI";705;"SI";"SVN";"Europa";"Europa meridional";"Europe";"Southern Europe";1;2005692;"Slovenia";0;2019
+"Armènia";"148";77;"AM";51;"AM";"ARM";"Àsia";"Àsia occidental";"Asia";"Western Asia";;2967004;"Armenia";0;2019
+"Rússia";"154";75;"RU";643;"RU";"RUS";"Europa";"Europa oriental";"Europe";"Eastern Europe";;140041247;"Russian Federation";0;2019
+"Macedònia";"156";96;"MK";807;"MK";"MKD";"Europa";"Europa meridional";"Europe";"Southern Europe";;2066718;"Macedonia, The Former Yugoslav Republic Of";0;2019
+"Sèrbia";"157";98;"XS";688;"RS";"SRB";"Europa";"Europa meridional";"Europe";"Southern Europe";;7379339;"Serbia";0;2019
+"Montenegro";"158";97;"ME";499;"ME";"MNE";"Europa";"Europa meridional";"Europe";"Southern Europe";;672180;"Montenegro";0;2019
+"Guernsey";"170";6;"GB";831;"GG";"GGY";"Europa";"Europa septentrional";"Europe";"Northern Europe";;65870;"Guernsey";1;2019
+"Svalbard i Jan Mayen";"171";28;"NO";744;"SJ";"SJM";"Europa";"Europa septentrional";"Europe";"Northern Europe";;;"Svalbard And Jan Mayen";1;2019
+"Fèroe";"172";41;"FO";234;"FO";"FRO";"Europa";"Europa septentrional";"Europe";"Northern Europe";;48856;"Faroe Islands";1;2019
+"Illa de Man";"173";6;"GB";833;"IM";"IMN";"Europa";"Europa septentrional";"Europe";"Northern Europe";;76512;"Isle Of Man";1;2019
+"Gibraltar";"174";44;"GI";292;"GI";"GIB";"Europa";"Europa meridional";"Europe";"Southern Europe";1;;"Gibraltar";1;2019
+"Jersey";"176";6;"GB";832;"JE";"JEY";"Europa";"Europa septentrional";"Europe";"Northern Europe";;91626;"Jersey";1;2019
+"Aland";"177";32;"FI";248;"AX";"ALA";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;27153;"Aland Islands";1;2019
+"Burkina Faso";"201";236;"BF";854;"BF";"BFA";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;15746232;"Burkina Faso";0;2019
+"Angola";"202";330;"AO";24;"AO";"AGO";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;12799293;"Angola";0;2019
+"Algèria";"203";208;"DZ";12;"DZ";"DZA";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;34178188;"Algeria";0;2019
+"Benín";"204";284;"BJ";204;"BJ";"BEN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;8791832;"Benin";0;2019
+"Botswana";"205";391;"BW";72;"BW";"BWA";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;1990876;"Botswana";0;2019
+"Burundi";"206";328;"BI";108;"BI";"BDI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;8988091;"Burundi";0;2019
+"Cap Verd";"207";247;"CV";132;"CV";"CPV";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;429474;"Cape Verde";0;2019
+"Camerun";"208";302;"CM";120;"CM";"CMR";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;18879301;"Cameroon";0;2019
+"Comores, les";"209";375;"KM";174;"KM";"COM";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;752438;"Comoros";0;2019
+"Congo";"210";318;"CG";178;"CG";"COG";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;4012809;"Congo, Republic Of";0;2019
+"Costa d'Ivori";"211";272;"CI";384;"CI";"CIV";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;20617068;"Cote D'Ivoire";0;2019
+"Djibouti";"212";338;"DJ";262;"DJ";"DJI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;516055;"Djibouti";0;2019
+"Egipte";"213";220;"EG";818;"EG";"EGY";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;83082869;"Egypt";0;2019
+"Etiòpia";"214";334;"ET";231;"ET";"ETH";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;85237338;"Ethiopia";0;2019
+"Gabon";"215";314;"GA";266;"GA";"GAB";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;1514993;"Gabon";0;2019
+"Gàmbia";"216";252;"GM";270;"GM";"GMB";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;1782893;"Gambia";0;2019
+"Ghana";"217";276;"GH";288;"GH";"GHA";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;23832495;"Ghana";0;2019
+"Guinea";"218";260;"GN";324;"GN";"GIN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;10057975;"Guinea";0;2019
+"Guinea-Bissau";"219";257;"GW";624;"GW";"GNB";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;1533964;"Guinea-Bissau";0;2019
+"Guinea Equatorial";"220";310;"GQ";226;"GQ";"GNQ";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;633441;"Equatorial Guinea";0;2019
+"Kenya";"221";346;"KE";404;"KE";"KEN";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;39002772;"Kenya";0;2019
+"Lesotho";"222";395;"LS";426;"LS";"LSO";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;2130819;"Lesotho";0;2019
+"Libèria";"223";268;"LR";430;"LR";"LBR";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;3441790;"Liberia";0;2019
+"Líbia";"224";216;"LY";434;"LY";"LBY";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;6310434;"Libyan Arab Jamahiriya";0;2019
+"Madagascar";"225";370;"MG";450;"MG";"MDG";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;20653556;"Madagascar";0;2019
+"Malawi";"226";386;"MW";454;"MW";"MWI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;14268711;"Malawi";0;2019
+"Mali";"227";232;"ML";466;"ML";"MLI";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;12666987;"Mali";0;2019
+"Marroc, el";"228";204;"MA";504;"MA";"MAR";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;34859364;"Morocco";0;2019
+"Maurici";"229";373;"MU";480;"MU";"MUS";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;1284264;"Mauritius";0;2019
+"Mauritània";"230";228;"MR";478;"MR";"MRT";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;3129486;"Mauritania";0;2019
+"Moçambic";"231";366;"MZ";508;"MZ";"MOZ";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;21669278;"Mozambique";0;2019
+"Namíbia";"232";389;"NA";516;"NA";"NAM";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;2108665;"Namibia";0;2019
+"Níger";"233";240;"NE";562;"NE";"NER";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;15306252;"Niger";0;2019
+"Nigèria";"234";288;"NG";566;"NG";"NGA";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;149229090;"Nigeria";0;2019
+"República Centreafricana";"235";306;"CF";140;"CF";"CAF";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;4511488;"Central African Republic";0;2019
+"Sud-àfrica";"236";388;"ZA";710;"ZA";"ZAF";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;49052489;"South Africa";0;2019
+"Ruanda";"237";324;"RW";646;"RW";"RWA";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;10473282;"Rwanda";0;2019
+"São Tomé i Príncipe";"238";311;"ST";678;"ST";"STP";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;212679;"Sao Tome And Principe";0;2019
+"Senegal";"239";248;"SN";686;"SN";"SEN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;13711597;"Senegal";0;2019
+"Seychelles";"240";355;"SC";690;"SC";"SYC";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;87476;"Seychelles";0;2019
+"Sierra Leone";"241";264;"SL";694;"SL";"SLE";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;6440053;"Sierra Leone";0;2019
+"Somàlia";"242";342;"SO";706;"SO";"SOM";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;9832017;"Somalia";0;2019
+"Sudan, el";"243";224;"SD";729;"SD";"SDN";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;30894000;"Sudan";0;2019
+"Swaziland";"244";393;"SZ";748;"SZ";"SWZ";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;1123913;"Swaziland";0;2019
+"Tanzània";"245";352;"TZ";834;"TZ";"TZA";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;41048532;"Tanzania, United Republic Of";0;2019
+"Txad";"246";244;"TD";148;"TD";"TCD";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;10329208;"Chad";0;2019
+"Togo";"247";280;"TG";768;"TG";"TGO";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;6019877;"Togo";0;2019
+"Tunísia";"248";212;"TN";788;"TN";"TUN";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;10486339;"Tunisia";0;2019
+"Uganda";"249";350;"UG";800;"UG";"UGA";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;32369558;"Uganda";0;2019
+"República Democràtica del Congo";"250";322;"CD";180;"CD";"COD";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;68692542;"Congo, The Democratic Republic Of";0;2019
+"Zàmbia";"251";378;"ZM";894;"ZM";"ZMB";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;11862740;"Zambia";0;2019
+"Zimbàbue";"252";382;"ZW";716;"ZW";"ZWE";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;11392629;"Zimbabwe";0;2019
+"Eritrea";"253";336;"ER";232;"ER";"ERI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;5647168;"Eritrea";0;2019
+"Sudan del Sud, el";"254";224;"SS";728;"SS";"SSD";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;8260490;"South Sudan";0;2019
+"Saint Helena, Ascenció i Tristan da Cunha";"260";329;"SH";654;"SH";"SHN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;7637;"Saint Helena";1;2019
+"Reunió, la";"261";1;"FR";638;"RE";"REU";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";1;;"Reunion";1;2019
+"Mayotte";"262";377;"YT";175;"YT";"MYT";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";1;;"Mayotte";1;2019
+"Sàhara Occidental";"263";;"EH";732;"EH";"ESH";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;;"Western Sahara";0;2019
+"Canadà";"301";404;"CA";124;"CA";"CAN";"Amèrica";"Apàtrides/No consta";"Americas";"Northern America ";;33487208;"Canada";0;2019
+"Estats Units, els";"302";400;"US";840;"US";"USA";"Amèrica";"Apàtrides/No consta";"Americas";"Northern America ";;307212123;"United States";0;2019
+"Mèxic";"303";412;"MX";484;"MX";"MEX";"Amèrica";"Amèrica central";"Americas";"Central America";;111211789;"Mexico";0;2019
+"Antigua i Barbuda";"310";459;"AG";28;"AG";"ATG";"Amèrica";"Carib";"Americas";"Caribbean";;85632;"Antigua And Barbuda";0;2019
+"Bahames, les";"311";453;"BS";44;"BS";"BHS";"Amèrica";"Carib";"Americas";"Caribbean";;309156;"Bahamas";0;2019
+"Barbados";"312";469;"BB";52;"BB";"BRB";"Amèrica";"Carib";"Americas";"Caribbean";;284589;"Barbados";0;2019
+"Belize";"313";421;"BZ";84;"BZ";"BLZ";"Amèrica";"Amèrica central";"Americas";"Central America";;307899;"Belize";0;2019
+"Costa Rica";"314";436;"CR";188;"CR";"CRI";"Amèrica";"Amèrica central";"Americas";"Central America";;4253877;"Costa Rica";0;2019
+"Cuba";"315";448;"CU";192;"CU";"CUB";"Amèrica";"Carib";"Americas";"Caribbean";;11451652;"Cuba";0;2019
+"Dominica";"316";460;"DM";212;"DM";"DMA";"Amèrica";"Carib";"Americas";"Caribbean";;72660;"Dominica";0;2019
+"El Salvador";"317";428;"SV";222;"SV";"SLV";"Amèrica";"Amèrica central";"Americas";"Central America";;7185218;"El Salvador";0;2019
+"Grenada";"318";473;"GD";308;"GD";"GRD";"Amèrica";"Carib";"Americas";"Caribbean";;90739;"Grenada";0;2019
+"Guatemala";"319";416;"GT";320;"GT";"GTM";"Amèrica";"Amèrica central";"Americas";"Central America";;13276517;"Guatemala";0;2019
+"Haití";"320";452;"HT";332;"HT";"HTI";"Amèrica";"Carib";"Americas";"Caribbean";;9035536;"Haiti";0;2019
+"Hondures";"321";424;"HN";340;"HN";"HND";"Amèrica";"Amèrica central";"Americas";"Central America";;7792854;"Honduras";0;2019
+"Jamaica";"322";464;"JM";388;"JM";"JAM";"Amèrica";"Carib";"Americas";"Caribbean";;2825928;"Jamaica";0;2019
+"Nicaragua";"323";432;"NI";558;"NI";"NIC";"Amèrica";"Amèrica central";"Americas";"Central America";;5891199;"Nicaragua";0;2019
+"Panamà";"324";442;"PA";591;"PA";"PAN";"Amèrica";"Amèrica central";"Americas";"Central America";;3360474;"Panama";0;2019
+"Saint Vincent i les Grenadines";"325";467;"VC";670;"VC";"VCT";"Amèrica";"Carib";"Americas";"Caribbean";;104574;"Saint Vincent And The Grenadines";0;2019
+"República Dominicana";"326";456;"DO";214;"DO";"DOM";"Amèrica";"Carib";"Americas";"Caribbean";;9650054;"Dominican Republic";0;2019
+"Trinidad i Tobago";"327";472;"TT";780;"TT";"TTO";"Amèrica";"Carib";"Americas";"Caribbean";;1310000;"Trinidad And Tobago";0;2019
+"Saint Lucia";"328";465;"LC";662;"LC";"LCA";"Amèrica";"Carib";"Americas";"Caribbean";;160267;"Saint Lucia";0;2019
+"Saint Kitts i Nevis";"329";449;"KN";659;"KN";"KNA";"Amèrica";"Carib";"Americas";"Caribbean";;40131;"Saint Kitts And Nevis";0;2019
+"Argentina";"340";528;"AR";32;"AR";"ARG";"Amèrica";"Amèrica del sud";"Americas";"South America";;40913584;"Argentina";0;2019
+"Bolívia";"341";516;"BO";68;"BO";"BOL";"Amèrica";"Amèrica del sud";"Americas";"South America";;9775246;"Bolivia, Plurinational State Of";0;2019
+"Brasil";"342";508;"BR";76;"BR";"BRA";"Amèrica";"Amèrica del sud";"Americas";"South America";;198739269;"Brazil";0;2019
+"Colòmbia";"343";480;"CO";170;"CO";"COL";"Amèrica";"Amèrica del sud";"Americas";"South America";;45644023;"Colombia";0;2019
+"Xile";"344";512;"CL";152;"CL";"CHL";"Amèrica";"Amèrica del sud";"Americas";"South America";;16601707;"Chile";0;2019
+"Equador";"345";500;"EC";218;"EC";"ECU";"Amèrica";"Amèrica del sud";"Americas";"South America";;14573101;"Ecuador";0;2019
+"Guyana";"346";488;"GY";328;"GY";"GUY";"Amèrica";"Amèrica del sud";"Americas";"South America";;772298;"Guyana";0;2019
+"Paraguai";"347";520;"PY";600;"PY";"PRY";"Amèrica";"Amèrica del sud";"Americas";"South America";;6995655;"Paraguay";0;2019
+"Perú";"348";504;"PE";604;"PE";"PER";"Amèrica";"Amèrica del sud";"Americas";"South America";;29546963;"Peru";0;2019
+"Surinam";"349";492;"SR";740;"SR";"SUR";"Amèrica";"Amèrica del sud";"Americas";"South America";;481267;"Suriname";0;2019
+"Uruguai";"350";524;"UY";858;"UY";"URY";"Amèrica";"Amèrica del sud";"Americas";"South America";;3494382;"Uruguay";0;2019
+"Veneçuela";"351";484;"VE";862;"VE";"VEN";"Amèrica";"Amèrica del sud";"Americas";"South America";;26814843;"Venezuela, Bolivarian Republic Of";0;2019
+"Saint-Pierre-et-Miquelon";"370";408;"PM";666;"PM";"SPM";"Amèrica";"Apàtrides/No consta";"Americas";"Northern America ";;7051;"Saint Pierre And Miquelon";1;2019
+"Groenlàndia";"371";406;"GL";304;"GL";"GRL";"Amèrica";"Apàtrides/No consta";"Americas";"Northern America ";;57600;"Greenland";1;2019
+"Illes Caiman";"380";463;"KY";136;"KY";"CYM";"Amèrica";"Carib";"Americas";"Caribbean";;49035;"Cayman Islands";1;2019
+"Illes Turks i Caicos";"381";454;"TC";796;"TC";"TCA";"Amèrica";"Carib";"Americas";"Caribbean";;22942;"Turks And Caicos Islands";1;2019
+"Illes Verges dels Estats Units";"382";457;"VI";850;"VI";"VIR";"Amèrica";"Carib";"Americas";"Caribbean";;109825;"Virgin Islands, U.S.";1;2019
+"Guadalupe";"383";1;"FR";312;"GP";"GLP";"Amèrica";"Carib";"Americas";"Caribbean";1;;"Guadeloupe";1;2019
+"Bermudes";"384";413;"BM";60;"BM";"BMU";"Amèrica";"Apàtrides/No consta";"Americas";"Northern America ";;67837;"Bermuda";1;2019
+"Saint-Martin";"385";1;"FR";663;"MF";"MAF";"Amèrica";"Carib";"Americas";"Caribbean";1;29820;"Saint Martin";1;2019
+"Martinica";"386";1;"FR";474;"MQ";"MTQ";"Amèrica";"Carib";"Americas";"Caribbean";1;;"Martinique";1;2019
+"Montserrat";"387";470;"MS";500;"MS";"MSR";"Amèrica";"Carib";"Americas";"Caribbean";;5097;"Montserrat";1;2019
+"Anguilla";"388";446;"AI";660;"AI";"AIA";"Amèrica";"Carib";"Americas";"Caribbean";;14436;"Anguilla";1;2019
+"Saint-Barthélemy";"389";1;"BL";652;"BL";"BLM";"Amèrica";"Carib";"Americas";"Caribbean";;7448;"Saint Barthelemy";1;2019
+"Puerto Rico";"390";400;"US";630;"PR";"PRI";"Amèrica";"Carib";"Americas";"Caribbean";;3971020;"Puerto Rico";1;2019
+"Aruba";"391";474;"AW";533;"AW";"ABW";"Amèrica";"Carib";"Americas";"Caribbean";;103065;"Aruba";1;2019
+"Illes Verges Britàniques";"393";468;"VG";92;"VG";"VGB";"Amèrica";"Carib";"Americas";"Caribbean";;24491;"Virgin Islands, British";1;2019
+"Guaiana Francesa";"394";1;"FR";254;"GF";"GUF";"Amèrica";"Amèrica del sud";"Americas";"South America";1;236250;"French Guiana";1;2019
+"Illes Falkland (Malvines)";"395";529;"FK";238;"FK";"FLK";"Amèrica";"Amèrica del sud";"Americas";"South America";;3140;"Falkland Islands (Malvinas)";1;2019
+"Afganistan";"401";660;"AF";4;"AF";"AFG";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;28400000;"Afghanistan";0;2019
+"Aràbia Saudí";"402";632;"SA";682;"SA";"SAU";"Àsia";"Àsia occidental";"Asia";"Western Asia";;28686633;"Saudi Arabia";0;2019
+"Bahrain";"403";640;"BH";48;"BH";"BHR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;727785;"Bahrain";0;2019
+"Bangladesh";"404";666;"BD";50;"BD";"BGD";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;156050883;"Bangladesh";0;2019
+"Myanmar";"405";676;"MM";104;"MM";"MMR";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;48137741;"Myanmar";0;2019
+"Xina";"407";720;"CN";156;"CN";"CHN";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;1338612968;"China";0;2019
+"Emirats Àrabs Units, els";"408";647;"AE";784;"AE";"ARE";"Àsia";"Àsia occidental";"Asia";"Western Asia";;4798491;"United Arab Emirates";0;2019
+"Filipines";"409";708;"PH";608;"PH";"PHL";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;97976603;"Philippines";0;2019
+"Índia";"410";664;"IN";356;"IN";"IND";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;1166079217;"India";0;2019
+"Indonèsia";"411";700;"ID";360;"ID";"IDN";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;240271522;"Indonesia";0;2019
+"Iraq, l'";"412";612;"IQ";368;"IQ";"IRQ";"Àsia";"Àsia occidental";"Asia";"Western Asia";;28945657;"Iraq";0;2019
+"Iran";"413";616;"IR";364;"IR";"IRN";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;66429284;"Iran, Islamic Republic Of";0;2019
+"Israel";"414";624;"IL";376;"IL";"ISR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;7233701;"Israel";0;2019
+"Japó";"415";732;"JP";392;"JP";"JPN";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;127078679;"Japan";0;2019
+"Jordània";"416";628;"JO";400;"JO";"JOR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;6342948;"Jordan";0;2019
+"Cambodja";"417";696;"KH";116;"KH";"KHM";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;14494293;"Cambodia";0;2019
+"Kuwait";"418";636;"KW";414;"KW";"KWT";"Àsia";"Àsia occidental";"Asia";"Western Asia";;2691158;"Kuwait";0;2019
+"Lao";"419";684;"LA";418;"LA";"LAO";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;6834942;"Lao People'S Democratic Republic";0;2019
+"Líban";"420";604;"LB";422;"LB";"LBN";"Àsia";"Àsia occidental";"Asia";"Western Asia";;4017095;"Lebanon";0;2019
+"Malàisia";"421";701;"MY";458;"MY";"MYS";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;25715819;"Malaysia";0;2019
+"Maldives";"422";667;"MV";462;"MV";"MDV";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;396334;"Maldives";0;2019
+"Mongòlia";"423";716;"MN";496;"MN";"MNG";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;3041142;"Mongolia";0;2019
+"Nepal";"424";672;"NP";524;"NP";"NPL";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;28563377;"Nepal";0;2019
+"Oman";"425";649;"OM";512;"OM";"OMN";"Àsia";"Àsia occidental";"Asia";"Western Asia";;3418085;"Oman";0;2019
+"Pakistan";"426";662;"PK";586;"PK";"PAK";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;176242949;"Pakistan";0;2019
+"Qatar";"427";644;"QA";634;"QA";"QAT";"Àsia";"Àsia occidental";"Asia";"Western Asia";;833285;"Qatar";0;2019
+"Corea del Sud";"430";728;"KR";410;"KR";"KOR";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;48508972;"Korea, Republic Of";0;2019
+"Corea del Nord";"431";724;"KP";408;"KP";"PRK";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;22665345;"Korea, Democratic People'S Republic Of";0;2019
+"Singapur";"432";706;"SG";702;"SG";"SGP";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;4657542;"Singapore";0;2019
+"Síria";"433";608;"SY";760;"SY";"SYR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;20178485;"Syrian Arab Republic";0;2019
+"Sri Lanka";"434";669;"LK";144;"LK";"LKA";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;21324791;"Sri Lanka";0;2019
+"Tailàndia";"435";680;"TH";764;"TH";"THA";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;65905410;"Thailand";0;2019
+"Turquia";"436";52;"TR";792;"TR";"TUR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;76805524;"Turkey";0;2019
+"Vietnam";"437";690;"VN";704;"VN";"VNM";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;86967524;"Vietnam";0;2019
+"Taiwan,Xina";"438";736;"TW";158;"TW";"TWN";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;22974347;"China-Taiwan";0;2019
+"Brunei";"439";703;"BN";96;"BN";"BRN";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;388190;"Brunei Darussalam";0;2019
+"Illes Marshall";"440";824;"MH";584;"MH";"MHL";"Oceania";"Micronèsia";"Oceania";"Micronesia";;64522;"Marshall Islands";0;2019
+"Iemen, el";"441";653;"YE";887;"YE";"YEM";"Àsia";"Àsia occidental";"Asia";"Western Asia";;23822783;"Yemen";0;2019
+"Azerbaidjan";"442";78;"AZ";31;"AZ";"AZE";"Àsia";"Àsia occidental";"Asia";"Western Asia";;8238672;"Azerbaijan";0;2019
+"Kazakhstan";"443";79;"KZ";398;"KZ";"KAZ";"Àsia";"Àsia central";"Asia";"Central Asia";;15399437;"Kazakhstan";0;2019
+"Kirguizstan";"444";83;"KG";417;"KG";"KGZ";"Àsia";"Àsia central";"Asia";"Central Asia";;5431747;"Kyrgyzstan";0;2019
+"Tadjikistan";"445";82;"TJ";762;"TJ";"TJK";"Àsia";"Àsia central";"Asia";"Central Asia";;7349145;"Tajikistan";0;2019
+"Turkmenistan";"446";80;"TM";795;"TM";"TKM";"Àsia";"Àsia central";"Asia";"Central Asia";;4884887;"Turkmenistan";0;2019
+"Uzbekistan";"447";81;"UZ";860;"UZ";"UZB";"Àsia";"Àsia central";"Asia";"Central Asia";;27606007;"Uzbekistan";0;2019
+"Bhutan";"448";675;"BT";64;"BT";"BTN";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;691141;"Bhutan";0;2019
+"Territoris Palestins [o Palestina]";"449";625;"PS";275;"PS";"PSE";"Àsia";"Àsia occidental";"Asia";"Western Asia";;2514845;"Palestinian Territory, Occupied";0;2019
+"Hong Kong, Xina";"450";740;"HK";344;"HK";"HKG";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;7055071;"Hong Kong";1;2019
+"Guam";"454";831;"GU";316;"GU";"GUM";"Oceania";"Micronèsia";"Oceania";"Micronesia";;178430;"Guam";1;2019
+"Macao, Xina";"455";743;"MO";446;"MO";"MAC";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;559846;"Macao";1;2019
+"Illes Marianes del Nord";"456";820;"MP";580;"MP";"MNP";"Oceania";"Micronèsia";"Oceania";"Micronesia";;88662;"Northern Mariana Islands";1;2019
+"Austràlia";"501";800;"AU";36;"AU";"AUS";"Oceania";"Austràlia i Nova Zelanda";"Oceania";"Australia and New Zealand";;21262641;"Australia";0;2019
+"Fiji";"502";815;"FJ";242;"FJ";"FJI";"Oceania";"Melanèsia";"Oceania";"Melanesia";;944720;"Fiji";0;2019
+"Nova Zelanda";"504";804;"NZ";554;"NZ";"NZL";"Oceania";"Austràlia i Nova Zelanda";"Oceania";"Australia and New Zealand";;4213418;"New Zealand";0;2019
+"Papua Nova Guinea";"505";801;"PG";598;"PG";"PNG";"Oceania";"Melanèsia";"Oceania";"Melanesia";;6057263;"Papua New Guinea";0;2019
+"Illes Salomó";"506";806;"SB";90;"SB";"SLB";"Oceania";"Melanèsia";"Oceania";"Melanesia";;595613;"Solomon Islands";0;2019
+"Samoa";"507";819;"WS";882;"WS";"WSM";"Oceania";"Polinèsia";"Oceania";"Polynesia";;219998;"Samoa";0;2019
+"Tonga";"508";817;"TO";776;"TO";"TON";"Oceania";"Polinèsia";"Oceania";"Polynesia";;120898;"Tonga";0;2019
+"Vanuatu";"509";816;"VU";548;"VU";"VUT";"Oceania";"Melanèsia";"Oceania";"Melanesia";;218519;"Vanuatu";0;2019
+"Micronèsia";"511";823;"FM";583;"FM";"FSM";"Oceania";"Micronèsia";"Oceania";"Micronesia";;107434;"Micronesia, Federated States Of";0;2019
+"Tuvalu";"512";807;"TV";798;"TV";"TUV";"Oceania";"Polinèsia";"Oceania";"Polynesia";;12373;"Tuvalu";0;2019
+"Illes Cook";"513";837;"CK";184;"CK";"COK";"Oceania";"Polinèsia";"Oceania";"Polynesia";;11870;"Cook Islands";1;2019
+"Kiribati";"514";812;"KI";296;"KI";"KIR";"Oceania";"Micronèsia";"Oceania";"Micronesia";;112850;"Kiribati";0;2019
+"Nauru";"515";803;"NR";520;"NR";"NRU";"Oceania";"Micronèsia";"Oceania";"Micronesia";;14019;"Nauru";0;2019
+"Palau";"516";825;"PW";585;"PW";"PLW";"Oceania";"Micronèsia";"Oceania";"Micronesia";;20796;"Palau";0;2019
+"Timor-Leste";"517";626;"TL";626;"TL";"TLS";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;1131612;"Timor-Leste";0;2019
+"Polinèsia Francesa";"520";822;"PF";258;"PF";"PYF";"Oceania";"Polinèsia";"Oceania";"Polynesia";;287032;"French Polynesia";1;2019
+"Illa Norfolk";"521";836;"NF";574;"NF";"NFK";"Oceania";"Austràlia i Nova Zelanda";"Oceania";"Australia and New Zealand";;2141;"Norfolk Island";1;2019
+"Niue";"523";838;"NU";570;"NU";"NIU";"Oceania";"Polinèsia";"Oceania";"Polynesia";;1398;"Niue";1;2019
+"Pitcairn";"524";813;"PN";612;"PN";"PCN";"Oceania";"Polinèsia";"Oceania";"Polynesia";;48;"Pitcairn";1;2019
+"Tokelau";"525";839;"TK";772;"TK";"TKL";"Oceania";"Polinèsia";"Oceania";"Polynesia";;;"Tokelau";1;2019
+"Nova Caledònia";"526";809;"NC";540;"NC";"NCL";"Oceania";"Melanèsia";"Oceania";"Melanesia";;227436;"New Caledonia";1;2019
+"Wallis i Futuna";"527";811;"WF";876;"WF";"WLF";"Oceania";"Polinèsia";"Oceania";"Polynesia";;15289;"Wallis And Futuna";1;2019
+"Samoa Americana";"528";830;"AS";16;"AS";"ASM";"Oceania";"Polinèsia";"Oceania";"Polynesia";;65628;"American Samoa";1;2019
+"Albània";"101";70;"AL";8;"AL";"ALB";"Europa";"Europa meridional";"Europe";"Southern Europe";;3639453;"Albania";0;2020
+"Àustria";"102";38;"AT";40;"AT";"AUT";"Europa";"Europa occidental";"Europe";"Western Europe";1;8210281;"Austria";0;2020
+"Bèlgica";"103";17;"BE";56;"BE";"BEL";"Europa";"Europa occidental";"Europe";"Western Europe";1;10414336;"Belgium";0;2020
+"Bulgària";"104";68;"BG";100;"BG";"BGR";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;7204687;"Bulgaria";0;2020
+"Xipre";"106";600;"CY";196;"CY";"CYP";"Àsia";"Àsia occidental";"Asia";"Western Asia";1;531640;"Cyprus";0;2020
+"Dinamarca";"107";8;"DK";208;"DK";"DNK";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;5500510;"Denmark";0;2020
+"Espanya";"108";11;"ES";724;"ES";"ESP";"Europa";"Europa meridional";"Europe";"Southern Europe";1;40525002;"Spain";0;2020
+"Finlàndia";"109";32;"FI";246;"FI";"FIN";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;5250275;"Finland";0;2020
+"França";"110";1;"FR";250;"FR";"FRA";"Europa";"Europa occidental";"Europe";"Western Europe";1;64057792;"France";0;2020
+"Grècia";"111";9;"GR";300;"GR";"GRC";"Europa";"Europa meridional";"Europe";"Southern Europe";1;10737428;"Greece";0;2020
+"Hongria";"112";64;"HU";348;"HU";"HUN";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;9905596;"Hungary";0;2020
+"Irlanda";"113";7;"IE";372;"IE";"IRL";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;4203200;"Ireland";0;2020
+"Islàndia";"114";24;"IS";352;"IS";"ISL";"Europa";"Europa septentrional";"Europe";"Northern Europe";;306694;"Iceland";0;2020
+"Itàlia";"115";5;"IT";380;"IT";"ITA";"Europa";"Europa meridional";"Europe";"Southern Europe";1;58126212;"Italy";0;2020
+"Liechtenstein";"116";37;"LI";438;"LI";"LIE";"Europa";"Europa occidental";"Europe";"Western Europe";;34761;"Liechtenstein";0;2020
+"Luxemburg";"117";18;"LU";442;"LU";"LUX";"Europa";"Europa occidental";"Europe";"Western Europe";1;491775;"Luxembourg";0;2020
+"Malta";"118";46;"MT";470;"MT";"MLT";"Europa";"Europa meridional";"Europe";"Southern Europe";1;405165;"Malta";0;2020
+"Mònaco";"119";1;"FR";492;"MC";"MCO";"Europa";"Europa occidental";"Europe";"Western Europe";;32965;"Monaco";0;2020
+"Noruega";"120";28;"NO";578;"NO";"NOR";"Europa";"Europa septentrional";"Europe";"Northern Europe";;4676305;"Norway";0;2020
+"Països Baixos";"121";3;"NL";528;"NL";"NLD";"Europa";"Europa occidental";"Europe";"Western Europe";1;16715999;"Netherlands";0;2020
+"Polònia";"122";60;"PL";616;"PL";"POL";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;38482919;"Poland";0;2020
+"Portugal";"123";10;"PT";620;"PT";"PRT";"Europa";"Europa meridional";"Europe";"Southern Europe";1;10707924;"Portugal";0;2020
+"Andorra";"124";43;"AD";20;"AD";"AND";"Europa";"Europa meridional";"Europe";"Southern Europe";;83888;"Andorra";0;2020
+"Regne Unit";"125";6;"GB";826;"GB";"GBR";"Europa";"Europa septentrional";"Europe";"Northern Europe";;61113205;"United Kingdom";0;2020
+"Alemanya";"126";4;"DE";276;"DE";"DEU";"Europa";"Europa occidental";"Europe";"Western Europe";1;82329758;"Germany";0;2020
+"Romania";"128";66;"RO";642;"RO";"ROU";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;22215421;"Romania";0;2020
+"San Marino";"129";47;"SM";674;"SM";"SMR";"Europa";"Europa meridional";"Europe";"Southern Europe";;30324;"San Marino";0;2020
+"Santa Seu";"130";45;"VA";336;"VA";"VAT";"Europa";"Europa meridional";"Europe";"Southern Europe";;826;"Holy See (Vatican City State)";0;2020
+"Suècia";"131";30;"SE";752;"SE";"SWE";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;9059651;"Sweden";0;2020
+"Suïssa";"132";39;"CH";756;"CH";"CHE";"Europa";"Europa occidental";"Europe";"Western Europe";;7604467;"Switzerland";0;2020
+"Ucraïna";"135";72;"UA";804;"UA";"UKR";"Europa";"Europa oriental";"Europe";"Eastern Europe";;45700395;"Ukraine";0;2020
+"Letònia";"136";54;"LV";428;"LV";"LVA";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;2231503;"Latvia";0;2020
+"Moldàvia";"137";74;"MD";498;"MD";"MDA";"Europa";"Europa oriental";"Europe";"Eastern Europe";;4320748;"Moldova, Republic Of";0;2020
+"Belarús";"138";73;"BY";112;"BY";"BLR";"Europa";"Europa oriental";"Europe";"Eastern Europe";;9648533;"Belarus";0;2020
+"Geòrgia";"139";76;"GE";268;"GE";"GEO";"Àsia";"Àsia occidental";"Asia";"Western Asia";;4615807;"Georgia";0;2020
+"Estònia";"141";53;"EE";233;"EE";"EST";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;1299371;"Estonia";0;2020
+"Lituània";"142";55;"LT";440;"LT";"LTU";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;3555179;"Lithuania";0;2020
+"Txèquia";"143";61;"CZ";203;"CZ";"CZE";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;10211904;"Czech Republic";0;2020
+"Eslovàquia";"144";63;"SK";703;"SK";"SVK";"Europa";"Europa oriental";"Europe";"Eastern Europe";1;5463046;"Slovakia";0;2020
+"Bòsnia i Hercegovina";"145";93;"BA";70;"BA";"BIH";"Europa";"Europa meridional";"Europe";"Southern Europe";;4613414;"Bosnia And Herzegovina";0;2020
+"Croàcia";"146";92;"HR";191;"HR";"HRV";"Europa";"Europa meridional";"Europe";"Southern Europe";1;4489409;"Croatia";0;2020
+"Eslovènia";"147";91;"SI";705;"SI";"SVN";"Europa";"Europa meridional";"Europe";"Southern Europe";1;2005692;"Slovenia";0;2020
+"Armènia";"148";77;"AM";51;"AM";"ARM";"Àsia";"Àsia occidental";"Asia";"Western Asia";;2967004;"Armenia";0;2020
+"Rússia";"154";75;"RU";643;"RU";"RUS";"Europa";"Europa oriental";"Europe";"Eastern Europe";;140041247;"Russian Federation";0;2020
+"Macedònia";"156";96;"MK";807;"MK";"MKD";"Europa";"Europa meridional";"Europe";"Southern Europe";;2066718;"Macedonia, The Former Yugoslav Republic Of";0;2020
+"Sèrbia";"157";98;"XS";688;"RS";"SRB";"Europa";"Europa meridional";"Europe";"Southern Europe";;7379339;"Serbia";0;2020
+"Montenegro";"158";97;"ME";499;"ME";"MNE";"Europa";"Europa meridional";"Europe";"Southern Europe";;672180;"Montenegro";0;2020
+"Guernsey";"170";6;"GB";831;"GG";"GGY";"Europa";"Europa septentrional";"Europe";"Northern Europe";;65870;"Guernsey";1;2020
+"Svalbard i Jan Mayen";"171";28;"NO";744;"SJ";"SJM";"Europa";"Europa septentrional";"Europe";"Northern Europe";;;"Svalbard And Jan Mayen";1;2020
+"Fèroe";"172";41;"FO";234;"FO";"FRO";"Europa";"Europa septentrional";"Europe";"Northern Europe";;48856;"Faroe Islands";1;2020
+"Illa de Man";"173";6;"GB";833;"IM";"IMN";"Europa";"Europa septentrional";"Europe";"Northern Europe";;76512;"Isle Of Man";1;2020
+"Gibraltar";"174";44;"GI";292;"GI";"GIB";"Europa";"Europa meridional";"Europe";"Southern Europe";;;"Gibraltar";1;2020
+"Jersey";"176";6;"GB";832;"JE";"JEY";"Europa";"Europa septentrional";"Europe";"Northern Europe";;91626;"Jersey";1;2020
+"Aland";"177";32;"FI";248;"AX";"ALA";"Europa";"Europa septentrional";"Europe";"Northern Europe";1;27153;"Aland Islands";1;2020
+"Burkina Faso";"201";236;"BF";854;"BF";"BFA";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;15746232;"Burkina Faso";0;2020
+"Angola";"202";330;"AO";24;"AO";"AGO";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;12799293;"Angola";0;2020
+"Algèria";"203";208;"DZ";12;"DZ";"DZA";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;34178188;"Algeria";0;2020
+"Benín";"204";284;"BJ";204;"BJ";"BEN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;8791832;"Benin";0;2020
+"Botswana";"205";391;"BW";72;"BW";"BWA";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;1990876;"Botswana";0;2020
+"Burundi";"206";328;"BI";108;"BI";"BDI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;8988091;"Burundi";0;2020
+"Cap Verd";"207";247;"CV";132;"CV";"CPV";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;429474;"Cape Verde";0;2020
+"Camerun";"208";302;"CM";120;"CM";"CMR";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;18879301;"Cameroon";0;2020
+"Comores, les";"209";375;"KM";174;"KM";"COM";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;752438;"Comoros";0;2020
+"Congo";"210";318;"CG";178;"CG";"COG";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;4012809;"Congo, Republic Of";0;2020
+"Costa d'Ivori";"211";272;"CI";384;"CI";"CIV";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;20617068;"Cote D'Ivoire";0;2020
+"Djibouti";"212";338;"DJ";262;"DJ";"DJI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;516055;"Djibouti";0;2020
+"Egipte";"213";220;"EG";818;"EG";"EGY";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;83082869;"Egypt";0;2020
+"Etiòpia";"214";334;"ET";231;"ET";"ETH";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;85237338;"Ethiopia";0;2020
+"Gabon";"215";314;"GA";266;"GA";"GAB";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;1514993;"Gabon";0;2020
+"Gàmbia";"216";252;"GM";270;"GM";"GMB";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;1782893;"Gambia";0;2020
+"Ghana";"217";276;"GH";288;"GH";"GHA";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;23832495;"Ghana";0;2020
+"Guinea";"218";260;"GN";324;"GN";"GIN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;10057975;"Guinea";0;2020
+"Guinea-Bissau";"219";257;"GW";624;"GW";"GNB";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;1533964;"Guinea-Bissau";0;2020
+"Guinea Equatorial";"220";310;"GQ";226;"GQ";"GNQ";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;633441;"Equatorial Guinea";0;2020
+"Kenya";"221";346;"KE";404;"KE";"KEN";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;39002772;"Kenya";0;2020
+"Lesotho";"222";395;"LS";426;"LS";"LSO";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;2130819;"Lesotho";0;2020
+"Libèria";"223";268;"LR";430;"LR";"LBR";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;3441790;"Liberia";0;2020
+"Líbia";"224";216;"LY";434;"LY";"LBY";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;6310434;"Libyan Arab Jamahiriya";0;2020
+"Madagascar";"225";370;"MG";450;"MG";"MDG";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;20653556;"Madagascar";0;2020
+"Malawi";"226";386;"MW";454;"MW";"MWI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;14268711;"Malawi";0;2020
+"Mali";"227";232;"ML";466;"ML";"MLI";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;12666987;"Mali";0;2020
+"Marroc, el";"228";204;"MA";504;"MA";"MAR";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;34859364;"Morocco";0;2020
+"Maurici";"229";373;"MU";480;"MU";"MUS";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;1284264;"Mauritius";0;2020
+"Mauritània";"230";228;"MR";478;"MR";"MRT";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;3129486;"Mauritania";0;2020
+"Moçambic";"231";366;"MZ";508;"MZ";"MOZ";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;21669278;"Mozambique";0;2020
+"Namíbia";"232";389;"NA";516;"NA";"NAM";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;2108665;"Namibia";0;2020
+"Níger";"233";240;"NE";562;"NE";"NER";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;15306252;"Niger";0;2020
+"Nigèria";"234";288;"NG";566;"NG";"NGA";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;149229090;"Nigeria";0;2020
+"República Centreafricana";"235";306;"CF";140;"CF";"CAF";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;4511488;"Central African Republic";0;2020
+"Sud-àfrica";"236";388;"ZA";710;"ZA";"ZAF";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;49052489;"South Africa";0;2020
+"Ruanda";"237";324;"RW";646;"RW";"RWA";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;10473282;"Rwanda";0;2020
+"São Tomé i Príncipe";"238";311;"ST";678;"ST";"STP";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;212679;"Sao Tome And Principe";0;2020
+"Senegal";"239";248;"SN";686;"SN";"SEN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;13711597;"Senegal";0;2020
+"Seychelles";"240";355;"SC";690;"SC";"SYC";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;87476;"Seychelles";0;2020
+"Sierra Leone";"241";264;"SL";694;"SL";"SLE";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;6440053;"Sierra Leone";0;2020
+"Somàlia";"242";342;"SO";706;"SO";"SOM";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;9832017;"Somalia";0;2020
+"Sudan, el";"243";224;"SD";729;"SD";"SDN";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;30894000;"Sudan";0;2020
+"Eswatini";"244";393;"SZ";748;"SZ";"SWZ";"Àfrica";"Àfrica meridional";"Africa";"Southern Africa";;1123913;"Swaziland";0;2020
+"Tanzània";"245";352;"TZ";834;"TZ";"TZA";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;41048532;"Tanzania, United Republic Of";0;2020
+"Txad";"246";244;"TD";148;"TD";"TCD";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;10329208;"Chad";0;2020
+"Togo";"247";280;"TG";768;"TG";"TGO";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;6019877;"Togo";0;2020
+"Tunísia";"248";212;"TN";788;"TN";"TUN";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;10486339;"Tunisia";0;2020
+"Uganda";"249";350;"UG";800;"UG";"UGA";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;32369558;"Uganda";0;2020
+"República Democràtica del Congo";"250";322;"CD";180;"CD";"COD";"Àfrica";"Àfrica central";"Africa";"Middle Africa";;68692542;"Congo, The Democratic Republic Of";0;2020
+"Zàmbia";"251";378;"ZM";894;"ZM";"ZMB";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;11862740;"Zambia";0;2020
+"Zimbàbue";"252";382;"ZW";716;"ZW";"ZWE";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;11392629;"Zimbabwe";0;2020
+"Eritrea";"253";336;"ER";232;"ER";"ERI";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";;5647168;"Eritrea";0;2020
+"Sudan del Sud, el";"254";224;"SS";728;"SS";"SSD";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;8260490;"South Sudan";0;2020
+"Saint Helena, Ascenció i Tristan da Cunha";"260";329;"SH";654;"SH";"SHN";"Àfrica";"Àfrica occidental";"Africa";"Western Africa";;7637;"Saint Helena";1;2020
+"Reunió, la";"261";1;"FR";638;"RE";"REU";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";1;;"Reunion";1;2020
+"Mayotte";"262";377;"YT";175;"YT";"MYT";"Àfrica";"Àfrica oriental";"Africa";"Eastern Africa";1;;"Mayotte";1;2020
+"Sàhara Occidental";"263";;"EH";732;"EH";"ESH";"Àfrica";"Àfrica septentrional";"Africa";"Northern Africa";;;"Western Sahara";0;2020
+"Canadà";"301";404;"CA";124;"CA";"CAN";"Amèrica";"Apàtrides/No consta";"Americas";"Northern America ";;33487208;"Canada";0;2020
+"Estats Units, els";"302";400;"US";840;"US";"USA";"Amèrica";"Apàtrides/No consta";"Americas";"Northern America ";;307212123;"United States";0;2020
+"Mèxic";"303";412;"MX";484;"MX";"MEX";"Amèrica";"Amèrica central";"Americas";"Central America";;111211789;"Mexico";0;2020
+"Antigua i Barbuda";"310";459;"AG";28;"AG";"ATG";"Amèrica";"Carib";"Americas";"Caribbean";;85632;"Antigua And Barbuda";0;2020
+"Bahames, les";"311";453;"BS";44;"BS";"BHS";"Amèrica";"Carib";"Americas";"Caribbean";;309156;"Bahamas";0;2020
+"Barbados";"312";469;"BB";52;"BB";"BRB";"Amèrica";"Carib";"Americas";"Caribbean";;284589;"Barbados";0;2020
+"Belize";"313";421;"BZ";84;"BZ";"BLZ";"Amèrica";"Amèrica central";"Americas";"Central America";;307899;"Belize";0;2020
+"Costa Rica";"314";436;"CR";188;"CR";"CRI";"Amèrica";"Amèrica central";"Americas";"Central America";;4253877;"Costa Rica";0;2020
+"Cuba";"315";448;"CU";192;"CU";"CUB";"Amèrica";"Carib";"Americas";"Caribbean";;11451652;"Cuba";0;2020
+"Dominica";"316";460;"DM";212;"DM";"DMA";"Amèrica";"Carib";"Americas";"Caribbean";;72660;"Dominica";0;2020
+"El Salvador";"317";428;"SV";222;"SV";"SLV";"Amèrica";"Amèrica central";"Americas";"Central America";;7185218;"El Salvador";0;2020
+"Grenada";"318";473;"GD";308;"GD";"GRD";"Amèrica";"Carib";"Americas";"Caribbean";;90739;"Grenada";0;2020
+"Guatemala";"319";416;"GT";320;"GT";"GTM";"Amèrica";"Amèrica central";"Americas";"Central America";;13276517;"Guatemala";0;2020
+"Haití";"320";452;"HT";332;"HT";"HTI";"Amèrica";"Carib";"Americas";"Caribbean";;9035536;"Haiti";0;2020
+"Hondures";"321";424;"HN";340;"HN";"HND";"Amèrica";"Amèrica central";"Americas";"Central America";;7792854;"Honduras";0;2020
+"Jamaica";"322";464;"JM";388;"JM";"JAM";"Amèrica";"Carib";"Americas";"Caribbean";;2825928;"Jamaica";0;2020
+"Nicaragua";"323";432;"NI";558;"NI";"NIC";"Amèrica";"Amèrica central";"Americas";"Central America";;5891199;"Nicaragua";0;2020
+"Panamà";"324";442;"PA";591;"PA";"PAN";"Amèrica";"Amèrica central";"Americas";"Central America";;3360474;"Panama";0;2020
+"Saint Vincent i les Grenadines";"325";467;"VC";670;"VC";"VCT";"Amèrica";"Carib";"Americas";"Caribbean";;104574;"Saint Vincent And The Grenadines";0;2020
+"República Dominicana";"326";456;"DO";214;"DO";"DOM";"Amèrica";"Carib";"Americas";"Caribbean";;9650054;"Dominican Republic";0;2020
+"Trinidad i Tobago";"327";472;"TT";780;"TT";"TTO";"Amèrica";"Carib";"Americas";"Caribbean";;1310000;"Trinidad And Tobago";0;2020
+"Saint Lucia";"328";465;"LC";662;"LC";"LCA";"Amèrica";"Carib";"Americas";"Caribbean";;160267;"Saint Lucia";0;2020
+"Saint Kitts i Nevis";"329";449;"KN";659;"KN";"KNA";"Amèrica";"Carib";"Americas";"Caribbean";;40131;"Saint Kitts And Nevis";0;2020
+"Argentina";"340";528;"AR";32;"AR";"ARG";"Amèrica";"Amèrica del sud";"Americas";"South America";;40913584;"Argentina";0;2020
+"Bolívia";"341";516;"BO";68;"BO";"BOL";"Amèrica";"Amèrica del sud";"Americas";"South America";;9775246;"Bolivia, Plurinational State Of";0;2020
+"Brasil";"342";508;"BR";76;"BR";"BRA";"Amèrica";"Amèrica del sud";"Americas";"South America";;198739269;"Brazil";0;2020
+"Colòmbia";"343";480;"CO";170;"CO";"COL";"Amèrica";"Amèrica del sud";"Americas";"South America";;45644023;"Colombia";0;2020
+"Xile";"344";512;"CL";152;"CL";"CHL";"Amèrica";"Amèrica del sud";"Americas";"South America";;16601707;"Chile";0;2020
+"Equador";"345";500;"EC";218;"EC";"ECU";"Amèrica";"Amèrica del sud";"Americas";"South America";;14573101;"Ecuador";0;2020
+"Guyana";"346";488;"GY";328;"GY";"GUY";"Amèrica";"Amèrica del sud";"Americas";"South America";;772298;"Guyana";0;2020
+"Paraguai";"347";520;"PY";600;"PY";"PRY";"Amèrica";"Amèrica del sud";"Americas";"South America";;6995655;"Paraguay";0;2020
+"Perú";"348";504;"PE";604;"PE";"PER";"Amèrica";"Amèrica del sud";"Americas";"South America";;29546963;"Peru";0;2020
+"Surinam";"349";492;"SR";740;"SR";"SUR";"Amèrica";"Amèrica del sud";"Americas";"South America";;481267;"Suriname";0;2020
+"Uruguai";"350";524;"UY";858;"UY";"URY";"Amèrica";"Amèrica del sud";"Americas";"South America";;3494382;"Uruguay";0;2020
+"Veneçuela";"351";484;"VE";862;"VE";"VEN";"Amèrica";"Amèrica del sud";"Americas";"South America";;26814843;"Venezuela, Bolivarian Republic Of";0;2020
+"Saint-Pierre-et-Miquelon";"370";408;"PM";666;"PM";"SPM";"Amèrica";"Apàtrides/No consta";"Americas";"Northern America ";;7051;"Saint Pierre And Miquelon";1;2020
+"Groenlàndia";"371";406;"GL";304;"GL";"GRL";"Amèrica";"Apàtrides/No consta";"Americas";"Northern America ";;57600;"Greenland";1;2020
+"Illes Caiman";"380";463;"KY";136;"KY";"CYM";"Amèrica";"Carib";"Americas";"Caribbean";;49035;"Cayman Islands";1;2020
+"Illes Turks i Caicos";"381";454;"TC";796;"TC";"TCA";"Amèrica";"Carib";"Americas";"Caribbean";;22942;"Turks And Caicos Islands";1;2020
+"Illes Verges dels Estats Units";"382";457;"VI";850;"VI";"VIR";"Amèrica";"Carib";"Americas";"Caribbean";;109825;"Virgin Islands, U.S.";1;2020
+"Guadalupe";"383";1;"FR";312;"GP";"GLP";"Amèrica";"Carib";"Americas";"Caribbean";1;;"Guadeloupe";1;2020
+"Bermudes";"384";413;"BM";60;"BM";"BMU";"Amèrica";"Apàtrides/No consta";"Americas";"Northern America ";;67837;"Bermuda";1;2020
+"Saint-Martin";"385";1;"FR";663;"MF";"MAF";"Amèrica";"Carib";"Americas";"Caribbean";1;29820;"Saint Martin";1;2020
+"Martinica";"386";1;"FR";474;"MQ";"MTQ";"Amèrica";"Carib";"Americas";"Caribbean";1;;"Martinique";1;2020
+"Montserrat";"387";470;"MS";500;"MS";"MSR";"Amèrica";"Carib";"Americas";"Caribbean";;5097;"Montserrat";1;2020
+"Anguilla";"388";446;"AI";660;"AI";"AIA";"Amèrica";"Carib";"Americas";"Caribbean";;14436;"Anguilla";1;2020
+"Saint-Barthélemy";"389";1;"BL";652;"BL";"BLM";"Amèrica";"Carib";"Americas";"Caribbean";;7448;"Saint Barthelemy";1;2020
+"Puerto Rico";"390";400;"US";630;"PR";"PRI";"Amèrica";"Carib";"Americas";"Caribbean";;3971020;"Puerto Rico";1;2020
+"Aruba";"391";474;"AW";533;"AW";"ABW";"Amèrica";"Carib";"Americas";"Caribbean";;103065;"Aruba";1;2020
+"Illes Verges Britàniques";"393";468;"VG";92;"VG";"VGB";"Amèrica";"Carib";"Americas";"Caribbean";;24491;"Virgin Islands, British";1;2020
+"Guaiana Francesa";"394";1;"FR";254;"GF";"GUF";"Amèrica";"Amèrica del sud";"Americas";"South America";1;236250;"French Guiana";1;2020
+"Illes Falkland (Malvines)";"395";529;"FK";238;"FK";"FLK";"Amèrica";"Amèrica del sud";"Americas";"South America";;3140;"Falkland Islands (Malvinas)";1;2020
+"Afganistan";"401";660;"AF";4;"AF";"AFG";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;28400000;"Afghanistan";0;2020
+"Aràbia Saudí";"402";632;"SA";682;"SA";"SAU";"Àsia";"Àsia occidental";"Asia";"Western Asia";;28686633;"Saudi Arabia";0;2020
+"Bahrain";"403";640;"BH";48;"BH";"BHR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;727785;"Bahrain";0;2020
+"Bangladesh";"404";666;"BD";50;"BD";"BGD";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;156050883;"Bangladesh";0;2020
+"Myanmar";"405";676;"MM";104;"MM";"MMR";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;48137741;"Myanmar";0;2020
+"Xina";"407";720;"CN";156;"CN";"CHN";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;1338612968;"China";0;2020
+"Emirats Àrabs Units, els";"408";647;"AE";784;"AE";"ARE";"Àsia";"Àsia occidental";"Asia";"Western Asia";;4798491;"United Arab Emirates";0;2020
+"Filipines";"409";708;"PH";608;"PH";"PHL";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;97976603;"Philippines";0;2020
+"Índia";"410";664;"IN";356;"IN";"IND";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;1166079217;"India";0;2020
+"Indonèsia";"411";700;"ID";360;"ID";"IDN";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;240271522;"Indonesia";0;2020
+"Iraq, l'";"412";612;"IQ";368;"IQ";"IRQ";"Àsia";"Àsia occidental";"Asia";"Western Asia";;28945657;"Iraq";0;2020
+"Iran";"413";616;"IR";364;"IR";"IRN";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;66429284;"Iran, Islamic Republic Of";0;2020
+"Israel";"414";624;"IL";376;"IL";"ISR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;7233701;"Israel";0;2020
+"Japó";"415";732;"JP";392;"JP";"JPN";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;127078679;"Japan";0;2020
+"Jordània";"416";628;"JO";400;"JO";"JOR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;6342948;"Jordan";0;2020
+"Cambodja";"417";696;"KH";116;"KH";"KHM";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;14494293;"Cambodia";0;2020
+"Kuwait";"418";636;"KW";414;"KW";"KWT";"Àsia";"Àsia occidental";"Asia";"Western Asia";;2691158;"Kuwait";0;2020
+"Lao";"419";684;"LA";418;"LA";"LAO";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;6834942;"Lao People'S Democratic Republic";0;2020
+"Líban";"420";604;"LB";422;"LB";"LBN";"Àsia";"Àsia occidental";"Asia";"Western Asia";;4017095;"Lebanon";0;2020
+"Malàisia";"421";701;"MY";458;"MY";"MYS";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;25715819;"Malaysia";0;2020
+"Maldives";"422";667;"MV";462;"MV";"MDV";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;396334;"Maldives";0;2020
+"Mongòlia";"423";716;"MN";496;"MN";"MNG";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;3041142;"Mongolia";0;2020
+"Nepal";"424";672;"NP";524;"NP";"NPL";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;28563377;"Nepal";0;2020
+"Oman";"425";649;"OM";512;"OM";"OMN";"Àsia";"Àsia occidental";"Asia";"Western Asia";;3418085;"Oman";0;2020
+"Pakistan";"426";662;"PK";586;"PK";"PAK";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;176242949;"Pakistan";0;2020
+"Qatar";"427";644;"QA";634;"QA";"QAT";"Àsia";"Àsia occidental";"Asia";"Western Asia";;833285;"Qatar";0;2020
+"Corea del Sud";"430";728;"KR";410;"KR";"KOR";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;48508972;"Korea, Republic Of";0;2020
+"Corea del Nord";"431";724;"KP";408;"KP";"PRK";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;22665345;"Korea, Democratic People'S Republic Of";0;2020
+"Singapur";"432";706;"SG";702;"SG";"SGP";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;4657542;"Singapore";0;2020
+"Síria";"433";608;"SY";760;"SY";"SYR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;20178485;"Syrian Arab Republic";0;2020
+"Sri Lanka";"434";669;"LK";144;"LK";"LKA";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;21324791;"Sri Lanka";0;2020
+"Tailàndia";"435";680;"TH";764;"TH";"THA";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;65905410;"Thailand";0;2020
+"Turquia";"436";52;"TR";792;"TR";"TUR";"Àsia";"Àsia occidental";"Asia";"Western Asia";;76805524;"Turkey";0;2020
+"Vietnam";"437";690;"VN";704;"VN";"VNM";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;86967524;"Vietnam";0;2020
+"Taiwan,Xina";"438";736;"TW";158;"TW";"TWN";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;22974347;"China-Taiwan";0;2020
+"Brunei";"439";703;"BN";96;"BN";"BRN";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;388190;"Brunei Darussalam";0;2020
+"Illes Marshall";"440";824;"MH";584;"MH";"MHL";"Oceania";"Micronèsia";"Oceania";"Micronesia";;64522;"Marshall Islands";0;2020
+"Iemen, el";"441";653;"YE";887;"YE";"YEM";"Àsia";"Àsia occidental";"Asia";"Western Asia";;23822783;"Yemen";0;2020
+"Azerbaidjan";"442";78;"AZ";31;"AZ";"AZE";"Àsia";"Àsia occidental";"Asia";"Western Asia";;8238672;"Azerbaijan";0;2020
+"Kazakhstan";"443";79;"KZ";398;"KZ";"KAZ";"Àsia";"Àsia central";"Asia";"Central Asia";;15399437;"Kazakhstan";0;2020
+"Kirguizstan";"444";83;"KG";417;"KG";"KGZ";"Àsia";"Àsia central";"Asia";"Central Asia";;5431747;"Kyrgyzstan";0;2020
+"Tadjikistan";"445";82;"TJ";762;"TJ";"TJK";"Àsia";"Àsia central";"Asia";"Central Asia";;7349145;"Tajikistan";0;2020
+"Turkmenistan";"446";80;"TM";795;"TM";"TKM";"Àsia";"Àsia central";"Asia";"Central Asia";;4884887;"Turkmenistan";0;2020
+"Uzbekistan";"447";81;"UZ";860;"UZ";"UZB";"Àsia";"Àsia central";"Asia";"Central Asia";;27606007;"Uzbekistan";0;2020
+"Bhutan";"448";675;"BT";64;"BT";"BTN";"Àsia";"Àsia meridional";"Asia";"Southern Asia";;691141;"Bhutan";0;2020
+"Palestina";"449";625;"PS";275;"PS";"PSE";"Àsia";"Àsia occidental";"Asia";"Western Asia";;2514845;"Palestinian Territory, Occupied";0;2020
+"Hong Kong, Xina";"450";740;"HK";344;"HK";"HKG";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;7055071;"Hong Kong";1;2020
+"Guam";"454";831;"GU";316;"GU";"GUM";"Oceania";"Micronèsia";"Oceania";"Micronesia";;178430;"Guam";1;2020
+"Macao, Xina";"455";743;"MO";446;"MO";"MAC";"Àsia";"Àsia oriental";"Asia";"Eastern Asia";;559846;"Macao";1;2020
+"Illes Marianes del Nord";"456";820;"MP";580;"MP";"MNP";"Oceania";"Micronèsia";"Oceania";"Micronesia";;88662;"Northern Mariana Islands";1;2020
+"Austràlia";"501";800;"AU";36;"AU";"AUS";"Oceania";"Austràlia i Nova Zelanda";"Oceania";"Australia and New Zealand";;21262641;"Australia";0;2020
+"Fiji";"502";815;"FJ";242;"FJ";"FJI";"Oceania";"Melanèsia";"Oceania";"Melanesia";;944720;"Fiji";0;2020
+"Nova Zelanda";"504";804;"NZ";554;"NZ";"NZL";"Oceania";"Austràlia i Nova Zelanda";"Oceania";"Australia and New Zealand";;4213418;"New Zealand";0;2020
+"Papua Nova Guinea";"505";801;"PG";598;"PG";"PNG";"Oceania";"Melanèsia";"Oceania";"Melanesia";;6057263;"Papua New Guinea";0;2020
+"Illes Salomó";"506";806;"SB";90;"SB";"SLB";"Oceania";"Melanèsia";"Oceania";"Melanesia";;595613;"Solomon Islands";0;2020
+"Samoa";"507";819;"WS";882;"WS";"WSM";"Oceania";"Polinèsia";"Oceania";"Polynesia";;219998;"Samoa";0;2020
+"Tonga";"508";817;"TO";776;"TO";"TON";"Oceania";"Polinèsia";"Oceania";"Polynesia";;120898;"Tonga";0;2020
+"Vanuatu";"509";816;"VU";548;"VU";"VUT";"Oceania";"Melanèsia";"Oceania";"Melanesia";;218519;"Vanuatu";0;2020
+"Micronèsia";"511";823;"FM";583;"FM";"FSM";"Oceania";"Micronèsia";"Oceania";"Micronesia";;107434;"Micronesia, Federated States Of";0;2020
+"Tuvalu";"512";807;"TV";798;"TV";"TUV";"Oceania";"Polinèsia";"Oceania";"Polynesia";;12373;"Tuvalu";0;2020
+"Illes Cook";"513";837;"CK";184;"CK";"COK";"Oceania";"Polinèsia";"Oceania";"Polynesia";;11870;"Cook Islands";1;2020
+"Kiribati";"514";812;"KI";296;"KI";"KIR";"Oceania";"Micronèsia";"Oceania";"Micronesia";;112850;"Kiribati";0;2020
+"Nauru";"515";803;"NR";520;"NR";"NRU";"Oceania";"Micronèsia";"Oceania";"Micronesia";;14019;"Nauru";0;2020
+"Palau";"516";825;"PW";585;"PW";"PLW";"Oceania";"Micronèsia";"Oceania";"Micronesia";;20796;"Palau";0;2020
+"Timor-Leste";"517";626;"TL";626;"TL";"TLS";"Àsia";"Àsià sud-oriental";"Asia";"South-Eastern Asia";;1131612;"Timor-Leste";0;2020
+"Polinèsia Francesa";"520";822;"PF";258;"PF";"PYF";"Oceania";"Polinèsia";"Oceania";"Polynesia";;287032;"French Polynesia";1;2020
+"Illa Norfolk";"521";836;"NF";574;"NF";"NFK";"Oceania";"Austràlia i Nova Zelanda";"Oceania";"Australia and New Zealand";;2141;"Norfolk Island";1;2020
+"Niue";"523";838;"NU";570;"NU";"NIU";"Oceania";"Polinèsia";"Oceania";"Polynesia";;1398;"Niue";1;2020
+"Pitcairn";"524";813;"PN";612;"PN";"PCN";"Oceania";"Polinèsia";"Oceania";"Polynesia";;48;"Pitcairn";1;2020
+"Tokelau";"525";839;"TK";772;"TK";"TKL";"Oceania";"Polinèsia";"Oceania";"Polynesia";;;"Tokelau";1;2020
+"Nova Caledònia";"526";809;"NC";540;"NC";"NCL";"Oceania";"Melanèsia";"Oceania";"Melanesia";;227436;"New Caledonia";1;2020
+"Wallis i Futuna";"527";811;"WF";876;"WF";"WLF";"Oceania";"Polinèsia";"Oceania";"Polynesia";;15289;"Wallis And Futuna";1;2020
+"Samoa Americana";"528";830;"AS";16;"AS";"ASM";"Oceania";"Polinèsia";"Oceania";"Polynesia";;65628;"American Samoa";1;2020

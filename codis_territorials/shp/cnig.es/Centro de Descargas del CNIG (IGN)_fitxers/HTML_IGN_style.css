@@ -1,0 +1,228 @@
+/* Hoja de estilo para exportación a formato HTML
+   En esta hoja pondremos los estilos de las diferentes secciones del HTML
+   El .xsl genera secciones, con nombre SECTIONnn y SECTIONnnV
+   SECTIONnn son las diferentes secciones generadas en función de la profundidad del nodo
+     Hay que generar tantos bloques 'sectionNN' como secciones se crea que va a tener el metadato, cada uno con el formato que queramos
+   SECTIONnnV son los valores de las etiquetas.   						
+     Hay que generar tantos bloques 'sectionNNv' como secciones se crea que va a tener el metadato, cada uno con el formato que queramos
+ */
+ 
+html {
+	color: white;
+	background-color: white;
+}
+body {
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+	color: black;
+}
+/*a, a:link, a:visited, a:active {
+	color: blue;
+	text-decoration: none;
+	font-family: Arial, Tahoma, Verdana;
+	font-size: 10px
+	font-weight:normal;
+	padding:3px;
+}
+a:hover {
+	color: #ff0000;
+	text-decoration: none;
+	font-family: Arial, Tahoma, Verdana;
+	font-size: 11px
+	padding:3px;
+}*/
+a.index {
+	color: blue;
+	font-size: 10px;
+	font-family: Verdana, Arial, Tahoma;
+	font-weight: normal;
+	padding: 3px;
+	text-decoration: underline;
+}
+div {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color: #000033;
+	padding:3px;
+}
+li {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color: #000033;
+  	list-style-type: none;
+  	list-style-position: outside; 
+}
+p {
+	color: #003399;
+	text-decoration: none;
+	font-family: Verdana, Arial, Tahoma;
+	font-size: 13px
+	font-weight:normal;
+	font-style:normal;
+	margin-left:5px;
+	padding:3px;
+	display:inline; 
+}
+hr {
+  color:#003399;
+}
+li.index {
+  	list-style-type: disc;
+}
+div.sectionIndex {
+	font-size:14px;
+	font-weight:bold;
+	color:#000033;
+	margin-left:0px;
+	/*background-color:#336EA0;*/
+}
+/* Estilo del titulo de la pagina */ 
+div.pageTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:30px;
+	font-weight:bold; 
+	border-style:double;
+	padding:5px;
+	color:white;
+	background-color:#336EA0;
+	text-align: center
+}
+/* Estilo del titulo del índice */ 
+div.indexTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold; 
+	padding:5px;
+	color: #000033;
+}
+/* Estilos de las diferentes secciones */ 
+/* La seccion0 no se mostrara */
+div.section0 {
+	margin-left:0px;
+	padding:3px;
+}
+div.section1 {
+	margin-left:20px;
+}
+li.section1l {
+	margin-left:20px;
+}
+p.section1v {
+}
+div.section2 {
+	margin-left:40px;
+}
+li.section2l {
+	margin-left:40px;
+}
+p.section2v {
+}
+div.section3 {
+	font-weight:bold;
+	margin-left:60px;
+}
+li.section3l {
+	font-weight:bold;
+	margin-left:60px;
+}
+p.section3v {
+	font-weight:normal;
+}
+div.section4 {
+	margin-left:80px;
+}
+li.section4l {
+	margin-left:80px;
+}
+p.section4v {
+}
+div.section5 {
+	margin-left:100px;
+}
+li.section5l {
+	margin-left:100px;
+}
+p.section5v {
+}
+div.section6 {
+	margin-left:120px;
+}
+li.section6l {
+	margin-left:120px;
+}
+p.section6v {
+}
+div.section7 {
+	margin-left:140px;
+}
+li.section7l {
+	margin-left:140px;
+}
+p.section7v {
+}
+div.section8 {
+	margin-left:160px;
+}
+li.section8l {
+	margin-left:160px;
+}
+p.section8v {
+}
+div.section9 {
+	margin-left:180px;
+}
+li.section9l {
+	margin-left:180px;
+}
+p.section9v {
+}
+div.section10 {
+	margin-left:200px;
+}
+li.section10l {
+	margin-left:200px;
+}
+p.section10v {
+}
+div.section11 {
+	margin-left:220px;
+}
+li.section11l {
+	margin-left:220px;
+}
+p.section11v {
+}
+div.section12 {
+	margin-left:240px;
+}
+li.section12l {
+	margin-left:240px;
+}
+p.section12v {
+}
+div.section13 {
+	margin-left:260px;
+}
+li.section13l {
+	margin-left:260px;
+}
+p.section13v {
+}
+div.section14 {
+	margin-left:280px;
+}
+li.section14l {
+	margin-left:280px;
+}
+p.section14v {
+}
+div.section15 {
+	margin-left:300px;
+}
+li.section15l {
+	margin-left:300px;
+}
+p.section15v {
+}

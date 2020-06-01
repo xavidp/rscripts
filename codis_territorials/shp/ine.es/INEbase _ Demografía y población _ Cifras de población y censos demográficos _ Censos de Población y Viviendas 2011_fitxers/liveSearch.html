@@ -1,0 +1,227 @@
+/***
+@EjemploHTML:
+<form method="post" action="/search/">
+
+	<p>
+		<label>
+			Enter search terms<br />
+			<input type="text" name="q" />
+		</label> <input type="submit" value="Go" />
+	</p>
+
+</form>
+
+@Ejemplo:
+
+$.ajaxSetup({
+    'beforeSend' : function(xhr) {
+        xhr.overrideMimeType('text/html; charset=ISO-8859-1');
+    }
+});
+jQuery('#jquery-live-search-example input[name="q"]').liveSearch({url: Router.urlForModule('SearchResults') + '&q='});
+***/
+
+var txtBuscado;
+
+jQuery.fn.liveSearch = function (conf) {
+	var config = jQuery.extend({
+		url:			'/search-results.php?q=',
+		id:				'jquery-live-search',
+		duration:		400,
+		typeDelay:		100,
+		loadingClass:	'loading',
+		onSlideUp:		function () {},
+		uptadePosition:	false
+	}, conf);
+
+
+	var liveSearch	= jQuery('#' + config.id);
+
+	// Create live-search if it doesn't exist
+	if (!liveSearch.length) {
+		liveSearch = jQuery('<div id="' + config.id + '"></div>')
+						.insertAfter(this)
+						.hide()
+						.slideUp(0);
+
+		// Close live-search when clicking outside it
+		jQuery(document.body).click(function(event) {
+			var clicked = jQuery(event.target);
+
+			if (!(clicked.is('#' + config.id) || clicked.parents('#' + config.id).length || clicked.is('input'))) {
+				liveSearch.slideUp(config.duration, function () {
+					config.onSlideUp();
+				});
+			}
+		});
+	}
+
+	return this.each(function () {
+		var input							= jQuery(this).attr('autocomplete', 'off');
+		var liveSearchPaddingBorderHoriz	= parseInt(liveSearch.css('paddingLeft'), 10) + parseInt(liveSearch.css('paddingRight'), 10) + parseInt(liveSearch.css('borderLeftWidth'), 10) + parseInt(liveSearch.css('borderRightWidth'), 10);
+		var myObj							= this;
+
+		var getObjText =function (){
+			return myObj;
+		};
+
+
+		// Re calculates live search's position
+		var repositionLiveSearch = function () {
+			var tmpOffset	= input.offset();
+			var inputDim	= {
+				left:		input.prop("offsetLeft"),
+				top:		input.prop("offsetTop"),
+				width:		input.outerWidth(),
+				height:		input.outerHeight()
+			};
+
+			inputDim.topPos		= inputDim.top + inputDim.height;
+			inputDim.totalWidth	= inputDim.width ;
+			var inputDimResize = inputDim.totalWidth;
+
+			liveSearch.css({
+				position:	'absolute',
+				left:		inputDim.left + 'px',
+				top:		inputDim.topPos + 'px',
+				width:		inputDimResize + 'px',
+				zIndex:    '390'
+			});
+		};
+
+		// Shows live-search for this input
+		var showLiveSearch = function () {
+			// Always reposition the live-search every time it is shown
+			// in case user has resized browser-window or zoomed in or whatever
+			repositionLiveSearch();
+
+			// We need to bind a resize-event every time live search is shown
+			// so it resizes based on the correct input element
+			$(window).unbind('resize', repositionLiveSearch);
+			$(window).bind('resize', repositionLiveSearch);
+
+			liveSearch.slideDown(config.duration);
+			//Hide tooltip div
+		};
+
+		// Hides live-search for this input
+		var hideLiveSearch = function () {
+			liveSearch.slideUp(config.duration, function () {
+				config.onSlideUp();
+			});
+		};
+
+		input
+			// Auto update live-search onkeyup
+			.keyup(function (event) {
+
+				//borramos el dato al escribir
+				/*var objval=$('#' + this.name.replace("txt","grp"));
+				if (objval.length>0)
+					objval[0].value="";*/
+
+				// Stop previous ajax-request
+				if (this.timer) {
+					this.lastValue =null;
+                    input.removeClass(config.loadingClass);
+					clearTimeout(this.timer);
+				}
+
+
+				// Don't update live-search if it's got the same value as last time
+				if (this.value != this.lastValue && this.value.replace(" ","").length>0) {
+					var q="";
+					if (this.value=="*")
+						q="";
+					else
+						q = this.value;
+					input.addClass(config.loadingClass);
+					q=encodeURI(q)
+					txtBuscado=q;
+					this.timer = setTimeout(function () {
+							$.getJSON(config.url + q, function(data) {
+								  var datos_html="";
+								  if (data==null || data=="")
+									  data=txtBuscado;
+								  if (txtBuscado.length > 2){
+									  var items= eval(data);
+                                                                  if (items!=null){
+                                                                    datos_html+="<ul>";
+                                                                    for (var i=0;i<items.length;i++)
+                                                                        datos_html+="<li><a id=\"searchStringResult\" href=\"#\" onclick=\"setAjaxValue('" + getObjText().name + "','" + items[i] + "')\">" + Remarcar(items[i], txtBuscado)  +"</a></li>";
+                                                                    datos_html+="</ul>";
+                                                                    if (datos_html.length>0) {
+                                                                        liveSearch.html(datos_html);
+                                                                       showLiveSearch();
+                                                                    }
+                                                                    else {
+                                                                    hideLiveSearch();
+                                                                    }
+                                                                  }else{
+                                                                	  liveSearch.hide();
+                                                                  }
+                                                                  input.removeClass(config.loadingClass);
+								  }else{
+									  hideLiveSearch();
+								  }
+
+								})
+							.fail(function(  jqXHR,  textStatus,  errorThrown ) {
+									hideLiveSearch();
+									console.trace(textStatus);
+//									var datos_html="<input type='hidden' class='suggest' name='" + items[i] +"'/>";
+									var datos_html="<ul><li><a id=\"searchStringResult\" href=\"#\" onclick=\"setAjaxValue('" + getObjText().name + "','" + txtBuscado+ "')\">" + items[i]  +"</a></li></ul>";
+									liveSearch.html(datos_html);
+									showLiveSearch();
+								})
+							;
+					   },config.typeDelay);
+
+				}else{
+					if($("#searchString").val() == ""){
+						hideLiveSearch();
+					}
+//					if (liveSearch.html.length>0) {
+//						showLiveSearch();
+//					}
+//					else {
+//						hideLiveSearch();
+//					}
+				}
+
+				this.lastValue = this.value;
+			}
+			);
+	});
+};
+
+function parseItem(item) {
+	var stripedHtml = $("<em>").html(item).text();
+	return '"'+stripedHtml+'"';
+	//return stripedHtml;
+}
+
+//funcion encargada de establecer el valor al formulario
+function setAjaxValue(objeto,name){
+	var objtxt=$('#' + objeto);
+	if (objtxt.length>0 ){
+		objtxt[0].value=name;
+		jQuery(document.body).click();
+	}
+	$("#p_pag option:first").attr('selected', 'selected');
+	$("#p_pag_pie option:first").attr('selected', 'selected');
+
+	$('#searchString').val(parseItem(name));
+	if($('#searchString').attr("class") == "Menu_searchString"){
+		$("#Menu_cabeceraBuscador").submit();
+	}else{
+		$("#BuscadorPpal").submit();
+	}
+}
+
+//se encarga de poner en negrita el texto que se aconseja para diferenciarlo con el que inserto
+function Remarcar(encontrado, origen){
+  //var aux=origen + "<strong>" + encontrado.substr(origen.length,encontrado.length) + "</strong>"
+  return encontrado;
+}
+
