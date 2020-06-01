@@ -19,6 +19,7 @@ p_load(viridis)
 p_load(ggiraph)
 p_load(plotly)
 p_load(tidyverse)
+p_load(maptools)
 ```
 
 
@@ -179,5 +180,27 @@ ggplot() + geom_sf(data = secc, aes(fill = NCA))  +
 #  layout( legend = list(x=-0.5, y=1) )
 ```
 
+# Codis paisos
 
+```{r}
+plot(wrld_simpl)
+```
+
+
+```{r}
+#str(wrld_simpl)
+
+# The object loaded is a SpatialPolygonsDataFrame object containing a slightly modified version of Bjoern Sandvik's improved version of world\_borders.zip - TM\_WORLD\_BORDERS\_SIMPL-0.2.zip dataset from the Mapping Hacks geodata site. The country Polygons objects and the data slot data frame row numbers have been set to the ISO 3166 three letter codes. 
+# See: https://rdrr.io/cran/maptools/man/wrld_simpl.html
+
+d <- data.frame(wrld_simpl)
+length(unique(d$ISO2))
+d
+```
+
+```{r}
+# Desem codis a disc
+write_csv(d, file.path(path.csv.codis.territorials, "geo/codis.int.csv"))
+write_csv(d, file.path(path.csv.owncloud.codis.territorials, "geo/codis.int.csv"))
+```
 

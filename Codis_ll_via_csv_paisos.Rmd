@@ -12,6 +12,7 @@ p_load(rio)
 p_load(stringr)
 p_load(tidyverse)
 p_load(janitor)
+
 ```
 
 ```{r}
@@ -85,3 +86,20 @@ if (nrow(gtp.paisos.aj %>% distinct(ID_ISO_a2)) > 0) {
 
 ```
 
+# Provem via rnaturalearth
+
+```{r}
+codis.rne <- rio::import(file.path(path.codis.extra, "rnaturalearth_countries.csv"))
+length(unique(codis.rne$iso_a2))
+```
+
+
+# Provem via maptools
+
+```{r}
+p_load(maptools)
+plot(wrld_simpl)
+str(wrld_simpl)
+d <- data.frame(wrld_simpl)
+length(unique(d$ISO2))
+```
