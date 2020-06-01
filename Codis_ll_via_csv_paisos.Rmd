@@ -1,0 +1,92 @@
+---
+title: "Codis Territorials amb Lat Lon via csv"
+author: "Xavier de Pedro"
+date: "17/5/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!require(pacman)) {install.packages(pacman)}; require(pacman)
+p_load(rio)
+p_load(stringr)
+p_load(tidyverse)
+p_load(janitor)
+```
+
+```{r}
+path.csv.owncloud.codis.territorials <- "~/ownCloud/OMD-GID/CodisTerritorials"
+path.csv.codis.territorials <- "codis_territorials"
+#path.codis.extra <- "/windows/k/QUOTA/OMD/COMU/PROJECTES/19_001_BSC/dades/codis_territorials"
+path.codis.extra <- file.path("codis_territorials", "vell")
+list.files(path.csv.codis.territorials, pattern=".csv$", recursive = TRUE)
+```
+
+# Carrego latlong de centroides de provincies INE
+
+```{r}
+path.coords <- file.path(path.csv.codis.territorials, "geo/codis.int.csv")
+codis.int <- read_csv(file.path(path.coords)) 
+codis.int <- codis.int %>% 
+  mutate(
+    name=case_when(
+      name=="Andorra la Vella" ~ "Andorra",
+      TRUE ~ name)
+    )
+codis.int
+# re-exportem arxiu amb valors corregits
+write_csv(codis.int, file.path(path.csv.codis.territorials, "geo/codis.int.csv")) 
+write_csv(codis.int, file.path(path.csv.owncloud.codis.territorials, "geo/codis.int.csv")) 
+```
+
+
+# Add lat long to provincies
+
+## Carrega GEO provincies
+
+```{r}
+gtp.prov <- read_csv2(file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_provincies_INE.csv"))
+# afegim zero davant codis d'un sol numero per normalitzar codis a dos digits
+# per a provincia i per a CCAA
+gtp.prov <- gtp.prov %>% 
+  mutate(ID_INE_NUM_Provincia=str_pad(as.character(ID_INE_NUM_Provincia), 2, "left", "0"),
+         ID_INE_NUM_CCAA=str_pad(as.character(ID_INE_NUM_CCAA), 2, "left", "0"))
+gtp.prov
+```
+
+```{r}
+# nombre de provincies uniques
+gtp.prov.unique <- unique(gtp.prov$ID_INE_NUM_Provincia)
+length(gtp.prov.unique)
+```
+
+## Fem join de lon lat a gtp.prov
+
+```{r}
+gtp.prov.lj <- left_join(gtp.prov, codis.int, by=c("ID_INE_NUM_Provincia"="CPRO"))
+str(gtp.prov.lj)
+```
+
+## Mirem antijoins
+
+```{r}
+gtp.prov.aj <- anti_join(gtp.prov, codis.int, by=c("ID_INE_NUM_Provincia"="CPRO"))
+gtp.prov.aj %>% distinct(ID_INE_NUM_Provincia, .keep_all = TRUE)
+```
+
+```{r}
+# Exportem resultats
+# Left joins
+write_csv(gtp.prov.lj, file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_provincies_INE_lonlat.csv"))
+write_csv(gtp.prov.lj, file.path(path.csv.owncloud.codis.territorials, "CityOS/GTP_GEO_provincies_INE_lonlat.csv"))
+
+# antijoins unics
+if (nrow(gtp.prov.aj %>% distinct(ID_INE_NUM_Provincia)) > 0) {
+  write_csv(gtp.prov.aj %>% distinct(ID_INE_NUM_Provincia, .keep_all = TRUE),
+            file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_provincies_INE_lonlat.antijoins.csv"))
+  write_csv(gtp.prov.aj %>% distinct(ID_INE_NUM_Provincia, .keep_all = TRUE), 
+            file.path(path.csv.owncloud.codis.territorials, "CityOS/GTP_GEO_provincies_INE_lonlat.antijoin.csv"))
+}
+
+```
+
