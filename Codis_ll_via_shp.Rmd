@@ -20,6 +20,9 @@ p_load(ggiraph)
 p_load(plotly)
 ```
 
+
+# Amb dades de l'INE
+
 ```{r}
 #path.csv.codis.territorials <- "~/ownCloud/OMD-GID/CodisTerritorials/"
 path.csv.codis.territorials <- "codis_territorials/geo/"
@@ -29,6 +32,7 @@ path.codis.extra <- file.path("codis_territorials", "vell")
 rel.files.shp <- list.files(path.shp.codis.territorials, pattern="*.shp$", recursive = TRUE)
 rel.files.shp
 ```
+
 
 ## Llegim SHP
 
@@ -62,7 +66,7 @@ mun.c
 dim(mun.c)
 distinct(data.frame(mun.c), NMUN)
 janitor::get_dupes(data.frame(mun.c), NMUN)
-st_write(mun.c, file.path(path.shp.codis.territorials, "mun.centroids.csv"),
+st_write(mun.c, file.path(path.shp.codis.territorials, "..","mun.centroids.csv"),
          layer_options = "GEOMETRY=AS_XY")
 
 ```
