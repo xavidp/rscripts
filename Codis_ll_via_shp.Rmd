@@ -121,7 +121,7 @@ if (origen.shp == "ine") {
                      data.frame(st_coordinates(mun.c))) %>% 
     rename(lon=X,
            lat=Y)
-  
+  # Per municipis
   mun.centroid.unique.cumun <- mun.c %>% group_by(CUMUN) %>% summarize(mean_lon = mean(lon),
                                         mean_lat = mean(lat)
                                         ) %>% 
@@ -130,6 +130,16 @@ if (origen.shp == "ine") {
   
   st_write(mun.centroid.unique.cumun, file.path(path.shp.codis.territorials, "..",
                           paste0("mun.", origen.shp, ".centroids.unique.cumun.wgs84.csv")), delete_dsn = T)
+  
+  # Per provincies
+  prov.centroid.unique <- mun.c %>% group_by(CPRO) %>% summarize(mean_lon = mean(lon),
+                                        mean_lat = mean(lat)
+                                        ) %>% 
+    rename(lon=mean_lon,
+           lat=mean_lat)
+  
+  st_write(prov.centroid.unique, file.path(path.shp.codis.territorials, "..",
+                          paste0("mun.", origen.shp, ".centroids.unique.cpro.wgs84.csv")), delete_dsn = T)
   
   #dim(mun.c)
   #distinct(data.frame(mun.c), NMUN)
