@@ -139,7 +139,7 @@ if (origen.shp == "ine") {
            lat=mean_lat)
   
   st_write(prov.centroid.unique, file.path(path.shp.codis.territorials, "..",
-                          paste0("mun.", origen.shp, ".centroids.unique.cpro.wgs84.csv")), delete_dsn = T)
+                          paste0("prov.", origen.shp, ".centroids.wgs84.csv")), delete_dsn = T)
   
   #dim(mun.c)
   #distinct(data.frame(mun.c), NMUN)
