@@ -12,14 +12,67 @@ p_load(rio)
 p_load(stringr)
 p_load(tidyverse)
 p_load(janitor)
+p_load(sf)
+p_load(ggplot2)
+p_load(ggforce)
+p_load(viridis)
+p_load(ggiraph)
+p_load(plotly)
 ```
 
 ```{r}
-path.csv.codis.territorials <- "~/ownCloud/OMD-GID/CodisTerritorials/"
+#path.csv.codis.territorials <- "~/ownCloud/OMD-GID/CodisTerritorials/"
+path.csv.codis.territorials <- "codis_territorials/geo/"
+path.shp.codis.territorials <- "codis_territorials/shp/ine.es/cartografia_censo2011_nacional/"
 #path.codis.extra <- "/windows/k/QUOTA/OMD/COMU/PROJECTES/19_001_BSC/dades/codis_territorials/"
 path.codis.extra <- file.path("codis_territorials", "vell")
-list.files(path.csv.codis.territorials, recursive = TRUE)
+rel.files.shp <- list.files(path.shp.codis.territorials, pattern="*.shp$", recursive = TRUE)
+rel.files.shp
 ```
+
+## Llegim SHP
+
+```{r}
+secc <- sf::st_read(file.path(path.shp.codis.territorials, rel.files.shp[1]))
+# Reading layer `SECC_CPV_E_20111101_01_R_INE' from data source `/home/xavi/code/rscripts/codis_territorials/shp/ine.es/cartografia_censo2011_nacional/SECC_CPV_E_20111101_01_R_INE.shp' using driver `ESRI Shapefile'
+# Simple feature collection with 35960 features and 21 fields
+# geometry type:  MULTIPOLYGON
+# dimension:      XY
+# bbox:           xmin: -1004502 ymin: 3132130 xmax: 1126932 ymax: 4859240
+# proj4string:    +proj=utm +zone=30 +ellps=GRS80 +units=m +no_defs 
+```
+
+```{r}
+str(secc)
+```
+```{r}
+#plot(secc[c("NPRO", "Shape_area")], key.pos=1, key.width=0.3, axes=TRUE)
+plot(secc[c("NCA")], key.pos=1, key.width=0.3, axes=TRUE)
+```
+
+```{r}
+plot(st_geometry(secc[c("NPRO")]), col = sf.colors(12, categorical = TRUE), border = 'grey', 
+     axes = TRUE)
+plot(st_geometry(st_centroid(secc[c("NPRO")])), pch = 3, col = 'red', add = TRUE)
+```
+
+```{r}
+ggplot() + geom_sf(data = secc, aes(fill = NCA))
+```
+
+
+```{r}
+ggplot() + geom_sf(data = secc, aes(fill = NCA))  +
+#  scale_colour_hue("clarity") +
+  scale_colour_viridis_d() +
+  facet_zoom(xy = NPRO == 'Barcelona', zoom.size = 1)
+```
+
+```{r}
+plot_ly(secc, split = ~NCA, color = ~Shape_area) %>% 
+  layout( legend = list(x=-0.5, y=1) )
+```
+
 
 # Add lat long to municipis
 
