@@ -26,8 +26,14 @@ p_load(plotly)
 ```{r}
 #path.csv.codis.territorials <- "~/ownCloud/OMD-GID/CodisTerritorials/"
 path.csv.codis.territorials <- "codis_territorials/geo/"
-path.shp.codis.territorials <- "codis_territorials/shp/ine.es/cartografia_censo2011_nacional/"
-#path.shp.codis.territorials <- "codis_territorials/shp/cnig.es/Poblacines_v0/"
+origen.shp <- "cnig" # "ine" | "cnig"
+
+if (origen.shp == "cnig") {
+  path.shp.codis.territorials <- "codis_territorials/shp/cnig.es/Poblaciones_v0/"
+} else if (origen.shp == "ine") {
+  path.shp.codis.territorials <- "codis_territorials/shp/ine.es/cartografia_censo2011_nacional/"
+}
+
 #path.codis.extra <- "/windows/k/QUOTA/OMD/COMU/PROJECTES/19_001_BSC/dades/codis_territorials/"
 path.codis.extra <- file.path("codis_territorials", "vell")
 rel.files.shp <- list.files(path.shp.codis.territorials, pattern="*.shp$", recursive = TRUE)
@@ -48,55 +54,94 @@ secc <- sf::st_read(file.path(path.shp.codis.territorials, rel.files.shp[1]))
 # proj4string:    +proj=utm +zone=30 +ellps=GRS80 +units=m +no_defs 
 
 # CNIG
+# Reading layer `Poblaciones_v0' from data source `/home/xavi/code/rscripts/codis_territorials/shp/cnig.es/Poblaciones_v0/Poblaciones_v0.shp' using driver `ESRI Shapefile'
+# Simple feature collection with 143221 features and 7 fields
+# geometry type:  MULTIPOLYGON
+# dimension:      XY
+# bbox:           xmin: -18.09947 ymin: 27.64027 xmax: 4.304783 ymax: 43.78703
+# proj4string:    +proj=longlat +ellps=GRS80 +no_defs 
 
 ```
 
 ```{r}
-# Guardem copia amb la projecció de l'ine amb que arriben les dades (UTM, zona 30)
-secc.utm30 <- secc
-# Convertim a lon lat
-secc.wgs84 <- st_as_sf(st_transform(secc, "+proj=longlat +datum=WGS84 +no_defs"))
 
-# Fem qeu per omissió treballem ara amb wgs84 (longlat)
-secc <- secc.wgs84
+if (origen.shp == "ine") {
+  
+  # Guardem copia amb la projecció de l'ine amb que arriben les dades (UTM, zona 30)
+  secc.utm30 <- secc
+  # Convertim a lon lat
+  secc.wgs84 <- st_as_sf(st_transform(secc, "+proj=longlat +datum=WGS84 +no_defs"))
+  
+  # Fem qeu per omissió treballem ara amb wgs84 (longlat)
+  secc <- secc.wgs84
+  
+} else if (origen.shp == "cnig") {
+  
+  #rm(secc.utm30)
+  secc.wgs84 <- secc
+
+  }
 ```
 
 ```{r}
 str(secc)
 ```
 ```{r}
-#plot(secc[c("NPRO", "Shape_area")], key.pos=1, key.width=0.3, axes=TRUE)
-plot(secc[c("NCA")], key.pos=1, key.width=0.3, axes=TRUE)
+if (origen.shp == "ine") {
+  #plot(secc[c("NPRO", "Shape_area")], key.pos=1, key.width=0.3, axes=TRUE)
+  plot(secc[c("NCA")], key.pos=1, key.width=0.3, axes=TRUE)
+} else if (origen.shp == "cnig") {
+  plot(secc[c("habitantes")])
+  }
 ```
 
 ```{r}
+if (origen.shp == "ine") {
 plot(st_geometry(secc[c("NPRO")]), col = sf.colors(12, categorical = TRUE), border = 'grey', 
      axes = TRUE)
 plot(st_geometry(st_centroid(secc[c("NPRO")])), pch = 3, col = 'red', add = TRUE)
+} else if (origen.shp == "cnig") {
+plot(st_geometry(secc[c("habitantes")]), col = sf.colors(12, categorical = TRUE), border = 'grey', 
+     axes = TRUE)
+plot(st_geometry(st_centroid(secc[c("habitantes")])), pch = 3, col = 'red', add = TRUE)
+  
+}
 ```
 
 ```{r}
-mun.c <- st_centroid(secc[c("NMUN")])
-mun.c
-dim(mun.c)
-distinct(data.frame(mun.c), NMUN)
-#janitor::get_dupes(data.frame(mun.c), NMUN)
-st_write(mun.c, file.path(path.shp.codis.territorials, "..","mun.ine.centroids.wgs84.csv"),
+if (origen.shp == "ine") {
+  mun.c <- st_centroid(secc[c("NMUN")])
+  mun.c
+  dim(mun.c)
+  distinct(data.frame(mun.c), NMUN)
+  #janitor::get_dupes(data.frame(mun.c), NMUN)
+} else if (origen.shp == "cnig") {
+  mun.c <- st_centroid(secc[c("id_ep", "nombre", "codine", "ine", "capital")])
+  dim(mun.c)
+  distinct(data.frame(mun.c), nombre)
+  }
+
+st_write(mun.c, file.path(path.shp.codis.territorials, "..",
+                          paste0("mun.", origen.shp, ".centroids.wgs84.csv")),
          layer_options = "GEOMETRY=AS_XY")
 
 ```
 
 
 ```{r}
+if (origen.shp == "ine") {
 ggplot() + geom_sf(data = secc, aes(fill = NCA))
+}
 ```
 
 
 ```{r}
+if (origen.shp == "ine") {
 ggplot() + geom_sf(data = secc, aes(fill = NCA))  +
 #  scale_colour_hue("clarity") +
   scale_colour_viridis_d() +
   facet_zoom(xy = NPRO == 'Barcelona', zoom.size = 1)
+}
 ```
 
 ```{r}
