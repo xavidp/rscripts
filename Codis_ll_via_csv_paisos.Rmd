@@ -50,14 +50,14 @@ length(gtp.paisos.unique)
 ## Fem join de lon lat a gtp.paisos
 
 ```{r}
-gtp.paisos.lj <- left_join(gtp.paisos, codis.int, by=c("ID_ISO_a2"="iso_a2"))
+gtp.paisos.lj <- left_join(gtp.paisos, codis.int, by=c("ID_ISO_a2"="ISO2"))
 str(gtp.paisos.lj)
 ```
 
 ## Mirem antijoins
 
 ```{r}
-gtp.paisos.aj <- anti_join(gtp.paisos, codis.int, by=c("ID_ISO_a2"="iso_a2"))
+gtp.paisos.aj <- anti_join(gtp.paisos, codis.int, by=c("ID_ISO_a2"="ISO2"))
 gtp.paisos.aj %>% distinct(ID_ISO_a2, .keep_all = TRUE)
 ```
 
