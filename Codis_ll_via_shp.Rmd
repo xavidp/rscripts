@@ -26,7 +26,7 @@ p_load(plotly)
 ```{r}
 #path.csv.codis.territorials <- "~/ownCloud/OMD-GID/CodisTerritorials/"
 path.csv.codis.territorials <- "codis_territorials/geo/"
-origen.shp <- "cnig" # "ine" | "cnig"
+origen.shp <- "ine" # "ine" | "cnig"
 
 if (origen.shp == "cnig") {
   path.shp.codis.territorials <- "codis_territorials/shp/cnig.es/Poblaciones_v0/"
@@ -83,7 +83,9 @@ if (origen.shp == "ine") {
   }
 ```
 
+
 ```{r}
+names(secc)
 str(secc)
 ```
 ```{r}
@@ -110,7 +112,7 @@ plot(st_geometry(st_centroid(secc[c("habitantes")])), pch = 3, col = 'red', add 
 
 ```{r}
 if (origen.shp == "ine") {
-  mun.c <- st_centroid(secc[c("NMUN")])
+  mun.c <- st_centroid(secc[c("CUSEC", "CUMUN", "CSEC", "CDIS", "CMUN", "CPRO", "CCA", "CUDIS", "NPRO", "NCA", "NMUN")])
   mun.c
   dim(mun.c)
   distinct(data.frame(mun.c), NMUN)
@@ -123,7 +125,7 @@ if (origen.shp == "ine") {
 
 st_write(mun.c, file.path(path.shp.codis.territorials, "..",
                           paste0("mun.", origen.shp, ".centroids.wgs84.csv")),
-         layer_options = "GEOMETRY=AS_XY")
+         layer_options = "GEOMETRY=AS_XY", delete_dsn = T)
 
 ```
 
