@@ -28,16 +28,7 @@ list.files(path.csv.codis.territorials, pattern=".csv$", recursive = TRUE)
 ```{r}
 path.coords <- file.path(path.csv.codis.territorials, "geo/codis.int.csv")
 codis.int <- read_csv(file.path(path.coords)) 
-codis.int <- codis.int %>% 
-  mutate(
-    name=case_when(
-      name=="Andorra la Vella" ~ "Andorra",
-      TRUE ~ name)
-    )
 codis.int
-# re-exportem arxiu amb valors corregits
-write_csv(codis.int, file.path(path.csv.codis.territorials, "geo/codis.int.csv")) 
-write_csv(codis.int, file.path(path.csv.owncloud.codis.territorials, "geo/codis.int.csv")) 
 ```
 
 
@@ -86,20 +77,5 @@ if (nrow(gtp.paisos.aj %>% distinct(ID_ISO_a2)) > 0) {
 
 ```
 
-# Provem via rnaturalearth
-
-```{r}
-codis.rne <- rio::import(file.path(path.codis.extra, "rnaturalearth_countries.csv"))
-length(unique(codis.rne$iso_a2))
-```
 
 
-# Provem via maptools
-
-```{r}
-p_load(maptools)
-plot(wrld_simpl)
-str(wrld_simpl)
-d <- data.frame(wrld_simpl)
-length(unique(d$ISO2))
-```
