@@ -40,52 +40,47 @@ write_csv(codis.int, file.path(path.csv.owncloud.codis.territorials, "geo/codis.
 ```
 
 
-# Add lat long to provincies
+# Add lat long to països
 
-## Carrega GEO provincies
+## Carrega GEO paisos
 
 ```{r}
-gtp.prov <- read_csv2(file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_provincies_INE.csv"))
-# afegim zero davant codis d'un sol numero per normalitzar codis a dos digits
-# per a provincia i per a CCAA
-gtp.prov <- gtp.prov %>% 
-  mutate(ID_INE_NUM_Provincia=str_pad(as.character(ID_INE_NUM_Provincia), 2, "left", "0"),
-         ID_INE_NUM_CCAA=str_pad(as.character(ID_INE_NUM_CCAA), 2, "left", "0"))
-gtp.prov
+gtp.paisos <- read_csv2(file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_paisos.csv"))
+gtp.paisos
 ```
 
 ```{r}
 # nombre de provincies uniques
-gtp.prov.unique <- unique(gtp.prov$ID_INE_NUM_Provincia)
-length(gtp.prov.unique)
+gtp.paisos.unique <- unique(gtp.paisos$ID_INE)
+length(gtp.paisos.unique)
 ```
 
-## Fem join de lon lat a gtp.prov
+## Fem join de lon lat a gtp.paisos
 
 ```{r}
-gtp.prov.lj <- left_join(gtp.prov, codis.int, by=c("ID_INE_NUM_Provincia"="CPRO"))
-str(gtp.prov.lj)
+gtp.paisos.lj <- left_join(gtp.paisos, codis.int, by=c("ID_ISO_a2"="iso_a2"))
+str(gtp.paisos.lj)
 ```
 
 ## Mirem antijoins
 
 ```{r}
-gtp.prov.aj <- anti_join(gtp.prov, codis.int, by=c("ID_INE_NUM_Provincia"="CPRO"))
-gtp.prov.aj %>% distinct(ID_INE_NUM_Provincia, .keep_all = TRUE)
+gtp.paisos.aj <- anti_join(gtp.paisos, codis.int, by=c("ID_ISO_a2"="iso_a2"))
+gtp.paisos.aj %>% distinct(ID_ISO_a2, .keep_all = TRUE)
 ```
 
 ```{r}
 # Exportem resultats
 # Left joins
-write_csv(gtp.prov.lj, file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_provincies_INE_lonlat.csv"))
-write_csv(gtp.prov.lj, file.path(path.csv.owncloud.codis.territorials, "CityOS/GTP_GEO_provincies_INE_lonlat.csv"))
+write_csv(gtp.paisos.lj, file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_paisos_lonlat.csv"))
+write_csv(gtp.paisos.lj, file.path(path.csv.owncloud.codis.territorials, "CityOS/GTP_GEO_paisos_lonlat.csv"))
 
 # antijoins unics
-if (nrow(gtp.prov.aj %>% distinct(ID_INE_NUM_Provincia)) > 0) {
-  write_csv(gtp.prov.aj %>% distinct(ID_INE_NUM_Provincia, .keep_all = TRUE),
-            file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_provincies_INE_lonlat.antijoins.csv"))
-  write_csv(gtp.prov.aj %>% distinct(ID_INE_NUM_Provincia, .keep_all = TRUE), 
-            file.path(path.csv.owncloud.codis.territorials, "CityOS/GTP_GEO_provincies_INE_lonlat.antijoin.csv"))
+if (nrow(gtp.paisos.aj %>% distinct(ID_ISO_a2)) > 0) {
+  write_csv(gtp.paisos.aj %>% distinct(ID_ISO_a2, .keep_all = TRUE),
+            file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_paisos_lonlat.antijoins.csv"))
+  write_csv(gtp.paisos.aj %>% distinct(ID_ISO_a2, .keep_all = TRUE), 
+            file.path(path.csv.owncloud.codis.territorials, "CityOS/GTP_GEO_paisos_lonlat.antijoin.csv"))
 }
 
 ```
