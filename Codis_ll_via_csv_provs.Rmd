@@ -1,0 +1,185 @@
+---
+title: "Codis Territorials amb Lat Lon via csv"
+author: "Xavier de Pedro"
+date: "17/5/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!require(pacman)) {install.packages(pacman)}; require(pacman)
+p_load(rio)
+p_load(stringr)
+p_load(tidyverse)
+p_load(janitor)
+```
+
+```{r}
+path.csv.owncloud.codis.territorials <- "~/ownCloud/OMD-GID/CodisTerritorials/"
+path.csv.codis.territorials <- "codis_territorials/"
+#path.codis.extra <- "/windows/k/QUOTA/OMD/COMU/PROJECTES/19_001_BSC/dades/codis_territorials/"
+path.codis.extra <- file.path("codis_territorials", "vell")
+list.files(path.csv.codis.territorials, pattern=".csv$", recursive = TRUE)
+```
+
+# Carrego latlong de centroides de municipis INE
+
+```{r}
+path.centroides <- "codis_territorials/shp/ine.es/mun.ine.centroids.unique.cumun.wgs84.csv"
+muni.ine.centroides <- rio::import(file.path(path.centroides)) 
+muni.ine.centroides
+```
+
+
+# Add lat long to municipis
+
+## Carrega GEO municipis
+
+```{r}
+gtp.muni <- rio::import(file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_municipis_INE.csv"))
+gtp.muni  %>% filter(Nom_Municipi=="Aceituna")
+gtp.muni
+```
+
+```{r}
+# nombre de municipis unics
+gtp.muni.unique <- unique(gtp.muni$ID_INE_NUM_Municipi_Curt)
+length(gtp.muni.unique)
+```
+
+## Fem join de lon lat a gtp.muni
+
+```{r}
+gtp.muni.lj <- left_join(gtp.muni, muni.ine.centroides, by=c("ID_INE_NUM_Municipi_Curt"="CUMUN"))
+str(gtp.muni.lj)
+```
+
+## Mirem antijoins
+
+```{r}
+gtp.muni.aj <- anti_join(gtp.muni, muni.ine.centroides, by=c("ID_INE_NUM_Municipi_Curt"="CUMUN"))
+gtp.muni.aj %>% distinct(ID_INE_NUM_Municipi_Curt, .keep_all = TRUE)
+```
+
+```{r}
+# Exportem resultats
+# Left joins
+write_csv(gtp.muni.lj, file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_municipis_INE_lonlat.csv"))
+write_csv(gtp.muni.lj, file.path(path.csv.owncloud.codis.territorials, "CityOS/GTP_GEO_municipis_INE_lonlat.csv"))
+
+# antijoins unics
+write_csv(gtp.muni.aj %>% distinct(ID_INE_NUM_Municipi_Curt, .keep_all = TRUE), 
+          file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_municipis_INE_lonlat.antijoins.csv"))
+write_csv(gtp.muni.aj %>% distinct(ID_INE_NUM_Municipi_Curt, .keep_all = TRUE), 
+          file.path(path.csv.owncloud.codis.territorials, "CityOS/GTP_GEO_municipis_INE_lonlat.antijoin.csv"))
+
+```
+
+
+# Feina antiga (obsoleta, discontnuada)
+## Carrega codis.muni
+
+```{r}
+## Carrega GEO municipis
+geo.muni <- rio::import(file.path(path.csv.codis.territorials, "geo/codis.muni.csv"))
+geo.muni <- geo.muni %>% 
+  select(-distance, -Comunidad) %>% 
+#  filter(name=="Aceituna") %>% 
+  mutate(ine_id_curt=as.numeric(str_sub(id, start=7L, end=-1L))) 
+#  tabyl(ine_id)
+geo.muni
+```
+
+```{r}
+# Revisem si hi ha duplicats, comparant els únics amb el total que hem vist abans
+#geo.muni.unique <- unique(geo.muni$id)
+geo.muni.unique <- unique(geo.muni$ine_id_curt)
+length(geo.muni.unique)
+```
+
+```{r}
+geo.muni.dupes <- get_dupes(geo.muni, id)
+geo.muni.dupes
+```
+
+```{r}
+# Carreguem les dades de noms de municipis (en castellà i sense codi municipi ine)
+codis.ll.muni.esp <- rio::import(file.path(path.codis.extra, "lonlat-municipios-espana.xls"), skip=2)  %>% 
+  rename(esp_Provincia=Provincia,
+         esp_Comunidad=Comunidad,
+         esp_lon=Longitud,
+         esp_lat=Latitud)
+
+# Carreguem els noms i codis de província
+codis.muni.ine <- rio::import(file.path(path.codis.extra, "ine_20codmun.xlsx"), skip=1) %>% 
+  mutate(id_muni=str_c(CODAUTO, CPRO, CMUN))
+
+# Carreguem els noms i codis de província
+codis.prov <- rio::import(file.path(path.codis.extra, "cod_ccaa_provincia.xlsx"), skip=0)
+# codis.prov  <- codis.prov %>% mutate(CPRO=str_pad(as.character(CPRO), 2, "left", "0"))
+
+# Arreglem alsguns noms conflictius que provenen de l'excel origianl (en teoria de l'INE) per a que quadrin amb els noms de l'arxiu que té també el codi de provincia i autonomia
+codis.ll.muni.esp <- codis.ll.muni.esp %>%  
+  rename(Provincia=esp_Provincia) %>% 
+  mutate(Provincia=str_replace(Provincia, "^Álava$", "Araba/Álava"),
+         Provincia=str_replace(Provincia, "^Illes Balears$", "Balears, Illes"),
+         Provincia=str_replace(Provincia, "^A Coruña$", "Coruña, A"),
+         Provincia=str_replace(Provincia, "^Guipúzcoa$", "Gipuzkoa"),
+         Provincia=str_replace(Provincia, "^Las Palmas$", "Palmas, Las"),
+         Provincia=str_replace(Provincia, "^La Rioja$", "Rioja, La"),
+         Provincia=str_replace(Provincia, "^Vizcaya$", "Bizkaia"))
+
+# Fem un join de codis de província a df de codis municipals, per poder fer un altre join més endavant de tot el codis.muni amb codis.ll.muni.esp per match en nom de municipi i codi de província (no podem emprar nom de província per a la clau de match i haviem de trobar el codi, per que a codis.muni els noms de província són en català, i a codis.ll.muni.esp els noms de província són en castellà, i hi ha 30 municipis que tenen el mateix nom però son de províncies diferents)
+aj.codis.ll.muni.esp.2 <- anti_join(codis.ll.muni.esp, codis.prov,
+                                    by=c("Provincia"="Provincia"))
+# Comprovem que no tenim cap registre d'antijoin=tots els municipis tindran codi de provincia et al.
+nrow(aj.codis.ll.muni.esp.2)
+
+left_join(geo.muni, )
+
+# Fem el join per donar les columnes extra codi provincia, com.autonoma, etc.
+codis.ll.muni.esp.2 <-left_join(codis.ll.muni.esp, codis.prov, 
+                                 by=c("Provincia"="Provincia")) %>% 
+  mutate(id_prov_curt=str_c(str_pad(as.character(CODAUTO), 2, "left", "0"),
+                            str_pad(as.character(CPRO), 2, "left", "0")))
+
+# Fem join contra codis de munici de tota espanya
+codis.muni.esp <- stringdist_left_join(geo.muni, codis.ll.muni.esp.2, by=c("name"="Población", "ine_id_curt"=), max_dist=0, distance_col="distance", ignore_case=T) %>% 
+  select(id,
+         name,
+#         distance,
+          Provincia,
+         Comunidad,
+          Longitud,
+          Latitud)
+
+# Comprovació que no ens deixem cap
+codis.muni.esp.na <- codis.muni.esp %>% filter(is.na(Latitud))
+codis.muni.esp.no.na <- codis.muni.esp %>% filter(!is.na(Latitud))
+
+
+```
+
+
+## Abans de fer el join de columnes cal corregir els id errornis
+
+```{r}
+gtp.geo.muni <- left_join(gtp.muni, geo.muni, by=c("ID_INE_NUM_Municipi_Curt"="ine_id_curt"))
+if (F) {
+  gtp.geo.muni$adist <- adist(gtp.geo.muni$Nom_Municipi, gtp.geo.muni$name)
+}
+gtp.geo.muni
+```
+
+```{r}
+gtp.geo.muni.unique <- unique(gtp.geo.muni$ID_INE_NUM_Municipi)
+length(gtp.geo.muni.unique)
+```
+
+
+```{r}
+aj.gtp.geo.muni <- anti_join(gtp.muni, geo.muni, by=c("ID_INE_NUM_Municipi_Curt"="ine_id_curt"))
+aj.gtp.geo.muni
+# 60 municipis fora del join
+```
+
