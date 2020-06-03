@@ -120,24 +120,24 @@ if (origen.shp == "ine") {
                        of_largest_polygon = TRUE)
   mun.c <- bind_cols(mun.c,
                      data.frame(st_coordinates(mun.c))) %>% 
-    rename(lon=X,
-           lat=Y)
+    rename(LON=X,
+           LAT=Y)
   # Per municipis
-  mun.centroid.unique.cumun <- mun.c %>% group_by(CUMUN) %>% summarize(mean_lon = mean(lon),
-                                        mean_lat = mean(lat)
+  mun.centroid.unique.cumun <- mun.c %>% group_by(CUMUN) %>% summarize(mean_lon = mean(LON),
+                                        mean_lat = mean(LAT)
                                         ) %>% 
-    rename(lon=mean_lon,
-           lat=mean_lat)
+    rename(LON=mean_lon,
+           LAT=mean_lat)
   
   st_write(mun.centroid.unique.cumun, file.path(path.shp.codis.territorials, "..",
                           paste0("mun.", origen.shp, ".centroids.unique.cumun.wgs84.csv")), delete_dsn = T)
   
   # Per provincies
-  prov.centroid.unique <- mun.c %>% group_by(CPRO) %>% summarize(mean_lon = mean(lon),
-                                        mean_lat = mean(lat)
+  prov.centroid.unique <- mun.c %>% group_by(CPRO) %>% summarize(mean_lon = mean(LON),
+                                        mean_lat = mean(LAT)
                                         ) %>% 
-    rename(lon=mean_lon,
-           lat=mean_lat)
+    rename(LON=mean_lon,
+           LAT=mean_lat)
   
   st_write(prov.centroid.unique, file.path(path.shp.codis.territorials, "..",
                           paste0("prov.", origen.shp, ".centroids.wgs84.csv")), delete_dsn = T)
@@ -200,7 +200,7 @@ d
 
 ```{r}
 # Desem codis a disc
-write_csv(d, file.path(path.csv.codis.territorials, "geo/codis.int.csv"))
+write_csv(d, file.path(path.csv.codis.territorials, "codis.int.csv"))
 write_csv(d, file.path(path.csv.owncloud.codis.territorials, "geo/codis.int.csv"))
 ```
 
