@@ -22,71 +22,36 @@ path.codis.extra <- file.path("codis_territorials", "vell")
 list.files(path.csv.codis.territorials, pattern=".csv$", recursive = TRUE)
 ```
 
-# Carrego latlong de centroides de municipis INE
+## Carrega GEO municipis amb lon lat (tot i antijoins)
 
 ```{r}
-path.centroides <- "codis_territorials/shp/ine.es/mun.ine.centroids.unique.cumun.wgs84.csv"
-muni.ine.centroides <- rio::import(file.path(path.centroides)) 
-muni.ine.centroides
-```
-
-
-# Add lat long to municipis
-
-## Carrega GEO municipis
-
-```{r}
-gtp.muni <- rio::import(file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_municipis_INE.csv"))
-gtp.muni  %>% filter(Nom_Municipi=="Aceituna")
-gtp.muni
+gtp.muni <- rio::import(file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_municipis_INE_lonlat.csv"))
+gtp.muni.aj <- gtp.muni %>% filter(is.na(LON) | is.na(LAT))
+gtp.muni.aj %>% 
+  select(
+    ID_INE_NUM_Municipi_Curt,
+    Nom_Municipi, 
+    ID_INE_NUM_Provincia,
+    Nom_Provincia)
 ```
 
 ```{r}
 # nombre de municipis unics
-gtp.muni.unique <- unique(gtp.muni$ID_INE_NUM_Municipi_Curt)
-length(gtp.muni.unique)
-```
-
-## Fem join de lon lat a gtp.muni
-
-```{r}
-gtp.muni.lj <- left_join(gtp.muni, muni.ine.centroides, by=c("ID_INE_NUM_Municipi_Curt"="CUMUN"))
-str(gtp.muni.lj)
-```
-
-## Mirem antijoins
-
-```{r}
-gtp.muni.aj <- anti_join(gtp.muni, muni.ine.centroides, by=c("ID_INE_NUM_Municipi_Curt"="CUMUN"))
-gtp.muni.aj %>% distinct(ID_INE_NUM_Municipi_Curt, .keep_all = TRUE)
-```
-
-```{r}
-# Exportem resultats
-# Left joins
-write_csv(gtp.muni.lj, file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_municipis_INE_lonlat.csv"))
-write_csv(gtp.muni.lj, file.path(path.csv.owncloud.codis.territorials, "CityOS/GTP_GEO_municipis_INE_lonlat.csv"))
-
-# antijoins unics
-write_csv(gtp.muni.aj %>% distinct(ID_INE_NUM_Municipi_Curt, .keep_all = TRUE), 
-          file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_municipis_INE_lonlat.antijoins.csv"))
-write_csv(gtp.muni.aj %>% distinct(ID_INE_NUM_Municipi_Curt, .keep_all = TRUE), 
-          file.path(path.csv.owncloud.codis.territorials, "CityOS/GTP_GEO_municipis_INE_lonlat.antijoin.csv"))
-
+gtp.muni.aj.unique <- unique(gtp.muni.aj$ID_INE_NUM_Municipi_Curt)
+length(gtp.muni.aj.unique)
 ```
 
 
-# Feina antiga (obsoleta, discontnuada)
-## Carrega codis.muni
+## Carreguem codis.muni que teníem fets a ma
 
 ```{r}
 ## Carrega GEO municipis
 geo.muni <- rio::import(file.path(path.csv.codis.territorials, "geo/codis.muni.csv"))
+
 geo.muni <- geo.muni %>% 
   select(-distance, -Comunidad) %>% 
-#  filter(name=="Aceituna") %>% 
   mutate(ine_id_curt=as.numeric(str_sub(id, start=7L, end=-1L))) 
-#  tabyl(ine_id)
+
 geo.muni
 ```
 
@@ -134,14 +99,26 @@ aj.codis.ll.muni.esp.2 <- anti_join(codis.ll.muni.esp, codis.prov,
                                     by=c("Provincia"="Provincia"))
 # Comprovem que no tenim cap registre d'antijoin=tots els municipis tindran codi de provincia et al.
 nrow(aj.codis.ll.muni.esp.2)
+```
 
-left_join(geo.muni, )
+```{r}
+codis.ll.muni.esp %>% filter()
+codis.muni.ine
+codis.ll.muni.esp.1 <- left_join(codis.ll.muni.esp.2, codis.muni.ine, 
+                                 by=c("Provincia"="Provincia", "Población"="")) %>% 
 
+```
+
+```{r}
 # Fem el join per donar les columnes extra codi provincia, com.autonoma, etc.
-codis.ll.muni.esp.2 <-left_join(codis.ll.muni.esp, codis.prov, 
+codis.ll.muni.esp.2 <-left_join(codis.ll.muni.esp.1, codis.prov, 
                                  by=c("Provincia"="Provincia")) %>% 
   mutate(id_prov_curt=str_c(str_pad(as.character(CODAUTO), 2, "left", "0"),
                             str_pad(as.character(CPRO), 2, "left", "0")))
+
+#revisem munis duplicats
+geo.muni %>% filter(name == "Mieres")
+codis.ll.muni.esp.2 %>% filter(Población == "Mieres")
 
 # Fem join contra codis de munici de tota espanya
 codis.muni.esp <- stringdist_left_join(geo.muni, codis.ll.muni.esp.2, by=c("name"="Población", "ine_id_curt"=), max_dist=0, distance_col="distance", ignore_case=T) %>% 
