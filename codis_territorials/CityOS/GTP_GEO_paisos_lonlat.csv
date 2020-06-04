@@ -106,7 +106,7 @@ República Democràtica del Congo,250,322,CD,180,CD,COD,Àfrica,Àfrica central,
 Zàmbia,251,378,ZM,894,ZM,ZMB,Àfrica,Àfrica oriental,Africa,Eastern Africa,NA,11862740,Zambia,0,2016,ZA,ZMB,894,Zambia,74339,11478317,2,14,26.32,-14.614
 Zimbàbue,252,382,ZW,716,ZW,ZWE,Àfrica,Àfrica oriental,Africa,Eastern Africa,NA,11392629,Zimbabwe,0,2016,ZI,ZWE,716,Zimbabwe,38685,13119679,2,14,29.872,-19
 Eritrea,253,336,ER,232,ER,ERI,Àfrica,Àfrica oriental,Africa,Eastern Africa,NA,5647168,Eritrea,0,2016,ER,ERI,232,Eritrea,10100,4526722,2,14,38.219,16.045
-"Sudan del Sud, el",254,224,SS,728,SS,SSD,Àfrica,Àfrica septentrional,Africa,Northern Africa,NA,8260490,South Sudan,0,2016,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sudan del Sud, el",254,224,SS,728,SS,SSD,Àfrica,Àfrica septentrional,Africa,Northern Africa,NA,8260490,South Sudan,0,2016,NA,NA,NA,NA,NA,NA,NA,NA,31.6,4.85
 "Saint Helena, Ascenció i Tristan da Cunha",260,329,SH,654,SH,SHN,Àfrica,Àfrica occidental,Africa,Western Africa,NA,7637,"Saint Helena, Ascension and Tristan da Cunha",1,2016,SH,SHN,654,Saint Helena,0,6399,2,11,-5.71,-15.953
 "Reunió, la",261,1,FR,638,RE,REU,Àfrica,Àfrica oriental,Africa,Eastern Africa,1,NA,Reunion,1,2016,RE,REU,638,Reunion,250,785159,2,14,55.538,-21.122
 Mayotte,262,377,YT,175,YT,MYT,Àfrica,Àfrica oriental,Africa,Eastern Africa,1,NA,Mayotte,1,2016,MF,MYT,175,Mayotte,0,0,2,14,45.155,-12.777
@@ -343,7 +343,7 @@ República Democràtica del Congo,250,322,CD,180,CD,COD,Àfrica,Àfrica central,
 Zàmbia,251,378,ZM,894,ZM,ZMB,Àfrica,Àfrica oriental,Africa,Eastern Africa,NA,11862740,NA,0,2017,ZA,ZMB,894,Zambia,74339,11478317,2,14,26.32,-14.614
 Zimbàbue,252,382,ZW,716,ZW,ZWE,Àfrica,Àfrica oriental,Africa,Eastern Africa,NA,11392629,NA,0,2017,ZI,ZWE,716,Zimbabwe,38685,13119679,2,14,29.872,-19
 Eritrea,253,336,ER,232,ER,ERI,Àfrica,Àfrica oriental,Africa,Eastern Africa,NA,5647168,NA,0,2017,ER,ERI,232,Eritrea,10100,4526722,2,14,38.219,16.045
-"Sudan del Sud, el",254,224,SS,728,SS,SSD,Àfrica,Àfrica septentrional,Africa,Northern Africa,NA,8260490,NA,0,2017,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sudan del Sud, el",254,224,SS,728,SS,SSD,Àfrica,Àfrica septentrional,Africa,Northern Africa,NA,8260490,NA,0,2017,NA,NA,NA,NA,NA,NA,NA,NA,31.6,4.85
 "Saint Helena, Ascenció i Tristan da Cunha",260,329,SH,654,SH,SHN,Àfrica,Àfrica occidental,Africa,Western Africa,NA,7637,NA,1,2017,SH,SHN,654,Saint Helena,0,6399,2,11,-5.71,-15.953
 "Reunió, la",261,1,FR,638,RE,REU,Àfrica,Àfrica oriental,Africa,Eastern Africa,1,NA,NA,1,2017,RE,REU,638,Reunion,250,785159,2,14,55.538,-21.122
 Mayotte,262,377,YT,175,YT,MYT,Àfrica,Àfrica oriental,Africa,Eastern Africa,1,NA,NA,1,2017,MF,MYT,175,Mayotte,0,0,2,14,45.155,-12.777
@@ -580,7 +580,7 @@ República Democràtica del Congo,250,322,CD,180,CD,COD,Àfrica,Àfrica central,
 Zàmbia,251,378,ZM,894,ZM,ZMB,Àfrica,Àfrica oriental,Africa,Eastern Africa,NA,11862740,NA,0,2018,ZA,ZMB,894,Zambia,74339,11478317,2,14,26.32,-14.614
 Zimbàbue,252,382,ZW,716,ZW,ZWE,Àfrica,Àfrica oriental,Africa,Eastern Africa,NA,11392629,NA,0,2018,ZI,ZWE,716,Zimbabwe,38685,13119679,2,14,29.872,-19
 Eritrea,253,336,ER,232,ER,ERI,Àfrica,Àfrica oriental,Africa,Eastern Africa,NA,5647168,NA,0,2018,ER,ERI,232,Eritrea,10100,4526722,2,14,38.219,16.045
-"Sudan del Sud, el",254,224,SS,728,SS,SSD,Àfrica,Àfrica septentrional,Africa,Northern Africa,NA,8260490,NA,0,2018,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sudan del Sud, el",254,224,SS,728,SS,SSD,Àfrica,Àfrica septentrional,Africa,Northern Africa,NA,8260490,NA,0,2018,NA,NA,NA,NA,NA,NA,NA,NA,31.6,4.85
 "Saint Helena, Ascenció i Tristan da Cunha",260,329,SH,654,SH,SHN,Àfrica,Àfrica occidental,Africa,Western Africa,NA,7637,NA,1,2018,SH,SHN,654,Saint Helena,0,6399,2,11,-5.71,-15.953
 "Reunió, la",261,1,FR,638,RE,REU,Àfrica,Àfrica oriental,Africa,Eastern Africa,1,NA,NA,1,2018,RE,REU,638,Reunion,250,785159,2,14,55.538,-21.122
 Mayotte,262,377,YT,175,YT,MYT,Àfrica,Àfrica oriental,Africa,Eastern Africa,1,NA,NA,1,2018,MF,MYT,175,Mayotte,0,0,2,14,45.155,-12.777
@@ -817,7 +817,7 @@ República Democràtica del Congo,250,322,CD,180,CD,COD,Àfrica,Àfrica central,
 Zàmbia,251,378,ZM,894,ZM,ZMB,Àfrica,Àfrica oriental,Africa,Eastern Africa,NA,11862740,Zambia,0,2019,ZA,ZMB,894,Zambia,74339,11478317,2,14,26.32,-14.614
 Zimbàbue,252,382,ZW,716,ZW,ZWE,Àfrica,Àfrica oriental,Africa,Eastern Africa,NA,11392629,Zimbabwe,0,2019,ZI,ZWE,716,Zimbabwe,38685,13119679,2,14,29.872,-19
 Eritrea,253,336,ER,232,ER,ERI,Àfrica,Àfrica oriental,Africa,Eastern Africa,NA,5647168,Eritrea,0,2019,ER,ERI,232,Eritrea,10100,4526722,2,14,38.219,16.045
-"Sudan del Sud, el",254,224,SS,728,SS,SSD,Àfrica,Àfrica septentrional,Africa,Northern Africa,NA,8260490,South Sudan,0,2019,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sudan del Sud, el",254,224,SS,728,SS,SSD,Àfrica,Àfrica septentrional,Africa,Northern Africa,NA,8260490,South Sudan,0,2019,NA,NA,NA,NA,NA,NA,NA,NA,31.6,4.85
 "Saint Helena, Ascenció i Tristan da Cunha",260,329,SH,654,SH,SHN,Àfrica,Àfrica occidental,Africa,Western Africa,NA,7637,Saint Helena,1,2019,SH,SHN,654,Saint Helena,0,6399,2,11,-5.71,-15.953
 "Reunió, la",261,1,FR,638,RE,REU,Àfrica,Àfrica oriental,Africa,Eastern Africa,1,NA,Reunion,1,2019,RE,REU,638,Reunion,250,785159,2,14,55.538,-21.122
 Mayotte,262,377,YT,175,YT,MYT,Àfrica,Àfrica oriental,Africa,Eastern Africa,1,NA,Mayotte,1,2019,MF,MYT,175,Mayotte,0,0,2,14,45.155,-12.777
@@ -1054,7 +1054,7 @@ República Democràtica del Congo,250,322,CD,180,CD,COD,Àfrica,Àfrica central,
 Zàmbia,251,378,ZM,894,ZM,ZMB,Àfrica,Àfrica oriental,Africa,Eastern Africa,NA,11862740,Zambia,0,2020,ZA,ZMB,894,Zambia,74339,11478317,2,14,26.32,-14.614
 Zimbàbue,252,382,ZW,716,ZW,ZWE,Àfrica,Àfrica oriental,Africa,Eastern Africa,NA,11392629,Zimbabwe,0,2020,ZI,ZWE,716,Zimbabwe,38685,13119679,2,14,29.872,-19
 Eritrea,253,336,ER,232,ER,ERI,Àfrica,Àfrica oriental,Africa,Eastern Africa,NA,5647168,Eritrea,0,2020,ER,ERI,232,Eritrea,10100,4526722,2,14,38.219,16.045
-"Sudan del Sud, el",254,224,SS,728,SS,SSD,Àfrica,Àfrica septentrional,Africa,Northern Africa,NA,8260490,South Sudan,0,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sudan del Sud, el",254,224,SS,728,SS,SSD,Àfrica,Àfrica septentrional,Africa,Northern Africa,NA,8260490,South Sudan,0,2020,NA,NA,NA,NA,NA,NA,NA,NA,31.6,4.85
 "Saint Helena, Ascenció i Tristan da Cunha",260,329,SH,654,SH,SHN,Àfrica,Àfrica occidental,Africa,Western Africa,NA,7637,Saint Helena,1,2020,SH,SHN,654,Saint Helena,0,6399,2,11,-5.71,-15.953
 "Reunió, la",261,1,FR,638,RE,REU,Àfrica,Àfrica oriental,Africa,Eastern Africa,1,NA,Reunion,1,2020,RE,REU,638,Reunion,250,785159,2,14,55.538,-21.122
 Mayotte,262,377,YT,175,YT,MYT,Àfrica,Àfrica oriental,Africa,Eastern Africa,1,NA,Mayotte,1,2020,MF,MYT,175,Mayotte,0,0,2,14,45.155,-12.777

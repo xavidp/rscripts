@@ -25,11 +25,25 @@ list.files(path.csv.codis.territorials, pattern=".csv$", recursive = TRUE)
 # Carrego latlong de centroides de municipis INE
 
 ```{r}
-path.centroides <- "codis_territorials/shp/ine.es/mun.ine.centroids.unique.cumun.wgs84.csv"
-muni.ine.centroides <- rio::import(file.path(path.centroides)) 
-muni.ine.centroides
+path.centroides.1 <- "codis_territorials/shp/ine.es/mun.ine.centroids.unique.cumun.wgs84.csv"
+muni.ine.centroides.1 <- rio::import(file.path(path.centroides.1)) 
+muni.ine.centroides.1
 ```
 
+
+```{r}
+# Codis latlong dels antijoins (gtp.muni.aj) de més avall, de codis ID_INE_NUM_Municipi_Curt que no trobavem pels centroides fet a partir dels shp de l'INE
+path.centroides.2 <- "codis_territorials/shp/ine.es/mun.ine.wikipedia.extra.cumun.wgs84.csv"
+muni.ine.centroides.2 <- rio::import(file.path(path.centroides.2)) 
+muni.ine.centroides.2
+```
+
+```{r}
+#ajuntem els dos data sets
+muni.ine.centroides <- bind_rows(muni.ine.centroides.1, muni.ine.centroides.2)
+muni.ine.centroides
+#get_dupes(muni.ine.centroides, CUMUN)
+```
 
 # Add lat long to municipis
 
@@ -67,11 +81,13 @@ gtp.muni.aj %>% distinct(ID_INE_NUM_Municipi_Curt, .keep_all = TRUE)
 write_csv(gtp.muni.lj, file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_municipis_INE_lonlat.csv"))
 write_csv(gtp.muni.lj, file.path(path.csv.owncloud.codis.territorials, "CityOS/GTP_GEO_municipis_INE_lonlat.csv"))
 
-# antijoins unics
-write_csv(gtp.muni.aj %>% distinct(ID_INE_NUM_Municipi_Curt, .keep_all = TRUE), 
-          file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_municipis_INE_lonlat.antijoins.csv"))
-write_csv(gtp.muni.aj %>% distinct(ID_INE_NUM_Municipi_Curt, .keep_all = TRUE), 
+if (nrow(gtp.muni.aj %>% distinct(ID_INE_NUM_Municipi_Curt)) > 0) {
+  # antijoins unics
+  write_csv(gtp.muni.aj %>% distinct(ID_INE_NUM_Municipi_Curt, .keep_all = TRUE), 
+            file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_municipis_INE_lonlat.antijoins.csv"))
+  write_csv(gtp.muni.aj %>% distinct(ID_INE_NUM_Municipi_Curt, .keep_all = TRUE), 
           file.path(path.csv.owncloud.codis.territorials, "CityOS/GTP_GEO_municipis_INE_lonlat.antijoin.csv"))
+}
 
 ```
 

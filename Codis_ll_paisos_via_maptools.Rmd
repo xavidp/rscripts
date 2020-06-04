@@ -61,6 +61,29 @@ gtp.paisos.aj <- anti_join(gtp.paisos, codis.int, by=c("ID_ISO_a2"="ISO2"))
 gtp.paisos.aj %>% distinct(ID_ISO_a2, .keep_all = TRUE)
 ```
 
+
+```{r}
+# Importem la fila per a Sudan del Sud
+gtp.paisos.aj.sudansud <- rio::import(
+  file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_paisos_lonlat.antijoins_via_wikipedia.csv")
+  )
+gtp.paisos.aj.sudansud
+```
+
+```{r}
+# Afegm les coordenades a totes les files que corresponen amb Sudan del Sud
+gtp.paisos.lj <- gtp.paisos.lj %>% 
+  mutate(
+    LON = case_when(
+      Pais == "Sudan del Sud, el" ~ 31.6,
+      TRUE ~ LON),
+    LAT = case_when(
+      Pais == "Sudan del Sud, el" ~ 4.85,
+      TRUE ~ LAT)
+    )
+gtp.paisos.lj %>% filter(is.na(LON))
+```
+
 ```{r}
 # Exportem resultats
 # Left joins
@@ -68,7 +91,7 @@ write_csv(gtp.paisos.lj, file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_
 write_csv(gtp.paisos.lj, file.path(path.csv.owncloud.codis.territorials, "CityOS/GTP_GEO_paisos_lonlat.csv"))
 
 # antijoins unics
-if (nrow(gtp.paisos.aj %>% distinct(ID_ISO_a2)) > 0) {
+if (nrow(gtp.paisos.aj %>% distinct(ID_ISO_a2)) > 1) {
   write_csv(gtp.paisos.aj %>% distinct(ID_ISO_a2, .keep_all = TRUE),
             file.path(path.csv.codis.territorials, "CityOS/GTP_GEO_paisos_lonlat.antijoins.csv"))
   write_csv(gtp.paisos.aj %>% distinct(ID_ISO_a2, .keep_all = TRUE), 
