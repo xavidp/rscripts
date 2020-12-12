@@ -1,0 +1,7 @@
+set ssl:verify-certificate no
+set sftp:auto-confirm yes
+open sftp://user:"pass"@sftp.example.com
+
+mirror --verbose --use-pget-n=8 -c --verbose . dades;
+
+bye

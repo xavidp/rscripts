@@ -1,0 +1,11 @@
+```{r}
+# Connexió SFTP a servidor remot quan no permeten ssh-copy-id (LFTP)
+#
+# requereix tenir instal.lat programa lftp a ordinador
+# sudo apt install lftp
+#
+# https://ourcodeworld.com/articles/read/788/how-to-download-a-remote-directory-with-lftp-sftp-using-a-lftp-script
+
+system("lftp -f download_sftp.lftp")
+
+```
